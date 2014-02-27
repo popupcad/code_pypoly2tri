@@ -84,11 +84,34 @@ class Sweep(object):
         p1 = triangle.PointCCW(point)
         o1 = Orient2d(eq,p1,ep)
         if o1==Orientation.COLLINEAR:
-            assert(False)
+#            assert(False)
+            if (triangle.Contains(eq, p1)):
+                triangle.MarkConstrainedEdge(eq, p1 )
+#                  // We are modifying the constraint maybe it would be better to 
+#                  // not change the given constraint and just keep a variable for the new constraint
+                tcx.edge_event.constrained_edge.q = p1
+                triangle = triangle.NeighborAcross(point)
+                self.EdgeEvent(tcx,ep,p1,triangle,p1 )
+            else:
+                raise(Exception("EdgeEvent - collinear points not supported"))
+                assert(0)
+            return     
         p2 = triangle.PointCW(point)
         o2 = Orient2d(eq,p2,ep)
         if o2==Orientation.COLLINEAR:
-            assert(False)
+#            assert(False)
+            if (triangle.Contains(eq, p2)):
+                triangle.MarkConstrainedEdge(eq,p2)
+#                // We are modifying the constraint maybe it would be better to 
+#                // not change the given constraint and just keep a variable for the new constraint
+                tcx.edge_event.constrained_edge.q = p2
+                triangle = triangle.NeighborAcross(point)
+                self.EdgeEvent(tcx,ep,p2,triangle,p2)
+            else:
+                raise(Exception("EdgeEvent - collinear points not supported"))
+                assert(0)
+            return
+
         if o1==o2:
             if o1==Orientation.CW:
                 triangle = triangle.NeighborCCW(point)
@@ -99,6 +122,7 @@ class Sweep(object):
             self.EdgeEvent(tcx,ep,eq,triangle,point)
         else:
             self.FlipEdgeEvent(tcx,ep,eq,triangle,point)
+
     def IsEdgeSideOfTriangle(self,triangle,ep,eq):
         index = triangle.EdgeIndex(ep,eq)
         if index!=-1:
@@ -108,6 +132,7 @@ class Sweep(object):
                 t.MarkConstrainedEdge(ep,eq)
             return True
         return False
+
     def NewFrontTriangle(self,tcx,point,node):
         p1 = point
         p2 = node.point
@@ -125,6 +150,7 @@ class Sweep(object):
         if not self.Legalize(tcx,triangle):
             tcx.MapTriangleToNodes(triangle)
         return new_node
+
     def Fill(self,tcx,node):
         p1 = node.prev.point
         if p1 is None:
@@ -143,13 +169,16 @@ class Sweep(object):
         node.next.prev = node.prev
         if not self.Legalize(tcx,triangle):
             tcx.MapTriangleToNodes(triangle)
+
     def FillAdvancingFront(self,tcx,n):
         from math import pi
         node = n.next
 
         while node.next!=None:
-            angle = self.HoleAngle(node)
-            if angle>pi/2 or angle < -pi/2:
+#            angle = self.HoleAngle(node)
+#            if angle>pi/2 or angle < -pi/2:
+#                break
+            if self.LargeHole_DontFill(node):
                 break
             self.Fill(tcx,node)
             node = node.next
@@ -157,8 +186,10 @@ class Sweep(object):
         node = n.prev
         
         while node.prev!=None:
-            angle = self.HoleAngle(node)
-            if angle>pi/2 or angle < -pi/2:
+#            angle = self.HoleAngle(node)
+#            if angle>pi/2 or angle < -pi/2:
+#                break
+            if self.LargeHole_DontFill(node):
                 break
             self.Fill(tcx,node)
             node = node.prev
@@ -167,11 +198,67 @@ class Sweep(object):
             angle = self.BasinAngle(n)
             if angle<3.*pi/4:
                 self.FillBasin(tcx,n)
+
+#// True if HoleAngle exceeds 90 degrees.
+    def LargeHole_DontFill(self,node):
+        nextNode = node.next
+        prevNode = node.prev
+        if (not self.AngleExceeds90Degrees(node.point, nextNode.point, prevNode.point)):
+            return False
+        next2Node = nextNode.next
+
+        #// "..Plus.." because only want angles on same side as point being added.
+        if ((next2Node != None) and not(self.AngleExceedsPlus90DegreesOrIsNegative(node.point, next2Node.point, prevNode.point))):
+            return False
+        
+        prev2Node = prevNode.prev
+        #// "..Plus.." because only want angles on same side as point being added.
+        if ((prev2Node != None) and not(self.AngleExceedsPlus90DegreesOrIsNegative(node.point, nextNode.point, prev2Node.point))):
+            return False
+        
+        return True
+
+
+    def AngleExceeds90Degrees(self, origin, pa, pb):
+        from math import pi
+        angle = self.Angle(origin, pa, pb)
+        exceeds90Degrees = ((angle > pi/2) or (angle < -pi/2))
+        return exceeds90Degrees
+
+    def AngleExceedsPlus90DegreesOrIsNegative(self, origin, pa, pb):
+        from math import pi
+        angle = self.Angle(origin, pa, pb)
+        exceedsPlus90DegreesOrIsNegative = (angle > pi/2) or (angle < 0)
+        return exceedsPlus90DegreesOrIsNegative
+
+    def Angle(self, origin, pa, pb):
+#        /* Complex plane
+#         * ab = cosA +i*sinA
+#         * ab = (ax + ay*i)(bx + by*i) = (ax*bx + ay*by) + i(ax*by-ay*bx)
+#         * atan2(y,x) computes the principal value of the argument function
+#         * applied to the complex number x+iy
+#         * Where x = ax*bx + ay*by
+#         *       y = ax*by - ay*bx
+#         */
+        import math
+        px = origin.x
+        py = origin.y
+        ax = pa.x- px
+        ay = pa.y - py
+        bx = pb.x - px
+        by = pb.y - py
+        x = ax * by - ay * bx
+        y = ax * bx + ay * by
+        angle = math.atan2(x, y)
+        return angle
+                
+                
     def BasinAngle(self,node):
         from math import atan2
         ax = node.point.x - node.next.next.point.x
         ay = node.point.y - node.next.next.point.y
         return atan2(ay,ax)
+
     def HoleAngle(self,node):
         from math import atan2
         ax = node.next.point.x - node.point.x
@@ -179,6 +266,7 @@ class Sweep(object):
         bx = node.prev.point.x - node.point.x
         by = node.prev.point.y - node.point.y
         return atan2(ax * by - ay * bx, ax * bx + ay * by)
+
     def Legalize(self,tcx,t):
         for i in range(3):
             if t.delaunay_edge[i]:

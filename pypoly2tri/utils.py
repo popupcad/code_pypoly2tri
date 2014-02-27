@@ -51,29 +51,39 @@ def Orient2d(pa,pb,pc):
 
     return Orientation.CW
         
+#def InScanArea(pa,pb,pc,pd):
+#    pdx = pd.x
+#    pdy = pd.y
+#    adx = pa.x - pdx
+#    ady = pa.y - pdy
+#    bdx = pb.x - pdx
+#    bdy = pb.y - pdy
+#    
+#    adxbdy = adx*bdy
+#    bdxady = bdx*ady
+#    oabd = adxbdy - bdxady
+#    if oabd<=EPSILON:
+#        return False
+#
+#    cdx = pc.x - pdx
+#    cdy= pc.y - pdy
+#    cdxady = cdx*ady
+#    adxcdy = adx*cdy
+#    ocad = cdxady - adxcdy
+#
+#    if ocad<=EPSILON:
+#        return False
+#        
+#    return True
+    
 def InScanArea(pa,pb,pc,pd):
-    pdx = pd.x
-    pdy = pd.y
-    adx = pa.x - pdx
-    ady = pa.y - pdy
-    bdx = pb.x - pdx
-    bdy = pb.y - pdy
-    
-    adxbdy = adx*bdy
-    bdxady = bdx*ady
-    oabd = adxbdy - bdxady
-    if oabd<=EPSILON:
+    oadb = (pa.x - pb.x)*(pd.y - pb.y) - (pd.x - pb.x)*(pa.y - pb.y)
+    if (oadb >= -EPSILON) :
         return False
 
-    cdx = pc.x - pdx
-    cdy= pc.y - pdy
-    cdxady = cdx*ady
-    adxcdy = adx*cdy
-    ocad = cdxady - adxcdy
 
-    if ocad<=EPSILON:
+    oadc = (pa.x - pc.x)*(pd.y - pc.y) - (pd.x - pc.x)*(pa.y - pc.y)
+    if (oadc <= EPSILON) :
         return False
-        
     return True
-    
     

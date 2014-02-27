@@ -132,12 +132,24 @@ class SweepContext(object):
     def RemoveFromMap(self,triangle):
         self.map_.remove(triangle)
     def MeshClean(self,triangle):
-        if triangle!=None and not triangle.IsInterior():
-            triangle.IsInterior(True)
-            self.triangles_.append(triangle)
-            for i in range(3):
-                if not triangle.constrained_edge[i]:
-                    self.MeshClean(triangle.GetNeighbor(i))
+#        if triangle!=None and not triangle.IsInterior():
+#            triangle.IsInterior(True)
+#            self.triangles_.append(triangle)
+#            for i in range(3):
+#                if not triangle.constrained_edge[i]:
+#                    self.MeshClean(triangle.GetNeighbor(i))
+        triangles = []
+        triangles.append(triangle)
+        while len(triangles)>0:
+            t = triangles.pop()
+        
+            if (t != None) and not(t.IsInterior()):
+                t.IsInterior(True)
+                self.triangles_.append(t)
+                for i in range(3):
+                    if t.constrained_edge[i]!=None:
+                        triangles.append(t.GetNeighbor(i))
+        
     def front(self):
         return self.front_
     def point_count(self):

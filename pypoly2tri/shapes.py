@@ -60,8 +60,7 @@ class Point(object):
     def __eq__(self,a):
         return self.x==a.x and self.y==a.y
     def __neq__(self,a):
-        return not self==a
-#        return self.x!=a.x and self.y!=a.y
+         return (not(self.x == a.x)) and (not(self.y == a.y))
     def toTuple(self):
         return self.x,self.y
 def Dot(p,a):
@@ -130,20 +129,34 @@ class Triangle(object):
         else:
             raise(Exception('wrong number of args'))
             
+
+    def Clear(self):
+        for t in self.neighbors_:
+            if t!=None:
+                t.ClearNeighbor(self)
+        self.ClearNeighbors()
+        self.points_ = [None]*3
+
+    def ClearNeighbor(self,triangle):
+        for ii,neighbor in enumerate(self.neighbors_):
+            if neighbor == triangle:
+                self.neighbors=None
+
     def ClearNeighbors(self):
         self.neighbors_ = [None]*3
+
     def ClearDelaunayEdges(self):
         self.delaunay_edge = [False]*3
+
     def OppositePoint(self,t,p):
         cw = t.PointCW(p)
-#        cw.x = p.x
-#        cw.y = p.y
-#        ham = self.PointCW(cw)
         return self.PointCW(cw)
+
     def Legalize_p(self,point):
         self.points_[1] = self.points_[0]
         self.points_[0] = self.points_[2]
         self.points_[2] = point
+
     def Legalize_t(self,opoint,npoint):
         if opoint == self.points_[0]:
             self.points_[1] = self.points_[0]
