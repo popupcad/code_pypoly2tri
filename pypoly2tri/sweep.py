@@ -32,7 +32,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 from .utils import *
 from .shapes import Triangle
 from .advancing_front import Node
-
+ii=0
 class Sweep(object):
     def __init__(self):
         self.nodes_=[]
@@ -44,9 +44,9 @@ class Sweep(object):
         self.FinalizationPolygon(tcx)
     def SweepPoints(self,tcx):
         for ii in range(1,tcx.point_count()):
-            print(ii)
-            if ii==246:
-                pass
+#            print(ii)
+#            if ii==246:
+#                pass
             point = tcx.GetPoint(ii)
             node = self.PointEvent(tcx,point)
             for jj in range(len(point.edge_list)):
@@ -280,7 +280,7 @@ class Sweep(object):
         t.MarkNeighbor(ot)        
         
     def FillBasin(self,tcx,node):
-        
+        global ii
         if (Orient2d(node.point, node.next.point, node.next.next.point) == Orientation.CCW):
             tcx.basin.left_node = node.next.next
         else:
@@ -302,9 +302,10 @@ class Sweep(object):
         
         tcx.basin.width = tcx.basin.right_node.point.x - tcx.basin.left_node.point.x
         tcx.basin.left_highest = tcx.basin.left_node.point.y > tcx.basin.right_node.point.y
-        
+        ii=0        
         self.FillBasinReq(tcx, tcx.basin.bottom_node)
     def FillBasinReq(self,tcx,node):
+        global ii
         if self.IsShallow(tcx,node):
             return
         self.Fill(tcx,node)
@@ -324,9 +325,9 @@ class Sweep(object):
                 node = node.prev
             else:
                 node = node.next
-                
+        print('recursion depth: ',ii)                
+        ii+=1
         self.FillBasinReq(tcx,node)
-        
     def IsShallow(self,tcx,node):
         if tcx.basin.left_highest:
             height = tcx.basin.left_node.point.y - node.point.y
