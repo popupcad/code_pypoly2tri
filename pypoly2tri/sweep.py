@@ -44,9 +44,6 @@ class Sweep(object):
         self.FinalizationPolygon(tcx)
     def SweepPoints(self,tcx):
         for ii in range(1,tcx.point_count()):
-#            print(ii)
-#            if ii==246:
-#                pass
             point = tcx.GetPoint(ii)
             node = self.PointEvent(tcx,point)
             for jj in range(len(point.edge_list)):
@@ -320,6 +317,7 @@ class Sweep(object):
             o = Orient2d(node.point,node.prev.point,node.prev.prev.point)
             if o==Orientation.CCW:
                 return
+            node = node.prev
         else:
             if node.prev.point.y <node.next.point.y:
                 node = node.prev
