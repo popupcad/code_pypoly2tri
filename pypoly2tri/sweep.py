@@ -32,7 +32,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 from .utils import *
 from .shapes import Triangle
 from .advancing_front import Node
-ii=0
+#ii=0
 class Sweep(object):
     def __init__(self):
         self.nodes_=[]
@@ -302,7 +302,7 @@ class Sweep(object):
         ii=0        
         self.FillBasinReq(tcx, tcx.basin.bottom_node)
     def FillBasinReq(self,tcx,node):
-        global ii
+#        global ii
         if self.IsShallow(tcx,node):
             return
         self.Fill(tcx,node)
@@ -323,8 +323,8 @@ class Sweep(object):
                 node = node.prev
             else:
                 node = node.next
-        print('recursion depth: ',ii)                
-        ii+=1
+#        print('recursion depth: ',ii)                
+#        ii+=1
         self.FillBasinReq(tcx,node)
     def IsShallow(self,tcx,node):
         if tcx.basin.left_highest:
