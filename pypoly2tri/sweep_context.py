@@ -77,7 +77,7 @@ class SweepContext(object):
         self.InitEdges(polyline)
         self.points_.extend(polyline)
     def AddPoint(self,point):
-        self.points_.pushback(point)
+        self.points_.append(point)
     def GetTriangles(self):
         return self.triangles_
     def GetMap(self):
