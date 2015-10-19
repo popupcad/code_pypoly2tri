@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 '''
-Written by Daniel M. Aukes.
+Written by Daniel M. Aukes and CONTRIBUTORS
 Email: danaukes<at>seas.harvard.edu.
-Please see LICENSE.txt for full license.
+Please see LICENSE for full license.
 '''
 
 from pypoly2tri.utils import EPSILON, Orientation, Orient2d, InScanArea
@@ -487,7 +487,7 @@ class Sweep(object):
         ot = t.NeighborAcross(p)
         op = ot.OppositePoint(t, p)
 
-        if t.NeighborAcross(p) == None:
+        if t.NeighborAcross(p) is None:
             assert(0)
         if InScanArea(
                 eq,
