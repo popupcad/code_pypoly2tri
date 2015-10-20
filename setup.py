@@ -11,7 +11,7 @@ packages = []
 packages.append('pypoly2tri')
 
 package_data = {}
-package_data['pypoly2tri'] = ['data/*']
+#package_data['pypoly2tri'] = ['data/*']
 
 setup(name='pypoly2tri',
       version='0.1',
