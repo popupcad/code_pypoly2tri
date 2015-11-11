@@ -240,8 +240,8 @@ static CYTHON_INLINE float __PYX_NAN() {
   #endif
 #endif
 
-#define __PYX_HAVE__pyxpoly2tri__shapes
-#define __PYX_HAVE_API__pyxpoly2tri__shapes
+#define __PYX_HAVE__pypoly2tri__shapes
+#define __PYX_HAVE_API__pypoly2tri__shapes
 #ifdef _OPENMP
 #include <omp.h>
 #endif /* _OPENMP */
@@ -450,7 +450,7 @@ static const char *__pyx_filename;
 
 
 static const char *__pyx_f[] = {
-  "python\\pyxpoly2tri\\shapes.py",
+  "python\\pypoly2tri\\shapes.py",
 };
 
 /*--- Type declarations ---*/
@@ -785,11 +785,11 @@ static int __Pyx_check_binary_version(void);
 static int __Pyx_InitStrings(__Pyx_StringTabEntry *t);
 
 
-/* Module declarations from 'pyxpoly2tri.shapes' */
-#define __Pyx_MODULE_NAME "pyxpoly2tri.shapes"
-int __pyx_module_is_main_pyxpoly2tri__shapes = 0;
+/* Module declarations from 'pypoly2tri.shapes' */
+#define __Pyx_MODULE_NAME "pypoly2tri.shapes"
+int __pyx_module_is_main_pypoly2tri__shapes = 0;
 
-/* Implementation of 'pyxpoly2tri.shapes' */
+/* Implementation of 'pypoly2tri.shapes' */
 static PyObject *__pyx_builtin_object;
 static PyObject *__pyx_builtin_range;
 static PyObject *__pyx_builtin_Exception;
@@ -914,9 +914,9 @@ static char __pyx_k_Triangle_Contains[] = "Triangle.Contains";
 static char __pyx_k_Triangle_GetPoint[] = "Triangle.GetPoint";
 static char __pyx_k_Triangle_Legalize[] = "Triangle.Legalize";
 static char __pyx_k_Triangle_PointCCW[] = "Triangle.PointCCW";
+static char __pyx_k_pypoly2tri_shapes[] = "pypoly2tri.shapes";
 static char __pyx_k_ClearDelaunayEdges[] = "ClearDelaunayEdges";
 static char __pyx_k_Triangle_EdgeIndex[] = "Triangle.EdgeIndex";
-static char __pyx_k_pyxpoly2tri_shapes[] = "pyxpoly2tri.shapes";
 static char __pyx_k_MarkConstrainedEdge[] = "MarkConstrainedEdge";
 static char __pyx_k_Triangle_DebugPrint[] = "Triangle.DebugPrint";
 static char __pyx_k_Triangle_IsInterior[] = "Triangle.IsInterior";
@@ -950,10 +950,10 @@ static char __pyx_k_Triangle_GetConstrainedEdgeCCW[] = "Triangle.GetConstrainedE
 static char __pyx_k_Triangle_MarkConstrainedEdge_e[] = "Triangle.MarkConstrainedEdge_e";
 static char __pyx_k_Triangle_MarkConstrainedEdge_i[] = "Triangle.MarkConstrainedEdge_i";
 static char __pyx_k_Triangle_SetConstrainedEdgeCCW[] = "Triangle.SetConstrainedEdgeCCW";
-static char __pyx_k_C_Users_danaukes_Documents_code[] = "C:\\Users\\danaukes\\Documents\\code\\pyxpoly2tri\\python\\pyxpoly2tri\\shapes.py";
 static char __pyx_k_Triangle_MarkConstrainedEdge_pq[] = "Triangle.MarkConstrainedEdge_pq";
 static char __pyx_k_Written_by_Daniel_M_Aukes_and_C[] = "\nWritten by Daniel M. Aukes and CONTRIBUTORS\nEmail: danaukes<at>seas.harvard.edu.\nPlease see LICENSE for full license.\n";
-static PyObject *__pyx_kp_s_C_Users_danaukes_Documents_code;
+static char __pyx_k_C_Users_danaukes_code_pypoly2tri[] = "C:\\Users\\danaukes\\code\\pypoly2tri\\python\\pypoly2tri\\shapes.py";
+static PyObject *__pyx_kp_s_C_Users_danaukes_code_pypoly2tri;
 static PyObject *__pyx_n_s_ClearDelaunayEdges;
 static PyObject *__pyx_n_s_ClearNeighbors;
 static PyObject *__pyx_n_s_Contains;
@@ -1096,7 +1096,7 @@ static PyObject *__pyx_n_s_point;
 static PyObject *__pyx_n_s_points;
 static PyObject *__pyx_n_s_prepare;
 static PyObject *__pyx_n_s_print;
-static PyObject *__pyx_n_s_pyxpoly2tri_shapes;
+static PyObject *__pyx_n_s_pypoly2tri_shapes;
 static PyObject *__pyx_n_s_q;
 static PyObject *__pyx_n_s_qualname;
 static PyObject *__pyx_n_s_range;
@@ -1110,59 +1110,59 @@ static PyObject *__pyx_n_s_toList;
 static PyObject *__pyx_n_s_toTuple;
 static PyObject *__pyx_n_s_x;
 static PyObject *__pyx_n_s_y;
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point___init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_x, PyObject *__pyx_v_y); /* proto */
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point_2set_zero(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point_4__neg__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point_6__sub__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_a); /* proto */
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point_8__add__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_a); /* proto */
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point_10__mul__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_a); /* proto */
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point_12Length(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point_14Normalize(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point_16__eq__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_a); /* proto */
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point_18__neq__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_a); /* proto */
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point_20toTuple(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_Dot(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_p, PyObject *__pyx_v_a); /* proto */
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_2Cross_p(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_p, PyObject *__pyx_v_a); /* proto */
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_4Cross_s(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_p, PyObject *__pyx_v_a); /* proto */
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_6Cross_s2(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_a, PyObject *__pyx_v_p); /* proto */
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Cross(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_args); /* proto */
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_4Edge___init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_p1, PyObject *__pyx_v_p2); /* proto */
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_toList(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_2__init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_a, PyObject *__pyx_v_b, PyObject *__pyx_v_c); /* proto */
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_4MarkNeighbor_p(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_p1, PyObject *__pyx_v_p2, PyObject *__pyx_v_t); /* proto */
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_6MarkNeighbor_t(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_t); /* proto */
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_8MarkNeighbor(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_args); /* proto */
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_10ClearNeighbors(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_12ClearDelaunayEdges(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_14OppositePoint(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_t, PyObject *__pyx_v_p); /* proto */
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_16Legalize_p(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_point); /* proto */
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_18Legalize_t(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_opoint, PyObject *__pyx_v_npoint); /* proto */
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_20Legalize(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_args); /* proto */
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_22Index(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_p); /* proto */
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_24EdgeIndex(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_p1, PyObject *__pyx_v_p2); /* proto */
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_26MarkConstrainedEdge_i(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_index); /* proto */
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_28MarkConstrainedEdge_e(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_edge); /* proto */
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_30MarkConstrainedEdge_pq(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_p, PyObject *__pyx_v_q); /* proto */
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_32MarkConstrainedEdge(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_args); /* proto */
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_34PointCW(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_point); /* proto */
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_36PointCCW(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_point); /* proto */
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_38NeighborCW(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_point); /* proto */
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_40NeighborCCW(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_point); /* proto */
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_42GetConstrainedEdgeCCW(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_point); /* proto */
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_44GetConstrainedEdgeCW(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_point); /* proto */
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_46SetConstrainedEdgeCCW(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_point, PyObject *__pyx_v_ce); /* proto */
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_48SetConstrainedEdgeCW(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_point, PyObject *__pyx_v_ce); /* proto */
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_50GetDelunayEdgeCCW(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_point); /* proto */
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_52GetDelunayEdgeCW(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_point); /* proto */
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_54SetDelunayEdgeCCW(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_point, PyObject *__pyx_v_ce); /* proto */
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_56SetDelunayEdgeCW(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_point, PyObject *__pyx_v_ce); /* proto */
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_58NeighborAcross(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_point); /* proto */
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_60DebugPrint(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_62GetPoint(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_index); /* proto */
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_64GetNeighbor(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_index); /* proto */
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_66Contains(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_args); /* proto */
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_68IsInterior(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_args); /* proto */
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_10cmp(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_a, PyObject *__pyx_v_b); /* proto */
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_5Point___init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_x, PyObject *__pyx_v_y); /* proto */
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_5Point_2set_zero(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_5Point_4__neg__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_5Point_6__sub__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_a); /* proto */
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_5Point_8__add__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_a); /* proto */
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_5Point_10__mul__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_a); /* proto */
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_5Point_12Length(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_5Point_14Normalize(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_5Point_16__eq__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_a); /* proto */
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_5Point_18__neq__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_a); /* proto */
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_5Point_20toTuple(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_Dot(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_p, PyObject *__pyx_v_a); /* proto */
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_2Cross_p(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_p, PyObject *__pyx_v_a); /* proto */
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_4Cross_s(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_p, PyObject *__pyx_v_a); /* proto */
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_6Cross_s2(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_a, PyObject *__pyx_v_p); /* proto */
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_8Cross(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_args); /* proto */
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_4Edge___init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_p1, PyObject *__pyx_v_p2); /* proto */
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_8Triangle_toList(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_8Triangle_2__init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_a, PyObject *__pyx_v_b, PyObject *__pyx_v_c); /* proto */
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_8Triangle_4MarkNeighbor_p(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_p1, PyObject *__pyx_v_p2, PyObject *__pyx_v_t); /* proto */
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_8Triangle_6MarkNeighbor_t(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_t); /* proto */
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_8Triangle_8MarkNeighbor(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_args); /* proto */
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_8Triangle_10ClearNeighbors(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_8Triangle_12ClearDelaunayEdges(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_8Triangle_14OppositePoint(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_t, PyObject *__pyx_v_p); /* proto */
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_8Triangle_16Legalize_p(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_point); /* proto */
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_8Triangle_18Legalize_t(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_opoint, PyObject *__pyx_v_npoint); /* proto */
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_8Triangle_20Legalize(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_args); /* proto */
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_8Triangle_22Index(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_p); /* proto */
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_8Triangle_24EdgeIndex(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_p1, PyObject *__pyx_v_p2); /* proto */
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_8Triangle_26MarkConstrainedEdge_i(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_index); /* proto */
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_8Triangle_28MarkConstrainedEdge_e(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_edge); /* proto */
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_8Triangle_30MarkConstrainedEdge_pq(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_p, PyObject *__pyx_v_q); /* proto */
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_8Triangle_32MarkConstrainedEdge(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_args); /* proto */
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_8Triangle_34PointCW(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_point); /* proto */
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_8Triangle_36PointCCW(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_point); /* proto */
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_8Triangle_38NeighborCW(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_point); /* proto */
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_8Triangle_40NeighborCCW(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_point); /* proto */
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_8Triangle_42GetConstrainedEdgeCCW(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_point); /* proto */
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_8Triangle_44GetConstrainedEdgeCW(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_point); /* proto */
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_8Triangle_46SetConstrainedEdgeCCW(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_point, PyObject *__pyx_v_ce); /* proto */
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_8Triangle_48SetConstrainedEdgeCW(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_point, PyObject *__pyx_v_ce); /* proto */
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_8Triangle_50GetDelunayEdgeCCW(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_point); /* proto */
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_8Triangle_52GetDelunayEdgeCW(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_point); /* proto */
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_8Triangle_54SetDelunayEdgeCCW(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_point, PyObject *__pyx_v_ce); /* proto */
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_8Triangle_56SetDelunayEdgeCW(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_point, PyObject *__pyx_v_ce); /* proto */
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_8Triangle_58NeighborAcross(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_point); /* proto */
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_8Triangle_60DebugPrint(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_8Triangle_62GetPoint(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_index); /* proto */
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_8Triangle_64GetNeighbor(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_index); /* proto */
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_8Triangle_66Contains(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_args); /* proto */
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_8Triangle_68IsInterior(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_args); /* proto */
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_10cmp(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_a, PyObject *__pyx_v_b); /* proto */
 static PyObject *__pyx_float_0_;
 static PyObject *__pyx_int_1;
 static PyObject *__pyx_int_3;
@@ -1277,7 +1277,7 @@ static PyObject *__pyx_codeobj__105;
 static PyObject *__pyx_codeobj__107;
 static PyObject *__pyx_codeobj__109;
 
-/* "pyxpoly2tri\shapes.py":12
+/* "pypoly2tri\shapes.py":12
  *     __hash__ = object.__hash__
  * 
  *     def __init__(self, x=0., y=0.):             # <<<<<<<<<<<<<<
@@ -1286,9 +1286,9 @@ static PyObject *__pyx_codeobj__109;
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_5Point_1__init__(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_11pyxpoly2tri_6shapes_5Point_1__init__ = {"__init__", (PyCFunction)__pyx_pw_11pyxpoly2tri_6shapes_5Point_1__init__, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_5Point_1__init__(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_5Point_1__init__(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_10pypoly2tri_6shapes_5Point_1__init__ = {"__init__", (PyCFunction)__pyx_pw_10pypoly2tri_6shapes_5Point_1__init__, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_5Point_1__init__(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_self = 0;
   PyObject *__pyx_v_x = 0;
   PyObject *__pyx_v_y = 0;
@@ -1349,18 +1349,18 @@ static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_5Point_1__init__(PyObject *__pyx
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("__init__", 0, 1, 3, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 12; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   __pyx_L3_error:;
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Point.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Point.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_11pyxpoly2tri_6shapes_5Point___init__(__pyx_self, __pyx_v_self, __pyx_v_x, __pyx_v_y);
+  __pyx_r = __pyx_pf_10pypoly2tri_6shapes_5Point___init__(__pyx_self, __pyx_v_self, __pyx_v_x, __pyx_v_y);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point___init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_x, PyObject *__pyx_v_y) {
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_5Point___init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_x, PyObject *__pyx_v_y) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -1369,7 +1369,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point___init__(CYTHON_UNUSED Py
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__init__", 0);
 
-  /* "pyxpoly2tri\shapes.py":13
+  /* "pypoly2tri\shapes.py":13
  * 
  *     def __init__(self, x=0., y=0.):
  *         self.x = x             # <<<<<<<<<<<<<<
@@ -1378,7 +1378,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point___init__(CYTHON_UNUSED Py
  */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_x, __pyx_v_x) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 13; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "pyxpoly2tri\shapes.py":14
+  /* "pypoly2tri\shapes.py":14
  *     def __init__(self, x=0., y=0.):
  *         self.x = x
  *         self.y = y             # <<<<<<<<<<<<<<
@@ -1387,7 +1387,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point___init__(CYTHON_UNUSED Py
  */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_y, __pyx_v_y) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 14; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "pyxpoly2tri\shapes.py":15
+  /* "pypoly2tri\shapes.py":15
  *         self.x = x
  *         self.y = y
  *         self.edge_list = []             # <<<<<<<<<<<<<<
@@ -1399,7 +1399,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point___init__(CYTHON_UNUSED Py
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_edge_list, __pyx_t_1) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 15; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "pyxpoly2tri\shapes.py":12
+  /* "pypoly2tri\shapes.py":12
  *     __hash__ = object.__hash__
  * 
  *     def __init__(self, x=0., y=0.):             # <<<<<<<<<<<<<<
@@ -1412,7 +1412,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point___init__(CYTHON_UNUSED Py
   goto __pyx_L0;
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Point.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Point.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -1420,7 +1420,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point___init__(CYTHON_UNUSED Py
   return __pyx_r;
 }
 
-/* "pyxpoly2tri\shapes.py":17
+/* "pypoly2tri\shapes.py":17
  *         self.edge_list = []
  * 
  *     def set_zero(self):             # <<<<<<<<<<<<<<
@@ -1429,20 +1429,20 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point___init__(CYTHON_UNUSED Py
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_5Point_3set_zero(PyObject *__pyx_self, PyObject *__pyx_v_self); /*proto*/
-static PyMethodDef __pyx_mdef_11pyxpoly2tri_6shapes_5Point_3set_zero = {"set_zero", (PyCFunction)__pyx_pw_11pyxpoly2tri_6shapes_5Point_3set_zero, METH_O, 0};
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_5Point_3set_zero(PyObject *__pyx_self, PyObject *__pyx_v_self) {
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_5Point_3set_zero(PyObject *__pyx_self, PyObject *__pyx_v_self); /*proto*/
+static PyMethodDef __pyx_mdef_10pypoly2tri_6shapes_5Point_3set_zero = {"set_zero", (PyCFunction)__pyx_pw_10pypoly2tri_6shapes_5Point_3set_zero, METH_O, 0};
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_5Point_3set_zero(PyObject *__pyx_self, PyObject *__pyx_v_self) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("set_zero (wrapper)", 0);
-  __pyx_r = __pyx_pf_11pyxpoly2tri_6shapes_5Point_2set_zero(__pyx_self, ((PyObject *)__pyx_v_self));
+  __pyx_r = __pyx_pf_10pypoly2tri_6shapes_5Point_2set_zero(__pyx_self, ((PyObject *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point_2set_zero(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self) {
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_5Point_2set_zero(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   int __pyx_lineno = 0;
@@ -1450,7 +1450,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point_2set_zero(CYTHON_UNUSED P
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("set_zero", 0);
 
-  /* "pyxpoly2tri\shapes.py":18
+  /* "pypoly2tri\shapes.py":18
  * 
  *     def set_zero(self):
  *         self.x = 0.             # <<<<<<<<<<<<<<
@@ -1459,7 +1459,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point_2set_zero(CYTHON_UNUSED P
  */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_x, __pyx_float_0_) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 18; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "pyxpoly2tri\shapes.py":19
+  /* "pypoly2tri\shapes.py":19
  *     def set_zero(self):
  *         self.x = 0.
  *         self.y = 0.             # <<<<<<<<<<<<<<
@@ -1468,7 +1468,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point_2set_zero(CYTHON_UNUSED P
  */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_y, __pyx_float_0_) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 19; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "pyxpoly2tri\shapes.py":17
+  /* "pypoly2tri\shapes.py":17
  *         self.edge_list = []
  * 
  *     def set_zero(self):             # <<<<<<<<<<<<<<
@@ -1480,7 +1480,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point_2set_zero(CYTHON_UNUSED P
   __pyx_r = Py_None; __Pyx_INCREF(Py_None);
   goto __pyx_L0;
   __pyx_L1_error:;
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Point.set_zero", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Point.set_zero", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -1488,7 +1488,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point_2set_zero(CYTHON_UNUSED P
   return __pyx_r;
 }
 
-/* "pyxpoly2tri\shapes.py":24
+/* "pypoly2tri\shapes.py":24
  * #        self.y = y
  * 
  *     def __neg__(self):             # <<<<<<<<<<<<<<
@@ -1497,20 +1497,20 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point_2set_zero(CYTHON_UNUSED P
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_5Point_5__neg__(PyObject *__pyx_self, PyObject *__pyx_v_self); /*proto*/
-static PyMethodDef __pyx_mdef_11pyxpoly2tri_6shapes_5Point_5__neg__ = {"__neg__", (PyCFunction)__pyx_pw_11pyxpoly2tri_6shapes_5Point_5__neg__, METH_O, 0};
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_5Point_5__neg__(PyObject *__pyx_self, PyObject *__pyx_v_self) {
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_5Point_5__neg__(PyObject *__pyx_self, PyObject *__pyx_v_self); /*proto*/
+static PyMethodDef __pyx_mdef_10pypoly2tri_6shapes_5Point_5__neg__ = {"__neg__", (PyCFunction)__pyx_pw_10pypoly2tri_6shapes_5Point_5__neg__, METH_O, 0};
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_5Point_5__neg__(PyObject *__pyx_self, PyObject *__pyx_v_self) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__neg__ (wrapper)", 0);
-  __pyx_r = __pyx_pf_11pyxpoly2tri_6shapes_5Point_4__neg__(__pyx_self, ((PyObject *)__pyx_v_self));
+  __pyx_r = __pyx_pf_10pypoly2tri_6shapes_5Point_4__neg__(__pyx_self, ((PyObject *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point_4__neg__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self) {
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_5Point_4__neg__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -1525,7 +1525,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point_4__neg__(CYTHON_UNUSED Py
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__neg__", 0);
 
-  /* "pyxpoly2tri\shapes.py":25
+  /* "pypoly2tri\shapes.py":25
  * 
  *     def __neg__(self):
  *         return Point(-self.x, -self.y)             # <<<<<<<<<<<<<<
@@ -1576,7 +1576,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point_4__neg__(CYTHON_UNUSED Py
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "pyxpoly2tri\shapes.py":24
+  /* "pypoly2tri\shapes.py":24
  * #        self.y = y
  * 
  *     def __neg__(self):             # <<<<<<<<<<<<<<
@@ -1592,7 +1592,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point_4__neg__(CYTHON_UNUSED Py
   __Pyx_XDECREF(__pyx_t_4);
   __Pyx_XDECREF(__pyx_t_5);
   __Pyx_XDECREF(__pyx_t_7);
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Point.__neg__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Point.__neg__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -1600,7 +1600,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point_4__neg__(CYTHON_UNUSED Py
   return __pyx_r;
 }
 
-/* "pyxpoly2tri\shapes.py":27
+/* "pypoly2tri\shapes.py":27
  *         return Point(-self.x, -self.y)
  * 
  *     def __sub__(self, a):             # <<<<<<<<<<<<<<
@@ -1609,9 +1609,9 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point_4__neg__(CYTHON_UNUSED Py
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_5Point_7__sub__(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_11pyxpoly2tri_6shapes_5Point_7__sub__ = {"__sub__", (PyCFunction)__pyx_pw_11pyxpoly2tri_6shapes_5Point_7__sub__, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_5Point_7__sub__(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_5Point_7__sub__(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_10pypoly2tri_6shapes_5Point_7__sub__ = {"__sub__", (PyCFunction)__pyx_pw_10pypoly2tri_6shapes_5Point_7__sub__, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_5Point_7__sub__(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_self = 0;
   PyObject *__pyx_v_a = 0;
   int __pyx_lineno = 0;
@@ -1659,18 +1659,18 @@ static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_5Point_7__sub__(PyObject *__pyx_
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("__sub__", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 27; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   __pyx_L3_error:;
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Point.__sub__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Point.__sub__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_11pyxpoly2tri_6shapes_5Point_6__sub__(__pyx_self, __pyx_v_self, __pyx_v_a);
+  __pyx_r = __pyx_pf_10pypoly2tri_6shapes_5Point_6__sub__(__pyx_self, __pyx_v_self, __pyx_v_a);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point_6__sub__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_a) {
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_5Point_6__sub__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_a) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -1685,7 +1685,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point_6__sub__(CYTHON_UNUSED Py
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__sub__", 0);
 
-  /* "pyxpoly2tri\shapes.py":28
+  /* "pypoly2tri\shapes.py":28
  * 
  *     def __sub__(self, a):
  *         return Point(a.x - self.x, a.y - self.y)             # <<<<<<<<<<<<<<
@@ -1742,7 +1742,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point_6__sub__(CYTHON_UNUSED Py
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "pyxpoly2tri\shapes.py":27
+  /* "pypoly2tri\shapes.py":27
  *         return Point(-self.x, -self.y)
  * 
  *     def __sub__(self, a):             # <<<<<<<<<<<<<<
@@ -1758,7 +1758,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point_6__sub__(CYTHON_UNUSED Py
   __Pyx_XDECREF(__pyx_t_4);
   __Pyx_XDECREF(__pyx_t_5);
   __Pyx_XDECREF(__pyx_t_6);
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Point.__sub__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Point.__sub__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -1766,7 +1766,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point_6__sub__(CYTHON_UNUSED Py
   return __pyx_r;
 }
 
-/* "pyxpoly2tri\shapes.py":30
+/* "pypoly2tri\shapes.py":30
  *         return Point(a.x - self.x, a.y - self.y)
  * 
  *     def __add__(self, a):             # <<<<<<<<<<<<<<
@@ -1775,9 +1775,9 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point_6__sub__(CYTHON_UNUSED Py
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_5Point_9__add__(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_11pyxpoly2tri_6shapes_5Point_9__add__ = {"__add__", (PyCFunction)__pyx_pw_11pyxpoly2tri_6shapes_5Point_9__add__, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_5Point_9__add__(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_5Point_9__add__(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_10pypoly2tri_6shapes_5Point_9__add__ = {"__add__", (PyCFunction)__pyx_pw_10pypoly2tri_6shapes_5Point_9__add__, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_5Point_9__add__(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_self = 0;
   PyObject *__pyx_v_a = 0;
   int __pyx_lineno = 0;
@@ -1825,18 +1825,18 @@ static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_5Point_9__add__(PyObject *__pyx_
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("__add__", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 30; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   __pyx_L3_error:;
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Point.__add__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Point.__add__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_11pyxpoly2tri_6shapes_5Point_8__add__(__pyx_self, __pyx_v_self, __pyx_v_a);
+  __pyx_r = __pyx_pf_10pypoly2tri_6shapes_5Point_8__add__(__pyx_self, __pyx_v_self, __pyx_v_a);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point_8__add__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_a) {
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_5Point_8__add__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_a) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -1851,7 +1851,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point_8__add__(CYTHON_UNUSED Py
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__add__", 0);
 
-  /* "pyxpoly2tri\shapes.py":31
+  /* "pypoly2tri\shapes.py":31
  * 
  *     def __add__(self, a):
  *         return Point(a.x + self.x, a.y + self.y)             # <<<<<<<<<<<<<<
@@ -1908,7 +1908,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point_8__add__(CYTHON_UNUSED Py
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "pyxpoly2tri\shapes.py":30
+  /* "pypoly2tri\shapes.py":30
  *         return Point(a.x - self.x, a.y - self.y)
  * 
  *     def __add__(self, a):             # <<<<<<<<<<<<<<
@@ -1924,7 +1924,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point_8__add__(CYTHON_UNUSED Py
   __Pyx_XDECREF(__pyx_t_4);
   __Pyx_XDECREF(__pyx_t_5);
   __Pyx_XDECREF(__pyx_t_6);
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Point.__add__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Point.__add__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -1932,7 +1932,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point_8__add__(CYTHON_UNUSED Py
   return __pyx_r;
 }
 
-/* "pyxpoly2tri\shapes.py":33
+/* "pypoly2tri\shapes.py":33
  *         return Point(a.x + self.x, a.y + self.y)
  * 
  *     def __mul__(self, a):             # <<<<<<<<<<<<<<
@@ -1941,9 +1941,9 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point_8__add__(CYTHON_UNUSED Py
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_5Point_11__mul__(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_11pyxpoly2tri_6shapes_5Point_11__mul__ = {"__mul__", (PyCFunction)__pyx_pw_11pyxpoly2tri_6shapes_5Point_11__mul__, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_5Point_11__mul__(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_5Point_11__mul__(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_10pypoly2tri_6shapes_5Point_11__mul__ = {"__mul__", (PyCFunction)__pyx_pw_10pypoly2tri_6shapes_5Point_11__mul__, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_5Point_11__mul__(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_self = 0;
   PyObject *__pyx_v_a = 0;
   int __pyx_lineno = 0;
@@ -1991,18 +1991,18 @@ static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_5Point_11__mul__(PyObject *__pyx
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("__mul__", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 33; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   __pyx_L3_error:;
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Point.__mul__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Point.__mul__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_11pyxpoly2tri_6shapes_5Point_10__mul__(__pyx_self, __pyx_v_self, __pyx_v_a);
+  __pyx_r = __pyx_pf_10pypoly2tri_6shapes_5Point_10__mul__(__pyx_self, __pyx_v_self, __pyx_v_a);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point_10__mul__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_a) {
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_5Point_10__mul__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_a) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -2017,7 +2017,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point_10__mul__(CYTHON_UNUSED P
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__mul__", 0);
 
-  /* "pyxpoly2tri\shapes.py":34
+  /* "pypoly2tri\shapes.py":34
  * 
  *     def __mul__(self, a):
  *         return Point(a * self.x, a * self.y)             # <<<<<<<<<<<<<<
@@ -2068,7 +2068,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point_10__mul__(CYTHON_UNUSED P
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "pyxpoly2tri\shapes.py":33
+  /* "pypoly2tri\shapes.py":33
  *         return Point(a.x + self.x, a.y + self.y)
  * 
  *     def __mul__(self, a):             # <<<<<<<<<<<<<<
@@ -2084,7 +2084,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point_10__mul__(CYTHON_UNUSED P
   __Pyx_XDECREF(__pyx_t_4);
   __Pyx_XDECREF(__pyx_t_5);
   __Pyx_XDECREF(__pyx_t_7);
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Point.__mul__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Point.__mul__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -2092,7 +2092,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point_10__mul__(CYTHON_UNUSED P
   return __pyx_r;
 }
 
-/* "pyxpoly2tri\shapes.py":36
+/* "pypoly2tri\shapes.py":36
  *         return Point(a * self.x, a * self.y)
  * 
  *     def Length(self):             # <<<<<<<<<<<<<<
@@ -2101,20 +2101,20 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point_10__mul__(CYTHON_UNUSED P
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_5Point_13Length(PyObject *__pyx_self, PyObject *__pyx_v_self); /*proto*/
-static PyMethodDef __pyx_mdef_11pyxpoly2tri_6shapes_5Point_13Length = {"Length", (PyCFunction)__pyx_pw_11pyxpoly2tri_6shapes_5Point_13Length, METH_O, 0};
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_5Point_13Length(PyObject *__pyx_self, PyObject *__pyx_v_self) {
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_5Point_13Length(PyObject *__pyx_self, PyObject *__pyx_v_self); /*proto*/
+static PyMethodDef __pyx_mdef_10pypoly2tri_6shapes_5Point_13Length = {"Length", (PyCFunction)__pyx_pw_10pypoly2tri_6shapes_5Point_13Length, METH_O, 0};
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_5Point_13Length(PyObject *__pyx_self, PyObject *__pyx_v_self) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("Length (wrapper)", 0);
-  __pyx_r = __pyx_pf_11pyxpoly2tri_6shapes_5Point_12Length(__pyx_self, ((PyObject *)__pyx_v_self));
+  __pyx_r = __pyx_pf_10pypoly2tri_6shapes_5Point_12Length(__pyx_self, ((PyObject *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point_12Length(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self) {
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_5Point_12Length(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self) {
   PyObject *__pyx_v_math = NULL;
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
@@ -2129,7 +2129,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point_12Length(CYTHON_UNUSED Py
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("Length", 0);
 
-  /* "pyxpoly2tri\shapes.py":37
+  /* "pypoly2tri\shapes.py":37
  * 
  *     def Length(self):
  *         import math             # <<<<<<<<<<<<<<
@@ -2141,7 +2141,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point_12Length(CYTHON_UNUSED Py
   __pyx_v_math = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "pyxpoly2tri\shapes.py":38
+  /* "pypoly2tri\shapes.py":38
  *     def Length(self):
  *         import math
  *         return math.sqrt(self.x * self.x + self.y * self.y)             # <<<<<<<<<<<<<<
@@ -2201,7 +2201,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point_12Length(CYTHON_UNUSED Py
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "pyxpoly2tri\shapes.py":36
+  /* "pypoly2tri\shapes.py":36
  *         return Point(a * self.x, a * self.y)
  * 
  *     def Length(self):             # <<<<<<<<<<<<<<
@@ -2217,7 +2217,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point_12Length(CYTHON_UNUSED Py
   __Pyx_XDECREF(__pyx_t_4);
   __Pyx_XDECREF(__pyx_t_5);
   __Pyx_XDECREF(__pyx_t_6);
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Point.Length", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Point.Length", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_math);
@@ -2226,7 +2226,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point_12Length(CYTHON_UNUSED Py
   return __pyx_r;
 }
 
-/* "pyxpoly2tri\shapes.py":40
+/* "pypoly2tri\shapes.py":40
  *         return math.sqrt(self.x * self.x + self.y * self.y)
  * 
  *     def Normalize(self):             # <<<<<<<<<<<<<<
@@ -2235,20 +2235,20 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point_12Length(CYTHON_UNUSED Py
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_5Point_15Normalize(PyObject *__pyx_self, PyObject *__pyx_v_self); /*proto*/
-static PyMethodDef __pyx_mdef_11pyxpoly2tri_6shapes_5Point_15Normalize = {"Normalize", (PyCFunction)__pyx_pw_11pyxpoly2tri_6shapes_5Point_15Normalize, METH_O, 0};
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_5Point_15Normalize(PyObject *__pyx_self, PyObject *__pyx_v_self) {
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_5Point_15Normalize(PyObject *__pyx_self, PyObject *__pyx_v_self); /*proto*/
+static PyMethodDef __pyx_mdef_10pypoly2tri_6shapes_5Point_15Normalize = {"Normalize", (PyCFunction)__pyx_pw_10pypoly2tri_6shapes_5Point_15Normalize, METH_O, 0};
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_5Point_15Normalize(PyObject *__pyx_self, PyObject *__pyx_v_self) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("Normalize (wrapper)", 0);
-  __pyx_r = __pyx_pf_11pyxpoly2tri_6shapes_5Point_14Normalize(__pyx_self, ((PyObject *)__pyx_v_self));
+  __pyx_r = __pyx_pf_10pypoly2tri_6shapes_5Point_14Normalize(__pyx_self, ((PyObject *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point_14Normalize(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self) {
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_5Point_14Normalize(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self) {
   PyObject *__pyx_v_l = NULL;
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
@@ -2259,7 +2259,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point_14Normalize(CYTHON_UNUSED
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("Normalize", 0);
 
-  /* "pyxpoly2tri\shapes.py":41
+  /* "pypoly2tri\shapes.py":41
  * 
  *     def Normalize(self):
  *         l = self.Length             # <<<<<<<<<<<<<<
@@ -2271,7 +2271,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point_14Normalize(CYTHON_UNUSED
   __pyx_v_l = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "pyxpoly2tri\shapes.py":42
+  /* "pypoly2tri\shapes.py":42
  *     def Normalize(self):
  *         l = self.Length
  *         self.x /= l             # <<<<<<<<<<<<<<
@@ -2286,7 +2286,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point_14Normalize(CYTHON_UNUSED
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_x, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 42; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "pyxpoly2tri\shapes.py":43
+  /* "pypoly2tri\shapes.py":43
  *         l = self.Length
  *         self.x /= l
  *         self.y /= l             # <<<<<<<<<<<<<<
@@ -2301,7 +2301,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point_14Normalize(CYTHON_UNUSED
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_y, __pyx_t_1) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 43; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "pyxpoly2tri\shapes.py":44
+  /* "pypoly2tri\shapes.py":44
  *         self.x /= l
  *         self.y /= l
  *         return l             # <<<<<<<<<<<<<<
@@ -2313,7 +2313,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point_14Normalize(CYTHON_UNUSED
   __pyx_r = __pyx_v_l;
   goto __pyx_L0;
 
-  /* "pyxpoly2tri\shapes.py":40
+  /* "pypoly2tri\shapes.py":40
  *         return math.sqrt(self.x * self.x + self.y * self.y)
  * 
  *     def Normalize(self):             # <<<<<<<<<<<<<<
@@ -2325,7 +2325,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point_14Normalize(CYTHON_UNUSED
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_2);
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Point.Normalize", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Point.Normalize", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_l);
@@ -2334,7 +2334,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point_14Normalize(CYTHON_UNUSED
   return __pyx_r;
 }
 
-/* "pyxpoly2tri\shapes.py":46
+/* "pypoly2tri\shapes.py":46
  *         return l
  * 
  *     def __eq__(self, a):             # <<<<<<<<<<<<<<
@@ -2343,9 +2343,9 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point_14Normalize(CYTHON_UNUSED
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_5Point_17__eq__(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_11pyxpoly2tri_6shapes_5Point_17__eq__ = {"__eq__", (PyCFunction)__pyx_pw_11pyxpoly2tri_6shapes_5Point_17__eq__, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_5Point_17__eq__(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_5Point_17__eq__(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_10pypoly2tri_6shapes_5Point_17__eq__ = {"__eq__", (PyCFunction)__pyx_pw_10pypoly2tri_6shapes_5Point_17__eq__, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_5Point_17__eq__(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_self = 0;
   PyObject *__pyx_v_a = 0;
   int __pyx_lineno = 0;
@@ -2393,18 +2393,18 @@ static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_5Point_17__eq__(PyObject *__pyx_
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("__eq__", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 46; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   __pyx_L3_error:;
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Point.__eq__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Point.__eq__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_11pyxpoly2tri_6shapes_5Point_16__eq__(__pyx_self, __pyx_v_self, __pyx_v_a);
+  __pyx_r = __pyx_pf_10pypoly2tri_6shapes_5Point_16__eq__(__pyx_self, __pyx_v_self, __pyx_v_a);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point_16__eq__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_a) {
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_5Point_16__eq__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_a) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -2417,7 +2417,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point_16__eq__(CYTHON_UNUSED Py
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__eq__", 0);
 
-  /* "pyxpoly2tri\shapes.py":47
+  /* "pypoly2tri\shapes.py":47
  * 
  *     def __eq__(self, a):
  *         return self.x == a.x and self.y == a.y             # <<<<<<<<<<<<<<
@@ -2456,7 +2456,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point_16__eq__(CYTHON_UNUSED Py
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "pyxpoly2tri\shapes.py":46
+  /* "pypoly2tri\shapes.py":46
  *         return l
  * 
  *     def __eq__(self, a):             # <<<<<<<<<<<<<<
@@ -2470,7 +2470,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point_16__eq__(CYTHON_UNUSED Py
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Point.__eq__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Point.__eq__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -2478,7 +2478,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point_16__eq__(CYTHON_UNUSED Py
   return __pyx_r;
 }
 
-/* "pyxpoly2tri\shapes.py":49
+/* "pypoly2tri\shapes.py":49
  *         return self.x == a.x and self.y == a.y
  * 
  *     def __neq__(self, a):             # <<<<<<<<<<<<<<
@@ -2487,9 +2487,9 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point_16__eq__(CYTHON_UNUSED Py
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_5Point_19__neq__(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_11pyxpoly2tri_6shapes_5Point_19__neq__ = {"__neq__", (PyCFunction)__pyx_pw_11pyxpoly2tri_6shapes_5Point_19__neq__, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_5Point_19__neq__(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_5Point_19__neq__(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_10pypoly2tri_6shapes_5Point_19__neq__ = {"__neq__", (PyCFunction)__pyx_pw_10pypoly2tri_6shapes_5Point_19__neq__, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_5Point_19__neq__(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_self = 0;
   PyObject *__pyx_v_a = 0;
   int __pyx_lineno = 0;
@@ -2537,18 +2537,18 @@ static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_5Point_19__neq__(PyObject *__pyx
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("__neq__", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 49; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   __pyx_L3_error:;
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Point.__neq__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Point.__neq__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_11pyxpoly2tri_6shapes_5Point_18__neq__(__pyx_self, __pyx_v_self, __pyx_v_a);
+  __pyx_r = __pyx_pf_10pypoly2tri_6shapes_5Point_18__neq__(__pyx_self, __pyx_v_self, __pyx_v_a);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point_18__neq__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_a) {
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_5Point_18__neq__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_a) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -2558,7 +2558,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point_18__neq__(CYTHON_UNUSED P
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__neq__", 0);
 
-  /* "pyxpoly2tri\shapes.py":50
+  /* "pypoly2tri\shapes.py":50
  * 
  *     def __neq__(self, a):
  *         return not self == a             # <<<<<<<<<<<<<<
@@ -2575,7 +2575,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point_18__neq__(CYTHON_UNUSED P
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "pyxpoly2tri\shapes.py":49
+  /* "pypoly2tri\shapes.py":49
  *         return self.x == a.x and self.y == a.y
  * 
  *     def __neq__(self, a):             # <<<<<<<<<<<<<<
@@ -2586,7 +2586,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point_18__neq__(CYTHON_UNUSED P
   /* function exit code */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Point.__neq__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Point.__neq__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -2594,7 +2594,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point_18__neq__(CYTHON_UNUSED P
   return __pyx_r;
 }
 
-/* "pyxpoly2tri\shapes.py":53
+/* "pypoly2tri\shapes.py":53
  * #        return self.x!=a.x and self.y!=a.y
  * 
  *     def toTuple(self):             # <<<<<<<<<<<<<<
@@ -2603,20 +2603,20 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point_18__neq__(CYTHON_UNUSED P
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_5Point_21toTuple(PyObject *__pyx_self, PyObject *__pyx_v_self); /*proto*/
-static PyMethodDef __pyx_mdef_11pyxpoly2tri_6shapes_5Point_21toTuple = {"toTuple", (PyCFunction)__pyx_pw_11pyxpoly2tri_6shapes_5Point_21toTuple, METH_O, 0};
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_5Point_21toTuple(PyObject *__pyx_self, PyObject *__pyx_v_self) {
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_5Point_21toTuple(PyObject *__pyx_self, PyObject *__pyx_v_self); /*proto*/
+static PyMethodDef __pyx_mdef_10pypoly2tri_6shapes_5Point_21toTuple = {"toTuple", (PyCFunction)__pyx_pw_10pypoly2tri_6shapes_5Point_21toTuple, METH_O, 0};
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_5Point_21toTuple(PyObject *__pyx_self, PyObject *__pyx_v_self) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("toTuple (wrapper)", 0);
-  __pyx_r = __pyx_pf_11pyxpoly2tri_6shapes_5Point_20toTuple(__pyx_self, ((PyObject *)__pyx_v_self));
+  __pyx_r = __pyx_pf_10pypoly2tri_6shapes_5Point_20toTuple(__pyx_self, ((PyObject *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point_20toTuple(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self) {
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_5Point_20toTuple(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -2627,7 +2627,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point_20toTuple(CYTHON_UNUSED P
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("toTuple", 0);
 
-  /* "pyxpoly2tri\shapes.py":54
+  /* "pypoly2tri\shapes.py":54
  * 
  *     def toTuple(self):
  *         return self.x, self.y             # <<<<<<<<<<<<<<
@@ -2651,7 +2651,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point_20toTuple(CYTHON_UNUSED P
   __pyx_t_3 = 0;
   goto __pyx_L0;
 
-  /* "pyxpoly2tri\shapes.py":53
+  /* "pypoly2tri\shapes.py":53
  * #        return self.x!=a.x and self.y!=a.y
  * 
  *     def toTuple(self):             # <<<<<<<<<<<<<<
@@ -2664,7 +2664,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point_20toTuple(CYTHON_UNUSED P
   __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Point.toTuple", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Point.toTuple", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -2672,7 +2672,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point_20toTuple(CYTHON_UNUSED P
   return __pyx_r;
 }
 
-/* "pyxpoly2tri\shapes.py":57
+/* "pypoly2tri\shapes.py":57
  * 
  * 
  * def Dot(p, a):             # <<<<<<<<<<<<<<
@@ -2681,9 +2681,9 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_5Point_20toTuple(CYTHON_UNUSED P
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_1Dot(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_11pyxpoly2tri_6shapes_1Dot = {"Dot", (PyCFunction)__pyx_pw_11pyxpoly2tri_6shapes_1Dot, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_1Dot(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_1Dot(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_10pypoly2tri_6shapes_1Dot = {"Dot", (PyCFunction)__pyx_pw_10pypoly2tri_6shapes_1Dot, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_1Dot(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_p = 0;
   PyObject *__pyx_v_a = 0;
   int __pyx_lineno = 0;
@@ -2731,18 +2731,18 @@ static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_1Dot(PyObject *__pyx_self, PyObj
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("Dot", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 57; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   __pyx_L3_error:;
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Dot", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Dot", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_11pyxpoly2tri_6shapes_Dot(__pyx_self, __pyx_v_p, __pyx_v_a);
+  __pyx_r = __pyx_pf_10pypoly2tri_6shapes_Dot(__pyx_self, __pyx_v_p, __pyx_v_a);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_Dot(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_p, PyObject *__pyx_v_a) {
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_Dot(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_p, PyObject *__pyx_v_a) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -2754,7 +2754,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_Dot(CYTHON_UNUSED PyObject *__py
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("Dot", 0);
 
-  /* "pyxpoly2tri\shapes.py":58
+  /* "pypoly2tri\shapes.py":58
  * 
  * def Dot(p, a):
  *     return p.x * a.x + p.y * a.y             # <<<<<<<<<<<<<<
@@ -2786,7 +2786,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_Dot(CYTHON_UNUSED PyObject *__py
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "pyxpoly2tri\shapes.py":57
+  /* "pypoly2tri\shapes.py":57
  * 
  * 
  * def Dot(p, a):             # <<<<<<<<<<<<<<
@@ -2800,7 +2800,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_Dot(CYTHON_UNUSED PyObject *__py
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Dot", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Dot", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -2808,7 +2808,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_Dot(CYTHON_UNUSED PyObject *__py
   return __pyx_r;
 }
 
-/* "pyxpoly2tri\shapes.py":61
+/* "pypoly2tri\shapes.py":61
  * 
  * 
  * def Cross_p(p, a):             # <<<<<<<<<<<<<<
@@ -2817,9 +2817,9 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_Dot(CYTHON_UNUSED PyObject *__py
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_3Cross_p(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_11pyxpoly2tri_6shapes_3Cross_p = {"Cross_p", (PyCFunction)__pyx_pw_11pyxpoly2tri_6shapes_3Cross_p, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_3Cross_p(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_3Cross_p(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_10pypoly2tri_6shapes_3Cross_p = {"Cross_p", (PyCFunction)__pyx_pw_10pypoly2tri_6shapes_3Cross_p, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_3Cross_p(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_p = 0;
   PyObject *__pyx_v_a = 0;
   int __pyx_lineno = 0;
@@ -2867,18 +2867,18 @@ static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_3Cross_p(PyObject *__pyx_self, P
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("Cross_p", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 61; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   __pyx_L3_error:;
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Cross_p", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Cross_p", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_11pyxpoly2tri_6shapes_2Cross_p(__pyx_self, __pyx_v_p, __pyx_v_a);
+  __pyx_r = __pyx_pf_10pypoly2tri_6shapes_2Cross_p(__pyx_self, __pyx_v_p, __pyx_v_a);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_2Cross_p(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_p, PyObject *__pyx_v_a) {
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_2Cross_p(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_p, PyObject *__pyx_v_a) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -2890,7 +2890,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_2Cross_p(CYTHON_UNUSED PyObject 
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("Cross_p", 0);
 
-  /* "pyxpoly2tri\shapes.py":62
+  /* "pypoly2tri\shapes.py":62
  * 
  * def Cross_p(p, a):
  *     return p.x * a.y - p.y * a.x             # <<<<<<<<<<<<<<
@@ -2922,7 +2922,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_2Cross_p(CYTHON_UNUSED PyObject 
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "pyxpoly2tri\shapes.py":61
+  /* "pypoly2tri\shapes.py":61
  * 
  * 
  * def Cross_p(p, a):             # <<<<<<<<<<<<<<
@@ -2936,7 +2936,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_2Cross_p(CYTHON_UNUSED PyObject 
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Cross_p", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Cross_p", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -2944,7 +2944,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_2Cross_p(CYTHON_UNUSED PyObject 
   return __pyx_r;
 }
 
-/* "pyxpoly2tri\shapes.py":65
+/* "pypoly2tri\shapes.py":65
  * 
  * 
  * def Cross_s(p, a):             # <<<<<<<<<<<<<<
@@ -2953,9 +2953,9 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_2Cross_p(CYTHON_UNUSED PyObject 
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_5Cross_s(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_11pyxpoly2tri_6shapes_5Cross_s = {"Cross_s", (PyCFunction)__pyx_pw_11pyxpoly2tri_6shapes_5Cross_s, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_5Cross_s(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_5Cross_s(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_10pypoly2tri_6shapes_5Cross_s = {"Cross_s", (PyCFunction)__pyx_pw_10pypoly2tri_6shapes_5Cross_s, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_5Cross_s(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_p = 0;
   PyObject *__pyx_v_a = 0;
   int __pyx_lineno = 0;
@@ -3003,18 +3003,18 @@ static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_5Cross_s(PyObject *__pyx_self, P
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("Cross_s", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 65; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   __pyx_L3_error:;
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Cross_s", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Cross_s", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_11pyxpoly2tri_6shapes_4Cross_s(__pyx_self, __pyx_v_p, __pyx_v_a);
+  __pyx_r = __pyx_pf_10pypoly2tri_6shapes_4Cross_s(__pyx_self, __pyx_v_p, __pyx_v_a);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_4Cross_s(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_p, PyObject *__pyx_v_a) {
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_4Cross_s(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_p, PyObject *__pyx_v_a) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -3029,7 +3029,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_4Cross_s(CYTHON_UNUSED PyObject 
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("Cross_s", 0);
 
-  /* "pyxpoly2tri\shapes.py":66
+  /* "pypoly2tri\shapes.py":66
  * 
  * def Cross_s(p, a):
  *     return Point(a * p.y, -a * p.x)             # <<<<<<<<<<<<<<
@@ -3083,7 +3083,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_4Cross_s(CYTHON_UNUSED PyObject 
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "pyxpoly2tri\shapes.py":65
+  /* "pypoly2tri\shapes.py":65
  * 
  * 
  * def Cross_s(p, a):             # <<<<<<<<<<<<<<
@@ -3099,7 +3099,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_4Cross_s(CYTHON_UNUSED PyObject 
   __Pyx_XDECREF(__pyx_t_4);
   __Pyx_XDECREF(__pyx_t_5);
   __Pyx_XDECREF(__pyx_t_6);
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Cross_s", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Cross_s", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -3107,7 +3107,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_4Cross_s(CYTHON_UNUSED PyObject 
   return __pyx_r;
 }
 
-/* "pyxpoly2tri\shapes.py":69
+/* "pypoly2tri\shapes.py":69
  * 
  * 
  * def Cross_s2(a, p):             # <<<<<<<<<<<<<<
@@ -3116,9 +3116,9 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_4Cross_s(CYTHON_UNUSED PyObject 
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_7Cross_s2(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_11pyxpoly2tri_6shapes_7Cross_s2 = {"Cross_s2", (PyCFunction)__pyx_pw_11pyxpoly2tri_6shapes_7Cross_s2, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_7Cross_s2(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_7Cross_s2(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_10pypoly2tri_6shapes_7Cross_s2 = {"Cross_s2", (PyCFunction)__pyx_pw_10pypoly2tri_6shapes_7Cross_s2, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_7Cross_s2(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_a = 0;
   PyObject *__pyx_v_p = 0;
   int __pyx_lineno = 0;
@@ -3166,18 +3166,18 @@ static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_7Cross_s2(PyObject *__pyx_self, 
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("Cross_s2", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 69; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   __pyx_L3_error:;
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Cross_s2", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Cross_s2", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_11pyxpoly2tri_6shapes_6Cross_s2(__pyx_self, __pyx_v_a, __pyx_v_p);
+  __pyx_r = __pyx_pf_10pypoly2tri_6shapes_6Cross_s2(__pyx_self, __pyx_v_a, __pyx_v_p);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_6Cross_s2(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_a, PyObject *__pyx_v_p) {
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_6Cross_s2(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_a, PyObject *__pyx_v_p) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -3192,7 +3192,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_6Cross_s2(CYTHON_UNUSED PyObject
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("Cross_s2", 0);
 
-  /* "pyxpoly2tri\shapes.py":70
+  /* "pypoly2tri\shapes.py":70
  * 
  * def Cross_s2(a, p):
  *     return Point(-a * p.y, a * p.x)             # <<<<<<<<<<<<<<
@@ -3246,7 +3246,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_6Cross_s2(CYTHON_UNUSED PyObject
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "pyxpoly2tri\shapes.py":69
+  /* "pypoly2tri\shapes.py":69
  * 
  * 
  * def Cross_s2(a, p):             # <<<<<<<<<<<<<<
@@ -3262,7 +3262,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_6Cross_s2(CYTHON_UNUSED PyObject
   __Pyx_XDECREF(__pyx_t_4);
   __Pyx_XDECREF(__pyx_t_5);
   __Pyx_XDECREF(__pyx_t_7);
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Cross_s2", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Cross_s2", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -3270,7 +3270,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_6Cross_s2(CYTHON_UNUSED PyObject
   return __pyx_r;
 }
 
-/* "pyxpoly2tri\shapes.py":73
+/* "pypoly2tri\shapes.py":73
  * 
  * 
  * def Cross(*args):             # <<<<<<<<<<<<<<
@@ -3279,9 +3279,9 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_6Cross_s2(CYTHON_UNUSED PyObject
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_9Cross(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_11pyxpoly2tri_6shapes_9Cross = {"Cross", (PyCFunction)__pyx_pw_11pyxpoly2tri_6shapes_9Cross, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_9Cross(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_9Cross(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_10pypoly2tri_6shapes_9Cross = {"Cross", (PyCFunction)__pyx_pw_10pypoly2tri_6shapes_9Cross, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_9Cross(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_args = 0;
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
@@ -3289,7 +3289,7 @@ static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_9Cross(PyObject *__pyx_self, PyO
   if (unlikely(__pyx_kwds) && unlikely(PyDict_Size(__pyx_kwds) > 0) && unlikely(!__Pyx_CheckKeywordStrings(__pyx_kwds, "Cross", 0))) return NULL;
   __Pyx_INCREF(__pyx_args);
   __pyx_v_args = __pyx_args;
-  __pyx_r = __pyx_pf_11pyxpoly2tri_6shapes_8Cross(__pyx_self, __pyx_v_args);
+  __pyx_r = __pyx_pf_10pypoly2tri_6shapes_8Cross(__pyx_self, __pyx_v_args);
 
   /* function exit code */
   __Pyx_XDECREF(__pyx_v_args);
@@ -3297,7 +3297,7 @@ static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_9Cross(PyObject *__pyx_self, PyO
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Cross(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_args) {
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_8Cross(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_args) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -3309,7 +3309,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Cross(CYTHON_UNUSED PyObject *_
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("Cross", 0);
 
-  /* "pyxpoly2tri\shapes.py":74
+  /* "pypoly2tri\shapes.py":74
  * 
  * def Cross(*args):
  *     if isinstance(args[0], Point):             # <<<<<<<<<<<<<<
@@ -3326,7 +3326,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Cross(CYTHON_UNUSED PyObject *_
   __pyx_t_4 = (__pyx_t_3 != 0);
   if (__pyx_t_4) {
 
-    /* "pyxpoly2tri\shapes.py":75
+    /* "pypoly2tri\shapes.py":75
  * def Cross(*args):
  *     if isinstance(args[0], Point):
  *         if isinstance(args[1], Point):             # <<<<<<<<<<<<<<
@@ -3343,7 +3343,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Cross(CYTHON_UNUSED PyObject *_
     __pyx_t_3 = (__pyx_t_4 != 0);
     if (__pyx_t_3) {
 
-      /* "pyxpoly2tri\shapes.py":76
+      /* "pypoly2tri\shapes.py":76
  *     if isinstance(args[0], Point):
  *         if isinstance(args[1], Point):
  *             return Cross_p(*args)             # <<<<<<<<<<<<<<
@@ -3360,7 +3360,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Cross(CYTHON_UNUSED PyObject *_
       __pyx_t_2 = 0;
       goto __pyx_L0;
 
-      /* "pyxpoly2tri\shapes.py":75
+      /* "pypoly2tri\shapes.py":75
  * def Cross(*args):
  *     if isinstance(args[0], Point):
  *         if isinstance(args[1], Point):             # <<<<<<<<<<<<<<
@@ -3369,7 +3369,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Cross(CYTHON_UNUSED PyObject *_
  */
     }
 
-    /* "pyxpoly2tri\shapes.py":78
+    /* "pypoly2tri\shapes.py":78
  *             return Cross_p(*args)
  *         else:
  *             return Cross_s(*args)             # <<<<<<<<<<<<<<
@@ -3388,7 +3388,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Cross(CYTHON_UNUSED PyObject *_
       goto __pyx_L0;
     }
 
-    /* "pyxpoly2tri\shapes.py":74
+    /* "pypoly2tri\shapes.py":74
  * 
  * def Cross(*args):
  *     if isinstance(args[0], Point):             # <<<<<<<<<<<<<<
@@ -3397,7 +3397,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Cross(CYTHON_UNUSED PyObject *_
  */
   }
 
-  /* "pyxpoly2tri\shapes.py":80
+  /* "pypoly2tri\shapes.py":80
  *             return Cross_s(*args)
  *     else:
  *         return Cross_s2(*args)             # <<<<<<<<<<<<<<
@@ -3416,7 +3416,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Cross(CYTHON_UNUSED PyObject *_
     goto __pyx_L0;
   }
 
-  /* "pyxpoly2tri\shapes.py":73
+  /* "pypoly2tri\shapes.py":73
  * 
  * 
  * def Cross(*args):             # <<<<<<<<<<<<<<
@@ -3428,7 +3428,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Cross(CYTHON_UNUSED PyObject *_
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_2);
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Cross", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Cross", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -3436,7 +3436,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Cross(CYTHON_UNUSED PyObject *_
   return __pyx_r;
 }
 
-/* "pyxpoly2tri\shapes.py":85
+/* "pypoly2tri\shapes.py":85
  * class Edge(object):
  * 
  *     def __init__(self, p1, p2):             # <<<<<<<<<<<<<<
@@ -3445,9 +3445,9 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Cross(CYTHON_UNUSED PyObject *_
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_4Edge_1__init__(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_11pyxpoly2tri_6shapes_4Edge_1__init__ = {"__init__", (PyCFunction)__pyx_pw_11pyxpoly2tri_6shapes_4Edge_1__init__, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_4Edge_1__init__(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_4Edge_1__init__(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_10pypoly2tri_6shapes_4Edge_1__init__ = {"__init__", (PyCFunction)__pyx_pw_10pypoly2tri_6shapes_4Edge_1__init__, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_4Edge_1__init__(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_self = 0;
   PyObject *__pyx_v_p1 = 0;
   PyObject *__pyx_v_p2 = 0;
@@ -3504,18 +3504,18 @@ static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_4Edge_1__init__(PyObject *__pyx_
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("__init__", 1, 3, 3, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 85; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   __pyx_L3_error:;
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Edge.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Edge.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_11pyxpoly2tri_6shapes_4Edge___init__(__pyx_self, __pyx_v_self, __pyx_v_p1, __pyx_v_p2);
+  __pyx_r = __pyx_pf_10pypoly2tri_6shapes_4Edge___init__(__pyx_self, __pyx_v_self, __pyx_v_p1, __pyx_v_p2);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_4Edge___init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_p1, PyObject *__pyx_v_p2) {
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_4Edge___init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_p1, PyObject *__pyx_v_p2) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -3528,7 +3528,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_4Edge___init__(CYTHON_UNUSED PyO
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__init__", 0);
 
-  /* "pyxpoly2tri\shapes.py":86
+  /* "pypoly2tri\shapes.py":86
  * 
  *     def __init__(self, p1, p2):
  *         self.p = p1             # <<<<<<<<<<<<<<
@@ -3537,7 +3537,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_4Edge___init__(CYTHON_UNUSED PyO
  */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_p, __pyx_v_p1) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 86; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "pyxpoly2tri\shapes.py":87
+  /* "pypoly2tri\shapes.py":87
  *     def __init__(self, p1, p2):
  *         self.p = p1
  *         self.q = p2             # <<<<<<<<<<<<<<
@@ -3546,7 +3546,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_4Edge___init__(CYTHON_UNUSED PyO
  */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_q, __pyx_v_p2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 87; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "pyxpoly2tri\shapes.py":88
+  /* "pypoly2tri\shapes.py":88
  *         self.p = p1
  *         self.q = p2
  *         if p1.y > p2.y:             # <<<<<<<<<<<<<<
@@ -3564,7 +3564,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_4Edge___init__(CYTHON_UNUSED PyO
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   if (__pyx_t_4) {
 
-    /* "pyxpoly2tri\shapes.py":89
+    /* "pypoly2tri\shapes.py":89
  *         self.q = p2
  *         if p1.y > p2.y:
  *             self.q = p1             # <<<<<<<<<<<<<<
@@ -3573,7 +3573,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_4Edge___init__(CYTHON_UNUSED PyO
  */
     if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_q, __pyx_v_p1) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 89; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-    /* "pyxpoly2tri\shapes.py":90
+    /* "pypoly2tri\shapes.py":90
  *         if p1.y > p2.y:
  *             self.q = p1
  *             self.p = p2             # <<<<<<<<<<<<<<
@@ -3582,7 +3582,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_4Edge___init__(CYTHON_UNUSED PyO
  */
     if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_p, __pyx_v_p2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 90; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-    /* "pyxpoly2tri\shapes.py":88
+    /* "pypoly2tri\shapes.py":88
  *         self.p = p1
  *         self.q = p2
  *         if p1.y > p2.y:             # <<<<<<<<<<<<<<
@@ -3592,7 +3592,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_4Edge___init__(CYTHON_UNUSED PyO
     goto __pyx_L3;
   }
 
-  /* "pyxpoly2tri\shapes.py":91
+  /* "pypoly2tri\shapes.py":91
  *             self.q = p1
  *             self.p = p2
  *         elif p1.y == p2.y:             # <<<<<<<<<<<<<<
@@ -3610,7 +3610,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_4Edge___init__(CYTHON_UNUSED PyO
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   if (__pyx_t_4) {
 
-    /* "pyxpoly2tri\shapes.py":92
+    /* "pypoly2tri\shapes.py":92
  *             self.p = p2
  *         elif p1.y == p2.y:
  *             if p1.x > p2.x:             # <<<<<<<<<<<<<<
@@ -3628,7 +3628,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_4Edge___init__(CYTHON_UNUSED PyO
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     if (__pyx_t_4) {
 
-      /* "pyxpoly2tri\shapes.py":93
+      /* "pypoly2tri\shapes.py":93
  *         elif p1.y == p2.y:
  *             if p1.x > p2.x:
  *                 self.q = p1             # <<<<<<<<<<<<<<
@@ -3637,7 +3637,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_4Edge___init__(CYTHON_UNUSED PyO
  */
       if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_q, __pyx_v_p1) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 93; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-      /* "pyxpoly2tri\shapes.py":94
+      /* "pypoly2tri\shapes.py":94
  *             if p1.x > p2.x:
  *                 self.q = p1
  *                 self.p = p2             # <<<<<<<<<<<<<<
@@ -3646,7 +3646,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_4Edge___init__(CYTHON_UNUSED PyO
  */
       if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_p, __pyx_v_p2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 94; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-      /* "pyxpoly2tri\shapes.py":92
+      /* "pypoly2tri\shapes.py":92
  *             self.p = p2
  *         elif p1.y == p2.y:
  *             if p1.x > p2.x:             # <<<<<<<<<<<<<<
@@ -3656,7 +3656,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_4Edge___init__(CYTHON_UNUSED PyO
       goto __pyx_L4;
     }
 
-    /* "pyxpoly2tri\shapes.py":95
+    /* "pypoly2tri\shapes.py":95
  *                 self.q = p1
  *                 self.p = p2
  *             elif p1.x == p2.x:             # <<<<<<<<<<<<<<
@@ -3674,7 +3674,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_4Edge___init__(CYTHON_UNUSED PyO
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     if (__pyx_t_4) {
 
-      /* "pyxpoly2tri\shapes.py":97
+      /* "pypoly2tri\shapes.py":97
  *             elif p1.x == p2.x:
  *                 #                raise(Exception('repeat points'))
  *                 assert(False)             # <<<<<<<<<<<<<<
@@ -3690,7 +3690,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_4Edge___init__(CYTHON_UNUSED PyO
       }
       #endif
 
-      /* "pyxpoly2tri\shapes.py":95
+      /* "pypoly2tri\shapes.py":95
  *                 self.q = p1
  *                 self.p = p2
  *             elif p1.x == p2.x:             # <<<<<<<<<<<<<<
@@ -3700,7 +3700,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_4Edge___init__(CYTHON_UNUSED PyO
     }
     __pyx_L4:;
 
-    /* "pyxpoly2tri\shapes.py":91
+    /* "pypoly2tri\shapes.py":91
  *             self.q = p1
  *             self.p = p2
  *         elif p1.y == p2.y:             # <<<<<<<<<<<<<<
@@ -3710,7 +3710,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_4Edge___init__(CYTHON_UNUSED PyO
   }
   __pyx_L3:;
 
-  /* "pyxpoly2tri\shapes.py":98
+  /* "pypoly2tri\shapes.py":98
  *                 #                raise(Exception('repeat points'))
  *                 assert(False)
  *         self.q.edge_list.append(self)             # <<<<<<<<<<<<<<
@@ -3725,7 +3725,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_4Edge___init__(CYTHON_UNUSED PyO
   __pyx_t_5 = __Pyx_PyObject_Append(__pyx_t_2, __pyx_v_self); if (unlikely(__pyx_t_5 == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 98; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "pyxpoly2tri\shapes.py":85
+  /* "pypoly2tri\shapes.py":85
  * class Edge(object):
  * 
  *     def __init__(self, p1, p2):             # <<<<<<<<<<<<<<
@@ -3740,7 +3740,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_4Edge___init__(CYTHON_UNUSED PyO
   __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Edge.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Edge.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -3748,7 +3748,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_4Edge___init__(CYTHON_UNUSED PyO
   return __pyx_r;
 }
 
-/* "pyxpoly2tri\shapes.py":103
+/* "pypoly2tri\shapes.py":103
  * class Triangle(object):
  * 
  *     def toList(self):             # <<<<<<<<<<<<<<
@@ -3757,20 +3757,20 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_4Edge___init__(CYTHON_UNUSED PyO
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_1toList(PyObject *__pyx_self, PyObject *__pyx_v_self); /*proto*/
-static PyMethodDef __pyx_mdef_11pyxpoly2tri_6shapes_8Triangle_1toList = {"toList", (PyCFunction)__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_1toList, METH_O, 0};
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_1toList(PyObject *__pyx_self, PyObject *__pyx_v_self) {
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_8Triangle_1toList(PyObject *__pyx_self, PyObject *__pyx_v_self); /*proto*/
+static PyMethodDef __pyx_mdef_10pypoly2tri_6shapes_8Triangle_1toList = {"toList", (PyCFunction)__pyx_pw_10pypoly2tri_6shapes_8Triangle_1toList, METH_O, 0};
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_8Triangle_1toList(PyObject *__pyx_self, PyObject *__pyx_v_self) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("toList (wrapper)", 0);
-  __pyx_r = __pyx_pf_11pyxpoly2tri_6shapes_8Triangle_toList(__pyx_self, ((PyObject *)__pyx_v_self));
+  __pyx_r = __pyx_pf_10pypoly2tri_6shapes_8Triangle_toList(__pyx_self, ((PyObject *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_toList(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self) {
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_8Triangle_toList(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self) {
   PyObject *__pyx_v_point = NULL;
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
@@ -3786,7 +3786,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_toList(CYTHON_UNUSED P
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("toList", 0);
 
-  /* "pyxpoly2tri\shapes.py":104
+  /* "pypoly2tri\shapes.py":104
  * 
  *     def toList(self):
  *         return [point.toTuple() for point in self.points_]             # <<<<<<<<<<<<<<
@@ -3868,7 +3868,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_toList(CYTHON_UNUSED P
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "pyxpoly2tri\shapes.py":103
+  /* "pypoly2tri\shapes.py":103
  * class Triangle(object):
  * 
  *     def toList(self):             # <<<<<<<<<<<<<<
@@ -3883,7 +3883,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_toList(CYTHON_UNUSED P
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_6);
   __Pyx_XDECREF(__pyx_t_7);
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Triangle.toList", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Triangle.toList", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_point);
@@ -3892,7 +3892,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_toList(CYTHON_UNUSED P
   return __pyx_r;
 }
 
-/* "pyxpoly2tri\shapes.py":106
+/* "pypoly2tri\shapes.py":106
  *         return [point.toTuple() for point in self.points_]
  * 
  *     def __init__(self, a, b, c):             # <<<<<<<<<<<<<<
@@ -3901,9 +3901,9 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_toList(CYTHON_UNUSED P
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_3__init__(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_11pyxpoly2tri_6shapes_8Triangle_3__init__ = {"__init__", (PyCFunction)__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_3__init__, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_3__init__(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_8Triangle_3__init__(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_10pypoly2tri_6shapes_8Triangle_3__init__ = {"__init__", (PyCFunction)__pyx_pw_10pypoly2tri_6shapes_8Triangle_3__init__, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_8Triangle_3__init__(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_self = 0;
   PyObject *__pyx_v_a = 0;
   PyObject *__pyx_v_b = 0;
@@ -3969,18 +3969,18 @@ static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_3__init__(PyObject *__
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("__init__", 1, 4, 4, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 106; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   __pyx_L3_error:;
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Triangle.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Triangle.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_11pyxpoly2tri_6shapes_8Triangle_2__init__(__pyx_self, __pyx_v_self, __pyx_v_a, __pyx_v_b, __pyx_v_c);
+  __pyx_r = __pyx_pf_10pypoly2tri_6shapes_8Triangle_2__init__(__pyx_self, __pyx_v_self, __pyx_v_a, __pyx_v_b, __pyx_v_c);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_2__init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_a, PyObject *__pyx_v_b, PyObject *__pyx_v_c) {
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_8Triangle_2__init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_a, PyObject *__pyx_v_b, PyObject *__pyx_v_c) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -3989,7 +3989,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_2__init__(CYTHON_UNUSE
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__init__", 0);
 
-  /* "pyxpoly2tri\shapes.py":107
+  /* "pypoly2tri\shapes.py":107
  * 
  *     def __init__(self, a, b, c):
  *         self.points_ = [a, b, c]             # <<<<<<<<<<<<<<
@@ -4010,7 +4010,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_2__init__(CYTHON_UNUSE
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_points, __pyx_t_1) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 107; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "pyxpoly2tri\shapes.py":108
+  /* "pypoly2tri\shapes.py":108
  *     def __init__(self, a, b, c):
  *         self.points_ = [a, b, c]
  *         self.neighbors_ = [None] * 3             # <<<<<<<<<<<<<<
@@ -4029,7 +4029,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_2__init__(CYTHON_UNUSE
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_neighbors, __pyx_t_1) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 108; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "pyxpoly2tri\shapes.py":109
+  /* "pypoly2tri\shapes.py":109
  *         self.points_ = [a, b, c]
  *         self.neighbors_ = [None] * 3
  *         self.constrained_edge = [False] * 3             # <<<<<<<<<<<<<<
@@ -4048,7 +4048,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_2__init__(CYTHON_UNUSE
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_constrained_edge, __pyx_t_1) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 109; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "pyxpoly2tri\shapes.py":110
+  /* "pypoly2tri\shapes.py":110
  *         self.neighbors_ = [None] * 3
  *         self.constrained_edge = [False] * 3
  *         self.delaunay_edge = [False] * 3             # <<<<<<<<<<<<<<
@@ -4067,7 +4067,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_2__init__(CYTHON_UNUSE
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_delaunay_edge, __pyx_t_1) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 110; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "pyxpoly2tri\shapes.py":111
+  /* "pypoly2tri\shapes.py":111
  *         self.constrained_edge = [False] * 3
  *         self.delaunay_edge = [False] * 3
  *         self.interior_ = False             # <<<<<<<<<<<<<<
@@ -4076,7 +4076,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_2__init__(CYTHON_UNUSE
  */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_interior, Py_False) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 111; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "pyxpoly2tri\shapes.py":106
+  /* "pypoly2tri\shapes.py":106
  *         return [point.toTuple() for point in self.points_]
  * 
  *     def __init__(self, a, b, c):             # <<<<<<<<<<<<<<
@@ -4089,7 +4089,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_2__init__(CYTHON_UNUSE
   goto __pyx_L0;
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Triangle.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Triangle.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -4097,7 +4097,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_2__init__(CYTHON_UNUSE
   return __pyx_r;
 }
 
-/* "pyxpoly2tri\shapes.py":113
+/* "pypoly2tri\shapes.py":113
  *         self.interior_ = False
  * 
  *     def MarkNeighbor_p(self, p1, p2, t):             # <<<<<<<<<<<<<<
@@ -4106,9 +4106,9 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_2__init__(CYTHON_UNUSE
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_5MarkNeighbor_p(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_11pyxpoly2tri_6shapes_8Triangle_5MarkNeighbor_p = {"MarkNeighbor_p", (PyCFunction)__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_5MarkNeighbor_p, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_5MarkNeighbor_p(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_8Triangle_5MarkNeighbor_p(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_10pypoly2tri_6shapes_8Triangle_5MarkNeighbor_p = {"MarkNeighbor_p", (PyCFunction)__pyx_pw_10pypoly2tri_6shapes_8Triangle_5MarkNeighbor_p, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_8Triangle_5MarkNeighbor_p(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_self = 0;
   PyObject *__pyx_v_p1 = 0;
   PyObject *__pyx_v_p2 = 0;
@@ -4174,18 +4174,18 @@ static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_5MarkNeighbor_p(PyObje
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("MarkNeighbor_p", 1, 4, 4, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 113; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   __pyx_L3_error:;
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Triangle.MarkNeighbor_p", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Triangle.MarkNeighbor_p", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_11pyxpoly2tri_6shapes_8Triangle_4MarkNeighbor_p(__pyx_self, __pyx_v_self, __pyx_v_p1, __pyx_v_p2, __pyx_v_t);
+  __pyx_r = __pyx_pf_10pypoly2tri_6shapes_8Triangle_4MarkNeighbor_p(__pyx_self, __pyx_v_self, __pyx_v_p1, __pyx_v_p2, __pyx_v_t);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_4MarkNeighbor_p(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_p1, PyObject *__pyx_v_p2, PyObject *__pyx_v_t) {
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_8Triangle_4MarkNeighbor_p(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_p1, PyObject *__pyx_v_p2, PyObject *__pyx_v_t) {
   PyObject *__pyx_v_ii = NULL;
   PyObject *__pyx_v_jj = NULL;
   PyObject *__pyx_v_index = NULL;
@@ -4200,7 +4200,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_4MarkNeighbor_p(CYTHON
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("MarkNeighbor_p", 0);
 
-  /* "pyxpoly2tri\shapes.py":114
+  /* "pypoly2tri\shapes.py":114
  * 
  *     def MarkNeighbor_p(self, p1, p2, t):
  *         ii = self.points_.index(p1)             # <<<<<<<<<<<<<<
@@ -4240,7 +4240,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_4MarkNeighbor_p(CYTHON
   __pyx_v_ii = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "pyxpoly2tri\shapes.py":115
+  /* "pypoly2tri\shapes.py":115
  *     def MarkNeighbor_p(self, p1, p2, t):
  *         ii = self.points_.index(p1)
  *         jj = self.points_.index(p2)             # <<<<<<<<<<<<<<
@@ -4280,7 +4280,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_4MarkNeighbor_p(CYTHON
   __pyx_v_jj = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "pyxpoly2tri\shapes.py":116
+  /* "pypoly2tri\shapes.py":116
  *         ii = self.points_.index(p1)
  *         jj = self.points_.index(p2)
  *         index = list(set(range(3)) - set([ii, jj]))[0]             # <<<<<<<<<<<<<<
@@ -4309,7 +4309,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_4MarkNeighbor_p(CYTHON
   __pyx_v_index = __pyx_t_2;
   __pyx_t_2 = 0;
 
-  /* "pyxpoly2tri\shapes.py":117
+  /* "pypoly2tri\shapes.py":117
  *         jj = self.points_.index(p2)
  *         index = list(set(range(3)) - set([ii, jj]))[0]
  *         self.neighbors_[index] = t             # <<<<<<<<<<<<<<
@@ -4321,7 +4321,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_4MarkNeighbor_p(CYTHON
   if (unlikely(PyObject_SetItem(__pyx_t_2, __pyx_v_index, __pyx_v_t) < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 117; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "pyxpoly2tri\shapes.py":113
+  /* "pypoly2tri\shapes.py":113
  *         self.interior_ = False
  * 
  *     def MarkNeighbor_p(self, p1, p2, t):             # <<<<<<<<<<<<<<
@@ -4337,7 +4337,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_4MarkNeighbor_p(CYTHON
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Triangle.MarkNeighbor_p", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Triangle.MarkNeighbor_p", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_ii);
@@ -4348,7 +4348,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_4MarkNeighbor_p(CYTHON
   return __pyx_r;
 }
 
-/* "pyxpoly2tri\shapes.py":119
+/* "pypoly2tri\shapes.py":119
  *         self.neighbors_[index] = t
  * 
  *     def MarkNeighbor_t(self, t):             # <<<<<<<<<<<<<<
@@ -4357,9 +4357,9 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_4MarkNeighbor_p(CYTHON
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_7MarkNeighbor_t(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_11pyxpoly2tri_6shapes_8Triangle_7MarkNeighbor_t = {"MarkNeighbor_t", (PyCFunction)__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_7MarkNeighbor_t, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_7MarkNeighbor_t(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_8Triangle_7MarkNeighbor_t(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_10pypoly2tri_6shapes_8Triangle_7MarkNeighbor_t = {"MarkNeighbor_t", (PyCFunction)__pyx_pw_10pypoly2tri_6shapes_8Triangle_7MarkNeighbor_t, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_8Triangle_7MarkNeighbor_t(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_self = 0;
   PyObject *__pyx_v_t = 0;
   int __pyx_lineno = 0;
@@ -4407,18 +4407,18 @@ static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_7MarkNeighbor_t(PyObje
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("MarkNeighbor_t", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 119; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   __pyx_L3_error:;
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Triangle.MarkNeighbor_t", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Triangle.MarkNeighbor_t", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_11pyxpoly2tri_6shapes_8Triangle_6MarkNeighbor_t(__pyx_self, __pyx_v_self, __pyx_v_t);
+  __pyx_r = __pyx_pf_10pypoly2tri_6shapes_8Triangle_6MarkNeighbor_t(__pyx_self, __pyx_v_self, __pyx_v_t);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_6MarkNeighbor_t(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_t) {
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_8Triangle_6MarkNeighbor_t(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_t) {
   PyObject *__pyx_v_a = NULL;
   PyObject *__pyx_v_b = NULL;
   PyObject *__pyx_v_aa = NULL;
@@ -4436,7 +4436,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_6MarkNeighbor_t(CYTHON
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("MarkNeighbor_t", 0);
 
-  /* "pyxpoly2tri\shapes.py":120
+  /* "pypoly2tri\shapes.py":120
  * 
  *     def MarkNeighbor_t(self, t):
  *         a = set(self.points_)             # <<<<<<<<<<<<<<
@@ -4451,7 +4451,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_6MarkNeighbor_t(CYTHON
   __pyx_v_a = ((PyObject*)__pyx_t_2);
   __pyx_t_2 = 0;
 
-  /* "pyxpoly2tri\shapes.py":121
+  /* "pypoly2tri\shapes.py":121
  *     def MarkNeighbor_t(self, t):
  *         a = set(self.points_)
  *         b = set(t.points_)             # <<<<<<<<<<<<<<
@@ -4466,7 +4466,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_6MarkNeighbor_t(CYTHON
   __pyx_v_b = ((PyObject*)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "pyxpoly2tri\shapes.py":122
+  /* "pypoly2tri\shapes.py":122
  *         a = set(self.points_)
  *         b = set(t.points_)
  *         aa = list(a - b)[0]             # <<<<<<<<<<<<<<
@@ -4484,7 +4484,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_6MarkNeighbor_t(CYTHON
   __pyx_v_aa = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "pyxpoly2tri\shapes.py":123
+  /* "pypoly2tri\shapes.py":123
  *         b = set(t.points_)
  *         aa = list(a - b)[0]
  *         ii = self.points_.index(aa)             # <<<<<<<<<<<<<<
@@ -4524,7 +4524,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_6MarkNeighbor_t(CYTHON
   __pyx_v_ii = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "pyxpoly2tri\shapes.py":124
+  /* "pypoly2tri\shapes.py":124
  *         aa = list(a - b)[0]
  *         ii = self.points_.index(aa)
  *         bb = list(b - a)[0]             # <<<<<<<<<<<<<<
@@ -4542,7 +4542,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_6MarkNeighbor_t(CYTHON
   __pyx_v_bb = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "pyxpoly2tri\shapes.py":125
+  /* "pypoly2tri\shapes.py":125
  *         ii = self.points_.index(aa)
  *         bb = list(b - a)[0]
  *         jj = t.points_.index(bb)             # <<<<<<<<<<<<<<
@@ -4582,7 +4582,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_6MarkNeighbor_t(CYTHON
   __pyx_v_jj = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "pyxpoly2tri\shapes.py":126
+  /* "pypoly2tri\shapes.py":126
  *         bb = list(b - a)[0]
  *         jj = t.points_.index(bb)
  *         self.neighbors_[ii] = t             # <<<<<<<<<<<<<<
@@ -4594,7 +4594,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_6MarkNeighbor_t(CYTHON
   if (unlikely(PyObject_SetItem(__pyx_t_1, __pyx_v_ii, __pyx_v_t) < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 126; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "pyxpoly2tri\shapes.py":127
+  /* "pypoly2tri\shapes.py":127
  *         jj = t.points_.index(bb)
  *         self.neighbors_[ii] = t
  *         t.neighbors_[jj] = self             # <<<<<<<<<<<<<<
@@ -4606,7 +4606,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_6MarkNeighbor_t(CYTHON
   if (unlikely(PyObject_SetItem(__pyx_t_1, __pyx_v_jj, __pyx_v_self) < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 127; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "pyxpoly2tri\shapes.py":119
+  /* "pypoly2tri\shapes.py":119
  *         self.neighbors_[index] = t
  * 
  *     def MarkNeighbor_t(self, t):             # <<<<<<<<<<<<<<
@@ -4622,7 +4622,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_6MarkNeighbor_t(CYTHON
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Triangle.MarkNeighbor_t", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Triangle.MarkNeighbor_t", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_a);
@@ -4636,7 +4636,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_6MarkNeighbor_t(CYTHON
   return __pyx_r;
 }
 
-/* "pyxpoly2tri\shapes.py":129
+/* "pypoly2tri\shapes.py":129
  *         t.neighbors_[jj] = self
  * 
  *     def MarkNeighbor(self, *args):             # <<<<<<<<<<<<<<
@@ -4645,9 +4645,9 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_6MarkNeighbor_t(CYTHON
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_9MarkNeighbor(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_11pyxpoly2tri_6shapes_8Triangle_9MarkNeighbor = {"MarkNeighbor", (PyCFunction)__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_9MarkNeighbor, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_9MarkNeighbor(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_8Triangle_9MarkNeighbor(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_10pypoly2tri_6shapes_8Triangle_9MarkNeighbor = {"MarkNeighbor", (PyCFunction)__pyx_pw_10pypoly2tri_6shapes_8Triangle_9MarkNeighbor, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_8Triangle_9MarkNeighbor(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_self = 0;
   PyObject *__pyx_v_args = 0;
   int __pyx_lineno = 0;
@@ -4699,11 +4699,11 @@ static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_9MarkNeighbor(PyObject
   __Pyx_RaiseArgtupleInvalid("MarkNeighbor", 0, 1, 1, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 129; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   __pyx_L3_error:;
   __Pyx_DECREF(__pyx_v_args); __pyx_v_args = 0;
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Triangle.MarkNeighbor", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Triangle.MarkNeighbor", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_11pyxpoly2tri_6shapes_8Triangle_8MarkNeighbor(__pyx_self, __pyx_v_self, __pyx_v_args);
+  __pyx_r = __pyx_pf_10pypoly2tri_6shapes_8Triangle_8MarkNeighbor(__pyx_self, __pyx_v_self, __pyx_v_args);
 
   /* function exit code */
   __Pyx_XDECREF(__pyx_v_args);
@@ -4711,7 +4711,7 @@ static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_9MarkNeighbor(PyObject
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_8MarkNeighbor(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_args) {
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_8Triangle_8MarkNeighbor(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_args) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   Py_ssize_t __pyx_t_1;
@@ -4723,7 +4723,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_8MarkNeighbor(CYTHON_U
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("MarkNeighbor", 0);
 
-  /* "pyxpoly2tri\shapes.py":130
+  /* "pypoly2tri\shapes.py":130
  * 
  *     def MarkNeighbor(self, *args):
  *         if len(args) == 1:             # <<<<<<<<<<<<<<
@@ -4734,7 +4734,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_8MarkNeighbor(CYTHON_U
   __pyx_t_2 = ((__pyx_t_1 == 1) != 0);
   if (__pyx_t_2) {
 
-    /* "pyxpoly2tri\shapes.py":131
+    /* "pypoly2tri\shapes.py":131
  *     def MarkNeighbor(self, *args):
  *         if len(args) == 1:
  *             self.MarkNeighbor_t(*args)             # <<<<<<<<<<<<<<
@@ -4748,7 +4748,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_8MarkNeighbor(CYTHON_U
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-    /* "pyxpoly2tri\shapes.py":130
+    /* "pypoly2tri\shapes.py":130
  * 
  *     def MarkNeighbor(self, *args):
  *         if len(args) == 1:             # <<<<<<<<<<<<<<
@@ -4758,7 +4758,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_8MarkNeighbor(CYTHON_U
     goto __pyx_L3;
   }
 
-  /* "pyxpoly2tri\shapes.py":132
+  /* "pypoly2tri\shapes.py":132
  *         if len(args) == 1:
  *             self.MarkNeighbor_t(*args)
  *         elif len(args) == 3:             # <<<<<<<<<<<<<<
@@ -4769,7 +4769,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_8MarkNeighbor(CYTHON_U
   __pyx_t_2 = ((__pyx_t_1 == 3) != 0);
   if (__pyx_t_2) {
 
-    /* "pyxpoly2tri\shapes.py":133
+    /* "pypoly2tri\shapes.py":133
  *             self.MarkNeighbor_t(*args)
  *         elif len(args) == 3:
  *             self.MarkNeighbor_p(*args)             # <<<<<<<<<<<<<<
@@ -4783,7 +4783,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_8MarkNeighbor(CYTHON_U
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-    /* "pyxpoly2tri\shapes.py":132
+    /* "pypoly2tri\shapes.py":132
  *         if len(args) == 1:
  *             self.MarkNeighbor_t(*args)
  *         elif len(args) == 3:             # <<<<<<<<<<<<<<
@@ -4793,7 +4793,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_8MarkNeighbor(CYTHON_U
     goto __pyx_L3;
   }
 
-  /* "pyxpoly2tri\shapes.py":135
+  /* "pypoly2tri\shapes.py":135
  *             self.MarkNeighbor_p(*args)
  *         else:
  *             raise Exception             # <<<<<<<<<<<<<<
@@ -4806,7 +4806,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_8MarkNeighbor(CYTHON_U
   }
   __pyx_L3:;
 
-  /* "pyxpoly2tri\shapes.py":129
+  /* "pypoly2tri\shapes.py":129
  *         t.neighbors_[jj] = self
  * 
  *     def MarkNeighbor(self, *args):             # <<<<<<<<<<<<<<
@@ -4820,7 +4820,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_8MarkNeighbor(CYTHON_U
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Triangle.MarkNeighbor", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Triangle.MarkNeighbor", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -4828,7 +4828,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_8MarkNeighbor(CYTHON_U
   return __pyx_r;
 }
 
-/* "pyxpoly2tri\shapes.py":137
+/* "pypoly2tri\shapes.py":137
  *             raise Exception
  * 
  *     def ClearNeighbors(self):             # <<<<<<<<<<<<<<
@@ -4837,20 +4837,20 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_8MarkNeighbor(CYTHON_U
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_11ClearNeighbors(PyObject *__pyx_self, PyObject *__pyx_v_self); /*proto*/
-static PyMethodDef __pyx_mdef_11pyxpoly2tri_6shapes_8Triangle_11ClearNeighbors = {"ClearNeighbors", (PyCFunction)__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_11ClearNeighbors, METH_O, 0};
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_11ClearNeighbors(PyObject *__pyx_self, PyObject *__pyx_v_self) {
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_8Triangle_11ClearNeighbors(PyObject *__pyx_self, PyObject *__pyx_v_self); /*proto*/
+static PyMethodDef __pyx_mdef_10pypoly2tri_6shapes_8Triangle_11ClearNeighbors = {"ClearNeighbors", (PyCFunction)__pyx_pw_10pypoly2tri_6shapes_8Triangle_11ClearNeighbors, METH_O, 0};
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_8Triangle_11ClearNeighbors(PyObject *__pyx_self, PyObject *__pyx_v_self) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("ClearNeighbors (wrapper)", 0);
-  __pyx_r = __pyx_pf_11pyxpoly2tri_6shapes_8Triangle_10ClearNeighbors(__pyx_self, ((PyObject *)__pyx_v_self));
+  __pyx_r = __pyx_pf_10pypoly2tri_6shapes_8Triangle_10ClearNeighbors(__pyx_self, ((PyObject *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_10ClearNeighbors(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self) {
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_8Triangle_10ClearNeighbors(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -4859,7 +4859,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_10ClearNeighbors(CYTHO
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("ClearNeighbors", 0);
 
-  /* "pyxpoly2tri\shapes.py":138
+  /* "pypoly2tri\shapes.py":138
  * 
  *     def ClearNeighbors(self):
  *         self.neighbors_ = [None] * 3             # <<<<<<<<<<<<<<
@@ -4878,7 +4878,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_10ClearNeighbors(CYTHO
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_neighbors, __pyx_t_1) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 138; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "pyxpoly2tri\shapes.py":137
+  /* "pypoly2tri\shapes.py":137
  *             raise Exception
  * 
  *     def ClearNeighbors(self):             # <<<<<<<<<<<<<<
@@ -4891,7 +4891,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_10ClearNeighbors(CYTHO
   goto __pyx_L0;
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Triangle.ClearNeighbors", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Triangle.ClearNeighbors", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -4899,7 +4899,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_10ClearNeighbors(CYTHO
   return __pyx_r;
 }
 
-/* "pyxpoly2tri\shapes.py":140
+/* "pypoly2tri\shapes.py":140
  *         self.neighbors_ = [None] * 3
  * 
  *     def ClearDelaunayEdges(self):             # <<<<<<<<<<<<<<
@@ -4908,20 +4908,20 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_10ClearNeighbors(CYTHO
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_13ClearDelaunayEdges(PyObject *__pyx_self, PyObject *__pyx_v_self); /*proto*/
-static PyMethodDef __pyx_mdef_11pyxpoly2tri_6shapes_8Triangle_13ClearDelaunayEdges = {"ClearDelaunayEdges", (PyCFunction)__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_13ClearDelaunayEdges, METH_O, 0};
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_13ClearDelaunayEdges(PyObject *__pyx_self, PyObject *__pyx_v_self) {
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_8Triangle_13ClearDelaunayEdges(PyObject *__pyx_self, PyObject *__pyx_v_self); /*proto*/
+static PyMethodDef __pyx_mdef_10pypoly2tri_6shapes_8Triangle_13ClearDelaunayEdges = {"ClearDelaunayEdges", (PyCFunction)__pyx_pw_10pypoly2tri_6shapes_8Triangle_13ClearDelaunayEdges, METH_O, 0};
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_8Triangle_13ClearDelaunayEdges(PyObject *__pyx_self, PyObject *__pyx_v_self) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("ClearDelaunayEdges (wrapper)", 0);
-  __pyx_r = __pyx_pf_11pyxpoly2tri_6shapes_8Triangle_12ClearDelaunayEdges(__pyx_self, ((PyObject *)__pyx_v_self));
+  __pyx_r = __pyx_pf_10pypoly2tri_6shapes_8Triangle_12ClearDelaunayEdges(__pyx_self, ((PyObject *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_12ClearDelaunayEdges(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self) {
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_8Triangle_12ClearDelaunayEdges(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -4930,7 +4930,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_12ClearDelaunayEdges(C
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("ClearDelaunayEdges", 0);
 
-  /* "pyxpoly2tri\shapes.py":141
+  /* "pypoly2tri\shapes.py":141
  * 
  *     def ClearDelaunayEdges(self):
  *         self.delaunay_edge = [False] * 3             # <<<<<<<<<<<<<<
@@ -4949,7 +4949,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_12ClearDelaunayEdges(C
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_delaunay_edge, __pyx_t_1) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 141; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "pyxpoly2tri\shapes.py":140
+  /* "pypoly2tri\shapes.py":140
  *         self.neighbors_ = [None] * 3
  * 
  *     def ClearDelaunayEdges(self):             # <<<<<<<<<<<<<<
@@ -4962,7 +4962,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_12ClearDelaunayEdges(C
   goto __pyx_L0;
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Triangle.ClearDelaunayEdges", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Triangle.ClearDelaunayEdges", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -4970,7 +4970,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_12ClearDelaunayEdges(C
   return __pyx_r;
 }
 
-/* "pyxpoly2tri\shapes.py":143
+/* "pypoly2tri\shapes.py":143
  *         self.delaunay_edge = [False] * 3
  * 
  *     def OppositePoint(self, t, p):             # <<<<<<<<<<<<<<
@@ -4979,9 +4979,9 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_12ClearDelaunayEdges(C
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_15OppositePoint(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_11pyxpoly2tri_6shapes_8Triangle_15OppositePoint = {"OppositePoint", (PyCFunction)__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_15OppositePoint, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_15OppositePoint(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_8Triangle_15OppositePoint(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_10pypoly2tri_6shapes_8Triangle_15OppositePoint = {"OppositePoint", (PyCFunction)__pyx_pw_10pypoly2tri_6shapes_8Triangle_15OppositePoint, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_8Triangle_15OppositePoint(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_self = 0;
   PyObject *__pyx_v_t = 0;
   PyObject *__pyx_v_p = 0;
@@ -5038,18 +5038,18 @@ static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_15OppositePoint(PyObje
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("OppositePoint", 1, 3, 3, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 143; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   __pyx_L3_error:;
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Triangle.OppositePoint", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Triangle.OppositePoint", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_11pyxpoly2tri_6shapes_8Triangle_14OppositePoint(__pyx_self, __pyx_v_self, __pyx_v_t, __pyx_v_p);
+  __pyx_r = __pyx_pf_10pypoly2tri_6shapes_8Triangle_14OppositePoint(__pyx_self, __pyx_v_self, __pyx_v_t, __pyx_v_p);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_14OppositePoint(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_t, PyObject *__pyx_v_p) {
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_8Triangle_14OppositePoint(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_t, PyObject *__pyx_v_p) {
   PyObject *__pyx_v_cw = NULL;
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
@@ -5062,7 +5062,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_14OppositePoint(CYTHON
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("OppositePoint", 0);
 
-  /* "pyxpoly2tri\shapes.py":144
+  /* "pypoly2tri\shapes.py":144
  * 
  *     def OppositePoint(self, t, p):
  *         cw = t.PointCW(p)             # <<<<<<<<<<<<<<
@@ -5099,7 +5099,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_14OppositePoint(CYTHON
   __pyx_v_cw = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "pyxpoly2tri\shapes.py":148
+  /* "pypoly2tri\shapes.py":148
  * #        cw.y = p.y
  * #        ham = self.PointCW(cw)
  *         return self.PointCW(cw)             # <<<<<<<<<<<<<<
@@ -5138,7 +5138,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_14OppositePoint(CYTHON
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "pyxpoly2tri\shapes.py":143
+  /* "pypoly2tri\shapes.py":143
  *         self.delaunay_edge = [False] * 3
  * 
  *     def OppositePoint(self, t, p):             # <<<<<<<<<<<<<<
@@ -5152,7 +5152,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_14OppositePoint(CYTHON
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Triangle.OppositePoint", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Triangle.OppositePoint", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_cw);
@@ -5161,7 +5161,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_14OppositePoint(CYTHON
   return __pyx_r;
 }
 
-/* "pyxpoly2tri\shapes.py":150
+/* "pypoly2tri\shapes.py":150
  *         return self.PointCW(cw)
  * 
  *     def Legalize_p(self, point):             # <<<<<<<<<<<<<<
@@ -5170,9 +5170,9 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_14OppositePoint(CYTHON
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_17Legalize_p(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_11pyxpoly2tri_6shapes_8Triangle_17Legalize_p = {"Legalize_p", (PyCFunction)__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_17Legalize_p, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_17Legalize_p(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_8Triangle_17Legalize_p(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_10pypoly2tri_6shapes_8Triangle_17Legalize_p = {"Legalize_p", (PyCFunction)__pyx_pw_10pypoly2tri_6shapes_8Triangle_17Legalize_p, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_8Triangle_17Legalize_p(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_self = 0;
   PyObject *__pyx_v_point = 0;
   int __pyx_lineno = 0;
@@ -5220,18 +5220,18 @@ static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_17Legalize_p(PyObject 
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("Legalize_p", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 150; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   __pyx_L3_error:;
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Triangle.Legalize_p", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Triangle.Legalize_p", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_11pyxpoly2tri_6shapes_8Triangle_16Legalize_p(__pyx_self, __pyx_v_self, __pyx_v_point);
+  __pyx_r = __pyx_pf_10pypoly2tri_6shapes_8Triangle_16Legalize_p(__pyx_self, __pyx_v_self, __pyx_v_point);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_16Legalize_p(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_point) {
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_8Triangle_16Legalize_p(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_point) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -5241,7 +5241,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_16Legalize_p(CYTHON_UN
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("Legalize_p", 0);
 
-  /* "pyxpoly2tri\shapes.py":151
+  /* "pypoly2tri\shapes.py":151
  * 
  *     def Legalize_p(self, point):
  *         self.points_[1] = self.points_[0]             # <<<<<<<<<<<<<<
@@ -5259,7 +5259,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_16Legalize_p(CYTHON_UN
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "pyxpoly2tri\shapes.py":152
+  /* "pypoly2tri\shapes.py":152
  *     def Legalize_p(self, point):
  *         self.points_[1] = self.points_[0]
  *         self.points_[0] = self.points_[2]             # <<<<<<<<<<<<<<
@@ -5277,7 +5277,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_16Legalize_p(CYTHON_UN
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "pyxpoly2tri\shapes.py":153
+  /* "pypoly2tri\shapes.py":153
  *         self.points_[1] = self.points_[0]
  *         self.points_[0] = self.points_[2]
  *         self.points_[2] = point             # <<<<<<<<<<<<<<
@@ -5289,7 +5289,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_16Legalize_p(CYTHON_UN
   if (unlikely(__Pyx_SetItemInt(__pyx_t_1, 2, __pyx_v_point, long, 1, __Pyx_PyInt_From_long, 0, 0, 1) < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 153; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "pyxpoly2tri\shapes.py":150
+  /* "pypoly2tri\shapes.py":150
  *         return self.PointCW(cw)
  * 
  *     def Legalize_p(self, point):             # <<<<<<<<<<<<<<
@@ -5303,7 +5303,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_16Legalize_p(CYTHON_UN
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_2);
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Triangle.Legalize_p", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Triangle.Legalize_p", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -5311,7 +5311,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_16Legalize_p(CYTHON_UN
   return __pyx_r;
 }
 
-/* "pyxpoly2tri\shapes.py":155
+/* "pypoly2tri\shapes.py":155
  *         self.points_[2] = point
  * 
  *     def Legalize_t(self, opoint, npoint):             # <<<<<<<<<<<<<<
@@ -5320,9 +5320,9 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_16Legalize_p(CYTHON_UN
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_19Legalize_t(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_11pyxpoly2tri_6shapes_8Triangle_19Legalize_t = {"Legalize_t", (PyCFunction)__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_19Legalize_t, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_19Legalize_t(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_8Triangle_19Legalize_t(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_10pypoly2tri_6shapes_8Triangle_19Legalize_t = {"Legalize_t", (PyCFunction)__pyx_pw_10pypoly2tri_6shapes_8Triangle_19Legalize_t, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_8Triangle_19Legalize_t(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_self = 0;
   PyObject *__pyx_v_opoint = 0;
   PyObject *__pyx_v_npoint = 0;
@@ -5379,18 +5379,18 @@ static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_19Legalize_t(PyObject 
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("Legalize_t", 1, 3, 3, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 155; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   __pyx_L3_error:;
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Triangle.Legalize_t", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Triangle.Legalize_t", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_11pyxpoly2tri_6shapes_8Triangle_18Legalize_t(__pyx_self, __pyx_v_self, __pyx_v_opoint, __pyx_v_npoint);
+  __pyx_r = __pyx_pf_10pypoly2tri_6shapes_8Triangle_18Legalize_t(__pyx_self, __pyx_v_self, __pyx_v_opoint, __pyx_v_npoint);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_18Legalize_t(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_opoint, PyObject *__pyx_v_npoint) {
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_8Triangle_18Legalize_t(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_opoint, PyObject *__pyx_v_npoint) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -5401,7 +5401,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_18Legalize_t(CYTHON_UN
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("Legalize_t", 0);
 
-  /* "pyxpoly2tri\shapes.py":156
+  /* "pypoly2tri\shapes.py":156
  * 
  *     def Legalize_t(self, opoint, npoint):
  *         if opoint == self.points_[0]:             # <<<<<<<<<<<<<<
@@ -5419,7 +5419,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_18Legalize_t(CYTHON_UN
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   if (__pyx_t_3) {
 
-    /* "pyxpoly2tri\shapes.py":157
+    /* "pypoly2tri\shapes.py":157
  *     def Legalize_t(self, opoint, npoint):
  *         if opoint == self.points_[0]:
  *             self.points_[1] = self.points_[0]             # <<<<<<<<<<<<<<
@@ -5437,7 +5437,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_18Legalize_t(CYTHON_UN
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-    /* "pyxpoly2tri\shapes.py":158
+    /* "pypoly2tri\shapes.py":158
  *         if opoint == self.points_[0]:
  *             self.points_[1] = self.points_[0]
  *             self.points_[0] = self.points_[2]             # <<<<<<<<<<<<<<
@@ -5455,7 +5455,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_18Legalize_t(CYTHON_UN
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-    /* "pyxpoly2tri\shapes.py":159
+    /* "pypoly2tri\shapes.py":159
  *             self.points_[1] = self.points_[0]
  *             self.points_[0] = self.points_[2]
  *             self.points_[2] = npoint             # <<<<<<<<<<<<<<
@@ -5467,7 +5467,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_18Legalize_t(CYTHON_UN
     if (unlikely(__Pyx_SetItemInt(__pyx_t_1, 2, __pyx_v_npoint, long, 1, __Pyx_PyInt_From_long, 0, 0, 1) < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 159; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-    /* "pyxpoly2tri\shapes.py":156
+    /* "pypoly2tri\shapes.py":156
  * 
  *     def Legalize_t(self, opoint, npoint):
  *         if opoint == self.points_[0]:             # <<<<<<<<<<<<<<
@@ -5477,7 +5477,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_18Legalize_t(CYTHON_UN
     goto __pyx_L3;
   }
 
-  /* "pyxpoly2tri\shapes.py":160
+  /* "pypoly2tri\shapes.py":160
  *             self.points_[0] = self.points_[2]
  *             self.points_[2] = npoint
  *         elif opoint == self.points_[1]:             # <<<<<<<<<<<<<<
@@ -5495,7 +5495,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_18Legalize_t(CYTHON_UN
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   if (__pyx_t_3) {
 
-    /* "pyxpoly2tri\shapes.py":161
+    /* "pypoly2tri\shapes.py":161
  *             self.points_[2] = npoint
  *         elif opoint == self.points_[1]:
  *             self.points_[2] = self.points_[1]             # <<<<<<<<<<<<<<
@@ -5513,7 +5513,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_18Legalize_t(CYTHON_UN
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-    /* "pyxpoly2tri\shapes.py":162
+    /* "pypoly2tri\shapes.py":162
  *         elif opoint == self.points_[1]:
  *             self.points_[2] = self.points_[1]
  *             self.points_[1] = self.points_[0]             # <<<<<<<<<<<<<<
@@ -5531,7 +5531,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_18Legalize_t(CYTHON_UN
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-    /* "pyxpoly2tri\shapes.py":163
+    /* "pypoly2tri\shapes.py":163
  *             self.points_[2] = self.points_[1]
  *             self.points_[1] = self.points_[0]
  *             self.points_[0] = npoint             # <<<<<<<<<<<<<<
@@ -5543,7 +5543,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_18Legalize_t(CYTHON_UN
     if (unlikely(__Pyx_SetItemInt(__pyx_t_1, 0, __pyx_v_npoint, long, 1, __Pyx_PyInt_From_long, 0, 0, 1) < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 163; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-    /* "pyxpoly2tri\shapes.py":160
+    /* "pypoly2tri\shapes.py":160
  *             self.points_[0] = self.points_[2]
  *             self.points_[2] = npoint
  *         elif opoint == self.points_[1]:             # <<<<<<<<<<<<<<
@@ -5553,7 +5553,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_18Legalize_t(CYTHON_UN
     goto __pyx_L3;
   }
 
-  /* "pyxpoly2tri\shapes.py":164
+  /* "pypoly2tri\shapes.py":164
  *             self.points_[1] = self.points_[0]
  *             self.points_[0] = npoint
  *         elif opoint == self.points_[2]:             # <<<<<<<<<<<<<<
@@ -5571,7 +5571,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_18Legalize_t(CYTHON_UN
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   if (__pyx_t_3) {
 
-    /* "pyxpoly2tri\shapes.py":165
+    /* "pypoly2tri\shapes.py":165
  *             self.points_[0] = npoint
  *         elif opoint == self.points_[2]:
  *             self.points_[0] = self.points_[2]             # <<<<<<<<<<<<<<
@@ -5589,7 +5589,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_18Legalize_t(CYTHON_UN
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-    /* "pyxpoly2tri\shapes.py":166
+    /* "pypoly2tri\shapes.py":166
  *         elif opoint == self.points_[2]:
  *             self.points_[0] = self.points_[2]
  *             self.points_[2] = self.points_[1]             # <<<<<<<<<<<<<<
@@ -5607,7 +5607,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_18Legalize_t(CYTHON_UN
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-    /* "pyxpoly2tri\shapes.py":167
+    /* "pypoly2tri\shapes.py":167
  *             self.points_[0] = self.points_[2]
  *             self.points_[2] = self.points_[1]
  *             self.points_[1] = npoint             # <<<<<<<<<<<<<<
@@ -5619,7 +5619,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_18Legalize_t(CYTHON_UN
     if (unlikely(__Pyx_SetItemInt(__pyx_t_1, 1, __pyx_v_npoint, long, 1, __Pyx_PyInt_From_long, 0, 0, 1) < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 167; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-    /* "pyxpoly2tri\shapes.py":164
+    /* "pypoly2tri\shapes.py":164
  *             self.points_[1] = self.points_[0]
  *             self.points_[0] = npoint
  *         elif opoint == self.points_[2]:             # <<<<<<<<<<<<<<
@@ -5629,7 +5629,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_18Legalize_t(CYTHON_UN
     goto __pyx_L3;
   }
 
-  /* "pyxpoly2tri\shapes.py":169
+  /* "pypoly2tri\shapes.py":169
  *             self.points_[1] = npoint
  *         else:
  *             assert(0)             # <<<<<<<<<<<<<<
@@ -5648,7 +5648,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_18Legalize_t(CYTHON_UN
   }
   __pyx_L3:;
 
-  /* "pyxpoly2tri\shapes.py":155
+  /* "pypoly2tri\shapes.py":155
  *         self.points_[2] = point
  * 
  *     def Legalize_t(self, opoint, npoint):             # <<<<<<<<<<<<<<
@@ -5662,7 +5662,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_18Legalize_t(CYTHON_UN
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_2);
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Triangle.Legalize_t", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Triangle.Legalize_t", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -5670,7 +5670,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_18Legalize_t(CYTHON_UN
   return __pyx_r;
 }
 
-/* "pyxpoly2tri\shapes.py":171
+/* "pypoly2tri\shapes.py":171
  *             assert(0)
  * 
  *     def Legalize(self, *args):             # <<<<<<<<<<<<<<
@@ -5679,9 +5679,9 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_18Legalize_t(CYTHON_UN
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_21Legalize(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_11pyxpoly2tri_6shapes_8Triangle_21Legalize = {"Legalize", (PyCFunction)__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_21Legalize, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_21Legalize(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_8Triangle_21Legalize(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_10pypoly2tri_6shapes_8Triangle_21Legalize = {"Legalize", (PyCFunction)__pyx_pw_10pypoly2tri_6shapes_8Triangle_21Legalize, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_8Triangle_21Legalize(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_self = 0;
   PyObject *__pyx_v_args = 0;
   int __pyx_lineno = 0;
@@ -5733,11 +5733,11 @@ static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_21Legalize(PyObject *_
   __Pyx_RaiseArgtupleInvalid("Legalize", 0, 1, 1, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 171; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   __pyx_L3_error:;
   __Pyx_DECREF(__pyx_v_args); __pyx_v_args = 0;
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Triangle.Legalize", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Triangle.Legalize", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_11pyxpoly2tri_6shapes_8Triangle_20Legalize(__pyx_self, __pyx_v_self, __pyx_v_args);
+  __pyx_r = __pyx_pf_10pypoly2tri_6shapes_8Triangle_20Legalize(__pyx_self, __pyx_v_self, __pyx_v_args);
 
   /* function exit code */
   __Pyx_XDECREF(__pyx_v_args);
@@ -5745,7 +5745,7 @@ static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_21Legalize(PyObject *_
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_20Legalize(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_args) {
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_8Triangle_20Legalize(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_args) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   Py_ssize_t __pyx_t_1;
@@ -5757,7 +5757,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_20Legalize(CYTHON_UNUS
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("Legalize", 0);
 
-  /* "pyxpoly2tri\shapes.py":172
+  /* "pypoly2tri\shapes.py":172
  * 
  *     def Legalize(self, *args):
  *         if len(args) == 1:             # <<<<<<<<<<<<<<
@@ -5768,7 +5768,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_20Legalize(CYTHON_UNUS
   __pyx_t_2 = ((__pyx_t_1 == 1) != 0);
   if (__pyx_t_2) {
 
-    /* "pyxpoly2tri\shapes.py":173
+    /* "pypoly2tri\shapes.py":173
  *     def Legalize(self, *args):
  *         if len(args) == 1:
  *             self.Legalize_p(*args)             # <<<<<<<<<<<<<<
@@ -5782,7 +5782,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_20Legalize(CYTHON_UNUS
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-    /* "pyxpoly2tri\shapes.py":172
+    /* "pypoly2tri\shapes.py":172
  * 
  *     def Legalize(self, *args):
  *         if len(args) == 1:             # <<<<<<<<<<<<<<
@@ -5792,7 +5792,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_20Legalize(CYTHON_UNUS
     goto __pyx_L3;
   }
 
-  /* "pyxpoly2tri\shapes.py":174
+  /* "pypoly2tri\shapes.py":174
  *         if len(args) == 1:
  *             self.Legalize_p(*args)
  *         elif len(args) == 2:             # <<<<<<<<<<<<<<
@@ -5803,7 +5803,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_20Legalize(CYTHON_UNUS
   __pyx_t_2 = ((__pyx_t_1 == 2) != 0);
   if (__pyx_t_2) {
 
-    /* "pyxpoly2tri\shapes.py":175
+    /* "pypoly2tri\shapes.py":175
  *             self.Legalize_p(*args)
  *         elif len(args) == 2:
  *             self.Legalize_t(*args)             # <<<<<<<<<<<<<<
@@ -5817,7 +5817,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_20Legalize(CYTHON_UNUS
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-    /* "pyxpoly2tri\shapes.py":174
+    /* "pypoly2tri\shapes.py":174
  *         if len(args) == 1:
  *             self.Legalize_p(*args)
  *         elif len(args) == 2:             # <<<<<<<<<<<<<<
@@ -5827,7 +5827,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_20Legalize(CYTHON_UNUS
     goto __pyx_L3;
   }
 
-  /* "pyxpoly2tri\shapes.py":177
+  /* "pypoly2tri\shapes.py":177
  *             self.Legalize_t(*args)
  *         else:
  *             raise Exception             # <<<<<<<<<<<<<<
@@ -5840,7 +5840,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_20Legalize(CYTHON_UNUS
   }
   __pyx_L3:;
 
-  /* "pyxpoly2tri\shapes.py":171
+  /* "pypoly2tri\shapes.py":171
  *             assert(0)
  * 
  *     def Legalize(self, *args):             # <<<<<<<<<<<<<<
@@ -5854,7 +5854,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_20Legalize(CYTHON_UNUS
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Triangle.Legalize", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Triangle.Legalize", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -5862,7 +5862,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_20Legalize(CYTHON_UNUS
   return __pyx_r;
 }
 
-/* "pyxpoly2tri\shapes.py":179
+/* "pypoly2tri\shapes.py":179
  *             raise Exception
  * 
  *     def Index(self, p):             # <<<<<<<<<<<<<<
@@ -5871,9 +5871,9 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_20Legalize(CYTHON_UNUS
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_23Index(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_11pyxpoly2tri_6shapes_8Triangle_23Index = {"Index", (PyCFunction)__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_23Index, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_23Index(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_8Triangle_23Index(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_10pypoly2tri_6shapes_8Triangle_23Index = {"Index", (PyCFunction)__pyx_pw_10pypoly2tri_6shapes_8Triangle_23Index, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_8Triangle_23Index(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_self = 0;
   PyObject *__pyx_v_p = 0;
   int __pyx_lineno = 0;
@@ -5921,18 +5921,18 @@ static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_23Index(PyObject *__py
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("Index", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 179; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   __pyx_L3_error:;
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Triangle.Index", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Triangle.Index", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_11pyxpoly2tri_6shapes_8Triangle_22Index(__pyx_self, __pyx_v_self, __pyx_v_p);
+  __pyx_r = __pyx_pf_10pypoly2tri_6shapes_8Triangle_22Index(__pyx_self, __pyx_v_self, __pyx_v_p);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_22Index(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_p) {
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_8Triangle_22Index(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_p) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -5944,7 +5944,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_22Index(CYTHON_UNUSED 
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("Index", 0);
 
-  /* "pyxpoly2tri\shapes.py":180
+  /* "pypoly2tri\shapes.py":180
  * 
  *     def Index(self, p):
  *         return self.points_.index(p)             # <<<<<<<<<<<<<<
@@ -5986,7 +5986,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_22Index(CYTHON_UNUSED 
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "pyxpoly2tri\shapes.py":179
+  /* "pypoly2tri\shapes.py":179
  *             raise Exception
  * 
  *     def Index(self, p):             # <<<<<<<<<<<<<<
@@ -6000,7 +6000,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_22Index(CYTHON_UNUSED 
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Triangle.Index", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Triangle.Index", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -6008,7 +6008,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_22Index(CYTHON_UNUSED 
   return __pyx_r;
 }
 
-/* "pyxpoly2tri\shapes.py":182
+/* "pypoly2tri\shapes.py":182
  *         return self.points_.index(p)
  * 
  *     def EdgeIndex(self, p1, p2):             # <<<<<<<<<<<<<<
@@ -6017,9 +6017,9 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_22Index(CYTHON_UNUSED 
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_25EdgeIndex(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_11pyxpoly2tri_6shapes_8Triangle_25EdgeIndex = {"EdgeIndex", (PyCFunction)__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_25EdgeIndex, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_25EdgeIndex(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_8Triangle_25EdgeIndex(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_10pypoly2tri_6shapes_8Triangle_25EdgeIndex = {"EdgeIndex", (PyCFunction)__pyx_pw_10pypoly2tri_6shapes_8Triangle_25EdgeIndex, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_8Triangle_25EdgeIndex(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_self = 0;
   PyObject *__pyx_v_p1 = 0;
   PyObject *__pyx_v_p2 = 0;
@@ -6076,18 +6076,18 @@ static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_25EdgeIndex(PyObject *
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("EdgeIndex", 1, 3, 3, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 182; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   __pyx_L3_error:;
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Triangle.EdgeIndex", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Triangle.EdgeIndex", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_11pyxpoly2tri_6shapes_8Triangle_24EdgeIndex(__pyx_self, __pyx_v_self, __pyx_v_p1, __pyx_v_p2);
+  __pyx_r = __pyx_pf_10pypoly2tri_6shapes_8Triangle_24EdgeIndex(__pyx_self, __pyx_v_self, __pyx_v_p1, __pyx_v_p2);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_24EdgeIndex(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_p1, PyObject *__pyx_v_p2) {
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_8Triangle_24EdgeIndex(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_p1, PyObject *__pyx_v_p2) {
   PyObject *__pyx_v_index1 = NULL;
   PyObject *__pyx_v_index2 = NULL;
   PyObject *__pyx_r = NULL;
@@ -6105,7 +6105,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_24EdgeIndex(CYTHON_UNU
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("EdgeIndex", 0);
 
-  /* "pyxpoly2tri\shapes.py":183
+  /* "pypoly2tri\shapes.py":183
  * 
  *     def EdgeIndex(self, p1, p2):
  *         try:             # <<<<<<<<<<<<<<
@@ -6119,7 +6119,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_24EdgeIndex(CYTHON_UNU
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "pyxpoly2tri\shapes.py":184
+      /* "pypoly2tri\shapes.py":184
  *     def EdgeIndex(self, p1, p2):
  *         try:
  *             index1 = self.points_.index(p1)             # <<<<<<<<<<<<<<
@@ -6159,7 +6159,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_24EdgeIndex(CYTHON_UNU
       __pyx_v_index1 = __pyx_t_4;
       __pyx_t_4 = 0;
 
-      /* "pyxpoly2tri\shapes.py":185
+      /* "pypoly2tri\shapes.py":185
  *         try:
  *             index1 = self.points_.index(p1)
  *             index2 = self.points_.index(p2)             # <<<<<<<<<<<<<<
@@ -6199,7 +6199,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_24EdgeIndex(CYTHON_UNU
       __pyx_v_index2 = __pyx_t_4;
       __pyx_t_4 = 0;
 
-      /* "pyxpoly2tri\shapes.py":186
+      /* "pypoly2tri\shapes.py":186
  *             index1 = self.points_.index(p1)
  *             index2 = self.points_.index(p2)
  *             return list(set(range(3)) - set([index1, index2]))[0]             # <<<<<<<<<<<<<<
@@ -6230,7 +6230,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_24EdgeIndex(CYTHON_UNU
       __pyx_t_5 = 0;
       goto __pyx_L7_try_return;
 
-      /* "pyxpoly2tri\shapes.py":183
+      /* "pypoly2tri\shapes.py":183
  * 
  *     def EdgeIndex(self, p1, p2):
  *         try:             # <<<<<<<<<<<<<<
@@ -6244,7 +6244,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_24EdgeIndex(CYTHON_UNU
     __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
     __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-    /* "pyxpoly2tri\shapes.py":187
+    /* "pypoly2tri\shapes.py":187
  *             index2 = self.points_.index(p2)
  *             return list(set(range(3)) - set([index1, index2]))[0]
  *         except ValueError:             # <<<<<<<<<<<<<<
@@ -6253,13 +6253,13 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_24EdgeIndex(CYTHON_UNU
  */
     __pyx_t_8 = PyErr_ExceptionMatches(__pyx_builtin_ValueError);
     if (__pyx_t_8) {
-      __Pyx_AddTraceback("pyxpoly2tri.shapes.Triangle.EdgeIndex", __pyx_clineno, __pyx_lineno, __pyx_filename);
+      __Pyx_AddTraceback("pypoly2tri.shapes.Triangle.EdgeIndex", __pyx_clineno, __pyx_lineno, __pyx_filename);
       if (__Pyx_GetException(&__pyx_t_5, &__pyx_t_4, &__pyx_t_7) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 187; __pyx_clineno = __LINE__; goto __pyx_L5_except_error;}
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_GOTREF(__pyx_t_4);
       __Pyx_GOTREF(__pyx_t_7);
 
-      /* "pyxpoly2tri\shapes.py":188
+      /* "pypoly2tri\shapes.py":188
  *             return list(set(range(3)) - set([index1, index2]))[0]
  *         except ValueError:
  *             return -1             # <<<<<<<<<<<<<<
@@ -6277,7 +6277,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_24EdgeIndex(CYTHON_UNU
     goto __pyx_L5_except_error;
     __pyx_L5_except_error:;
 
-    /* "pyxpoly2tri\shapes.py":183
+    /* "pypoly2tri\shapes.py":183
  * 
  *     def EdgeIndex(self, p1, p2):
  *         try:             # <<<<<<<<<<<<<<
@@ -6303,7 +6303,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_24EdgeIndex(CYTHON_UNU
     goto __pyx_L0;
   }
 
-  /* "pyxpoly2tri\shapes.py":182
+  /* "pypoly2tri\shapes.py":182
  *         return self.points_.index(p)
  * 
  *     def EdgeIndex(self, p1, p2):             # <<<<<<<<<<<<<<
@@ -6317,7 +6317,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_24EdgeIndex(CYTHON_UNU
   __Pyx_XDECREF(__pyx_t_5);
   __Pyx_XDECREF(__pyx_t_6);
   __Pyx_XDECREF(__pyx_t_7);
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Triangle.EdgeIndex", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Triangle.EdgeIndex", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_index1);
@@ -6327,7 +6327,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_24EdgeIndex(CYTHON_UNU
   return __pyx_r;
 }
 
-/* "pyxpoly2tri\shapes.py":190
+/* "pypoly2tri\shapes.py":190
  *             return -1
  * 
  *     def MarkConstrainedEdge_i(self, index):             # <<<<<<<<<<<<<<
@@ -6336,9 +6336,9 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_24EdgeIndex(CYTHON_UNU
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_27MarkConstrainedEdge_i(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_11pyxpoly2tri_6shapes_8Triangle_27MarkConstrainedEdge_i = {"MarkConstrainedEdge_i", (PyCFunction)__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_27MarkConstrainedEdge_i, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_27MarkConstrainedEdge_i(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_8Triangle_27MarkConstrainedEdge_i(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_10pypoly2tri_6shapes_8Triangle_27MarkConstrainedEdge_i = {"MarkConstrainedEdge_i", (PyCFunction)__pyx_pw_10pypoly2tri_6shapes_8Triangle_27MarkConstrainedEdge_i, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_8Triangle_27MarkConstrainedEdge_i(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_self = 0;
   PyObject *__pyx_v_index = 0;
   int __pyx_lineno = 0;
@@ -6386,18 +6386,18 @@ static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_27MarkConstrainedEdge_
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("MarkConstrainedEdge_i", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 190; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   __pyx_L3_error:;
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Triangle.MarkConstrainedEdge_i", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Triangle.MarkConstrainedEdge_i", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_11pyxpoly2tri_6shapes_8Triangle_26MarkConstrainedEdge_i(__pyx_self, __pyx_v_self, __pyx_v_index);
+  __pyx_r = __pyx_pf_10pypoly2tri_6shapes_8Triangle_26MarkConstrainedEdge_i(__pyx_self, __pyx_v_self, __pyx_v_index);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_26MarkConstrainedEdge_i(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_index) {
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_8Triangle_26MarkConstrainedEdge_i(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_index) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -6406,7 +6406,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_26MarkConstrainedEdge_
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("MarkConstrainedEdge_i", 0);
 
-  /* "pyxpoly2tri\shapes.py":191
+  /* "pypoly2tri\shapes.py":191
  * 
  *     def MarkConstrainedEdge_i(self, index):
  *         self.constrained_edge[index] = True             # <<<<<<<<<<<<<<
@@ -6418,7 +6418,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_26MarkConstrainedEdge_
   if (unlikely(PyObject_SetItem(__pyx_t_1, __pyx_v_index, Py_True) < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 191; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "pyxpoly2tri\shapes.py":190
+  /* "pypoly2tri\shapes.py":190
  *             return -1
  * 
  *     def MarkConstrainedEdge_i(self, index):             # <<<<<<<<<<<<<<
@@ -6431,7 +6431,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_26MarkConstrainedEdge_
   goto __pyx_L0;
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Triangle.MarkConstrainedEdge_i", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Triangle.MarkConstrainedEdge_i", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -6439,7 +6439,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_26MarkConstrainedEdge_
   return __pyx_r;
 }
 
-/* "pyxpoly2tri\shapes.py":193
+/* "pypoly2tri\shapes.py":193
  *         self.constrained_edge[index] = True
  * 
  *     def MarkConstrainedEdge_e(self, edge):             # <<<<<<<<<<<<<<
@@ -6448,9 +6448,9 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_26MarkConstrainedEdge_
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_29MarkConstrainedEdge_e(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_11pyxpoly2tri_6shapes_8Triangle_29MarkConstrainedEdge_e = {"MarkConstrainedEdge_e", (PyCFunction)__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_29MarkConstrainedEdge_e, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_29MarkConstrainedEdge_e(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_8Triangle_29MarkConstrainedEdge_e(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_10pypoly2tri_6shapes_8Triangle_29MarkConstrainedEdge_e = {"MarkConstrainedEdge_e", (PyCFunction)__pyx_pw_10pypoly2tri_6shapes_8Triangle_29MarkConstrainedEdge_e, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_8Triangle_29MarkConstrainedEdge_e(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_self = 0;
   PyObject *__pyx_v_edge = 0;
   int __pyx_lineno = 0;
@@ -6498,18 +6498,18 @@ static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_29MarkConstrainedEdge_
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("MarkConstrainedEdge_e", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 193; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   __pyx_L3_error:;
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Triangle.MarkConstrainedEdge_e", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Triangle.MarkConstrainedEdge_e", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_11pyxpoly2tri_6shapes_8Triangle_28MarkConstrainedEdge_e(__pyx_self, __pyx_v_self, __pyx_v_edge);
+  __pyx_r = __pyx_pf_10pypoly2tri_6shapes_8Triangle_28MarkConstrainedEdge_e(__pyx_self, __pyx_v_self, __pyx_v_edge);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_28MarkConstrainedEdge_e(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_edge) {
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_8Triangle_28MarkConstrainedEdge_e(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_edge) {
   PyObject *__pyx_v_index = NULL;
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
@@ -6525,7 +6525,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_28MarkConstrainedEdge_
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("MarkConstrainedEdge_e", 0);
 
-  /* "pyxpoly2tri\shapes.py":194
+  /* "pypoly2tri\shapes.py":194
  * 
  *     def MarkConstrainedEdge_e(self, edge):
  *         index = self.EdgeIndex(edge.p, edge.q)             # <<<<<<<<<<<<<<
@@ -6568,7 +6568,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_28MarkConstrainedEdge_
   __pyx_v_index = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "pyxpoly2tri\shapes.py":195
+  /* "pypoly2tri\shapes.py":195
  *     def MarkConstrainedEdge_e(self, edge):
  *         index = self.EdgeIndex(edge.p, edge.q)
  *         self.MarkConstrainedEdge_i(index)             # <<<<<<<<<<<<<<
@@ -6604,7 +6604,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_28MarkConstrainedEdge_
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "pyxpoly2tri\shapes.py":193
+  /* "pypoly2tri\shapes.py":193
  *         self.constrained_edge[index] = True
  * 
  *     def MarkConstrainedEdge_e(self, edge):             # <<<<<<<<<<<<<<
@@ -6622,7 +6622,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_28MarkConstrainedEdge_
   __Pyx_XDECREF(__pyx_t_4);
   __Pyx_XDECREF(__pyx_t_5);
   __Pyx_XDECREF(__pyx_t_7);
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Triangle.MarkConstrainedEdge_e", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Triangle.MarkConstrainedEdge_e", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_index);
@@ -6631,7 +6631,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_28MarkConstrainedEdge_
   return __pyx_r;
 }
 
-/* "pyxpoly2tri\shapes.py":197
+/* "pypoly2tri\shapes.py":197
  *         self.MarkConstrainedEdge_i(index)
  * 
  *     def MarkConstrainedEdge_pq(self, p, q):             # <<<<<<<<<<<<<<
@@ -6640,9 +6640,9 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_28MarkConstrainedEdge_
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_31MarkConstrainedEdge_pq(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_11pyxpoly2tri_6shapes_8Triangle_31MarkConstrainedEdge_pq = {"MarkConstrainedEdge_pq", (PyCFunction)__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_31MarkConstrainedEdge_pq, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_31MarkConstrainedEdge_pq(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_8Triangle_31MarkConstrainedEdge_pq(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_10pypoly2tri_6shapes_8Triangle_31MarkConstrainedEdge_pq = {"MarkConstrainedEdge_pq", (PyCFunction)__pyx_pw_10pypoly2tri_6shapes_8Triangle_31MarkConstrainedEdge_pq, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_8Triangle_31MarkConstrainedEdge_pq(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_self = 0;
   PyObject *__pyx_v_p = 0;
   PyObject *__pyx_v_q = 0;
@@ -6699,18 +6699,18 @@ static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_31MarkConstrainedEdge_
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("MarkConstrainedEdge_pq", 1, 3, 3, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 197; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   __pyx_L3_error:;
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Triangle.MarkConstrainedEdge_pq", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Triangle.MarkConstrainedEdge_pq", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_11pyxpoly2tri_6shapes_8Triangle_30MarkConstrainedEdge_pq(__pyx_self, __pyx_v_self, __pyx_v_p, __pyx_v_q);
+  __pyx_r = __pyx_pf_10pypoly2tri_6shapes_8Triangle_30MarkConstrainedEdge_pq(__pyx_self, __pyx_v_self, __pyx_v_p, __pyx_v_q);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_30MarkConstrainedEdge_pq(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_p, PyObject *__pyx_v_q) {
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_8Triangle_30MarkConstrainedEdge_pq(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_p, PyObject *__pyx_v_q) {
   PyObject *__pyx_v_index = NULL;
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
@@ -6724,7 +6724,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_30MarkConstrainedEdge_
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("MarkConstrainedEdge_pq", 0);
 
-  /* "pyxpoly2tri\shapes.py":198
+  /* "pypoly2tri\shapes.py":198
  * 
  *     def MarkConstrainedEdge_pq(self, p, q):
  *         index = self.EdgeIndex(p, q)             # <<<<<<<<<<<<<<
@@ -6763,7 +6763,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_30MarkConstrainedEdge_
   __pyx_v_index = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "pyxpoly2tri\shapes.py":199
+  /* "pypoly2tri\shapes.py":199
  *     def MarkConstrainedEdge_pq(self, p, q):
  *         index = self.EdgeIndex(p, q)
  *         self.MarkConstrainedEdge_i(index)             # <<<<<<<<<<<<<<
@@ -6799,7 +6799,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_30MarkConstrainedEdge_
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "pyxpoly2tri\shapes.py":197
+  /* "pypoly2tri\shapes.py":197
  *         self.MarkConstrainedEdge_i(index)
  * 
  *     def MarkConstrainedEdge_pq(self, p, q):             # <<<<<<<<<<<<<<
@@ -6815,7 +6815,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_30MarkConstrainedEdge_
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_5);
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Triangle.MarkConstrainedEdge_pq", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Triangle.MarkConstrainedEdge_pq", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_index);
@@ -6824,7 +6824,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_30MarkConstrainedEdge_
   return __pyx_r;
 }
 
-/* "pyxpoly2tri\shapes.py":201
+/* "pypoly2tri\shapes.py":201
  *         self.MarkConstrainedEdge_i(index)
  * 
  *     def MarkConstrainedEdge(self, *args):             # <<<<<<<<<<<<<<
@@ -6833,9 +6833,9 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_30MarkConstrainedEdge_
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_33MarkConstrainedEdge(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_11pyxpoly2tri_6shapes_8Triangle_33MarkConstrainedEdge = {"MarkConstrainedEdge", (PyCFunction)__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_33MarkConstrainedEdge, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_33MarkConstrainedEdge(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_8Triangle_33MarkConstrainedEdge(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_10pypoly2tri_6shapes_8Triangle_33MarkConstrainedEdge = {"MarkConstrainedEdge", (PyCFunction)__pyx_pw_10pypoly2tri_6shapes_8Triangle_33MarkConstrainedEdge, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_8Triangle_33MarkConstrainedEdge(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_self = 0;
   PyObject *__pyx_v_args = 0;
   int __pyx_lineno = 0;
@@ -6887,11 +6887,11 @@ static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_33MarkConstrainedEdge(
   __Pyx_RaiseArgtupleInvalid("MarkConstrainedEdge", 0, 1, 1, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 201; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   __pyx_L3_error:;
   __Pyx_DECREF(__pyx_v_args); __pyx_v_args = 0;
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Triangle.MarkConstrainedEdge", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Triangle.MarkConstrainedEdge", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_11pyxpoly2tri_6shapes_8Triangle_32MarkConstrainedEdge(__pyx_self, __pyx_v_self, __pyx_v_args);
+  __pyx_r = __pyx_pf_10pypoly2tri_6shapes_8Triangle_32MarkConstrainedEdge(__pyx_self, __pyx_v_self, __pyx_v_args);
 
   /* function exit code */
   __Pyx_XDECREF(__pyx_v_args);
@@ -6899,7 +6899,7 @@ static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_33MarkConstrainedEdge(
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_32MarkConstrainedEdge(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_args) {
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_8Triangle_32MarkConstrainedEdge(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_args) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   Py_ssize_t __pyx_t_1;
@@ -6912,7 +6912,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_32MarkConstrainedEdge(
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("MarkConstrainedEdge", 0);
 
-  /* "pyxpoly2tri\shapes.py":202
+  /* "pypoly2tri\shapes.py":202
  * 
  *     def MarkConstrainedEdge(self, *args):
  *         if len(args) == 1:             # <<<<<<<<<<<<<<
@@ -6923,7 +6923,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_32MarkConstrainedEdge(
   __pyx_t_2 = ((__pyx_t_1 == 1) != 0);
   if (__pyx_t_2) {
 
-    /* "pyxpoly2tri\shapes.py":203
+    /* "pypoly2tri\shapes.py":203
  *     def MarkConstrainedEdge(self, *args):
  *         if len(args) == 1:
  *             if isinstance(args[0], Edge):             # <<<<<<<<<<<<<<
@@ -6940,7 +6940,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_32MarkConstrainedEdge(
     __pyx_t_5 = (__pyx_t_2 != 0);
     if (__pyx_t_5) {
 
-      /* "pyxpoly2tri\shapes.py":204
+      /* "pypoly2tri\shapes.py":204
  *         if len(args) == 1:
  *             if isinstance(args[0], Edge):
  *                 self.MarkConstrainedEdge_e(*args)             # <<<<<<<<<<<<<<
@@ -6954,7 +6954,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_32MarkConstrainedEdge(
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-      /* "pyxpoly2tri\shapes.py":203
+      /* "pypoly2tri\shapes.py":203
  *     def MarkConstrainedEdge(self, *args):
  *         if len(args) == 1:
  *             if isinstance(args[0], Edge):             # <<<<<<<<<<<<<<
@@ -6964,7 +6964,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_32MarkConstrainedEdge(
       goto __pyx_L4;
     }
 
-    /* "pyxpoly2tri\shapes.py":206
+    /* "pypoly2tri\shapes.py":206
  *                 self.MarkConstrainedEdge_e(*args)
  *             else:
  *                 self.MarkConstrainedEdge_i(*args)             # <<<<<<<<<<<<<<
@@ -6981,7 +6981,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_32MarkConstrainedEdge(
     }
     __pyx_L4:;
 
-    /* "pyxpoly2tri\shapes.py":202
+    /* "pypoly2tri\shapes.py":202
  * 
  *     def MarkConstrainedEdge(self, *args):
  *         if len(args) == 1:             # <<<<<<<<<<<<<<
@@ -6991,7 +6991,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_32MarkConstrainedEdge(
     goto __pyx_L3;
   }
 
-  /* "pyxpoly2tri\shapes.py":207
+  /* "pypoly2tri\shapes.py":207
  *             else:
  *                 self.MarkConstrainedEdge_i(*args)
  *         elif len(args) == 2:             # <<<<<<<<<<<<<<
@@ -7002,7 +7002,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_32MarkConstrainedEdge(
   __pyx_t_5 = ((__pyx_t_1 == 2) != 0);
   if (__pyx_t_5) {
 
-    /* "pyxpoly2tri\shapes.py":208
+    /* "pypoly2tri\shapes.py":208
  *                 self.MarkConstrainedEdge_i(*args)
  *         elif len(args) == 2:
  *             self.MarkConstrainedEdge_pq(*args)             # <<<<<<<<<<<<<<
@@ -7016,7 +7016,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_32MarkConstrainedEdge(
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-    /* "pyxpoly2tri\shapes.py":207
+    /* "pypoly2tri\shapes.py":207
  *             else:
  *                 self.MarkConstrainedEdge_i(*args)
  *         elif len(args) == 2:             # <<<<<<<<<<<<<<
@@ -7026,7 +7026,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_32MarkConstrainedEdge(
   }
   __pyx_L3:;
 
-  /* "pyxpoly2tri\shapes.py":201
+  /* "pypoly2tri\shapes.py":201
  *         self.MarkConstrainedEdge_i(index)
  * 
  *     def MarkConstrainedEdge(self, *args):             # <<<<<<<<<<<<<<
@@ -7040,7 +7040,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_32MarkConstrainedEdge(
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Triangle.MarkConstrainedEdge", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Triangle.MarkConstrainedEdge", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -7048,7 +7048,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_32MarkConstrainedEdge(
   return __pyx_r;
 }
 
-/* "pyxpoly2tri\shapes.py":210
+/* "pypoly2tri\shapes.py":210
  *             self.MarkConstrainedEdge_pq(*args)
  * 
  *     def PointCW(self, point):             # <<<<<<<<<<<<<<
@@ -7057,9 +7057,9 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_32MarkConstrainedEdge(
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_35PointCW(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_11pyxpoly2tri_6shapes_8Triangle_35PointCW = {"PointCW", (PyCFunction)__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_35PointCW, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_35PointCW(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_8Triangle_35PointCW(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_10pypoly2tri_6shapes_8Triangle_35PointCW = {"PointCW", (PyCFunction)__pyx_pw_10pypoly2tri_6shapes_8Triangle_35PointCW, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_8Triangle_35PointCW(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_self = 0;
   PyObject *__pyx_v_point = 0;
   int __pyx_lineno = 0;
@@ -7107,18 +7107,18 @@ static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_35PointCW(PyObject *__
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("PointCW", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 210; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   __pyx_L3_error:;
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Triangle.PointCW", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Triangle.PointCW", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_11pyxpoly2tri_6shapes_8Triangle_34PointCW(__pyx_self, __pyx_v_self, __pyx_v_point);
+  __pyx_r = __pyx_pf_10pypoly2tri_6shapes_8Triangle_34PointCW(__pyx_self, __pyx_v_self, __pyx_v_point);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_34PointCW(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_point) {
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_8Triangle_34PointCW(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_point) {
   PyObject *__pyx_v_i = NULL;
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
@@ -7131,7 +7131,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_34PointCW(CYTHON_UNUSE
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PointCW", 0);
 
-  /* "pyxpoly2tri\shapes.py":211
+  /* "pypoly2tri\shapes.py":211
  * 
  *     def PointCW(self, point):
  *         i = self.Index(point)             # <<<<<<<<<<<<<<
@@ -7168,7 +7168,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_34PointCW(CYTHON_UNUSE
   __pyx_v_i = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "pyxpoly2tri\shapes.py":212
+  /* "pypoly2tri\shapes.py":212
  *     def PointCW(self, point):
  *         i = self.Index(point)
  *         return self.points_[(i - 1) % 3]             # <<<<<<<<<<<<<<
@@ -7191,7 +7191,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_34PointCW(CYTHON_UNUSE
   __pyx_t_2 = 0;
   goto __pyx_L0;
 
-  /* "pyxpoly2tri\shapes.py":210
+  /* "pypoly2tri\shapes.py":210
  *             self.MarkConstrainedEdge_pq(*args)
  * 
  *     def PointCW(self, point):             # <<<<<<<<<<<<<<
@@ -7205,7 +7205,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_34PointCW(CYTHON_UNUSE
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Triangle.PointCW", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Triangle.PointCW", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_i);
@@ -7214,7 +7214,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_34PointCW(CYTHON_UNUSE
   return __pyx_r;
 }
 
-/* "pyxpoly2tri\shapes.py":214
+/* "pypoly2tri\shapes.py":214
  *         return self.points_[(i - 1) % 3]
  * 
  *     def PointCCW(self, point):             # <<<<<<<<<<<<<<
@@ -7223,9 +7223,9 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_34PointCW(CYTHON_UNUSE
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_37PointCCW(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_11pyxpoly2tri_6shapes_8Triangle_37PointCCW = {"PointCCW", (PyCFunction)__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_37PointCCW, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_37PointCCW(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_8Triangle_37PointCCW(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_10pypoly2tri_6shapes_8Triangle_37PointCCW = {"PointCCW", (PyCFunction)__pyx_pw_10pypoly2tri_6shapes_8Triangle_37PointCCW, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_8Triangle_37PointCCW(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_self = 0;
   PyObject *__pyx_v_point = 0;
   int __pyx_lineno = 0;
@@ -7273,18 +7273,18 @@ static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_37PointCCW(PyObject *_
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("PointCCW", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 214; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   __pyx_L3_error:;
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Triangle.PointCCW", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Triangle.PointCCW", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_11pyxpoly2tri_6shapes_8Triangle_36PointCCW(__pyx_self, __pyx_v_self, __pyx_v_point);
+  __pyx_r = __pyx_pf_10pypoly2tri_6shapes_8Triangle_36PointCCW(__pyx_self, __pyx_v_self, __pyx_v_point);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_36PointCCW(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_point) {
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_8Triangle_36PointCCW(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_point) {
   PyObject *__pyx_v_i = NULL;
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
@@ -7297,7 +7297,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_36PointCCW(CYTHON_UNUS
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PointCCW", 0);
 
-  /* "pyxpoly2tri\shapes.py":215
+  /* "pypoly2tri\shapes.py":215
  * 
  *     def PointCCW(self, point):
  *         i = self.Index(point)             # <<<<<<<<<<<<<<
@@ -7334,7 +7334,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_36PointCCW(CYTHON_UNUS
   __pyx_v_i = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "pyxpoly2tri\shapes.py":216
+  /* "pypoly2tri\shapes.py":216
  *     def PointCCW(self, point):
  *         i = self.Index(point)
  *         return self.points_[(i + 1) % 3]             # <<<<<<<<<<<<<<
@@ -7357,7 +7357,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_36PointCCW(CYTHON_UNUS
   __pyx_t_2 = 0;
   goto __pyx_L0;
 
-  /* "pyxpoly2tri\shapes.py":214
+  /* "pypoly2tri\shapes.py":214
  *         return self.points_[(i - 1) % 3]
  * 
  *     def PointCCW(self, point):             # <<<<<<<<<<<<<<
@@ -7371,7 +7371,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_36PointCCW(CYTHON_UNUS
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Triangle.PointCCW", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Triangle.PointCCW", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_i);
@@ -7380,7 +7380,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_36PointCCW(CYTHON_UNUS
   return __pyx_r;
 }
 
-/* "pyxpoly2tri\shapes.py":218
+/* "pypoly2tri\shapes.py":218
  *         return self.points_[(i + 1) % 3]
  * 
  *     def NeighborCW(self, point):             # <<<<<<<<<<<<<<
@@ -7389,9 +7389,9 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_36PointCCW(CYTHON_UNUS
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_39NeighborCW(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_11pyxpoly2tri_6shapes_8Triangle_39NeighborCW = {"NeighborCW", (PyCFunction)__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_39NeighborCW, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_39NeighborCW(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_8Triangle_39NeighborCW(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_10pypoly2tri_6shapes_8Triangle_39NeighborCW = {"NeighborCW", (PyCFunction)__pyx_pw_10pypoly2tri_6shapes_8Triangle_39NeighborCW, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_8Triangle_39NeighborCW(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_self = 0;
   PyObject *__pyx_v_point = 0;
   int __pyx_lineno = 0;
@@ -7439,18 +7439,18 @@ static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_39NeighborCW(PyObject 
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("NeighborCW", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 218; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   __pyx_L3_error:;
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Triangle.NeighborCW", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Triangle.NeighborCW", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_11pyxpoly2tri_6shapes_8Triangle_38NeighborCW(__pyx_self, __pyx_v_self, __pyx_v_point);
+  __pyx_r = __pyx_pf_10pypoly2tri_6shapes_8Triangle_38NeighborCW(__pyx_self, __pyx_v_self, __pyx_v_point);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_38NeighborCW(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_point) {
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_8Triangle_38NeighborCW(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_point) {
   PyObject *__pyx_v_ii = NULL;
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
@@ -7463,7 +7463,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_38NeighborCW(CYTHON_UN
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("NeighborCW", 0);
 
-  /* "pyxpoly2tri\shapes.py":219
+  /* "pypoly2tri\shapes.py":219
  * 
  *     def NeighborCW(self, point):
  *         ii = self.Index(point)             # <<<<<<<<<<<<<<
@@ -7500,7 +7500,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_38NeighborCW(CYTHON_UN
   __pyx_v_ii = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "pyxpoly2tri\shapes.py":220
+  /* "pypoly2tri\shapes.py":220
  *     def NeighborCW(self, point):
  *         ii = self.Index(point)
  *         return self.neighbors_[(ii + 1) % 3]             # <<<<<<<<<<<<<<
@@ -7523,7 +7523,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_38NeighborCW(CYTHON_UN
   __pyx_t_2 = 0;
   goto __pyx_L0;
 
-  /* "pyxpoly2tri\shapes.py":218
+  /* "pypoly2tri\shapes.py":218
  *         return self.points_[(i + 1) % 3]
  * 
  *     def NeighborCW(self, point):             # <<<<<<<<<<<<<<
@@ -7537,7 +7537,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_38NeighborCW(CYTHON_UN
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Triangle.NeighborCW", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Triangle.NeighborCW", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_ii);
@@ -7546,7 +7546,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_38NeighborCW(CYTHON_UN
   return __pyx_r;
 }
 
-/* "pyxpoly2tri\shapes.py":222
+/* "pypoly2tri\shapes.py":222
  *         return self.neighbors_[(ii + 1) % 3]
  * 
  *     def NeighborCCW(self, point):             # <<<<<<<<<<<<<<
@@ -7555,9 +7555,9 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_38NeighborCW(CYTHON_UN
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_41NeighborCCW(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_11pyxpoly2tri_6shapes_8Triangle_41NeighborCCW = {"NeighborCCW", (PyCFunction)__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_41NeighborCCW, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_41NeighborCCW(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_8Triangle_41NeighborCCW(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_10pypoly2tri_6shapes_8Triangle_41NeighborCCW = {"NeighborCCW", (PyCFunction)__pyx_pw_10pypoly2tri_6shapes_8Triangle_41NeighborCCW, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_8Triangle_41NeighborCCW(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_self = 0;
   PyObject *__pyx_v_point = 0;
   int __pyx_lineno = 0;
@@ -7605,18 +7605,18 @@ static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_41NeighborCCW(PyObject
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("NeighborCCW", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 222; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   __pyx_L3_error:;
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Triangle.NeighborCCW", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Triangle.NeighborCCW", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_11pyxpoly2tri_6shapes_8Triangle_40NeighborCCW(__pyx_self, __pyx_v_self, __pyx_v_point);
+  __pyx_r = __pyx_pf_10pypoly2tri_6shapes_8Triangle_40NeighborCCW(__pyx_self, __pyx_v_self, __pyx_v_point);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_40NeighborCCW(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_point) {
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_8Triangle_40NeighborCCW(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_point) {
   PyObject *__pyx_v_ii = NULL;
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
@@ -7629,7 +7629,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_40NeighborCCW(CYTHON_U
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("NeighborCCW", 0);
 
-  /* "pyxpoly2tri\shapes.py":223
+  /* "pypoly2tri\shapes.py":223
  * 
  *     def NeighborCCW(self, point):
  *         ii = self.Index(point)             # <<<<<<<<<<<<<<
@@ -7666,7 +7666,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_40NeighborCCW(CYTHON_U
   __pyx_v_ii = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "pyxpoly2tri\shapes.py":224
+  /* "pypoly2tri\shapes.py":224
  *     def NeighborCCW(self, point):
  *         ii = self.Index(point)
  *         return self.neighbors_[(ii - 1) % 3]             # <<<<<<<<<<<<<<
@@ -7689,7 +7689,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_40NeighborCCW(CYTHON_U
   __pyx_t_2 = 0;
   goto __pyx_L0;
 
-  /* "pyxpoly2tri\shapes.py":222
+  /* "pypoly2tri\shapes.py":222
  *         return self.neighbors_[(ii + 1) % 3]
  * 
  *     def NeighborCCW(self, point):             # <<<<<<<<<<<<<<
@@ -7703,7 +7703,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_40NeighborCCW(CYTHON_U
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Triangle.NeighborCCW", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Triangle.NeighborCCW", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_ii);
@@ -7712,7 +7712,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_40NeighborCCW(CYTHON_U
   return __pyx_r;
 }
 
-/* "pyxpoly2tri\shapes.py":226
+/* "pypoly2tri\shapes.py":226
  *         return self.neighbors_[(ii - 1) % 3]
  * 
  *     def GetConstrainedEdgeCCW(self, point):             # <<<<<<<<<<<<<<
@@ -7721,9 +7721,9 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_40NeighborCCW(CYTHON_U
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_43GetConstrainedEdgeCCW(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_11pyxpoly2tri_6shapes_8Triangle_43GetConstrainedEdgeCCW = {"GetConstrainedEdgeCCW", (PyCFunction)__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_43GetConstrainedEdgeCCW, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_43GetConstrainedEdgeCCW(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_8Triangle_43GetConstrainedEdgeCCW(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_10pypoly2tri_6shapes_8Triangle_43GetConstrainedEdgeCCW = {"GetConstrainedEdgeCCW", (PyCFunction)__pyx_pw_10pypoly2tri_6shapes_8Triangle_43GetConstrainedEdgeCCW, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_8Triangle_43GetConstrainedEdgeCCW(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_self = 0;
   PyObject *__pyx_v_point = 0;
   int __pyx_lineno = 0;
@@ -7771,18 +7771,18 @@ static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_43GetConstrainedEdgeCC
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("GetConstrainedEdgeCCW", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 226; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   __pyx_L3_error:;
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Triangle.GetConstrainedEdgeCCW", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Triangle.GetConstrainedEdgeCCW", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_11pyxpoly2tri_6shapes_8Triangle_42GetConstrainedEdgeCCW(__pyx_self, __pyx_v_self, __pyx_v_point);
+  __pyx_r = __pyx_pf_10pypoly2tri_6shapes_8Triangle_42GetConstrainedEdgeCCW(__pyx_self, __pyx_v_self, __pyx_v_point);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_42GetConstrainedEdgeCCW(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_point) {
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_8Triangle_42GetConstrainedEdgeCCW(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_point) {
   PyObject *__pyx_v_ii = NULL;
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
@@ -7795,7 +7795,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_42GetConstrainedEdgeCC
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("GetConstrainedEdgeCCW", 0);
 
-  /* "pyxpoly2tri\shapes.py":227
+  /* "pypoly2tri\shapes.py":227
  * 
  *     def GetConstrainedEdgeCCW(self, point):
  *         ii = self.Index(point)             # <<<<<<<<<<<<<<
@@ -7832,7 +7832,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_42GetConstrainedEdgeCC
   __pyx_v_ii = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "pyxpoly2tri\shapes.py":228
+  /* "pypoly2tri\shapes.py":228
  *     def GetConstrainedEdgeCCW(self, point):
  *         ii = self.Index(point)
  *         return self.constrained_edge[(ii - 1) % 3]             # <<<<<<<<<<<<<<
@@ -7855,7 +7855,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_42GetConstrainedEdgeCC
   __pyx_t_2 = 0;
   goto __pyx_L0;
 
-  /* "pyxpoly2tri\shapes.py":226
+  /* "pypoly2tri\shapes.py":226
  *         return self.neighbors_[(ii - 1) % 3]
  * 
  *     def GetConstrainedEdgeCCW(self, point):             # <<<<<<<<<<<<<<
@@ -7869,7 +7869,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_42GetConstrainedEdgeCC
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Triangle.GetConstrainedEdgeCCW", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Triangle.GetConstrainedEdgeCCW", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_ii);
@@ -7878,7 +7878,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_42GetConstrainedEdgeCC
   return __pyx_r;
 }
 
-/* "pyxpoly2tri\shapes.py":230
+/* "pypoly2tri\shapes.py":230
  *         return self.constrained_edge[(ii - 1) % 3]
  * 
  *     def GetConstrainedEdgeCW(self, point):             # <<<<<<<<<<<<<<
@@ -7887,9 +7887,9 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_42GetConstrainedEdgeCC
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_45GetConstrainedEdgeCW(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_11pyxpoly2tri_6shapes_8Triangle_45GetConstrainedEdgeCW = {"GetConstrainedEdgeCW", (PyCFunction)__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_45GetConstrainedEdgeCW, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_45GetConstrainedEdgeCW(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_8Triangle_45GetConstrainedEdgeCW(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_10pypoly2tri_6shapes_8Triangle_45GetConstrainedEdgeCW = {"GetConstrainedEdgeCW", (PyCFunction)__pyx_pw_10pypoly2tri_6shapes_8Triangle_45GetConstrainedEdgeCW, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_8Triangle_45GetConstrainedEdgeCW(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_self = 0;
   PyObject *__pyx_v_point = 0;
   int __pyx_lineno = 0;
@@ -7937,18 +7937,18 @@ static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_45GetConstrainedEdgeCW
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("GetConstrainedEdgeCW", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 230; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   __pyx_L3_error:;
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Triangle.GetConstrainedEdgeCW", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Triangle.GetConstrainedEdgeCW", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_11pyxpoly2tri_6shapes_8Triangle_44GetConstrainedEdgeCW(__pyx_self, __pyx_v_self, __pyx_v_point);
+  __pyx_r = __pyx_pf_10pypoly2tri_6shapes_8Triangle_44GetConstrainedEdgeCW(__pyx_self, __pyx_v_self, __pyx_v_point);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_44GetConstrainedEdgeCW(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_point) {
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_8Triangle_44GetConstrainedEdgeCW(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_point) {
   PyObject *__pyx_v_ii = NULL;
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
@@ -7961,7 +7961,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_44GetConstrainedEdgeCW
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("GetConstrainedEdgeCW", 0);
 
-  /* "pyxpoly2tri\shapes.py":231
+  /* "pypoly2tri\shapes.py":231
  * 
  *     def GetConstrainedEdgeCW(self, point):
  *         ii = self.Index(point)             # <<<<<<<<<<<<<<
@@ -7998,7 +7998,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_44GetConstrainedEdgeCW
   __pyx_v_ii = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "pyxpoly2tri\shapes.py":232
+  /* "pypoly2tri\shapes.py":232
  *     def GetConstrainedEdgeCW(self, point):
  *         ii = self.Index(point)
  *         return self.constrained_edge[(ii + 1) % 3]             # <<<<<<<<<<<<<<
@@ -8021,7 +8021,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_44GetConstrainedEdgeCW
   __pyx_t_2 = 0;
   goto __pyx_L0;
 
-  /* "pyxpoly2tri\shapes.py":230
+  /* "pypoly2tri\shapes.py":230
  *         return self.constrained_edge[(ii - 1) % 3]
  * 
  *     def GetConstrainedEdgeCW(self, point):             # <<<<<<<<<<<<<<
@@ -8035,7 +8035,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_44GetConstrainedEdgeCW
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Triangle.GetConstrainedEdgeCW", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Triangle.GetConstrainedEdgeCW", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_ii);
@@ -8044,7 +8044,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_44GetConstrainedEdgeCW
   return __pyx_r;
 }
 
-/* "pyxpoly2tri\shapes.py":234
+/* "pypoly2tri\shapes.py":234
  *         return self.constrained_edge[(ii + 1) % 3]
  * 
  *     def SetConstrainedEdgeCCW(self, point, ce):             # <<<<<<<<<<<<<<
@@ -8053,9 +8053,9 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_44GetConstrainedEdgeCW
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_47SetConstrainedEdgeCCW(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_11pyxpoly2tri_6shapes_8Triangle_47SetConstrainedEdgeCCW = {"SetConstrainedEdgeCCW", (PyCFunction)__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_47SetConstrainedEdgeCCW, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_47SetConstrainedEdgeCCW(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_8Triangle_47SetConstrainedEdgeCCW(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_10pypoly2tri_6shapes_8Triangle_47SetConstrainedEdgeCCW = {"SetConstrainedEdgeCCW", (PyCFunction)__pyx_pw_10pypoly2tri_6shapes_8Triangle_47SetConstrainedEdgeCCW, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_8Triangle_47SetConstrainedEdgeCCW(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_self = 0;
   PyObject *__pyx_v_point = 0;
   PyObject *__pyx_v_ce = 0;
@@ -8112,18 +8112,18 @@ static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_47SetConstrainedEdgeCC
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("SetConstrainedEdgeCCW", 1, 3, 3, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 234; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   __pyx_L3_error:;
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Triangle.SetConstrainedEdgeCCW", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Triangle.SetConstrainedEdgeCCW", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_11pyxpoly2tri_6shapes_8Triangle_46SetConstrainedEdgeCCW(__pyx_self, __pyx_v_self, __pyx_v_point, __pyx_v_ce);
+  __pyx_r = __pyx_pf_10pypoly2tri_6shapes_8Triangle_46SetConstrainedEdgeCCW(__pyx_self, __pyx_v_self, __pyx_v_point, __pyx_v_ce);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_46SetConstrainedEdgeCCW(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_point, PyObject *__pyx_v_ce) {
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_8Triangle_46SetConstrainedEdgeCCW(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_point, PyObject *__pyx_v_ce) {
   PyObject *__pyx_v_ii = NULL;
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
@@ -8136,7 +8136,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_46SetConstrainedEdgeCC
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("SetConstrainedEdgeCCW", 0);
 
-  /* "pyxpoly2tri\shapes.py":235
+  /* "pypoly2tri\shapes.py":235
  * 
  *     def SetConstrainedEdgeCCW(self, point, ce):
  *         ii = self.Index(point)             # <<<<<<<<<<<<<<
@@ -8173,7 +8173,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_46SetConstrainedEdgeCC
   __pyx_v_ii = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "pyxpoly2tri\shapes.py":236
+  /* "pypoly2tri\shapes.py":236
  *     def SetConstrainedEdgeCCW(self, point, ce):
  *         ii = self.Index(point)
  *         self.constrained_edge[(ii - 1) % 3] = ce             # <<<<<<<<<<<<<<
@@ -8191,7 +8191,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_46SetConstrainedEdgeCC
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "pyxpoly2tri\shapes.py":234
+  /* "pypoly2tri\shapes.py":234
  *         return self.constrained_edge[(ii + 1) % 3]
  * 
  *     def SetConstrainedEdgeCCW(self, point, ce):             # <<<<<<<<<<<<<<
@@ -8207,7 +8207,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_46SetConstrainedEdgeCC
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Triangle.SetConstrainedEdgeCCW", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Triangle.SetConstrainedEdgeCCW", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_ii);
@@ -8216,7 +8216,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_46SetConstrainedEdgeCC
   return __pyx_r;
 }
 
-/* "pyxpoly2tri\shapes.py":238
+/* "pypoly2tri\shapes.py":238
  *         self.constrained_edge[(ii - 1) % 3] = ce
  * 
  *     def SetConstrainedEdgeCW(self, point, ce):             # <<<<<<<<<<<<<<
@@ -8225,9 +8225,9 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_46SetConstrainedEdgeCC
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_49SetConstrainedEdgeCW(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_11pyxpoly2tri_6shapes_8Triangle_49SetConstrainedEdgeCW = {"SetConstrainedEdgeCW", (PyCFunction)__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_49SetConstrainedEdgeCW, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_49SetConstrainedEdgeCW(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_8Triangle_49SetConstrainedEdgeCW(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_10pypoly2tri_6shapes_8Triangle_49SetConstrainedEdgeCW = {"SetConstrainedEdgeCW", (PyCFunction)__pyx_pw_10pypoly2tri_6shapes_8Triangle_49SetConstrainedEdgeCW, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_8Triangle_49SetConstrainedEdgeCW(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_self = 0;
   PyObject *__pyx_v_point = 0;
   PyObject *__pyx_v_ce = 0;
@@ -8284,18 +8284,18 @@ static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_49SetConstrainedEdgeCW
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("SetConstrainedEdgeCW", 1, 3, 3, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 238; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   __pyx_L3_error:;
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Triangle.SetConstrainedEdgeCW", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Triangle.SetConstrainedEdgeCW", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_11pyxpoly2tri_6shapes_8Triangle_48SetConstrainedEdgeCW(__pyx_self, __pyx_v_self, __pyx_v_point, __pyx_v_ce);
+  __pyx_r = __pyx_pf_10pypoly2tri_6shapes_8Triangle_48SetConstrainedEdgeCW(__pyx_self, __pyx_v_self, __pyx_v_point, __pyx_v_ce);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_48SetConstrainedEdgeCW(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_point, PyObject *__pyx_v_ce) {
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_8Triangle_48SetConstrainedEdgeCW(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_point, PyObject *__pyx_v_ce) {
   PyObject *__pyx_v_ii = NULL;
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
@@ -8308,7 +8308,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_48SetConstrainedEdgeCW
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("SetConstrainedEdgeCW", 0);
 
-  /* "pyxpoly2tri\shapes.py":239
+  /* "pypoly2tri\shapes.py":239
  * 
  *     def SetConstrainedEdgeCW(self, point, ce):
  *         ii = self.Index(point)             # <<<<<<<<<<<<<<
@@ -8345,7 +8345,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_48SetConstrainedEdgeCW
   __pyx_v_ii = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "pyxpoly2tri\shapes.py":240
+  /* "pypoly2tri\shapes.py":240
  *     def SetConstrainedEdgeCW(self, point, ce):
  *         ii = self.Index(point)
  *         self.constrained_edge[(ii + 1) % 3] = ce             # <<<<<<<<<<<<<<
@@ -8363,7 +8363,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_48SetConstrainedEdgeCW
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "pyxpoly2tri\shapes.py":238
+  /* "pypoly2tri\shapes.py":238
  *         self.constrained_edge[(ii - 1) % 3] = ce
  * 
  *     def SetConstrainedEdgeCW(self, point, ce):             # <<<<<<<<<<<<<<
@@ -8379,7 +8379,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_48SetConstrainedEdgeCW
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Triangle.SetConstrainedEdgeCW", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Triangle.SetConstrainedEdgeCW", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_ii);
@@ -8388,7 +8388,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_48SetConstrainedEdgeCW
   return __pyx_r;
 }
 
-/* "pyxpoly2tri\shapes.py":242
+/* "pypoly2tri\shapes.py":242
  *         self.constrained_edge[(ii + 1) % 3] = ce
  * 
  *     def GetDelunayEdgeCCW(self, point):             # <<<<<<<<<<<<<<
@@ -8397,9 +8397,9 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_48SetConstrainedEdgeCW
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_51GetDelunayEdgeCCW(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_11pyxpoly2tri_6shapes_8Triangle_51GetDelunayEdgeCCW = {"GetDelunayEdgeCCW", (PyCFunction)__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_51GetDelunayEdgeCCW, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_51GetDelunayEdgeCCW(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_8Triangle_51GetDelunayEdgeCCW(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_10pypoly2tri_6shapes_8Triangle_51GetDelunayEdgeCCW = {"GetDelunayEdgeCCW", (PyCFunction)__pyx_pw_10pypoly2tri_6shapes_8Triangle_51GetDelunayEdgeCCW, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_8Triangle_51GetDelunayEdgeCCW(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_self = 0;
   PyObject *__pyx_v_point = 0;
   int __pyx_lineno = 0;
@@ -8447,18 +8447,18 @@ static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_51GetDelunayEdgeCCW(Py
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("GetDelunayEdgeCCW", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 242; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   __pyx_L3_error:;
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Triangle.GetDelunayEdgeCCW", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Triangle.GetDelunayEdgeCCW", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_11pyxpoly2tri_6shapes_8Triangle_50GetDelunayEdgeCCW(__pyx_self, __pyx_v_self, __pyx_v_point);
+  __pyx_r = __pyx_pf_10pypoly2tri_6shapes_8Triangle_50GetDelunayEdgeCCW(__pyx_self, __pyx_v_self, __pyx_v_point);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_50GetDelunayEdgeCCW(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_point) {
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_8Triangle_50GetDelunayEdgeCCW(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_point) {
   PyObject *__pyx_v_ii = NULL;
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
@@ -8471,7 +8471,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_50GetDelunayEdgeCCW(CY
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("GetDelunayEdgeCCW", 0);
 
-  /* "pyxpoly2tri\shapes.py":243
+  /* "pypoly2tri\shapes.py":243
  * 
  *     def GetDelunayEdgeCCW(self, point):
  *         ii = self.Index(point)             # <<<<<<<<<<<<<<
@@ -8508,7 +8508,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_50GetDelunayEdgeCCW(CY
   __pyx_v_ii = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "pyxpoly2tri\shapes.py":244
+  /* "pypoly2tri\shapes.py":244
  *     def GetDelunayEdgeCCW(self, point):
  *         ii = self.Index(point)
  *         return self.delaunay_edge[(ii - 1) % 3]             # <<<<<<<<<<<<<<
@@ -8531,7 +8531,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_50GetDelunayEdgeCCW(CY
   __pyx_t_2 = 0;
   goto __pyx_L0;
 
-  /* "pyxpoly2tri\shapes.py":242
+  /* "pypoly2tri\shapes.py":242
  *         self.constrained_edge[(ii + 1) % 3] = ce
  * 
  *     def GetDelunayEdgeCCW(self, point):             # <<<<<<<<<<<<<<
@@ -8545,7 +8545,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_50GetDelunayEdgeCCW(CY
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Triangle.GetDelunayEdgeCCW", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Triangle.GetDelunayEdgeCCW", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_ii);
@@ -8554,7 +8554,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_50GetDelunayEdgeCCW(CY
   return __pyx_r;
 }
 
-/* "pyxpoly2tri\shapes.py":246
+/* "pypoly2tri\shapes.py":246
  *         return self.delaunay_edge[(ii - 1) % 3]
  * 
  *     def GetDelunayEdgeCW(self, point):             # <<<<<<<<<<<<<<
@@ -8563,9 +8563,9 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_50GetDelunayEdgeCCW(CY
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_53GetDelunayEdgeCW(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_11pyxpoly2tri_6shapes_8Triangle_53GetDelunayEdgeCW = {"GetDelunayEdgeCW", (PyCFunction)__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_53GetDelunayEdgeCW, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_53GetDelunayEdgeCW(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_8Triangle_53GetDelunayEdgeCW(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_10pypoly2tri_6shapes_8Triangle_53GetDelunayEdgeCW = {"GetDelunayEdgeCW", (PyCFunction)__pyx_pw_10pypoly2tri_6shapes_8Triangle_53GetDelunayEdgeCW, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_8Triangle_53GetDelunayEdgeCW(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_self = 0;
   PyObject *__pyx_v_point = 0;
   int __pyx_lineno = 0;
@@ -8613,18 +8613,18 @@ static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_53GetDelunayEdgeCW(PyO
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("GetDelunayEdgeCW", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 246; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   __pyx_L3_error:;
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Triangle.GetDelunayEdgeCW", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Triangle.GetDelunayEdgeCW", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_11pyxpoly2tri_6shapes_8Triangle_52GetDelunayEdgeCW(__pyx_self, __pyx_v_self, __pyx_v_point);
+  __pyx_r = __pyx_pf_10pypoly2tri_6shapes_8Triangle_52GetDelunayEdgeCW(__pyx_self, __pyx_v_self, __pyx_v_point);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_52GetDelunayEdgeCW(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_point) {
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_8Triangle_52GetDelunayEdgeCW(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_point) {
   PyObject *__pyx_v_ii = NULL;
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
@@ -8637,7 +8637,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_52GetDelunayEdgeCW(CYT
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("GetDelunayEdgeCW", 0);
 
-  /* "pyxpoly2tri\shapes.py":247
+  /* "pypoly2tri\shapes.py":247
  * 
  *     def GetDelunayEdgeCW(self, point):
  *         ii = self.Index(point)             # <<<<<<<<<<<<<<
@@ -8674,7 +8674,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_52GetDelunayEdgeCW(CYT
   __pyx_v_ii = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "pyxpoly2tri\shapes.py":248
+  /* "pypoly2tri\shapes.py":248
  *     def GetDelunayEdgeCW(self, point):
  *         ii = self.Index(point)
  *         return self.delaunay_edge[(ii + 1) % 3]             # <<<<<<<<<<<<<<
@@ -8697,7 +8697,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_52GetDelunayEdgeCW(CYT
   __pyx_t_2 = 0;
   goto __pyx_L0;
 
-  /* "pyxpoly2tri\shapes.py":246
+  /* "pypoly2tri\shapes.py":246
  *         return self.delaunay_edge[(ii - 1) % 3]
  * 
  *     def GetDelunayEdgeCW(self, point):             # <<<<<<<<<<<<<<
@@ -8711,7 +8711,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_52GetDelunayEdgeCW(CYT
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Triangle.GetDelunayEdgeCW", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Triangle.GetDelunayEdgeCW", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_ii);
@@ -8720,7 +8720,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_52GetDelunayEdgeCW(CYT
   return __pyx_r;
 }
 
-/* "pyxpoly2tri\shapes.py":250
+/* "pypoly2tri\shapes.py":250
  *         return self.delaunay_edge[(ii + 1) % 3]
  * 
  *     def SetDelunayEdgeCCW(self, point, ce):             # <<<<<<<<<<<<<<
@@ -8729,9 +8729,9 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_52GetDelunayEdgeCW(CYT
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_55SetDelunayEdgeCCW(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_11pyxpoly2tri_6shapes_8Triangle_55SetDelunayEdgeCCW = {"SetDelunayEdgeCCW", (PyCFunction)__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_55SetDelunayEdgeCCW, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_55SetDelunayEdgeCCW(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_8Triangle_55SetDelunayEdgeCCW(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_10pypoly2tri_6shapes_8Triangle_55SetDelunayEdgeCCW = {"SetDelunayEdgeCCW", (PyCFunction)__pyx_pw_10pypoly2tri_6shapes_8Triangle_55SetDelunayEdgeCCW, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_8Triangle_55SetDelunayEdgeCCW(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_self = 0;
   PyObject *__pyx_v_point = 0;
   PyObject *__pyx_v_ce = 0;
@@ -8788,18 +8788,18 @@ static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_55SetDelunayEdgeCCW(Py
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("SetDelunayEdgeCCW", 1, 3, 3, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 250; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   __pyx_L3_error:;
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Triangle.SetDelunayEdgeCCW", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Triangle.SetDelunayEdgeCCW", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_11pyxpoly2tri_6shapes_8Triangle_54SetDelunayEdgeCCW(__pyx_self, __pyx_v_self, __pyx_v_point, __pyx_v_ce);
+  __pyx_r = __pyx_pf_10pypoly2tri_6shapes_8Triangle_54SetDelunayEdgeCCW(__pyx_self, __pyx_v_self, __pyx_v_point, __pyx_v_ce);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_54SetDelunayEdgeCCW(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_point, PyObject *__pyx_v_ce) {
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_8Triangle_54SetDelunayEdgeCCW(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_point, PyObject *__pyx_v_ce) {
   PyObject *__pyx_v_ii = NULL;
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
@@ -8812,7 +8812,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_54SetDelunayEdgeCCW(CY
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("SetDelunayEdgeCCW", 0);
 
-  /* "pyxpoly2tri\shapes.py":251
+  /* "pypoly2tri\shapes.py":251
  * 
  *     def SetDelunayEdgeCCW(self, point, ce):
  *         ii = self.Index(point)             # <<<<<<<<<<<<<<
@@ -8849,7 +8849,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_54SetDelunayEdgeCCW(CY
   __pyx_v_ii = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "pyxpoly2tri\shapes.py":252
+  /* "pypoly2tri\shapes.py":252
  *     def SetDelunayEdgeCCW(self, point, ce):
  *         ii = self.Index(point)
  *         self.delaunay_edge[(ii - 1) % 3] = ce             # <<<<<<<<<<<<<<
@@ -8867,7 +8867,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_54SetDelunayEdgeCCW(CY
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "pyxpoly2tri\shapes.py":250
+  /* "pypoly2tri\shapes.py":250
  *         return self.delaunay_edge[(ii + 1) % 3]
  * 
  *     def SetDelunayEdgeCCW(self, point, ce):             # <<<<<<<<<<<<<<
@@ -8883,7 +8883,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_54SetDelunayEdgeCCW(CY
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Triangle.SetDelunayEdgeCCW", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Triangle.SetDelunayEdgeCCW", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_ii);
@@ -8892,7 +8892,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_54SetDelunayEdgeCCW(CY
   return __pyx_r;
 }
 
-/* "pyxpoly2tri\shapes.py":254
+/* "pypoly2tri\shapes.py":254
  *         self.delaunay_edge[(ii - 1) % 3] = ce
  * 
  *     def SetDelunayEdgeCW(self, point, ce):             # <<<<<<<<<<<<<<
@@ -8901,9 +8901,9 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_54SetDelunayEdgeCCW(CY
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_57SetDelunayEdgeCW(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_11pyxpoly2tri_6shapes_8Triangle_57SetDelunayEdgeCW = {"SetDelunayEdgeCW", (PyCFunction)__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_57SetDelunayEdgeCW, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_57SetDelunayEdgeCW(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_8Triangle_57SetDelunayEdgeCW(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_10pypoly2tri_6shapes_8Triangle_57SetDelunayEdgeCW = {"SetDelunayEdgeCW", (PyCFunction)__pyx_pw_10pypoly2tri_6shapes_8Triangle_57SetDelunayEdgeCW, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_8Triangle_57SetDelunayEdgeCW(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_self = 0;
   PyObject *__pyx_v_point = 0;
   PyObject *__pyx_v_ce = 0;
@@ -8960,18 +8960,18 @@ static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_57SetDelunayEdgeCW(PyO
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("SetDelunayEdgeCW", 1, 3, 3, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 254; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   __pyx_L3_error:;
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Triangle.SetDelunayEdgeCW", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Triangle.SetDelunayEdgeCW", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_11pyxpoly2tri_6shapes_8Triangle_56SetDelunayEdgeCW(__pyx_self, __pyx_v_self, __pyx_v_point, __pyx_v_ce);
+  __pyx_r = __pyx_pf_10pypoly2tri_6shapes_8Triangle_56SetDelunayEdgeCW(__pyx_self, __pyx_v_self, __pyx_v_point, __pyx_v_ce);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_56SetDelunayEdgeCW(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_point, PyObject *__pyx_v_ce) {
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_8Triangle_56SetDelunayEdgeCW(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_point, PyObject *__pyx_v_ce) {
   PyObject *__pyx_v_ii = NULL;
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
@@ -8984,7 +8984,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_56SetDelunayEdgeCW(CYT
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("SetDelunayEdgeCW", 0);
 
-  /* "pyxpoly2tri\shapes.py":255
+  /* "pypoly2tri\shapes.py":255
  * 
  *     def SetDelunayEdgeCW(self, point, ce):
  *         ii = self.Index(point)             # <<<<<<<<<<<<<<
@@ -9021,7 +9021,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_56SetDelunayEdgeCW(CYT
   __pyx_v_ii = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "pyxpoly2tri\shapes.py":256
+  /* "pypoly2tri\shapes.py":256
  *     def SetDelunayEdgeCW(self, point, ce):
  *         ii = self.Index(point)
  *         self.delaunay_edge[(ii + 1) % 3] = ce             # <<<<<<<<<<<<<<
@@ -9039,7 +9039,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_56SetDelunayEdgeCW(CYT
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "pyxpoly2tri\shapes.py":254
+  /* "pypoly2tri\shapes.py":254
  *         self.delaunay_edge[(ii - 1) % 3] = ce
  * 
  *     def SetDelunayEdgeCW(self, point, ce):             # <<<<<<<<<<<<<<
@@ -9055,7 +9055,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_56SetDelunayEdgeCW(CYT
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Triangle.SetDelunayEdgeCW", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Triangle.SetDelunayEdgeCW", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_ii);
@@ -9064,7 +9064,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_56SetDelunayEdgeCW(CYT
   return __pyx_r;
 }
 
-/* "pyxpoly2tri\shapes.py":258
+/* "pypoly2tri\shapes.py":258
  *         self.delaunay_edge[(ii + 1) % 3] = ce
  * 
  *     def NeighborAcross(self, point):             # <<<<<<<<<<<<<<
@@ -9073,9 +9073,9 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_56SetDelunayEdgeCW(CYT
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_59NeighborAcross(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_11pyxpoly2tri_6shapes_8Triangle_59NeighborAcross = {"NeighborAcross", (PyCFunction)__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_59NeighborAcross, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_59NeighborAcross(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_8Triangle_59NeighborAcross(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_10pypoly2tri_6shapes_8Triangle_59NeighborAcross = {"NeighborAcross", (PyCFunction)__pyx_pw_10pypoly2tri_6shapes_8Triangle_59NeighborAcross, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_8Triangle_59NeighborAcross(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_self = 0;
   PyObject *__pyx_v_point = 0;
   int __pyx_lineno = 0;
@@ -9123,18 +9123,18 @@ static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_59NeighborAcross(PyObj
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("NeighborAcross", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 258; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   __pyx_L3_error:;
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Triangle.NeighborAcross", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Triangle.NeighborAcross", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_11pyxpoly2tri_6shapes_8Triangle_58NeighborAcross(__pyx_self, __pyx_v_self, __pyx_v_point);
+  __pyx_r = __pyx_pf_10pypoly2tri_6shapes_8Triangle_58NeighborAcross(__pyx_self, __pyx_v_self, __pyx_v_point);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_58NeighborAcross(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_point) {
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_8Triangle_58NeighborAcross(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_point) {
   PyObject *__pyx_v_ii = NULL;
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
@@ -9147,7 +9147,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_58NeighborAcross(CYTHO
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("NeighborAcross", 0);
 
-  /* "pyxpoly2tri\shapes.py":259
+  /* "pypoly2tri\shapes.py":259
  * 
  *     def NeighborAcross(self, point):
  *         ii = self.Index(point)             # <<<<<<<<<<<<<<
@@ -9184,7 +9184,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_58NeighborAcross(CYTHO
   __pyx_v_ii = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "pyxpoly2tri\shapes.py":260
+  /* "pypoly2tri\shapes.py":260
  *     def NeighborAcross(self, point):
  *         ii = self.Index(point)
  *         return self.neighbors_[ii]             # <<<<<<<<<<<<<<
@@ -9201,7 +9201,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_58NeighborAcross(CYTHO
   __pyx_t_2 = 0;
   goto __pyx_L0;
 
-  /* "pyxpoly2tri\shapes.py":258
+  /* "pypoly2tri\shapes.py":258
  *         self.delaunay_edge[(ii + 1) % 3] = ce
  * 
  *     def NeighborAcross(self, point):             # <<<<<<<<<<<<<<
@@ -9215,7 +9215,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_58NeighborAcross(CYTHO
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Triangle.NeighborAcross", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Triangle.NeighborAcross", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_ii);
@@ -9224,7 +9224,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_58NeighborAcross(CYTHO
   return __pyx_r;
 }
 
-/* "pyxpoly2tri\shapes.py":262
+/* "pypoly2tri\shapes.py":262
  *         return self.neighbors_[ii]
  * 
  *     def DebugPrint(self):             # <<<<<<<<<<<<<<
@@ -9233,20 +9233,20 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_58NeighborAcross(CYTHO
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_61DebugPrint(PyObject *__pyx_self, PyObject *__pyx_v_self); /*proto*/
-static PyMethodDef __pyx_mdef_11pyxpoly2tri_6shapes_8Triangle_61DebugPrint = {"DebugPrint", (PyCFunction)__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_61DebugPrint, METH_O, 0};
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_61DebugPrint(PyObject *__pyx_self, PyObject *__pyx_v_self) {
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_8Triangle_61DebugPrint(PyObject *__pyx_self, PyObject *__pyx_v_self); /*proto*/
+static PyMethodDef __pyx_mdef_10pypoly2tri_6shapes_8Triangle_61DebugPrint = {"DebugPrint", (PyCFunction)__pyx_pw_10pypoly2tri_6shapes_8Triangle_61DebugPrint, METH_O, 0};
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_8Triangle_61DebugPrint(PyObject *__pyx_self, PyObject *__pyx_v_self) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("DebugPrint (wrapper)", 0);
-  __pyx_r = __pyx_pf_11pyxpoly2tri_6shapes_8Triangle_60DebugPrint(__pyx_self, ((PyObject *)__pyx_v_self));
+  __pyx_r = __pyx_pf_10pypoly2tri_6shapes_8Triangle_60DebugPrint(__pyx_self, ((PyObject *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_60DebugPrint(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self) {
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_8Triangle_60DebugPrint(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -9255,7 +9255,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_60DebugPrint(CYTHON_UN
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("DebugPrint", 0);
 
-  /* "pyxpoly2tri\shapes.py":263
+  /* "pypoly2tri\shapes.py":263
  * 
  *     def DebugPrint(self):
  *         print(self.points_)             # <<<<<<<<<<<<<<
@@ -9267,7 +9267,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_60DebugPrint(CYTHON_UN
   if (__Pyx_PrintOne(0, __pyx_t_1) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 263; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "pyxpoly2tri\shapes.py":262
+  /* "pypoly2tri\shapes.py":262
  *         return self.neighbors_[ii]
  * 
  *     def DebugPrint(self):             # <<<<<<<<<<<<<<
@@ -9280,7 +9280,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_60DebugPrint(CYTHON_UN
   goto __pyx_L0;
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Triangle.DebugPrint", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Triangle.DebugPrint", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -9288,7 +9288,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_60DebugPrint(CYTHON_UN
   return __pyx_r;
 }
 
-/* "pyxpoly2tri\shapes.py":265
+/* "pypoly2tri\shapes.py":265
  *         print(self.points_)
  * 
  *     def GetPoint(self, index):             # <<<<<<<<<<<<<<
@@ -9297,9 +9297,9 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_60DebugPrint(CYTHON_UN
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_63GetPoint(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_11pyxpoly2tri_6shapes_8Triangle_63GetPoint = {"GetPoint", (PyCFunction)__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_63GetPoint, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_63GetPoint(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_8Triangle_63GetPoint(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_10pypoly2tri_6shapes_8Triangle_63GetPoint = {"GetPoint", (PyCFunction)__pyx_pw_10pypoly2tri_6shapes_8Triangle_63GetPoint, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_8Triangle_63GetPoint(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_self = 0;
   PyObject *__pyx_v_index = 0;
   int __pyx_lineno = 0;
@@ -9347,18 +9347,18 @@ static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_63GetPoint(PyObject *_
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("GetPoint", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 265; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   __pyx_L3_error:;
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Triangle.GetPoint", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Triangle.GetPoint", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_11pyxpoly2tri_6shapes_8Triangle_62GetPoint(__pyx_self, __pyx_v_self, __pyx_v_index);
+  __pyx_r = __pyx_pf_10pypoly2tri_6shapes_8Triangle_62GetPoint(__pyx_self, __pyx_v_self, __pyx_v_index);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_62GetPoint(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_index) {
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_8Triangle_62GetPoint(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_index) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -9368,7 +9368,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_62GetPoint(CYTHON_UNUS
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("GetPoint", 0);
 
-  /* "pyxpoly2tri\shapes.py":266
+  /* "pypoly2tri\shapes.py":266
  * 
  *     def GetPoint(self, index):
  *         return self.points_[index]             # <<<<<<<<<<<<<<
@@ -9385,7 +9385,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_62GetPoint(CYTHON_UNUS
   __pyx_t_2 = 0;
   goto __pyx_L0;
 
-  /* "pyxpoly2tri\shapes.py":265
+  /* "pypoly2tri\shapes.py":265
  *         print(self.points_)
  * 
  *     def GetPoint(self, index):             # <<<<<<<<<<<<<<
@@ -9397,7 +9397,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_62GetPoint(CYTHON_UNUS
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_2);
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Triangle.GetPoint", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Triangle.GetPoint", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -9405,7 +9405,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_62GetPoint(CYTHON_UNUS
   return __pyx_r;
 }
 
-/* "pyxpoly2tri\shapes.py":268
+/* "pypoly2tri\shapes.py":268
  *         return self.points_[index]
  * 
  *     def GetNeighbor(self, index):             # <<<<<<<<<<<<<<
@@ -9414,9 +9414,9 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_62GetPoint(CYTHON_UNUS
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_65GetNeighbor(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_11pyxpoly2tri_6shapes_8Triangle_65GetNeighbor = {"GetNeighbor", (PyCFunction)__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_65GetNeighbor, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_65GetNeighbor(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_8Triangle_65GetNeighbor(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_10pypoly2tri_6shapes_8Triangle_65GetNeighbor = {"GetNeighbor", (PyCFunction)__pyx_pw_10pypoly2tri_6shapes_8Triangle_65GetNeighbor, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_8Triangle_65GetNeighbor(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_self = 0;
   PyObject *__pyx_v_index = 0;
   int __pyx_lineno = 0;
@@ -9464,18 +9464,18 @@ static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_65GetNeighbor(PyObject
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("GetNeighbor", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 268; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   __pyx_L3_error:;
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Triangle.GetNeighbor", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Triangle.GetNeighbor", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_11pyxpoly2tri_6shapes_8Triangle_64GetNeighbor(__pyx_self, __pyx_v_self, __pyx_v_index);
+  __pyx_r = __pyx_pf_10pypoly2tri_6shapes_8Triangle_64GetNeighbor(__pyx_self, __pyx_v_self, __pyx_v_index);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_64GetNeighbor(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_index) {
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_8Triangle_64GetNeighbor(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_index) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -9485,7 +9485,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_64GetNeighbor(CYTHON_U
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("GetNeighbor", 0);
 
-  /* "pyxpoly2tri\shapes.py":269
+  /* "pypoly2tri\shapes.py":269
  * 
  *     def GetNeighbor(self, index):
  *         return self.neighbors_[index]             # <<<<<<<<<<<<<<
@@ -9502,7 +9502,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_64GetNeighbor(CYTHON_U
   __pyx_t_2 = 0;
   goto __pyx_L0;
 
-  /* "pyxpoly2tri\shapes.py":268
+  /* "pypoly2tri\shapes.py":268
  *         return self.points_[index]
  * 
  *     def GetNeighbor(self, index):             # <<<<<<<<<<<<<<
@@ -9514,7 +9514,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_64GetNeighbor(CYTHON_U
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_2);
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Triangle.GetNeighbor", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Triangle.GetNeighbor", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -9522,7 +9522,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_64GetNeighbor(CYTHON_U
   return __pyx_r;
 }
 
-/* "pyxpoly2tri\shapes.py":271
+/* "pypoly2tri\shapes.py":271
  *         return self.neighbors_[index]
  * 
  *     def Contains(self, *args):             # <<<<<<<<<<<<<<
@@ -9531,9 +9531,9 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_64GetNeighbor(CYTHON_U
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_67Contains(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_11pyxpoly2tri_6shapes_8Triangle_67Contains = {"Contains", (PyCFunction)__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_67Contains, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_67Contains(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_8Triangle_67Contains(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_10pypoly2tri_6shapes_8Triangle_67Contains = {"Contains", (PyCFunction)__pyx_pw_10pypoly2tri_6shapes_8Triangle_67Contains, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_8Triangle_67Contains(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_self = 0;
   PyObject *__pyx_v_args = 0;
   int __pyx_lineno = 0;
@@ -9585,11 +9585,11 @@ static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_67Contains(PyObject *_
   __Pyx_RaiseArgtupleInvalid("Contains", 0, 1, 1, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 271; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   __pyx_L3_error:;
   __Pyx_DECREF(__pyx_v_args); __pyx_v_args = 0;
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Triangle.Contains", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Triangle.Contains", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_11pyxpoly2tri_6shapes_8Triangle_66Contains(__pyx_self, __pyx_v_self, __pyx_v_args);
+  __pyx_r = __pyx_pf_10pypoly2tri_6shapes_8Triangle_66Contains(__pyx_self, __pyx_v_self, __pyx_v_args);
 
   /* function exit code */
   __Pyx_XDECREF(__pyx_v_args);
@@ -9597,7 +9597,7 @@ static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_67Contains(PyObject *_
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_66Contains(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_args) {
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_8Triangle_66Contains(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_args) {
   PyObject *__pyx_v_item = NULL;
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
@@ -9613,7 +9613,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_66Contains(CYTHON_UNUS
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("Contains", 0);
 
-  /* "pyxpoly2tri\shapes.py":272
+  /* "pypoly2tri\shapes.py":272
  * 
  *     def Contains(self, *args):
  *         if len(args) == 1:             # <<<<<<<<<<<<<<
@@ -9624,7 +9624,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_66Contains(CYTHON_UNUS
   __pyx_t_2 = ((__pyx_t_1 == 1) != 0);
   if (__pyx_t_2) {
 
-    /* "pyxpoly2tri\shapes.py":273
+    /* "pypoly2tri\shapes.py":273
  *     def Contains(self, *args):
  *         if len(args) == 1:
  *             item = args[0]             # <<<<<<<<<<<<<<
@@ -9636,7 +9636,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_66Contains(CYTHON_UNUS
     __pyx_v_item = __pyx_t_3;
     __pyx_t_3 = 0;
 
-    /* "pyxpoly2tri\shapes.py":274
+    /* "pypoly2tri\shapes.py":274
  *         if len(args) == 1:
  *             item = args[0]
  *             if isinstance(item, Point):             # <<<<<<<<<<<<<<
@@ -9650,7 +9650,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_66Contains(CYTHON_UNUS
     __pyx_t_4 = (__pyx_t_2 != 0);
     if (__pyx_t_4) {
 
-      /* "pyxpoly2tri\shapes.py":275
+      /* "pypoly2tri\shapes.py":275
  *             item = args[0]
  *             if isinstance(item, Point):
  *                 return item in self.points_             # <<<<<<<<<<<<<<
@@ -9668,7 +9668,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_66Contains(CYTHON_UNUS
       __pyx_t_3 = 0;
       goto __pyx_L0;
 
-      /* "pyxpoly2tri\shapes.py":274
+      /* "pypoly2tri\shapes.py":274
  *         if len(args) == 1:
  *             item = args[0]
  *             if isinstance(item, Point):             # <<<<<<<<<<<<<<
@@ -9677,7 +9677,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_66Contains(CYTHON_UNUS
  */
     }
 
-    /* "pyxpoly2tri\shapes.py":276
+    /* "pypoly2tri\shapes.py":276
  *             if isinstance(item, Point):
  *                 return item in self.points_
  *             elif isinstance(item, Edge):             # <<<<<<<<<<<<<<
@@ -9691,7 +9691,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_66Contains(CYTHON_UNUS
     __pyx_t_2 = (__pyx_t_4 != 0);
     if (__pyx_t_2) {
 
-      /* "pyxpoly2tri\shapes.py":277
+      /* "pypoly2tri\shapes.py":277
  *                 return item in self.points_
  *             elif isinstance(item, Edge):
  *                 return item.p in self.points_ and item.q in self.points_             # <<<<<<<<<<<<<<
@@ -9730,7 +9730,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_66Contains(CYTHON_UNUS
       __pyx_t_3 = 0;
       goto __pyx_L0;
 
-      /* "pyxpoly2tri\shapes.py":276
+      /* "pypoly2tri\shapes.py":276
  *             if isinstance(item, Point):
  *                 return item in self.points_
  *             elif isinstance(item, Edge):             # <<<<<<<<<<<<<<
@@ -9739,7 +9739,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_66Contains(CYTHON_UNUS
  */
     }
 
-    /* "pyxpoly2tri\shapes.py":272
+    /* "pypoly2tri\shapes.py":272
  * 
  *     def Contains(self, *args):
  *         if len(args) == 1:             # <<<<<<<<<<<<<<
@@ -9749,7 +9749,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_66Contains(CYTHON_UNUS
     goto __pyx_L3;
   }
 
-  /* "pyxpoly2tri\shapes.py":279
+  /* "pypoly2tri\shapes.py":279
  *                 return item.p in self.points_ and item.q in self.points_
  *         else:
  *             return all([isinstance(item, Point) for item in args]) and all(             # <<<<<<<<<<<<<<
@@ -9799,7 +9799,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_66Contains(CYTHON_UNUS
       goto __pyx_L7_bool_binop_done;
     }
 
-    /* "pyxpoly2tri\shapes.py":280
+    /* "pypoly2tri\shapes.py":280
  *         else:
  *             return all([isinstance(item, Point) for item in args]) and all(
  *                 [item in self.points_ for item in args])             # <<<<<<<<<<<<<<
@@ -9830,7 +9830,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_66Contains(CYTHON_UNUS
     }
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-    /* "pyxpoly2tri\shapes.py":279
+    /* "pypoly2tri\shapes.py":279
  *                 return item.p in self.points_ and item.q in self.points_
  *         else:
  *             return all([isinstance(item, Point) for item in args]) and all(             # <<<<<<<<<<<<<<
@@ -9855,7 +9855,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_66Contains(CYTHON_UNUS
   }
   __pyx_L3:;
 
-  /* "pyxpoly2tri\shapes.py":271
+  /* "pypoly2tri\shapes.py":271
  *         return self.neighbors_[index]
  * 
  *     def Contains(self, *args):             # <<<<<<<<<<<<<<
@@ -9871,7 +9871,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_66Contains(CYTHON_UNUS
   __Pyx_XDECREF(__pyx_t_5);
   __Pyx_XDECREF(__pyx_t_6);
   __Pyx_XDECREF(__pyx_t_7);
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Triangle.Contains", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Triangle.Contains", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_item);
@@ -9880,7 +9880,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_66Contains(CYTHON_UNUS
   return __pyx_r;
 }
 
-/* "pyxpoly2tri\shapes.py":282
+/* "pypoly2tri\shapes.py":282
  *                 [item in self.points_ for item in args])
  * 
  *     def IsInterior(self, *args):             # <<<<<<<<<<<<<<
@@ -9889,9 +9889,9 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_66Contains(CYTHON_UNUS
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_69IsInterior(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_11pyxpoly2tri_6shapes_8Triangle_69IsInterior = {"IsInterior", (PyCFunction)__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_69IsInterior, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_69IsInterior(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_8Triangle_69IsInterior(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_10pypoly2tri_6shapes_8Triangle_69IsInterior = {"IsInterior", (PyCFunction)__pyx_pw_10pypoly2tri_6shapes_8Triangle_69IsInterior, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_8Triangle_69IsInterior(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_self = 0;
   PyObject *__pyx_v_args = 0;
   int __pyx_lineno = 0;
@@ -9943,11 +9943,11 @@ static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_69IsInterior(PyObject 
   __Pyx_RaiseArgtupleInvalid("IsInterior", 0, 1, 1, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 282; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   __pyx_L3_error:;
   __Pyx_DECREF(__pyx_v_args); __pyx_v_args = 0;
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Triangle.IsInterior", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Triangle.IsInterior", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_11pyxpoly2tri_6shapes_8Triangle_68IsInterior(__pyx_self, __pyx_v_self, __pyx_v_args);
+  __pyx_r = __pyx_pf_10pypoly2tri_6shapes_8Triangle_68IsInterior(__pyx_self, __pyx_v_self, __pyx_v_args);
 
   /* function exit code */
   __Pyx_XDECREF(__pyx_v_args);
@@ -9955,7 +9955,7 @@ static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_8Triangle_69IsInterior(PyObject 
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_68IsInterior(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_args) {
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_8Triangle_68IsInterior(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_args) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   Py_ssize_t __pyx_t_1;
@@ -9966,7 +9966,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_68IsInterior(CYTHON_UN
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("IsInterior", 0);
 
-  /* "pyxpoly2tri\shapes.py":283
+  /* "pypoly2tri\shapes.py":283
  * 
  *     def IsInterior(self, *args):
  *         if len(args) == 0:             # <<<<<<<<<<<<<<
@@ -9977,7 +9977,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_68IsInterior(CYTHON_UN
   __pyx_t_2 = ((__pyx_t_1 == 0) != 0);
   if (__pyx_t_2) {
 
-    /* "pyxpoly2tri\shapes.py":284
+    /* "pypoly2tri\shapes.py":284
  *     def IsInterior(self, *args):
  *         if len(args) == 0:
  *             return self.interior_             # <<<<<<<<<<<<<<
@@ -9991,7 +9991,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_68IsInterior(CYTHON_UN
     __pyx_t_3 = 0;
     goto __pyx_L0;
 
-    /* "pyxpoly2tri\shapes.py":283
+    /* "pypoly2tri\shapes.py":283
  * 
  *     def IsInterior(self, *args):
  *         if len(args) == 0:             # <<<<<<<<<<<<<<
@@ -10000,7 +10000,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_68IsInterior(CYTHON_UN
  */
   }
 
-  /* "pyxpoly2tri\shapes.py":286
+  /* "pypoly2tri\shapes.py":286
  *             return self.interior_
  *         else:
  *             self.interior_ = args[0]             # <<<<<<<<<<<<<<
@@ -10014,7 +10014,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_68IsInterior(CYTHON_UN
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   }
 
-  /* "pyxpoly2tri\shapes.py":282
+  /* "pypoly2tri\shapes.py":282
  *                 [item in self.points_ for item in args])
  * 
  *     def IsInterior(self, *args):             # <<<<<<<<<<<<<<
@@ -10027,7 +10027,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_68IsInterior(CYTHON_UN
   goto __pyx_L0;
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_3);
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.Triangle.IsInterior", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.Triangle.IsInterior", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -10035,7 +10035,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_68IsInterior(CYTHON_UN
   return __pyx_r;
 }
 
-/* "pyxpoly2tri\shapes.py":289
+/* "pypoly2tri\shapes.py":289
  * 
  * 
  * def cmp(a, b):             # <<<<<<<<<<<<<<
@@ -10044,9 +10044,9 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_8Triangle_68IsInterior(CYTHON_UN
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_11cmp(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_11pyxpoly2tri_6shapes_11cmp = {"cmp", (PyCFunction)__pyx_pw_11pyxpoly2tri_6shapes_11cmp, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_11cmp(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_11cmp(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_10pypoly2tri_6shapes_11cmp = {"cmp", (PyCFunction)__pyx_pw_10pypoly2tri_6shapes_11cmp, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_10pypoly2tri_6shapes_11cmp(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_a = 0;
   PyObject *__pyx_v_b = 0;
   int __pyx_lineno = 0;
@@ -10094,18 +10094,18 @@ static PyObject *__pyx_pw_11pyxpoly2tri_6shapes_11cmp(PyObject *__pyx_self, PyOb
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("cmp", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 289; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   __pyx_L3_error:;
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.cmp", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.cmp", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_11pyxpoly2tri_6shapes_10cmp(__pyx_self, __pyx_v_a, __pyx_v_b);
+  __pyx_r = __pyx_pf_10pypoly2tri_6shapes_10cmp(__pyx_self, __pyx_v_a, __pyx_v_b);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_10cmp(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_a, PyObject *__pyx_v_b) {
+static PyObject *__pyx_pf_10pypoly2tri_6shapes_10cmp(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_a, PyObject *__pyx_v_b) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -10117,7 +10117,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_10cmp(CYTHON_UNUSED PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("cmp", 0);
 
-  /* "pyxpoly2tri\shapes.py":290
+  /* "pypoly2tri\shapes.py":290
  * 
  * def cmp(a, b):
  *     if a.y < b.y:             # <<<<<<<<<<<<<<
@@ -10135,7 +10135,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_10cmp(CYTHON_UNUSED PyObject *__
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   if (__pyx_t_4) {
 
-    /* "pyxpoly2tri\shapes.py":291
+    /* "pypoly2tri\shapes.py":291
  * def cmp(a, b):
  *     if a.y < b.y:
  *         return True             # <<<<<<<<<<<<<<
@@ -10147,7 +10147,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_10cmp(CYTHON_UNUSED PyObject *__
     __pyx_r = Py_True;
     goto __pyx_L0;
 
-    /* "pyxpoly2tri\shapes.py":290
+    /* "pypoly2tri\shapes.py":290
  * 
  * def cmp(a, b):
  *     if a.y < b.y:             # <<<<<<<<<<<<<<
@@ -10156,7 +10156,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_10cmp(CYTHON_UNUSED PyObject *__
  */
   }
 
-  /* "pyxpoly2tri\shapes.py":292
+  /* "pypoly2tri\shapes.py":292
  *     if a.y < b.y:
  *         return True
  *     elif a.y == b.y:             # <<<<<<<<<<<<<<
@@ -10174,7 +10174,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_10cmp(CYTHON_UNUSED PyObject *__
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   if (__pyx_t_4) {
 
-    /* "pyxpoly2tri\shapes.py":293
+    /* "pypoly2tri\shapes.py":293
  *         return True
  *     elif a.y == b.y:
  *         if a.x < b.x:             # <<<<<<<<<<<<<<
@@ -10192,7 +10192,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_10cmp(CYTHON_UNUSED PyObject *__
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     if (__pyx_t_4) {
 
-      /* "pyxpoly2tri\shapes.py":294
+      /* "pypoly2tri\shapes.py":294
  *     elif a.y == b.y:
  *         if a.x < b.x:
  *             return True             # <<<<<<<<<<<<<<
@@ -10203,7 +10203,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_10cmp(CYTHON_UNUSED PyObject *__
       __pyx_r = Py_True;
       goto __pyx_L0;
 
-      /* "pyxpoly2tri\shapes.py":293
+      /* "pypoly2tri\shapes.py":293
  *         return True
  *     elif a.y == b.y:
  *         if a.x < b.x:             # <<<<<<<<<<<<<<
@@ -10212,7 +10212,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_10cmp(CYTHON_UNUSED PyObject *__
  */
     }
 
-    /* "pyxpoly2tri\shapes.py":292
+    /* "pypoly2tri\shapes.py":292
  *     if a.y < b.y:
  *         return True
  *     elif a.y == b.y:             # <<<<<<<<<<<<<<
@@ -10221,7 +10221,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_10cmp(CYTHON_UNUSED PyObject *__
  */
   }
 
-  /* "pyxpoly2tri\shapes.py":295
+  /* "pypoly2tri\shapes.py":295
  *         if a.x < b.x:
  *             return True
  *     return False             # <<<<<<<<<<<<<<
@@ -10231,7 +10231,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_10cmp(CYTHON_UNUSED PyObject *__
   __pyx_r = Py_False;
   goto __pyx_L0;
 
-  /* "pyxpoly2tri\shapes.py":289
+  /* "pypoly2tri\shapes.py":289
  * 
  * 
  * def cmp(a, b):             # <<<<<<<<<<<<<<
@@ -10244,7 +10244,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_6shapes_10cmp(CYTHON_UNUSED PyObject *__
   __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
-  __Pyx_AddTraceback("pyxpoly2tri.shapes.cmp", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.shapes.cmp", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -10275,7 +10275,7 @@ static struct PyModuleDef __pyx_moduledef = {
 #endif
 
 static __Pyx_StringTabEntry __pyx_string_tab[] = {
-  {&__pyx_kp_s_C_Users_danaukes_Documents_code, __pyx_k_C_Users_danaukes_Documents_code, sizeof(__pyx_k_C_Users_danaukes_Documents_code), 0, 0, 1, 0},
+  {&__pyx_kp_s_C_Users_danaukes_code_pypoly2tri, __pyx_k_C_Users_danaukes_code_pypoly2tri, sizeof(__pyx_k_C_Users_danaukes_code_pypoly2tri), 0, 0, 1, 0},
   {&__pyx_n_s_ClearDelaunayEdges, __pyx_k_ClearDelaunayEdges, sizeof(__pyx_k_ClearDelaunayEdges), 0, 0, 1, 1},
   {&__pyx_n_s_ClearNeighbors, __pyx_k_ClearNeighbors, sizeof(__pyx_k_ClearNeighbors), 0, 0, 1, 1},
   {&__pyx_n_s_Contains, __pyx_k_Contains, sizeof(__pyx_k_Contains), 0, 0, 1, 1},
@@ -10418,7 +10418,7 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_points, __pyx_k_points, sizeof(__pyx_k_points), 0, 0, 1, 1},
   {&__pyx_n_s_prepare, __pyx_k_prepare, sizeof(__pyx_k_prepare), 0, 0, 1, 1},
   {&__pyx_n_s_print, __pyx_k_print, sizeof(__pyx_k_print), 0, 0, 1, 1},
-  {&__pyx_n_s_pyxpoly2tri_shapes, __pyx_k_pyxpoly2tri_shapes, sizeof(__pyx_k_pyxpoly2tri_shapes), 0, 0, 1, 1},
+  {&__pyx_n_s_pypoly2tri_shapes, __pyx_k_pypoly2tri_shapes, sizeof(__pyx_k_pypoly2tri_shapes), 0, 0, 1, 1},
   {&__pyx_n_s_q, __pyx_k_q, sizeof(__pyx_k_q), 0, 0, 1, 1},
   {&__pyx_n_s_qualname, __pyx_k_qualname, sizeof(__pyx_k_qualname), 0, 0, 1, 1},
   {&__pyx_n_s_range, __pyx_k_range, sizeof(__pyx_k_range), 0, 0, 1, 1},
@@ -10449,7 +10449,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__Pyx_InitCachedConstants", 0);
 
-  /* "pyxpoly2tri\shapes.py":116
+  /* "pypoly2tri\shapes.py":116
  *         ii = self.points_.index(p1)
  *         jj = self.points_.index(p2)
  *         index = list(set(range(3)) - set([ii, jj]))[0]             # <<<<<<<<<<<<<<
@@ -10460,7 +10460,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple_);
   __Pyx_GIVEREF(__pyx_tuple_);
 
-  /* "pyxpoly2tri\shapes.py":186
+  /* "pypoly2tri\shapes.py":186
  *             index1 = self.points_.index(p1)
  *             index2 = self.points_.index(p2)
  *             return list(set(range(3)) - set([index1, index2]))[0]             # <<<<<<<<<<<<<<
@@ -10471,7 +10471,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__2);
   __Pyx_GIVEREF(__pyx_tuple__2);
 
-  /* "pyxpoly2tri\shapes.py":12
+  /* "pypoly2tri\shapes.py":12
  *     __hash__ = object.__hash__
  * 
  *     def __init__(self, x=0., y=0.):             # <<<<<<<<<<<<<<
@@ -10481,12 +10481,12 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__3 = PyTuple_Pack(3, __pyx_n_s_self, __pyx_n_s_x, __pyx_n_s_y); if (unlikely(!__pyx_tuple__3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 12; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__3);
   __Pyx_GIVEREF(__pyx_tuple__3);
-  __pyx_codeobj__4 = (PyObject*)__Pyx_PyCode_New(3, 0, 3, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__3, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_Documents_code, __pyx_n_s_init, 12, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 12; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__4 = (PyObject*)__Pyx_PyCode_New(3, 0, 3, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__3, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_code_pypoly2tri, __pyx_n_s_init, 12, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 12; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __pyx_tuple__5 = PyTuple_Pack(2, ((PyObject*)__pyx_float_0_), ((PyObject*)__pyx_float_0_)); if (unlikely(!__pyx_tuple__5)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 12; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__5);
   __Pyx_GIVEREF(__pyx_tuple__5);
 
-  /* "pyxpoly2tri\shapes.py":17
+  /* "pypoly2tri\shapes.py":17
  *         self.edge_list = []
  * 
  *     def set_zero(self):             # <<<<<<<<<<<<<<
@@ -10496,9 +10496,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__6 = PyTuple_Pack(1, __pyx_n_s_self); if (unlikely(!__pyx_tuple__6)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 17; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__6);
   __Pyx_GIVEREF(__pyx_tuple__6);
-  __pyx_codeobj__7 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__6, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_Documents_code, __pyx_n_s_set_zero, 17, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__7)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 17; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__7 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__6, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_code_pypoly2tri, __pyx_n_s_set_zero, 17, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__7)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 17; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "pyxpoly2tri\shapes.py":24
+  /* "pypoly2tri\shapes.py":24
  * #        self.y = y
  * 
  *     def __neg__(self):             # <<<<<<<<<<<<<<
@@ -10508,9 +10508,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__8 = PyTuple_Pack(1, __pyx_n_s_self); if (unlikely(!__pyx_tuple__8)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 24; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__8);
   __Pyx_GIVEREF(__pyx_tuple__8);
-  __pyx_codeobj__9 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__8, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_Documents_code, __pyx_n_s_neg, 24, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__9)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 24; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__9 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__8, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_code_pypoly2tri, __pyx_n_s_neg, 24, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__9)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 24; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "pyxpoly2tri\shapes.py":27
+  /* "pypoly2tri\shapes.py":27
  *         return Point(-self.x, -self.y)
  * 
  *     def __sub__(self, a):             # <<<<<<<<<<<<<<
@@ -10520,9 +10520,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__10 = PyTuple_Pack(2, __pyx_n_s_self, __pyx_n_s_a); if (unlikely(!__pyx_tuple__10)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 27; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__10);
   __Pyx_GIVEREF(__pyx_tuple__10);
-  __pyx_codeobj__11 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__10, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_Documents_code, __pyx_n_s_sub, 27, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__11)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 27; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__11 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__10, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_code_pypoly2tri, __pyx_n_s_sub, 27, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__11)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 27; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "pyxpoly2tri\shapes.py":30
+  /* "pypoly2tri\shapes.py":30
  *         return Point(a.x - self.x, a.y - self.y)
  * 
  *     def __add__(self, a):             # <<<<<<<<<<<<<<
@@ -10532,9 +10532,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__12 = PyTuple_Pack(2, __pyx_n_s_self, __pyx_n_s_a); if (unlikely(!__pyx_tuple__12)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 30; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__12);
   __Pyx_GIVEREF(__pyx_tuple__12);
-  __pyx_codeobj__13 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__12, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_Documents_code, __pyx_n_s_add, 30, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__13)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 30; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__13 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__12, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_code_pypoly2tri, __pyx_n_s_add, 30, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__13)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 30; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "pyxpoly2tri\shapes.py":33
+  /* "pypoly2tri\shapes.py":33
  *         return Point(a.x + self.x, a.y + self.y)
  * 
  *     def __mul__(self, a):             # <<<<<<<<<<<<<<
@@ -10544,9 +10544,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__14 = PyTuple_Pack(2, __pyx_n_s_self, __pyx_n_s_a); if (unlikely(!__pyx_tuple__14)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 33; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__14);
   __Pyx_GIVEREF(__pyx_tuple__14);
-  __pyx_codeobj__15 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__14, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_Documents_code, __pyx_n_s_mul, 33, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__15)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 33; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__15 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__14, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_code_pypoly2tri, __pyx_n_s_mul, 33, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__15)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 33; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "pyxpoly2tri\shapes.py":36
+  /* "pypoly2tri\shapes.py":36
  *         return Point(a * self.x, a * self.y)
  * 
  *     def Length(self):             # <<<<<<<<<<<<<<
@@ -10556,9 +10556,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__16 = PyTuple_Pack(2, __pyx_n_s_self, __pyx_n_s_math); if (unlikely(!__pyx_tuple__16)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 36; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__16);
   __Pyx_GIVEREF(__pyx_tuple__16);
-  __pyx_codeobj__17 = (PyObject*)__Pyx_PyCode_New(1, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__16, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_Documents_code, __pyx_n_s_Length, 36, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__17)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 36; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__17 = (PyObject*)__Pyx_PyCode_New(1, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__16, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_code_pypoly2tri, __pyx_n_s_Length, 36, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__17)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 36; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "pyxpoly2tri\shapes.py":40
+  /* "pypoly2tri\shapes.py":40
  *         return math.sqrt(self.x * self.x + self.y * self.y)
  * 
  *     def Normalize(self):             # <<<<<<<<<<<<<<
@@ -10568,9 +10568,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__18 = PyTuple_Pack(2, __pyx_n_s_self, __pyx_n_s_l); if (unlikely(!__pyx_tuple__18)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 40; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__18);
   __Pyx_GIVEREF(__pyx_tuple__18);
-  __pyx_codeobj__19 = (PyObject*)__Pyx_PyCode_New(1, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__18, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_Documents_code, __pyx_n_s_Normalize, 40, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__19)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 40; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__19 = (PyObject*)__Pyx_PyCode_New(1, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__18, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_code_pypoly2tri, __pyx_n_s_Normalize, 40, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__19)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 40; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "pyxpoly2tri\shapes.py":46
+  /* "pypoly2tri\shapes.py":46
  *         return l
  * 
  *     def __eq__(self, a):             # <<<<<<<<<<<<<<
@@ -10580,9 +10580,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__20 = PyTuple_Pack(2, __pyx_n_s_self, __pyx_n_s_a); if (unlikely(!__pyx_tuple__20)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 46; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__20);
   __Pyx_GIVEREF(__pyx_tuple__20);
-  __pyx_codeobj__21 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__20, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_Documents_code, __pyx_n_s_eq, 46, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__21)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 46; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__21 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__20, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_code_pypoly2tri, __pyx_n_s_eq, 46, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__21)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 46; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "pyxpoly2tri\shapes.py":49
+  /* "pypoly2tri\shapes.py":49
  *         return self.x == a.x and self.y == a.y
  * 
  *     def __neq__(self, a):             # <<<<<<<<<<<<<<
@@ -10592,9 +10592,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__22 = PyTuple_Pack(2, __pyx_n_s_self, __pyx_n_s_a); if (unlikely(!__pyx_tuple__22)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 49; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__22);
   __Pyx_GIVEREF(__pyx_tuple__22);
-  __pyx_codeobj__23 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__22, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_Documents_code, __pyx_n_s_neq, 49, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__23)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 49; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__23 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__22, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_code_pypoly2tri, __pyx_n_s_neq, 49, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__23)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 49; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "pyxpoly2tri\shapes.py":53
+  /* "pypoly2tri\shapes.py":53
  * #        return self.x!=a.x and self.y!=a.y
  * 
  *     def toTuple(self):             # <<<<<<<<<<<<<<
@@ -10604,9 +10604,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__24 = PyTuple_Pack(1, __pyx_n_s_self); if (unlikely(!__pyx_tuple__24)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 53; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__24);
   __Pyx_GIVEREF(__pyx_tuple__24);
-  __pyx_codeobj__25 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__24, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_Documents_code, __pyx_n_s_toTuple, 53, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__25)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 53; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__25 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__24, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_code_pypoly2tri, __pyx_n_s_toTuple, 53, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__25)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 53; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "pyxpoly2tri\shapes.py":57
+  /* "pypoly2tri\shapes.py":57
  * 
  * 
  * def Dot(p, a):             # <<<<<<<<<<<<<<
@@ -10616,9 +10616,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__26 = PyTuple_Pack(2, __pyx_n_s_p, __pyx_n_s_a); if (unlikely(!__pyx_tuple__26)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 57; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__26);
   __Pyx_GIVEREF(__pyx_tuple__26);
-  __pyx_codeobj__27 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__26, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_Documents_code, __pyx_n_s_Dot, 57, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__27)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 57; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__27 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__26, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_code_pypoly2tri, __pyx_n_s_Dot, 57, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__27)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 57; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "pyxpoly2tri\shapes.py":61
+  /* "pypoly2tri\shapes.py":61
  * 
  * 
  * def Cross_p(p, a):             # <<<<<<<<<<<<<<
@@ -10628,9 +10628,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__28 = PyTuple_Pack(2, __pyx_n_s_p, __pyx_n_s_a); if (unlikely(!__pyx_tuple__28)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 61; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__28);
   __Pyx_GIVEREF(__pyx_tuple__28);
-  __pyx_codeobj__29 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__28, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_Documents_code, __pyx_n_s_Cross_p, 61, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__29)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 61; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__29 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__28, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_code_pypoly2tri, __pyx_n_s_Cross_p, 61, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__29)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 61; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "pyxpoly2tri\shapes.py":65
+  /* "pypoly2tri\shapes.py":65
  * 
  * 
  * def Cross_s(p, a):             # <<<<<<<<<<<<<<
@@ -10640,9 +10640,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__30 = PyTuple_Pack(2, __pyx_n_s_p, __pyx_n_s_a); if (unlikely(!__pyx_tuple__30)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 65; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__30);
   __Pyx_GIVEREF(__pyx_tuple__30);
-  __pyx_codeobj__31 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__30, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_Documents_code, __pyx_n_s_Cross_s, 65, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__31)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 65; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__31 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__30, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_code_pypoly2tri, __pyx_n_s_Cross_s, 65, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__31)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 65; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "pyxpoly2tri\shapes.py":69
+  /* "pypoly2tri\shapes.py":69
  * 
  * 
  * def Cross_s2(a, p):             # <<<<<<<<<<<<<<
@@ -10652,9 +10652,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__32 = PyTuple_Pack(2, __pyx_n_s_a, __pyx_n_s_p); if (unlikely(!__pyx_tuple__32)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 69; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__32);
   __Pyx_GIVEREF(__pyx_tuple__32);
-  __pyx_codeobj__33 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__32, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_Documents_code, __pyx_n_s_Cross_s2, 69, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__33)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 69; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__33 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__32, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_code_pypoly2tri, __pyx_n_s_Cross_s2, 69, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__33)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 69; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "pyxpoly2tri\shapes.py":73
+  /* "pypoly2tri\shapes.py":73
  * 
  * 
  * def Cross(*args):             # <<<<<<<<<<<<<<
@@ -10664,9 +10664,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__34 = PyTuple_Pack(1, __pyx_n_s_args); if (unlikely(!__pyx_tuple__34)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 73; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__34);
   __Pyx_GIVEREF(__pyx_tuple__34);
-  __pyx_codeobj__35 = (PyObject*)__Pyx_PyCode_New(0, 0, 1, 0, CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__34, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_Documents_code, __pyx_n_s_Cross, 73, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__35)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 73; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__35 = (PyObject*)__Pyx_PyCode_New(0, 0, 1, 0, CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__34, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_code_pypoly2tri, __pyx_n_s_Cross, 73, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__35)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 73; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "pyxpoly2tri\shapes.py":85
+  /* "pypoly2tri\shapes.py":85
  * class Edge(object):
  * 
  *     def __init__(self, p1, p2):             # <<<<<<<<<<<<<<
@@ -10676,9 +10676,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__36 = PyTuple_Pack(3, __pyx_n_s_self, __pyx_n_s_p1, __pyx_n_s_p2); if (unlikely(!__pyx_tuple__36)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 85; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__36);
   __Pyx_GIVEREF(__pyx_tuple__36);
-  __pyx_codeobj__37 = (PyObject*)__Pyx_PyCode_New(3, 0, 3, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__36, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_Documents_code, __pyx_n_s_init, 85, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__37)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 85; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__37 = (PyObject*)__Pyx_PyCode_New(3, 0, 3, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__36, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_code_pypoly2tri, __pyx_n_s_init, 85, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__37)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 85; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "pyxpoly2tri\shapes.py":103
+  /* "pypoly2tri\shapes.py":103
  * class Triangle(object):
  * 
  *     def toList(self):             # <<<<<<<<<<<<<<
@@ -10688,9 +10688,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__38 = PyTuple_Pack(2, __pyx_n_s_self, __pyx_n_s_point); if (unlikely(!__pyx_tuple__38)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 103; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__38);
   __Pyx_GIVEREF(__pyx_tuple__38);
-  __pyx_codeobj__39 = (PyObject*)__Pyx_PyCode_New(1, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__38, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_Documents_code, __pyx_n_s_toList, 103, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__39)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 103; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__39 = (PyObject*)__Pyx_PyCode_New(1, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__38, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_code_pypoly2tri, __pyx_n_s_toList, 103, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__39)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 103; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "pyxpoly2tri\shapes.py":106
+  /* "pypoly2tri\shapes.py":106
  *         return [point.toTuple() for point in self.points_]
  * 
  *     def __init__(self, a, b, c):             # <<<<<<<<<<<<<<
@@ -10700,9 +10700,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__40 = PyTuple_Pack(4, __pyx_n_s_self, __pyx_n_s_a, __pyx_n_s_b, __pyx_n_s_c); if (unlikely(!__pyx_tuple__40)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 106; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__40);
   __Pyx_GIVEREF(__pyx_tuple__40);
-  __pyx_codeobj__41 = (PyObject*)__Pyx_PyCode_New(4, 0, 4, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__40, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_Documents_code, __pyx_n_s_init, 106, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__41)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 106; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__41 = (PyObject*)__Pyx_PyCode_New(4, 0, 4, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__40, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_code_pypoly2tri, __pyx_n_s_init, 106, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__41)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 106; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "pyxpoly2tri\shapes.py":113
+  /* "pypoly2tri\shapes.py":113
  *         self.interior_ = False
  * 
  *     def MarkNeighbor_p(self, p1, p2, t):             # <<<<<<<<<<<<<<
@@ -10712,9 +10712,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__42 = PyTuple_Pack(7, __pyx_n_s_self, __pyx_n_s_p1, __pyx_n_s_p2, __pyx_n_s_t, __pyx_n_s_ii, __pyx_n_s_jj, __pyx_n_s_index); if (unlikely(!__pyx_tuple__42)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 113; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__42);
   __Pyx_GIVEREF(__pyx_tuple__42);
-  __pyx_codeobj__43 = (PyObject*)__Pyx_PyCode_New(4, 0, 7, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__42, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_Documents_code, __pyx_n_s_MarkNeighbor_p, 113, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__43)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 113; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__43 = (PyObject*)__Pyx_PyCode_New(4, 0, 7, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__42, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_code_pypoly2tri, __pyx_n_s_MarkNeighbor_p, 113, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__43)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 113; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "pyxpoly2tri\shapes.py":119
+  /* "pypoly2tri\shapes.py":119
  *         self.neighbors_[index] = t
  * 
  *     def MarkNeighbor_t(self, t):             # <<<<<<<<<<<<<<
@@ -10724,9 +10724,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__44 = PyTuple_Pack(8, __pyx_n_s_self, __pyx_n_s_t, __pyx_n_s_a, __pyx_n_s_b, __pyx_n_s_aa, __pyx_n_s_ii, __pyx_n_s_bb, __pyx_n_s_jj); if (unlikely(!__pyx_tuple__44)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 119; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__44);
   __Pyx_GIVEREF(__pyx_tuple__44);
-  __pyx_codeobj__45 = (PyObject*)__Pyx_PyCode_New(2, 0, 8, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__44, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_Documents_code, __pyx_n_s_MarkNeighbor_t, 119, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__45)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 119; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__45 = (PyObject*)__Pyx_PyCode_New(2, 0, 8, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__44, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_code_pypoly2tri, __pyx_n_s_MarkNeighbor_t, 119, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__45)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 119; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "pyxpoly2tri\shapes.py":129
+  /* "pypoly2tri\shapes.py":129
  *         t.neighbors_[jj] = self
  * 
  *     def MarkNeighbor(self, *args):             # <<<<<<<<<<<<<<
@@ -10736,9 +10736,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__46 = PyTuple_Pack(2, __pyx_n_s_self, __pyx_n_s_args); if (unlikely(!__pyx_tuple__46)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 129; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__46);
   __Pyx_GIVEREF(__pyx_tuple__46);
-  __pyx_codeobj__47 = (PyObject*)__Pyx_PyCode_New(1, 0, 2, 0, CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__46, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_Documents_code, __pyx_n_s_MarkNeighbor, 129, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__47)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 129; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__47 = (PyObject*)__Pyx_PyCode_New(1, 0, 2, 0, CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__46, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_code_pypoly2tri, __pyx_n_s_MarkNeighbor, 129, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__47)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 129; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "pyxpoly2tri\shapes.py":137
+  /* "pypoly2tri\shapes.py":137
  *             raise Exception
  * 
  *     def ClearNeighbors(self):             # <<<<<<<<<<<<<<
@@ -10748,9 +10748,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__48 = PyTuple_Pack(1, __pyx_n_s_self); if (unlikely(!__pyx_tuple__48)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 137; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__48);
   __Pyx_GIVEREF(__pyx_tuple__48);
-  __pyx_codeobj__49 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__48, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_Documents_code, __pyx_n_s_ClearNeighbors, 137, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__49)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 137; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__49 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__48, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_code_pypoly2tri, __pyx_n_s_ClearNeighbors, 137, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__49)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 137; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "pyxpoly2tri\shapes.py":140
+  /* "pypoly2tri\shapes.py":140
  *         self.neighbors_ = [None] * 3
  * 
  *     def ClearDelaunayEdges(self):             # <<<<<<<<<<<<<<
@@ -10760,9 +10760,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__50 = PyTuple_Pack(1, __pyx_n_s_self); if (unlikely(!__pyx_tuple__50)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 140; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__50);
   __Pyx_GIVEREF(__pyx_tuple__50);
-  __pyx_codeobj__51 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__50, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_Documents_code, __pyx_n_s_ClearDelaunayEdges, 140, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__51)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 140; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__51 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__50, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_code_pypoly2tri, __pyx_n_s_ClearDelaunayEdges, 140, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__51)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 140; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "pyxpoly2tri\shapes.py":143
+  /* "pypoly2tri\shapes.py":143
  *         self.delaunay_edge = [False] * 3
  * 
  *     def OppositePoint(self, t, p):             # <<<<<<<<<<<<<<
@@ -10772,9 +10772,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__52 = PyTuple_Pack(4, __pyx_n_s_self, __pyx_n_s_t, __pyx_n_s_p, __pyx_n_s_cw); if (unlikely(!__pyx_tuple__52)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 143; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__52);
   __Pyx_GIVEREF(__pyx_tuple__52);
-  __pyx_codeobj__53 = (PyObject*)__Pyx_PyCode_New(3, 0, 4, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__52, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_Documents_code, __pyx_n_s_OppositePoint, 143, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__53)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 143; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__53 = (PyObject*)__Pyx_PyCode_New(3, 0, 4, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__52, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_code_pypoly2tri, __pyx_n_s_OppositePoint, 143, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__53)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 143; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "pyxpoly2tri\shapes.py":150
+  /* "pypoly2tri\shapes.py":150
  *         return self.PointCW(cw)
  * 
  *     def Legalize_p(self, point):             # <<<<<<<<<<<<<<
@@ -10784,9 +10784,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__54 = PyTuple_Pack(2, __pyx_n_s_self, __pyx_n_s_point); if (unlikely(!__pyx_tuple__54)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 150; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__54);
   __Pyx_GIVEREF(__pyx_tuple__54);
-  __pyx_codeobj__55 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__54, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_Documents_code, __pyx_n_s_Legalize_p, 150, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__55)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 150; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__55 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__54, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_code_pypoly2tri, __pyx_n_s_Legalize_p, 150, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__55)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 150; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "pyxpoly2tri\shapes.py":155
+  /* "pypoly2tri\shapes.py":155
  *         self.points_[2] = point
  * 
  *     def Legalize_t(self, opoint, npoint):             # <<<<<<<<<<<<<<
@@ -10796,9 +10796,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__56 = PyTuple_Pack(3, __pyx_n_s_self, __pyx_n_s_opoint, __pyx_n_s_npoint); if (unlikely(!__pyx_tuple__56)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 155; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__56);
   __Pyx_GIVEREF(__pyx_tuple__56);
-  __pyx_codeobj__57 = (PyObject*)__Pyx_PyCode_New(3, 0, 3, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__56, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_Documents_code, __pyx_n_s_Legalize_t, 155, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__57)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 155; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__57 = (PyObject*)__Pyx_PyCode_New(3, 0, 3, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__56, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_code_pypoly2tri, __pyx_n_s_Legalize_t, 155, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__57)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 155; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "pyxpoly2tri\shapes.py":171
+  /* "pypoly2tri\shapes.py":171
  *             assert(0)
  * 
  *     def Legalize(self, *args):             # <<<<<<<<<<<<<<
@@ -10808,9 +10808,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__58 = PyTuple_Pack(2, __pyx_n_s_self, __pyx_n_s_args); if (unlikely(!__pyx_tuple__58)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 171; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__58);
   __Pyx_GIVEREF(__pyx_tuple__58);
-  __pyx_codeobj__59 = (PyObject*)__Pyx_PyCode_New(1, 0, 2, 0, CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__58, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_Documents_code, __pyx_n_s_Legalize, 171, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__59)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 171; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__59 = (PyObject*)__Pyx_PyCode_New(1, 0, 2, 0, CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__58, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_code_pypoly2tri, __pyx_n_s_Legalize, 171, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__59)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 171; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "pyxpoly2tri\shapes.py":179
+  /* "pypoly2tri\shapes.py":179
  *             raise Exception
  * 
  *     def Index(self, p):             # <<<<<<<<<<<<<<
@@ -10820,9 +10820,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__60 = PyTuple_Pack(2, __pyx_n_s_self, __pyx_n_s_p); if (unlikely(!__pyx_tuple__60)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 179; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__60);
   __Pyx_GIVEREF(__pyx_tuple__60);
-  __pyx_codeobj__61 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__60, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_Documents_code, __pyx_n_s_Index, 179, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__61)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 179; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__61 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__60, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_code_pypoly2tri, __pyx_n_s_Index, 179, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__61)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 179; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "pyxpoly2tri\shapes.py":182
+  /* "pypoly2tri\shapes.py":182
  *         return self.points_.index(p)
  * 
  *     def EdgeIndex(self, p1, p2):             # <<<<<<<<<<<<<<
@@ -10832,9 +10832,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__62 = PyTuple_Pack(5, __pyx_n_s_self, __pyx_n_s_p1, __pyx_n_s_p2, __pyx_n_s_index1, __pyx_n_s_index2); if (unlikely(!__pyx_tuple__62)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 182; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__62);
   __Pyx_GIVEREF(__pyx_tuple__62);
-  __pyx_codeobj__63 = (PyObject*)__Pyx_PyCode_New(3, 0, 5, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__62, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_Documents_code, __pyx_n_s_EdgeIndex, 182, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__63)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 182; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__63 = (PyObject*)__Pyx_PyCode_New(3, 0, 5, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__62, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_code_pypoly2tri, __pyx_n_s_EdgeIndex, 182, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__63)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 182; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "pyxpoly2tri\shapes.py":190
+  /* "pypoly2tri\shapes.py":190
  *             return -1
  * 
  *     def MarkConstrainedEdge_i(self, index):             # <<<<<<<<<<<<<<
@@ -10844,9 +10844,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__64 = PyTuple_Pack(2, __pyx_n_s_self, __pyx_n_s_index); if (unlikely(!__pyx_tuple__64)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 190; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__64);
   __Pyx_GIVEREF(__pyx_tuple__64);
-  __pyx_codeobj__65 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__64, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_Documents_code, __pyx_n_s_MarkConstrainedEdge_i, 190, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__65)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 190; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__65 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__64, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_code_pypoly2tri, __pyx_n_s_MarkConstrainedEdge_i, 190, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__65)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 190; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "pyxpoly2tri\shapes.py":193
+  /* "pypoly2tri\shapes.py":193
  *         self.constrained_edge[index] = True
  * 
  *     def MarkConstrainedEdge_e(self, edge):             # <<<<<<<<<<<<<<
@@ -10856,9 +10856,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__66 = PyTuple_Pack(3, __pyx_n_s_self, __pyx_n_s_edge, __pyx_n_s_index); if (unlikely(!__pyx_tuple__66)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 193; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__66);
   __Pyx_GIVEREF(__pyx_tuple__66);
-  __pyx_codeobj__67 = (PyObject*)__Pyx_PyCode_New(2, 0, 3, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__66, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_Documents_code, __pyx_n_s_MarkConstrainedEdge_e, 193, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__67)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 193; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__67 = (PyObject*)__Pyx_PyCode_New(2, 0, 3, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__66, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_code_pypoly2tri, __pyx_n_s_MarkConstrainedEdge_e, 193, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__67)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 193; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "pyxpoly2tri\shapes.py":197
+  /* "pypoly2tri\shapes.py":197
  *         self.MarkConstrainedEdge_i(index)
  * 
  *     def MarkConstrainedEdge_pq(self, p, q):             # <<<<<<<<<<<<<<
@@ -10868,9 +10868,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__68 = PyTuple_Pack(4, __pyx_n_s_self, __pyx_n_s_p, __pyx_n_s_q, __pyx_n_s_index); if (unlikely(!__pyx_tuple__68)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 197; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__68);
   __Pyx_GIVEREF(__pyx_tuple__68);
-  __pyx_codeobj__69 = (PyObject*)__Pyx_PyCode_New(3, 0, 4, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__68, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_Documents_code, __pyx_n_s_MarkConstrainedEdge_pq, 197, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__69)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 197; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__69 = (PyObject*)__Pyx_PyCode_New(3, 0, 4, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__68, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_code_pypoly2tri, __pyx_n_s_MarkConstrainedEdge_pq, 197, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__69)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 197; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "pyxpoly2tri\shapes.py":201
+  /* "pypoly2tri\shapes.py":201
  *         self.MarkConstrainedEdge_i(index)
  * 
  *     def MarkConstrainedEdge(self, *args):             # <<<<<<<<<<<<<<
@@ -10880,9 +10880,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__70 = PyTuple_Pack(2, __pyx_n_s_self, __pyx_n_s_args); if (unlikely(!__pyx_tuple__70)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 201; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__70);
   __Pyx_GIVEREF(__pyx_tuple__70);
-  __pyx_codeobj__71 = (PyObject*)__Pyx_PyCode_New(1, 0, 2, 0, CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__70, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_Documents_code, __pyx_n_s_MarkConstrainedEdge, 201, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__71)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 201; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__71 = (PyObject*)__Pyx_PyCode_New(1, 0, 2, 0, CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__70, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_code_pypoly2tri, __pyx_n_s_MarkConstrainedEdge, 201, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__71)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 201; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "pyxpoly2tri\shapes.py":210
+  /* "pypoly2tri\shapes.py":210
  *             self.MarkConstrainedEdge_pq(*args)
  * 
  *     def PointCW(self, point):             # <<<<<<<<<<<<<<
@@ -10892,9 +10892,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__72 = PyTuple_Pack(3, __pyx_n_s_self, __pyx_n_s_point, __pyx_n_s_i); if (unlikely(!__pyx_tuple__72)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 210; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__72);
   __Pyx_GIVEREF(__pyx_tuple__72);
-  __pyx_codeobj__73 = (PyObject*)__Pyx_PyCode_New(2, 0, 3, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__72, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_Documents_code, __pyx_n_s_PointCW, 210, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__73)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 210; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__73 = (PyObject*)__Pyx_PyCode_New(2, 0, 3, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__72, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_code_pypoly2tri, __pyx_n_s_PointCW, 210, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__73)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 210; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "pyxpoly2tri\shapes.py":214
+  /* "pypoly2tri\shapes.py":214
  *         return self.points_[(i - 1) % 3]
  * 
  *     def PointCCW(self, point):             # <<<<<<<<<<<<<<
@@ -10904,9 +10904,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__74 = PyTuple_Pack(3, __pyx_n_s_self, __pyx_n_s_point, __pyx_n_s_i); if (unlikely(!__pyx_tuple__74)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 214; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__74);
   __Pyx_GIVEREF(__pyx_tuple__74);
-  __pyx_codeobj__75 = (PyObject*)__Pyx_PyCode_New(2, 0, 3, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__74, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_Documents_code, __pyx_n_s_PointCCW, 214, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__75)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 214; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__75 = (PyObject*)__Pyx_PyCode_New(2, 0, 3, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__74, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_code_pypoly2tri, __pyx_n_s_PointCCW, 214, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__75)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 214; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "pyxpoly2tri\shapes.py":218
+  /* "pypoly2tri\shapes.py":218
  *         return self.points_[(i + 1) % 3]
  * 
  *     def NeighborCW(self, point):             # <<<<<<<<<<<<<<
@@ -10916,9 +10916,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__76 = PyTuple_Pack(3, __pyx_n_s_self, __pyx_n_s_point, __pyx_n_s_ii); if (unlikely(!__pyx_tuple__76)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 218; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__76);
   __Pyx_GIVEREF(__pyx_tuple__76);
-  __pyx_codeobj__77 = (PyObject*)__Pyx_PyCode_New(2, 0, 3, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__76, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_Documents_code, __pyx_n_s_NeighborCW, 218, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__77)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 218; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__77 = (PyObject*)__Pyx_PyCode_New(2, 0, 3, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__76, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_code_pypoly2tri, __pyx_n_s_NeighborCW, 218, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__77)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 218; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "pyxpoly2tri\shapes.py":222
+  /* "pypoly2tri\shapes.py":222
  *         return self.neighbors_[(ii + 1) % 3]
  * 
  *     def NeighborCCW(self, point):             # <<<<<<<<<<<<<<
@@ -10928,9 +10928,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__78 = PyTuple_Pack(3, __pyx_n_s_self, __pyx_n_s_point, __pyx_n_s_ii); if (unlikely(!__pyx_tuple__78)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 222; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__78);
   __Pyx_GIVEREF(__pyx_tuple__78);
-  __pyx_codeobj__79 = (PyObject*)__Pyx_PyCode_New(2, 0, 3, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__78, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_Documents_code, __pyx_n_s_NeighborCCW, 222, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__79)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 222; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__79 = (PyObject*)__Pyx_PyCode_New(2, 0, 3, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__78, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_code_pypoly2tri, __pyx_n_s_NeighborCCW, 222, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__79)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 222; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "pyxpoly2tri\shapes.py":226
+  /* "pypoly2tri\shapes.py":226
  *         return self.neighbors_[(ii - 1) % 3]
  * 
  *     def GetConstrainedEdgeCCW(self, point):             # <<<<<<<<<<<<<<
@@ -10940,9 +10940,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__80 = PyTuple_Pack(3, __pyx_n_s_self, __pyx_n_s_point, __pyx_n_s_ii); if (unlikely(!__pyx_tuple__80)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 226; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__80);
   __Pyx_GIVEREF(__pyx_tuple__80);
-  __pyx_codeobj__81 = (PyObject*)__Pyx_PyCode_New(2, 0, 3, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__80, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_Documents_code, __pyx_n_s_GetConstrainedEdgeCCW, 226, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__81)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 226; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__81 = (PyObject*)__Pyx_PyCode_New(2, 0, 3, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__80, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_code_pypoly2tri, __pyx_n_s_GetConstrainedEdgeCCW, 226, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__81)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 226; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "pyxpoly2tri\shapes.py":230
+  /* "pypoly2tri\shapes.py":230
  *         return self.constrained_edge[(ii - 1) % 3]
  * 
  *     def GetConstrainedEdgeCW(self, point):             # <<<<<<<<<<<<<<
@@ -10952,9 +10952,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__82 = PyTuple_Pack(3, __pyx_n_s_self, __pyx_n_s_point, __pyx_n_s_ii); if (unlikely(!__pyx_tuple__82)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 230; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__82);
   __Pyx_GIVEREF(__pyx_tuple__82);
-  __pyx_codeobj__83 = (PyObject*)__Pyx_PyCode_New(2, 0, 3, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__82, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_Documents_code, __pyx_n_s_GetConstrainedEdgeCW, 230, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__83)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 230; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__83 = (PyObject*)__Pyx_PyCode_New(2, 0, 3, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__82, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_code_pypoly2tri, __pyx_n_s_GetConstrainedEdgeCW, 230, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__83)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 230; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "pyxpoly2tri\shapes.py":234
+  /* "pypoly2tri\shapes.py":234
  *         return self.constrained_edge[(ii + 1) % 3]
  * 
  *     def SetConstrainedEdgeCCW(self, point, ce):             # <<<<<<<<<<<<<<
@@ -10964,9 +10964,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__84 = PyTuple_Pack(4, __pyx_n_s_self, __pyx_n_s_point, __pyx_n_s_ce, __pyx_n_s_ii); if (unlikely(!__pyx_tuple__84)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 234; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__84);
   __Pyx_GIVEREF(__pyx_tuple__84);
-  __pyx_codeobj__85 = (PyObject*)__Pyx_PyCode_New(3, 0, 4, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__84, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_Documents_code, __pyx_n_s_SetConstrainedEdgeCCW, 234, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__85)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 234; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__85 = (PyObject*)__Pyx_PyCode_New(3, 0, 4, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__84, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_code_pypoly2tri, __pyx_n_s_SetConstrainedEdgeCCW, 234, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__85)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 234; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "pyxpoly2tri\shapes.py":238
+  /* "pypoly2tri\shapes.py":238
  *         self.constrained_edge[(ii - 1) % 3] = ce
  * 
  *     def SetConstrainedEdgeCW(self, point, ce):             # <<<<<<<<<<<<<<
@@ -10976,9 +10976,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__86 = PyTuple_Pack(4, __pyx_n_s_self, __pyx_n_s_point, __pyx_n_s_ce, __pyx_n_s_ii); if (unlikely(!__pyx_tuple__86)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 238; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__86);
   __Pyx_GIVEREF(__pyx_tuple__86);
-  __pyx_codeobj__87 = (PyObject*)__Pyx_PyCode_New(3, 0, 4, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__86, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_Documents_code, __pyx_n_s_SetConstrainedEdgeCW, 238, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__87)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 238; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__87 = (PyObject*)__Pyx_PyCode_New(3, 0, 4, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__86, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_code_pypoly2tri, __pyx_n_s_SetConstrainedEdgeCW, 238, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__87)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 238; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "pyxpoly2tri\shapes.py":242
+  /* "pypoly2tri\shapes.py":242
  *         self.constrained_edge[(ii + 1) % 3] = ce
  * 
  *     def GetDelunayEdgeCCW(self, point):             # <<<<<<<<<<<<<<
@@ -10988,9 +10988,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__88 = PyTuple_Pack(3, __pyx_n_s_self, __pyx_n_s_point, __pyx_n_s_ii); if (unlikely(!__pyx_tuple__88)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 242; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__88);
   __Pyx_GIVEREF(__pyx_tuple__88);
-  __pyx_codeobj__89 = (PyObject*)__Pyx_PyCode_New(2, 0, 3, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__88, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_Documents_code, __pyx_n_s_GetDelunayEdgeCCW, 242, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__89)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 242; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__89 = (PyObject*)__Pyx_PyCode_New(2, 0, 3, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__88, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_code_pypoly2tri, __pyx_n_s_GetDelunayEdgeCCW, 242, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__89)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 242; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "pyxpoly2tri\shapes.py":246
+  /* "pypoly2tri\shapes.py":246
  *         return self.delaunay_edge[(ii - 1) % 3]
  * 
  *     def GetDelunayEdgeCW(self, point):             # <<<<<<<<<<<<<<
@@ -11000,9 +11000,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__90 = PyTuple_Pack(3, __pyx_n_s_self, __pyx_n_s_point, __pyx_n_s_ii); if (unlikely(!__pyx_tuple__90)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 246; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__90);
   __Pyx_GIVEREF(__pyx_tuple__90);
-  __pyx_codeobj__91 = (PyObject*)__Pyx_PyCode_New(2, 0, 3, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__90, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_Documents_code, __pyx_n_s_GetDelunayEdgeCW, 246, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__91)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 246; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__91 = (PyObject*)__Pyx_PyCode_New(2, 0, 3, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__90, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_code_pypoly2tri, __pyx_n_s_GetDelunayEdgeCW, 246, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__91)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 246; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "pyxpoly2tri\shapes.py":250
+  /* "pypoly2tri\shapes.py":250
  *         return self.delaunay_edge[(ii + 1) % 3]
  * 
  *     def SetDelunayEdgeCCW(self, point, ce):             # <<<<<<<<<<<<<<
@@ -11012,9 +11012,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__92 = PyTuple_Pack(4, __pyx_n_s_self, __pyx_n_s_point, __pyx_n_s_ce, __pyx_n_s_ii); if (unlikely(!__pyx_tuple__92)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 250; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__92);
   __Pyx_GIVEREF(__pyx_tuple__92);
-  __pyx_codeobj__93 = (PyObject*)__Pyx_PyCode_New(3, 0, 4, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__92, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_Documents_code, __pyx_n_s_SetDelunayEdgeCCW, 250, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__93)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 250; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__93 = (PyObject*)__Pyx_PyCode_New(3, 0, 4, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__92, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_code_pypoly2tri, __pyx_n_s_SetDelunayEdgeCCW, 250, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__93)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 250; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "pyxpoly2tri\shapes.py":254
+  /* "pypoly2tri\shapes.py":254
  *         self.delaunay_edge[(ii - 1) % 3] = ce
  * 
  *     def SetDelunayEdgeCW(self, point, ce):             # <<<<<<<<<<<<<<
@@ -11024,9 +11024,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__94 = PyTuple_Pack(4, __pyx_n_s_self, __pyx_n_s_point, __pyx_n_s_ce, __pyx_n_s_ii); if (unlikely(!__pyx_tuple__94)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 254; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__94);
   __Pyx_GIVEREF(__pyx_tuple__94);
-  __pyx_codeobj__95 = (PyObject*)__Pyx_PyCode_New(3, 0, 4, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__94, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_Documents_code, __pyx_n_s_SetDelunayEdgeCW, 254, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__95)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 254; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__95 = (PyObject*)__Pyx_PyCode_New(3, 0, 4, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__94, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_code_pypoly2tri, __pyx_n_s_SetDelunayEdgeCW, 254, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__95)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 254; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "pyxpoly2tri\shapes.py":258
+  /* "pypoly2tri\shapes.py":258
  *         self.delaunay_edge[(ii + 1) % 3] = ce
  * 
  *     def NeighborAcross(self, point):             # <<<<<<<<<<<<<<
@@ -11036,9 +11036,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__96 = PyTuple_Pack(3, __pyx_n_s_self, __pyx_n_s_point, __pyx_n_s_ii); if (unlikely(!__pyx_tuple__96)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 258; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__96);
   __Pyx_GIVEREF(__pyx_tuple__96);
-  __pyx_codeobj__97 = (PyObject*)__Pyx_PyCode_New(2, 0, 3, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__96, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_Documents_code, __pyx_n_s_NeighborAcross, 258, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__97)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 258; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__97 = (PyObject*)__Pyx_PyCode_New(2, 0, 3, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__96, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_code_pypoly2tri, __pyx_n_s_NeighborAcross, 258, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__97)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 258; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "pyxpoly2tri\shapes.py":262
+  /* "pypoly2tri\shapes.py":262
  *         return self.neighbors_[ii]
  * 
  *     def DebugPrint(self):             # <<<<<<<<<<<<<<
@@ -11048,9 +11048,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__98 = PyTuple_Pack(1, __pyx_n_s_self); if (unlikely(!__pyx_tuple__98)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 262; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__98);
   __Pyx_GIVEREF(__pyx_tuple__98);
-  __pyx_codeobj__99 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__98, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_Documents_code, __pyx_n_s_DebugPrint, 262, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__99)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 262; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__99 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__98, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_code_pypoly2tri, __pyx_n_s_DebugPrint, 262, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__99)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 262; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "pyxpoly2tri\shapes.py":265
+  /* "pypoly2tri\shapes.py":265
  *         print(self.points_)
  * 
  *     def GetPoint(self, index):             # <<<<<<<<<<<<<<
@@ -11060,9 +11060,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__100 = PyTuple_Pack(2, __pyx_n_s_self, __pyx_n_s_index); if (unlikely(!__pyx_tuple__100)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 265; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__100);
   __Pyx_GIVEREF(__pyx_tuple__100);
-  __pyx_codeobj__101 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__100, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_Documents_code, __pyx_n_s_GetPoint, 265, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__101)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 265; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__101 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__100, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_code_pypoly2tri, __pyx_n_s_GetPoint, 265, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__101)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 265; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "pyxpoly2tri\shapes.py":268
+  /* "pypoly2tri\shapes.py":268
  *         return self.points_[index]
  * 
  *     def GetNeighbor(self, index):             # <<<<<<<<<<<<<<
@@ -11072,9 +11072,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__102 = PyTuple_Pack(2, __pyx_n_s_self, __pyx_n_s_index); if (unlikely(!__pyx_tuple__102)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 268; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__102);
   __Pyx_GIVEREF(__pyx_tuple__102);
-  __pyx_codeobj__103 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__102, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_Documents_code, __pyx_n_s_GetNeighbor, 268, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__103)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 268; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__103 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__102, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_code_pypoly2tri, __pyx_n_s_GetNeighbor, 268, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__103)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 268; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "pyxpoly2tri\shapes.py":271
+  /* "pypoly2tri\shapes.py":271
  *         return self.neighbors_[index]
  * 
  *     def Contains(self, *args):             # <<<<<<<<<<<<<<
@@ -11084,9 +11084,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__104 = PyTuple_Pack(3, __pyx_n_s_self, __pyx_n_s_args, __pyx_n_s_item); if (unlikely(!__pyx_tuple__104)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 271; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__104);
   __Pyx_GIVEREF(__pyx_tuple__104);
-  __pyx_codeobj__105 = (PyObject*)__Pyx_PyCode_New(1, 0, 3, 0, CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__104, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_Documents_code, __pyx_n_s_Contains, 271, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__105)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 271; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__105 = (PyObject*)__Pyx_PyCode_New(1, 0, 3, 0, CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__104, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_code_pypoly2tri, __pyx_n_s_Contains, 271, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__105)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 271; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "pyxpoly2tri\shapes.py":282
+  /* "pypoly2tri\shapes.py":282
  *                 [item in self.points_ for item in args])
  * 
  *     def IsInterior(self, *args):             # <<<<<<<<<<<<<<
@@ -11096,9 +11096,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__106 = PyTuple_Pack(2, __pyx_n_s_self, __pyx_n_s_args); if (unlikely(!__pyx_tuple__106)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 282; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__106);
   __Pyx_GIVEREF(__pyx_tuple__106);
-  __pyx_codeobj__107 = (PyObject*)__Pyx_PyCode_New(1, 0, 2, 0, CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__106, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_Documents_code, __pyx_n_s_IsInterior, 282, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__107)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 282; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__107 = (PyObject*)__Pyx_PyCode_New(1, 0, 2, 0, CO_VARARGS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__106, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_code_pypoly2tri, __pyx_n_s_IsInterior, 282, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__107)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 282; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "pyxpoly2tri\shapes.py":289
+  /* "pypoly2tri\shapes.py":289
  * 
  * 
  * def cmp(a, b):             # <<<<<<<<<<<<<<
@@ -11108,7 +11108,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__108 = PyTuple_Pack(2, __pyx_n_s_a, __pyx_n_s_b); if (unlikely(!__pyx_tuple__108)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 289; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__108);
   __Pyx_GIVEREF(__pyx_tuple__108);
-  __pyx_codeobj__109 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__108, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_Documents_code, __pyx_n_s_cmp, 289, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__109)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 289; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__109 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__108, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_code_pypoly2tri, __pyx_n_s_cmp, 289, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__109)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 289; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_RefNannyFinishContext();
   return 0;
   __pyx_L1_error:;
@@ -11197,14 +11197,14 @@ PyMODINIT_FUNC PyInit_shapes(void)
   #if PY_MAJOR_VERSION < 3 && (__PYX_DEFAULT_STRING_ENCODING_IS_ASCII || __PYX_DEFAULT_STRING_ENCODING_IS_DEFAULT)
   if (__Pyx_init_sys_getdefaultencoding_params() < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 1; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   #endif
-  if (__pyx_module_is_main_pyxpoly2tri__shapes) {
+  if (__pyx_module_is_main_pypoly2tri__shapes) {
     if (PyObject_SetAttrString(__pyx_m, "__name__", __pyx_n_s_main) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 1; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
   #if PY_MAJOR_VERSION >= 3
   {
     PyObject *modules = PyImport_GetModuleDict(); if (unlikely(!modules)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 1; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    if (!PyDict_GetItemString(modules, "pyxpoly2tri.shapes")) {
-      if (unlikely(PyDict_SetItemString(modules, "pyxpoly2tri.shapes", __pyx_m) < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 1; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    if (!PyDict_GetItemString(modules, "pypoly2tri.shapes")) {
+      if (unlikely(PyDict_SetItemString(modules, "pypoly2tri.shapes", __pyx_m) < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 1; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     }
   }
   #endif
@@ -11224,7 +11224,7 @@ PyMODINIT_FUNC PyInit_shapes(void)
   if (__Pyx_patch_abc() < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 1; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   #endif
 
-  /* "pyxpoly2tri\shapes.py":9
+  /* "pypoly2tri\shapes.py":9
  * 
  * 
  * class Point(object):             # <<<<<<<<<<<<<<
@@ -11238,10 +11238,10 @@ PyMODINIT_FUNC PyInit_shapes(void)
   PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_builtin_object);
   __pyx_t_2 = __Pyx_CalculateMetaclass(NULL, __pyx_t_1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 9; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_Py3MetaclassPrepare(__pyx_t_2, __pyx_t_1, __pyx_n_s_Point, __pyx_n_s_Point, (PyObject *) NULL, __pyx_n_s_pyxpoly2tri_shapes, (PyObject *) NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 9; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_3 = __Pyx_Py3MetaclassPrepare(__pyx_t_2, __pyx_t_1, __pyx_n_s_Point, __pyx_n_s_Point, (PyObject *) NULL, __pyx_n_s_pypoly2tri_shapes, (PyObject *) NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 9; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_3);
 
-  /* "pyxpoly2tri\shapes.py":10
+  /* "pypoly2tri\shapes.py":10
  * 
  * class Point(object):
  *     __hash__ = object.__hash__             # <<<<<<<<<<<<<<
@@ -11253,140 +11253,140 @@ PyMODINIT_FUNC PyInit_shapes(void)
   if (PyObject_SetItem(__pyx_t_3, __pyx_n_s_hash, __pyx_t_4) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 10; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "pyxpoly2tri\shapes.py":12
+  /* "pypoly2tri\shapes.py":12
  *     __hash__ = object.__hash__
  * 
  *     def __init__(self, x=0., y=0.):             # <<<<<<<<<<<<<<
  *         self.x = x
  *         self.y = y
  */
-  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_11pyxpoly2tri_6shapes_5Point_1__init__, 0, __pyx_n_s_Point___init, NULL, __pyx_n_s_pyxpoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__4)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 12; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10pypoly2tri_6shapes_5Point_1__init__, 0, __pyx_n_s_Point___init, NULL, __pyx_n_s_pypoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__4)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 12; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_4, __pyx_tuple__5);
   if (PyObject_SetItem(__pyx_t_3, __pyx_n_s_init, __pyx_t_4) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 12; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "pyxpoly2tri\shapes.py":17
+  /* "pypoly2tri\shapes.py":17
  *         self.edge_list = []
  * 
  *     def set_zero(self):             # <<<<<<<<<<<<<<
  *         self.x = 0.
  *         self.y = 0.
  */
-  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_11pyxpoly2tri_6shapes_5Point_3set_zero, 0, __pyx_n_s_Point_set_zero, NULL, __pyx_n_s_pyxpoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__7)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 17; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10pypoly2tri_6shapes_5Point_3set_zero, 0, __pyx_n_s_Point_set_zero, NULL, __pyx_n_s_pypoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__7)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 17; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   if (PyObject_SetItem(__pyx_t_3, __pyx_n_s_set_zero, __pyx_t_4) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 17; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "pyxpoly2tri\shapes.py":24
+  /* "pypoly2tri\shapes.py":24
  * #        self.y = y
  * 
  *     def __neg__(self):             # <<<<<<<<<<<<<<
  *         return Point(-self.x, -self.y)
  * 
  */
-  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_11pyxpoly2tri_6shapes_5Point_5__neg__, 0, __pyx_n_s_Point___neg, NULL, __pyx_n_s_pyxpoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__9)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 24; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10pypoly2tri_6shapes_5Point_5__neg__, 0, __pyx_n_s_Point___neg, NULL, __pyx_n_s_pypoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__9)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 24; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   if (PyObject_SetItem(__pyx_t_3, __pyx_n_s_neg, __pyx_t_4) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 24; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "pyxpoly2tri\shapes.py":27
+  /* "pypoly2tri\shapes.py":27
  *         return Point(-self.x, -self.y)
  * 
  *     def __sub__(self, a):             # <<<<<<<<<<<<<<
  *         return Point(a.x - self.x, a.y - self.y)
  * 
  */
-  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_11pyxpoly2tri_6shapes_5Point_7__sub__, 0, __pyx_n_s_Point___sub, NULL, __pyx_n_s_pyxpoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__11)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 27; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10pypoly2tri_6shapes_5Point_7__sub__, 0, __pyx_n_s_Point___sub, NULL, __pyx_n_s_pypoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__11)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 27; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   if (PyObject_SetItem(__pyx_t_3, __pyx_n_s_sub, __pyx_t_4) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 27; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "pyxpoly2tri\shapes.py":30
+  /* "pypoly2tri\shapes.py":30
  *         return Point(a.x - self.x, a.y - self.y)
  * 
  *     def __add__(self, a):             # <<<<<<<<<<<<<<
  *         return Point(a.x + self.x, a.y + self.y)
  * 
  */
-  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_11pyxpoly2tri_6shapes_5Point_9__add__, 0, __pyx_n_s_Point___add, NULL, __pyx_n_s_pyxpoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__13)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 30; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10pypoly2tri_6shapes_5Point_9__add__, 0, __pyx_n_s_Point___add, NULL, __pyx_n_s_pypoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__13)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 30; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   if (PyObject_SetItem(__pyx_t_3, __pyx_n_s_add, __pyx_t_4) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 30; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "pyxpoly2tri\shapes.py":33
+  /* "pypoly2tri\shapes.py":33
  *         return Point(a.x + self.x, a.y + self.y)
  * 
  *     def __mul__(self, a):             # <<<<<<<<<<<<<<
  *         return Point(a * self.x, a * self.y)
  * 
  */
-  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_11pyxpoly2tri_6shapes_5Point_11__mul__, 0, __pyx_n_s_Point___mul, NULL, __pyx_n_s_pyxpoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__15)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 33; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10pypoly2tri_6shapes_5Point_11__mul__, 0, __pyx_n_s_Point___mul, NULL, __pyx_n_s_pypoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__15)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 33; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   if (PyObject_SetItem(__pyx_t_3, __pyx_n_s_mul, __pyx_t_4) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 33; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "pyxpoly2tri\shapes.py":36
+  /* "pypoly2tri\shapes.py":36
  *         return Point(a * self.x, a * self.y)
  * 
  *     def Length(self):             # <<<<<<<<<<<<<<
  *         import math
  *         return math.sqrt(self.x * self.x + self.y * self.y)
  */
-  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_11pyxpoly2tri_6shapes_5Point_13Length, 0, __pyx_n_s_Point_Length, NULL, __pyx_n_s_pyxpoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__17)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 36; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10pypoly2tri_6shapes_5Point_13Length, 0, __pyx_n_s_Point_Length, NULL, __pyx_n_s_pypoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__17)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 36; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   if (PyObject_SetItem(__pyx_t_3, __pyx_n_s_Length, __pyx_t_4) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 36; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "pyxpoly2tri\shapes.py":40
+  /* "pypoly2tri\shapes.py":40
  *         return math.sqrt(self.x * self.x + self.y * self.y)
  * 
  *     def Normalize(self):             # <<<<<<<<<<<<<<
  *         l = self.Length
  *         self.x /= l
  */
-  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_11pyxpoly2tri_6shapes_5Point_15Normalize, 0, __pyx_n_s_Point_Normalize, NULL, __pyx_n_s_pyxpoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__19)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 40; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10pypoly2tri_6shapes_5Point_15Normalize, 0, __pyx_n_s_Point_Normalize, NULL, __pyx_n_s_pypoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__19)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 40; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   if (PyObject_SetItem(__pyx_t_3, __pyx_n_s_Normalize, __pyx_t_4) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 40; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "pyxpoly2tri\shapes.py":46
+  /* "pypoly2tri\shapes.py":46
  *         return l
  * 
  *     def __eq__(self, a):             # <<<<<<<<<<<<<<
  *         return self.x == a.x and self.y == a.y
  * 
  */
-  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_11pyxpoly2tri_6shapes_5Point_17__eq__, 0, __pyx_n_s_Point___eq, NULL, __pyx_n_s_pyxpoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__21)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 46; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10pypoly2tri_6shapes_5Point_17__eq__, 0, __pyx_n_s_Point___eq, NULL, __pyx_n_s_pypoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__21)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 46; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   if (PyObject_SetItem(__pyx_t_3, __pyx_n_s_eq, __pyx_t_4) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 46; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "pyxpoly2tri\shapes.py":49
+  /* "pypoly2tri\shapes.py":49
  *         return self.x == a.x and self.y == a.y
  * 
  *     def __neq__(self, a):             # <<<<<<<<<<<<<<
  *         return not self == a
  * #        return self.x!=a.x and self.y!=a.y
  */
-  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_11pyxpoly2tri_6shapes_5Point_19__neq__, 0, __pyx_n_s_Point___neq, NULL, __pyx_n_s_pyxpoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__23)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 49; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10pypoly2tri_6shapes_5Point_19__neq__, 0, __pyx_n_s_Point___neq, NULL, __pyx_n_s_pypoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__23)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 49; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   if (PyObject_SetItem(__pyx_t_3, __pyx_n_s_neq, __pyx_t_4) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 49; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "pyxpoly2tri\shapes.py":53
+  /* "pypoly2tri\shapes.py":53
  * #        return self.x!=a.x and self.y!=a.y
  * 
  *     def toTuple(self):             # <<<<<<<<<<<<<<
  *         return self.x, self.y
  * 
  */
-  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_11pyxpoly2tri_6shapes_5Point_21toTuple, 0, __pyx_n_s_Point_toTuple, NULL, __pyx_n_s_pyxpoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__25)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 53; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10pypoly2tri_6shapes_5Point_21toTuple, 0, __pyx_n_s_Point_toTuple, NULL, __pyx_n_s_pypoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__25)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 53; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   if (PyObject_SetItem(__pyx_t_3, __pyx_n_s_toTuple, __pyx_t_4) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 53; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "pyxpoly2tri\shapes.py":9
+  /* "pypoly2tri\shapes.py":9
  * 
  * 
  * class Point(object):             # <<<<<<<<<<<<<<
@@ -11401,67 +11401,67 @@ PyMODINIT_FUNC PyInit_shapes(void)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "pyxpoly2tri\shapes.py":57
+  /* "pypoly2tri\shapes.py":57
  * 
  * 
  * def Dot(p, a):             # <<<<<<<<<<<<<<
  *     return p.x * a.x + p.y * a.y
  * 
  */
-  __pyx_t_1 = __Pyx_CyFunction_NewEx(&__pyx_mdef_11pyxpoly2tri_6shapes_1Dot, 0, __pyx_n_s_Dot, NULL, __pyx_n_s_pyxpoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__27)); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 57; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_1 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10pypoly2tri_6shapes_1Dot, 0, __pyx_n_s_Dot, NULL, __pyx_n_s_pypoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__27)); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 57; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_Dot, __pyx_t_1) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 57; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "pyxpoly2tri\shapes.py":61
+  /* "pypoly2tri\shapes.py":61
  * 
  * 
  * def Cross_p(p, a):             # <<<<<<<<<<<<<<
  *     return p.x * a.y - p.y * a.x
  * 
  */
-  __pyx_t_1 = __Pyx_CyFunction_NewEx(&__pyx_mdef_11pyxpoly2tri_6shapes_3Cross_p, 0, __pyx_n_s_Cross_p, NULL, __pyx_n_s_pyxpoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__29)); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 61; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_1 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10pypoly2tri_6shapes_3Cross_p, 0, __pyx_n_s_Cross_p, NULL, __pyx_n_s_pypoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__29)); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 61; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_Cross_p, __pyx_t_1) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 61; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "pyxpoly2tri\shapes.py":65
+  /* "pypoly2tri\shapes.py":65
  * 
  * 
  * def Cross_s(p, a):             # <<<<<<<<<<<<<<
  *     return Point(a * p.y, -a * p.x)
  * 
  */
-  __pyx_t_1 = __Pyx_CyFunction_NewEx(&__pyx_mdef_11pyxpoly2tri_6shapes_5Cross_s, 0, __pyx_n_s_Cross_s, NULL, __pyx_n_s_pyxpoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__31)); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 65; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_1 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10pypoly2tri_6shapes_5Cross_s, 0, __pyx_n_s_Cross_s, NULL, __pyx_n_s_pypoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__31)); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 65; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_Cross_s, __pyx_t_1) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 65; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "pyxpoly2tri\shapes.py":69
+  /* "pypoly2tri\shapes.py":69
  * 
  * 
  * def Cross_s2(a, p):             # <<<<<<<<<<<<<<
  *     return Point(-a * p.y, a * p.x)
  * 
  */
-  __pyx_t_1 = __Pyx_CyFunction_NewEx(&__pyx_mdef_11pyxpoly2tri_6shapes_7Cross_s2, 0, __pyx_n_s_Cross_s2, NULL, __pyx_n_s_pyxpoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__33)); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 69; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_1 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10pypoly2tri_6shapes_7Cross_s2, 0, __pyx_n_s_Cross_s2, NULL, __pyx_n_s_pypoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__33)); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 69; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_Cross_s2, __pyx_t_1) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 69; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "pyxpoly2tri\shapes.py":73
+  /* "pypoly2tri\shapes.py":73
  * 
  * 
  * def Cross(*args):             # <<<<<<<<<<<<<<
  *     if isinstance(args[0], Point):
  *         if isinstance(args[1], Point):
  */
-  __pyx_t_1 = __Pyx_CyFunction_NewEx(&__pyx_mdef_11pyxpoly2tri_6shapes_9Cross, 0, __pyx_n_s_Cross, NULL, __pyx_n_s_pyxpoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__35)); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 73; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_1 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10pypoly2tri_6shapes_9Cross, 0, __pyx_n_s_Cross, NULL, __pyx_n_s_pypoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__35)); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 73; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_Cross, __pyx_t_1) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 73; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "pyxpoly2tri\shapes.py":83
+  /* "pypoly2tri\shapes.py":83
  * 
  * 
  * class Edge(object):             # <<<<<<<<<<<<<<
@@ -11475,22 +11475,22 @@ PyMODINIT_FUNC PyInit_shapes(void)
   PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_builtin_object);
   __pyx_t_2 = __Pyx_CalculateMetaclass(NULL, __pyx_t_1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 83; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_Py3MetaclassPrepare(__pyx_t_2, __pyx_t_1, __pyx_n_s_Edge, __pyx_n_s_Edge, (PyObject *) NULL, __pyx_n_s_pyxpoly2tri_shapes, (PyObject *) NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 83; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_3 = __Pyx_Py3MetaclassPrepare(__pyx_t_2, __pyx_t_1, __pyx_n_s_Edge, __pyx_n_s_Edge, (PyObject *) NULL, __pyx_n_s_pypoly2tri_shapes, (PyObject *) NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 83; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_3);
 
-  /* "pyxpoly2tri\shapes.py":85
+  /* "pypoly2tri\shapes.py":85
  * class Edge(object):
  * 
  *     def __init__(self, p1, p2):             # <<<<<<<<<<<<<<
  *         self.p = p1
  *         self.q = p2
  */
-  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_11pyxpoly2tri_6shapes_4Edge_1__init__, 0, __pyx_n_s_Edge___init, NULL, __pyx_n_s_pyxpoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__37)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 85; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10pypoly2tri_6shapes_4Edge_1__init__, 0, __pyx_n_s_Edge___init, NULL, __pyx_n_s_pypoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__37)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 85; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   if (PyObject_SetItem(__pyx_t_3, __pyx_n_s_init, __pyx_t_4) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 85; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "pyxpoly2tri\shapes.py":83
+  /* "pypoly2tri\shapes.py":83
  * 
  * 
  * class Edge(object):             # <<<<<<<<<<<<<<
@@ -11505,7 +11505,7 @@ PyMODINIT_FUNC PyInit_shapes(void)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "pyxpoly2tri\shapes.py":101
+  /* "pypoly2tri\shapes.py":101
  * 
  * 
  * class Triangle(object):             # <<<<<<<<<<<<<<
@@ -11519,430 +11519,430 @@ PyMODINIT_FUNC PyInit_shapes(void)
   PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_builtin_object);
   __pyx_t_2 = __Pyx_CalculateMetaclass(NULL, __pyx_t_1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 101; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_Py3MetaclassPrepare(__pyx_t_2, __pyx_t_1, __pyx_n_s_Triangle, __pyx_n_s_Triangle, (PyObject *) NULL, __pyx_n_s_pyxpoly2tri_shapes, (PyObject *) NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 101; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_3 = __Pyx_Py3MetaclassPrepare(__pyx_t_2, __pyx_t_1, __pyx_n_s_Triangle, __pyx_n_s_Triangle, (PyObject *) NULL, __pyx_n_s_pypoly2tri_shapes, (PyObject *) NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 101; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_3);
 
-  /* "pyxpoly2tri\shapes.py":103
+  /* "pypoly2tri\shapes.py":103
  * class Triangle(object):
  * 
  *     def toList(self):             # <<<<<<<<<<<<<<
  *         return [point.toTuple() for point in self.points_]
  * 
  */
-  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_11pyxpoly2tri_6shapes_8Triangle_1toList, 0, __pyx_n_s_Triangle_toList, NULL, __pyx_n_s_pyxpoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__39)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 103; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10pypoly2tri_6shapes_8Triangle_1toList, 0, __pyx_n_s_Triangle_toList, NULL, __pyx_n_s_pypoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__39)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 103; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   if (PyObject_SetItem(__pyx_t_3, __pyx_n_s_toList, __pyx_t_4) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 103; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "pyxpoly2tri\shapes.py":106
+  /* "pypoly2tri\shapes.py":106
  *         return [point.toTuple() for point in self.points_]
  * 
  *     def __init__(self, a, b, c):             # <<<<<<<<<<<<<<
  *         self.points_ = [a, b, c]
  *         self.neighbors_ = [None] * 3
  */
-  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_11pyxpoly2tri_6shapes_8Triangle_3__init__, 0, __pyx_n_s_Triangle___init, NULL, __pyx_n_s_pyxpoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__41)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 106; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10pypoly2tri_6shapes_8Triangle_3__init__, 0, __pyx_n_s_Triangle___init, NULL, __pyx_n_s_pypoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__41)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 106; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   if (PyObject_SetItem(__pyx_t_3, __pyx_n_s_init, __pyx_t_4) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 106; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "pyxpoly2tri\shapes.py":113
+  /* "pypoly2tri\shapes.py":113
  *         self.interior_ = False
  * 
  *     def MarkNeighbor_p(self, p1, p2, t):             # <<<<<<<<<<<<<<
  *         ii = self.points_.index(p1)
  *         jj = self.points_.index(p2)
  */
-  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_11pyxpoly2tri_6shapes_8Triangle_5MarkNeighbor_p, 0, __pyx_n_s_Triangle_MarkNeighbor_p, NULL, __pyx_n_s_pyxpoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__43)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 113; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10pypoly2tri_6shapes_8Triangle_5MarkNeighbor_p, 0, __pyx_n_s_Triangle_MarkNeighbor_p, NULL, __pyx_n_s_pypoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__43)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 113; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   if (PyObject_SetItem(__pyx_t_3, __pyx_n_s_MarkNeighbor_p, __pyx_t_4) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 113; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "pyxpoly2tri\shapes.py":119
+  /* "pypoly2tri\shapes.py":119
  *         self.neighbors_[index] = t
  * 
  *     def MarkNeighbor_t(self, t):             # <<<<<<<<<<<<<<
  *         a = set(self.points_)
  *         b = set(t.points_)
  */
-  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_11pyxpoly2tri_6shapes_8Triangle_7MarkNeighbor_t, 0, __pyx_n_s_Triangle_MarkNeighbor_t, NULL, __pyx_n_s_pyxpoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__45)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 119; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10pypoly2tri_6shapes_8Triangle_7MarkNeighbor_t, 0, __pyx_n_s_Triangle_MarkNeighbor_t, NULL, __pyx_n_s_pypoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__45)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 119; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   if (PyObject_SetItem(__pyx_t_3, __pyx_n_s_MarkNeighbor_t, __pyx_t_4) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 119; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "pyxpoly2tri\shapes.py":129
+  /* "pypoly2tri\shapes.py":129
  *         t.neighbors_[jj] = self
  * 
  *     def MarkNeighbor(self, *args):             # <<<<<<<<<<<<<<
  *         if len(args) == 1:
  *             self.MarkNeighbor_t(*args)
  */
-  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_11pyxpoly2tri_6shapes_8Triangle_9MarkNeighbor, 0, __pyx_n_s_Triangle_MarkNeighbor, NULL, __pyx_n_s_pyxpoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__47)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 129; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10pypoly2tri_6shapes_8Triangle_9MarkNeighbor, 0, __pyx_n_s_Triangle_MarkNeighbor, NULL, __pyx_n_s_pypoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__47)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 129; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   if (PyObject_SetItem(__pyx_t_3, __pyx_n_s_MarkNeighbor, __pyx_t_4) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 129; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "pyxpoly2tri\shapes.py":137
+  /* "pypoly2tri\shapes.py":137
  *             raise Exception
  * 
  *     def ClearNeighbors(self):             # <<<<<<<<<<<<<<
  *         self.neighbors_ = [None] * 3
  * 
  */
-  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_11pyxpoly2tri_6shapes_8Triangle_11ClearNeighbors, 0, __pyx_n_s_Triangle_ClearNeighbors, NULL, __pyx_n_s_pyxpoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__49)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 137; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10pypoly2tri_6shapes_8Triangle_11ClearNeighbors, 0, __pyx_n_s_Triangle_ClearNeighbors, NULL, __pyx_n_s_pypoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__49)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 137; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   if (PyObject_SetItem(__pyx_t_3, __pyx_n_s_ClearNeighbors, __pyx_t_4) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 137; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "pyxpoly2tri\shapes.py":140
+  /* "pypoly2tri\shapes.py":140
  *         self.neighbors_ = [None] * 3
  * 
  *     def ClearDelaunayEdges(self):             # <<<<<<<<<<<<<<
  *         self.delaunay_edge = [False] * 3
  * 
  */
-  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_11pyxpoly2tri_6shapes_8Triangle_13ClearDelaunayEdges, 0, __pyx_n_s_Triangle_ClearDelaunayEdges, NULL, __pyx_n_s_pyxpoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__51)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 140; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10pypoly2tri_6shapes_8Triangle_13ClearDelaunayEdges, 0, __pyx_n_s_Triangle_ClearDelaunayEdges, NULL, __pyx_n_s_pypoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__51)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 140; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   if (PyObject_SetItem(__pyx_t_3, __pyx_n_s_ClearDelaunayEdges, __pyx_t_4) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 140; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "pyxpoly2tri\shapes.py":143
+  /* "pypoly2tri\shapes.py":143
  *         self.delaunay_edge = [False] * 3
  * 
  *     def OppositePoint(self, t, p):             # <<<<<<<<<<<<<<
  *         cw = t.PointCW(p)
  * #        cw.x = p.x
  */
-  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_11pyxpoly2tri_6shapes_8Triangle_15OppositePoint, 0, __pyx_n_s_Triangle_OppositePoint, NULL, __pyx_n_s_pyxpoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__53)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 143; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10pypoly2tri_6shapes_8Triangle_15OppositePoint, 0, __pyx_n_s_Triangle_OppositePoint, NULL, __pyx_n_s_pypoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__53)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 143; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   if (PyObject_SetItem(__pyx_t_3, __pyx_n_s_OppositePoint, __pyx_t_4) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 143; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "pyxpoly2tri\shapes.py":150
+  /* "pypoly2tri\shapes.py":150
  *         return self.PointCW(cw)
  * 
  *     def Legalize_p(self, point):             # <<<<<<<<<<<<<<
  *         self.points_[1] = self.points_[0]
  *         self.points_[0] = self.points_[2]
  */
-  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_11pyxpoly2tri_6shapes_8Triangle_17Legalize_p, 0, __pyx_n_s_Triangle_Legalize_p, NULL, __pyx_n_s_pyxpoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__55)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 150; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10pypoly2tri_6shapes_8Triangle_17Legalize_p, 0, __pyx_n_s_Triangle_Legalize_p, NULL, __pyx_n_s_pypoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__55)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 150; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   if (PyObject_SetItem(__pyx_t_3, __pyx_n_s_Legalize_p, __pyx_t_4) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 150; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "pyxpoly2tri\shapes.py":155
+  /* "pypoly2tri\shapes.py":155
  *         self.points_[2] = point
  * 
  *     def Legalize_t(self, opoint, npoint):             # <<<<<<<<<<<<<<
  *         if opoint == self.points_[0]:
  *             self.points_[1] = self.points_[0]
  */
-  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_11pyxpoly2tri_6shapes_8Triangle_19Legalize_t, 0, __pyx_n_s_Triangle_Legalize_t, NULL, __pyx_n_s_pyxpoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__57)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 155; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10pypoly2tri_6shapes_8Triangle_19Legalize_t, 0, __pyx_n_s_Triangle_Legalize_t, NULL, __pyx_n_s_pypoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__57)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 155; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   if (PyObject_SetItem(__pyx_t_3, __pyx_n_s_Legalize_t, __pyx_t_4) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 155; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "pyxpoly2tri\shapes.py":171
+  /* "pypoly2tri\shapes.py":171
  *             assert(0)
  * 
  *     def Legalize(self, *args):             # <<<<<<<<<<<<<<
  *         if len(args) == 1:
  *             self.Legalize_p(*args)
  */
-  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_11pyxpoly2tri_6shapes_8Triangle_21Legalize, 0, __pyx_n_s_Triangle_Legalize, NULL, __pyx_n_s_pyxpoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__59)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 171; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10pypoly2tri_6shapes_8Triangle_21Legalize, 0, __pyx_n_s_Triangle_Legalize, NULL, __pyx_n_s_pypoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__59)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 171; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   if (PyObject_SetItem(__pyx_t_3, __pyx_n_s_Legalize, __pyx_t_4) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 171; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "pyxpoly2tri\shapes.py":179
+  /* "pypoly2tri\shapes.py":179
  *             raise Exception
  * 
  *     def Index(self, p):             # <<<<<<<<<<<<<<
  *         return self.points_.index(p)
  * 
  */
-  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_11pyxpoly2tri_6shapes_8Triangle_23Index, 0, __pyx_n_s_Triangle_Index, NULL, __pyx_n_s_pyxpoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__61)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 179; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10pypoly2tri_6shapes_8Triangle_23Index, 0, __pyx_n_s_Triangle_Index, NULL, __pyx_n_s_pypoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__61)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 179; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   if (PyObject_SetItem(__pyx_t_3, __pyx_n_s_Index, __pyx_t_4) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 179; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "pyxpoly2tri\shapes.py":182
+  /* "pypoly2tri\shapes.py":182
  *         return self.points_.index(p)
  * 
  *     def EdgeIndex(self, p1, p2):             # <<<<<<<<<<<<<<
  *         try:
  *             index1 = self.points_.index(p1)
  */
-  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_11pyxpoly2tri_6shapes_8Triangle_25EdgeIndex, 0, __pyx_n_s_Triangle_EdgeIndex, NULL, __pyx_n_s_pyxpoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__63)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 182; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10pypoly2tri_6shapes_8Triangle_25EdgeIndex, 0, __pyx_n_s_Triangle_EdgeIndex, NULL, __pyx_n_s_pypoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__63)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 182; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   if (PyObject_SetItem(__pyx_t_3, __pyx_n_s_EdgeIndex, __pyx_t_4) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 182; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "pyxpoly2tri\shapes.py":190
+  /* "pypoly2tri\shapes.py":190
  *             return -1
  * 
  *     def MarkConstrainedEdge_i(self, index):             # <<<<<<<<<<<<<<
  *         self.constrained_edge[index] = True
  * 
  */
-  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_11pyxpoly2tri_6shapes_8Triangle_27MarkConstrainedEdge_i, 0, __pyx_n_s_Triangle_MarkConstrainedEdge_i, NULL, __pyx_n_s_pyxpoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__65)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 190; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10pypoly2tri_6shapes_8Triangle_27MarkConstrainedEdge_i, 0, __pyx_n_s_Triangle_MarkConstrainedEdge_i, NULL, __pyx_n_s_pypoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__65)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 190; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   if (PyObject_SetItem(__pyx_t_3, __pyx_n_s_MarkConstrainedEdge_i, __pyx_t_4) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 190; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "pyxpoly2tri\shapes.py":193
+  /* "pypoly2tri\shapes.py":193
  *         self.constrained_edge[index] = True
  * 
  *     def MarkConstrainedEdge_e(self, edge):             # <<<<<<<<<<<<<<
  *         index = self.EdgeIndex(edge.p, edge.q)
  *         self.MarkConstrainedEdge_i(index)
  */
-  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_11pyxpoly2tri_6shapes_8Triangle_29MarkConstrainedEdge_e, 0, __pyx_n_s_Triangle_MarkConstrainedEdge_e, NULL, __pyx_n_s_pyxpoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__67)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 193; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10pypoly2tri_6shapes_8Triangle_29MarkConstrainedEdge_e, 0, __pyx_n_s_Triangle_MarkConstrainedEdge_e, NULL, __pyx_n_s_pypoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__67)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 193; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   if (PyObject_SetItem(__pyx_t_3, __pyx_n_s_MarkConstrainedEdge_e, __pyx_t_4) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 193; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "pyxpoly2tri\shapes.py":197
+  /* "pypoly2tri\shapes.py":197
  *         self.MarkConstrainedEdge_i(index)
  * 
  *     def MarkConstrainedEdge_pq(self, p, q):             # <<<<<<<<<<<<<<
  *         index = self.EdgeIndex(p, q)
  *         self.MarkConstrainedEdge_i(index)
  */
-  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_11pyxpoly2tri_6shapes_8Triangle_31MarkConstrainedEdge_pq, 0, __pyx_n_s_Triangle_MarkConstrainedEdge_pq, NULL, __pyx_n_s_pyxpoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__69)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 197; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10pypoly2tri_6shapes_8Triangle_31MarkConstrainedEdge_pq, 0, __pyx_n_s_Triangle_MarkConstrainedEdge_pq, NULL, __pyx_n_s_pypoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__69)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 197; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   if (PyObject_SetItem(__pyx_t_3, __pyx_n_s_MarkConstrainedEdge_pq, __pyx_t_4) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 197; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "pyxpoly2tri\shapes.py":201
+  /* "pypoly2tri\shapes.py":201
  *         self.MarkConstrainedEdge_i(index)
  * 
  *     def MarkConstrainedEdge(self, *args):             # <<<<<<<<<<<<<<
  *         if len(args) == 1:
  *             if isinstance(args[0], Edge):
  */
-  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_11pyxpoly2tri_6shapes_8Triangle_33MarkConstrainedEdge, 0, __pyx_n_s_Triangle_MarkConstrainedEdge, NULL, __pyx_n_s_pyxpoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__71)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 201; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10pypoly2tri_6shapes_8Triangle_33MarkConstrainedEdge, 0, __pyx_n_s_Triangle_MarkConstrainedEdge, NULL, __pyx_n_s_pypoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__71)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 201; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   if (PyObject_SetItem(__pyx_t_3, __pyx_n_s_MarkConstrainedEdge, __pyx_t_4) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 201; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "pyxpoly2tri\shapes.py":210
+  /* "pypoly2tri\shapes.py":210
  *             self.MarkConstrainedEdge_pq(*args)
  * 
  *     def PointCW(self, point):             # <<<<<<<<<<<<<<
  *         i = self.Index(point)
  *         return self.points_[(i - 1) % 3]
  */
-  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_11pyxpoly2tri_6shapes_8Triangle_35PointCW, 0, __pyx_n_s_Triangle_PointCW, NULL, __pyx_n_s_pyxpoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__73)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 210; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10pypoly2tri_6shapes_8Triangle_35PointCW, 0, __pyx_n_s_Triangle_PointCW, NULL, __pyx_n_s_pypoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__73)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 210; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   if (PyObject_SetItem(__pyx_t_3, __pyx_n_s_PointCW, __pyx_t_4) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 210; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "pyxpoly2tri\shapes.py":214
+  /* "pypoly2tri\shapes.py":214
  *         return self.points_[(i - 1) % 3]
  * 
  *     def PointCCW(self, point):             # <<<<<<<<<<<<<<
  *         i = self.Index(point)
  *         return self.points_[(i + 1) % 3]
  */
-  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_11pyxpoly2tri_6shapes_8Triangle_37PointCCW, 0, __pyx_n_s_Triangle_PointCCW, NULL, __pyx_n_s_pyxpoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__75)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 214; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10pypoly2tri_6shapes_8Triangle_37PointCCW, 0, __pyx_n_s_Triangle_PointCCW, NULL, __pyx_n_s_pypoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__75)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 214; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   if (PyObject_SetItem(__pyx_t_3, __pyx_n_s_PointCCW, __pyx_t_4) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 214; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "pyxpoly2tri\shapes.py":218
+  /* "pypoly2tri\shapes.py":218
  *         return self.points_[(i + 1) % 3]
  * 
  *     def NeighborCW(self, point):             # <<<<<<<<<<<<<<
  *         ii = self.Index(point)
  *         return self.neighbors_[(ii + 1) % 3]
  */
-  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_11pyxpoly2tri_6shapes_8Triangle_39NeighborCW, 0, __pyx_n_s_Triangle_NeighborCW, NULL, __pyx_n_s_pyxpoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__77)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 218; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10pypoly2tri_6shapes_8Triangle_39NeighborCW, 0, __pyx_n_s_Triangle_NeighborCW, NULL, __pyx_n_s_pypoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__77)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 218; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   if (PyObject_SetItem(__pyx_t_3, __pyx_n_s_NeighborCW, __pyx_t_4) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 218; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "pyxpoly2tri\shapes.py":222
+  /* "pypoly2tri\shapes.py":222
  *         return self.neighbors_[(ii + 1) % 3]
  * 
  *     def NeighborCCW(self, point):             # <<<<<<<<<<<<<<
  *         ii = self.Index(point)
  *         return self.neighbors_[(ii - 1) % 3]
  */
-  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_11pyxpoly2tri_6shapes_8Triangle_41NeighborCCW, 0, __pyx_n_s_Triangle_NeighborCCW, NULL, __pyx_n_s_pyxpoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__79)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 222; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10pypoly2tri_6shapes_8Triangle_41NeighborCCW, 0, __pyx_n_s_Triangle_NeighborCCW, NULL, __pyx_n_s_pypoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__79)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 222; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   if (PyObject_SetItem(__pyx_t_3, __pyx_n_s_NeighborCCW, __pyx_t_4) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 222; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "pyxpoly2tri\shapes.py":226
+  /* "pypoly2tri\shapes.py":226
  *         return self.neighbors_[(ii - 1) % 3]
  * 
  *     def GetConstrainedEdgeCCW(self, point):             # <<<<<<<<<<<<<<
  *         ii = self.Index(point)
  *         return self.constrained_edge[(ii - 1) % 3]
  */
-  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_11pyxpoly2tri_6shapes_8Triangle_43GetConstrainedEdgeCCW, 0, __pyx_n_s_Triangle_GetConstrainedEdgeCCW, NULL, __pyx_n_s_pyxpoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__81)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 226; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10pypoly2tri_6shapes_8Triangle_43GetConstrainedEdgeCCW, 0, __pyx_n_s_Triangle_GetConstrainedEdgeCCW, NULL, __pyx_n_s_pypoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__81)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 226; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   if (PyObject_SetItem(__pyx_t_3, __pyx_n_s_GetConstrainedEdgeCCW, __pyx_t_4) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 226; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "pyxpoly2tri\shapes.py":230
+  /* "pypoly2tri\shapes.py":230
  *         return self.constrained_edge[(ii - 1) % 3]
  * 
  *     def GetConstrainedEdgeCW(self, point):             # <<<<<<<<<<<<<<
  *         ii = self.Index(point)
  *         return self.constrained_edge[(ii + 1) % 3]
  */
-  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_11pyxpoly2tri_6shapes_8Triangle_45GetConstrainedEdgeCW, 0, __pyx_n_s_Triangle_GetConstrainedEdgeCW, NULL, __pyx_n_s_pyxpoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__83)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 230; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10pypoly2tri_6shapes_8Triangle_45GetConstrainedEdgeCW, 0, __pyx_n_s_Triangle_GetConstrainedEdgeCW, NULL, __pyx_n_s_pypoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__83)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 230; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   if (PyObject_SetItem(__pyx_t_3, __pyx_n_s_GetConstrainedEdgeCW, __pyx_t_4) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 230; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "pyxpoly2tri\shapes.py":234
+  /* "pypoly2tri\shapes.py":234
  *         return self.constrained_edge[(ii + 1) % 3]
  * 
  *     def SetConstrainedEdgeCCW(self, point, ce):             # <<<<<<<<<<<<<<
  *         ii = self.Index(point)
  *         self.constrained_edge[(ii - 1) % 3] = ce
  */
-  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_11pyxpoly2tri_6shapes_8Triangle_47SetConstrainedEdgeCCW, 0, __pyx_n_s_Triangle_SetConstrainedEdgeCCW, NULL, __pyx_n_s_pyxpoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__85)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 234; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10pypoly2tri_6shapes_8Triangle_47SetConstrainedEdgeCCW, 0, __pyx_n_s_Triangle_SetConstrainedEdgeCCW, NULL, __pyx_n_s_pypoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__85)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 234; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   if (PyObject_SetItem(__pyx_t_3, __pyx_n_s_SetConstrainedEdgeCCW, __pyx_t_4) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 234; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "pyxpoly2tri\shapes.py":238
+  /* "pypoly2tri\shapes.py":238
  *         self.constrained_edge[(ii - 1) % 3] = ce
  * 
  *     def SetConstrainedEdgeCW(self, point, ce):             # <<<<<<<<<<<<<<
  *         ii = self.Index(point)
  *         self.constrained_edge[(ii + 1) % 3] = ce
  */
-  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_11pyxpoly2tri_6shapes_8Triangle_49SetConstrainedEdgeCW, 0, __pyx_n_s_Triangle_SetConstrainedEdgeCW, NULL, __pyx_n_s_pyxpoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__87)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 238; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10pypoly2tri_6shapes_8Triangle_49SetConstrainedEdgeCW, 0, __pyx_n_s_Triangle_SetConstrainedEdgeCW, NULL, __pyx_n_s_pypoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__87)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 238; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   if (PyObject_SetItem(__pyx_t_3, __pyx_n_s_SetConstrainedEdgeCW, __pyx_t_4) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 238; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "pyxpoly2tri\shapes.py":242
+  /* "pypoly2tri\shapes.py":242
  *         self.constrained_edge[(ii + 1) % 3] = ce
  * 
  *     def GetDelunayEdgeCCW(self, point):             # <<<<<<<<<<<<<<
  *         ii = self.Index(point)
  *         return self.delaunay_edge[(ii - 1) % 3]
  */
-  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_11pyxpoly2tri_6shapes_8Triangle_51GetDelunayEdgeCCW, 0, __pyx_n_s_Triangle_GetDelunayEdgeCCW, NULL, __pyx_n_s_pyxpoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__89)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 242; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10pypoly2tri_6shapes_8Triangle_51GetDelunayEdgeCCW, 0, __pyx_n_s_Triangle_GetDelunayEdgeCCW, NULL, __pyx_n_s_pypoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__89)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 242; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   if (PyObject_SetItem(__pyx_t_3, __pyx_n_s_GetDelunayEdgeCCW, __pyx_t_4) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 242; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "pyxpoly2tri\shapes.py":246
+  /* "pypoly2tri\shapes.py":246
  *         return self.delaunay_edge[(ii - 1) % 3]
  * 
  *     def GetDelunayEdgeCW(self, point):             # <<<<<<<<<<<<<<
  *         ii = self.Index(point)
  *         return self.delaunay_edge[(ii + 1) % 3]
  */
-  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_11pyxpoly2tri_6shapes_8Triangle_53GetDelunayEdgeCW, 0, __pyx_n_s_Triangle_GetDelunayEdgeCW, NULL, __pyx_n_s_pyxpoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__91)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 246; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10pypoly2tri_6shapes_8Triangle_53GetDelunayEdgeCW, 0, __pyx_n_s_Triangle_GetDelunayEdgeCW, NULL, __pyx_n_s_pypoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__91)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 246; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   if (PyObject_SetItem(__pyx_t_3, __pyx_n_s_GetDelunayEdgeCW, __pyx_t_4) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 246; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "pyxpoly2tri\shapes.py":250
+  /* "pypoly2tri\shapes.py":250
  *         return self.delaunay_edge[(ii + 1) % 3]
  * 
  *     def SetDelunayEdgeCCW(self, point, ce):             # <<<<<<<<<<<<<<
  *         ii = self.Index(point)
  *         self.delaunay_edge[(ii - 1) % 3] = ce
  */
-  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_11pyxpoly2tri_6shapes_8Triangle_55SetDelunayEdgeCCW, 0, __pyx_n_s_Triangle_SetDelunayEdgeCCW, NULL, __pyx_n_s_pyxpoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__93)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 250; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10pypoly2tri_6shapes_8Triangle_55SetDelunayEdgeCCW, 0, __pyx_n_s_Triangle_SetDelunayEdgeCCW, NULL, __pyx_n_s_pypoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__93)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 250; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   if (PyObject_SetItem(__pyx_t_3, __pyx_n_s_SetDelunayEdgeCCW, __pyx_t_4) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 250; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "pyxpoly2tri\shapes.py":254
+  /* "pypoly2tri\shapes.py":254
  *         self.delaunay_edge[(ii - 1) % 3] = ce
  * 
  *     def SetDelunayEdgeCW(self, point, ce):             # <<<<<<<<<<<<<<
  *         ii = self.Index(point)
  *         self.delaunay_edge[(ii + 1) % 3] = ce
  */
-  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_11pyxpoly2tri_6shapes_8Triangle_57SetDelunayEdgeCW, 0, __pyx_n_s_Triangle_SetDelunayEdgeCW, NULL, __pyx_n_s_pyxpoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__95)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 254; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10pypoly2tri_6shapes_8Triangle_57SetDelunayEdgeCW, 0, __pyx_n_s_Triangle_SetDelunayEdgeCW, NULL, __pyx_n_s_pypoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__95)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 254; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   if (PyObject_SetItem(__pyx_t_3, __pyx_n_s_SetDelunayEdgeCW, __pyx_t_4) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 254; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "pyxpoly2tri\shapes.py":258
+  /* "pypoly2tri\shapes.py":258
  *         self.delaunay_edge[(ii + 1) % 3] = ce
  * 
  *     def NeighborAcross(self, point):             # <<<<<<<<<<<<<<
  *         ii = self.Index(point)
  *         return self.neighbors_[ii]
  */
-  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_11pyxpoly2tri_6shapes_8Triangle_59NeighborAcross, 0, __pyx_n_s_Triangle_NeighborAcross, NULL, __pyx_n_s_pyxpoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__97)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 258; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10pypoly2tri_6shapes_8Triangle_59NeighborAcross, 0, __pyx_n_s_Triangle_NeighborAcross, NULL, __pyx_n_s_pypoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__97)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 258; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   if (PyObject_SetItem(__pyx_t_3, __pyx_n_s_NeighborAcross, __pyx_t_4) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 258; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "pyxpoly2tri\shapes.py":262
+  /* "pypoly2tri\shapes.py":262
  *         return self.neighbors_[ii]
  * 
  *     def DebugPrint(self):             # <<<<<<<<<<<<<<
  *         print(self.points_)
  * 
  */
-  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_11pyxpoly2tri_6shapes_8Triangle_61DebugPrint, 0, __pyx_n_s_Triangle_DebugPrint, NULL, __pyx_n_s_pyxpoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__99)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 262; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10pypoly2tri_6shapes_8Triangle_61DebugPrint, 0, __pyx_n_s_Triangle_DebugPrint, NULL, __pyx_n_s_pypoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__99)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 262; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   if (PyObject_SetItem(__pyx_t_3, __pyx_n_s_DebugPrint, __pyx_t_4) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 262; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "pyxpoly2tri\shapes.py":265
+  /* "pypoly2tri\shapes.py":265
  *         print(self.points_)
  * 
  *     def GetPoint(self, index):             # <<<<<<<<<<<<<<
  *         return self.points_[index]
  * 
  */
-  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_11pyxpoly2tri_6shapes_8Triangle_63GetPoint, 0, __pyx_n_s_Triangle_GetPoint, NULL, __pyx_n_s_pyxpoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__101)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 265; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10pypoly2tri_6shapes_8Triangle_63GetPoint, 0, __pyx_n_s_Triangle_GetPoint, NULL, __pyx_n_s_pypoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__101)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 265; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   if (PyObject_SetItem(__pyx_t_3, __pyx_n_s_GetPoint, __pyx_t_4) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 265; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "pyxpoly2tri\shapes.py":268
+  /* "pypoly2tri\shapes.py":268
  *         return self.points_[index]
  * 
  *     def GetNeighbor(self, index):             # <<<<<<<<<<<<<<
  *         return self.neighbors_[index]
  * 
  */
-  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_11pyxpoly2tri_6shapes_8Triangle_65GetNeighbor, 0, __pyx_n_s_Triangle_GetNeighbor, NULL, __pyx_n_s_pyxpoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__103)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 268; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10pypoly2tri_6shapes_8Triangle_65GetNeighbor, 0, __pyx_n_s_Triangle_GetNeighbor, NULL, __pyx_n_s_pypoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__103)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 268; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   if (PyObject_SetItem(__pyx_t_3, __pyx_n_s_GetNeighbor, __pyx_t_4) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 268; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "pyxpoly2tri\shapes.py":271
+  /* "pypoly2tri\shapes.py":271
  *         return self.neighbors_[index]
  * 
  *     def Contains(self, *args):             # <<<<<<<<<<<<<<
  *         if len(args) == 1:
  *             item = args[0]
  */
-  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_11pyxpoly2tri_6shapes_8Triangle_67Contains, 0, __pyx_n_s_Triangle_Contains, NULL, __pyx_n_s_pyxpoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__105)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 271; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10pypoly2tri_6shapes_8Triangle_67Contains, 0, __pyx_n_s_Triangle_Contains, NULL, __pyx_n_s_pypoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__105)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 271; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   if (PyObject_SetItem(__pyx_t_3, __pyx_n_s_Contains, __pyx_t_4) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 271; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "pyxpoly2tri\shapes.py":282
+  /* "pypoly2tri\shapes.py":282
  *                 [item in self.points_ for item in args])
  * 
  *     def IsInterior(self, *args):             # <<<<<<<<<<<<<<
  *         if len(args) == 0:
  *             return self.interior_
  */
-  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_11pyxpoly2tri_6shapes_8Triangle_69IsInterior, 0, __pyx_n_s_Triangle_IsInterior, NULL, __pyx_n_s_pyxpoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__107)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 282; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10pypoly2tri_6shapes_8Triangle_69IsInterior, 0, __pyx_n_s_Triangle_IsInterior, NULL, __pyx_n_s_pypoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__107)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 282; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   if (PyObject_SetItem(__pyx_t_3, __pyx_n_s_IsInterior, __pyx_t_4) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 282; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "pyxpoly2tri\shapes.py":101
+  /* "pypoly2tri\shapes.py":101
  * 
  * 
  * class Triangle(object):             # <<<<<<<<<<<<<<
@@ -11957,19 +11957,19 @@ PyMODINIT_FUNC PyInit_shapes(void)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "pyxpoly2tri\shapes.py":289
+  /* "pypoly2tri\shapes.py":289
  * 
  * 
  * def cmp(a, b):             # <<<<<<<<<<<<<<
  *     if a.y < b.y:
  *         return True
  */
-  __pyx_t_1 = __Pyx_CyFunction_NewEx(&__pyx_mdef_11pyxpoly2tri_6shapes_11cmp, 0, __pyx_n_s_cmp, NULL, __pyx_n_s_pyxpoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__109)); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 289; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_1 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10pypoly2tri_6shapes_11cmp, 0, __pyx_n_s_cmp, NULL, __pyx_n_s_pypoly2tri_shapes, __pyx_d, ((PyObject *)__pyx_codeobj__109)); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 289; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_cmp, __pyx_t_1) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 289; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "pyxpoly2tri\shapes.py":1
+  /* "pypoly2tri\shapes.py":1
  * # -*- coding: utf-8 -*-             # <<<<<<<<<<<<<<
  * '''
  * Written by Daniel M. Aukes and CONTRIBUTORS
@@ -11989,11 +11989,11 @@ PyMODINIT_FUNC PyInit_shapes(void)
   __Pyx_XDECREF(__pyx_t_4);
   if (__pyx_m) {
     if (__pyx_d) {
-      __Pyx_AddTraceback("init pyxpoly2tri.shapes", __pyx_clineno, __pyx_lineno, __pyx_filename);
+      __Pyx_AddTraceback("init pypoly2tri.shapes", __pyx_clineno, __pyx_lineno, __pyx_filename);
     }
     Py_DECREF(__pyx_m); __pyx_m = 0;
   } else if (!PyErr_Occurred()) {
-    PyErr_SetString(PyExc_ImportError, "init pyxpoly2tri.shapes");
+    PyErr_SetString(PyExc_ImportError, "init pypoly2tri.shapes");
   }
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();

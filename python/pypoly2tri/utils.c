@@ -240,8 +240,8 @@ static CYTHON_INLINE float __PYX_NAN() {
   #endif
 #endif
 
-#define __PYX_HAVE__pyxpoly2tri__utils
-#define __PYX_HAVE_API__pyxpoly2tri__utils
+#define __PYX_HAVE__pypoly2tri__utils
+#define __PYX_HAVE_API__pypoly2tri__utils
 #ifdef _OPENMP
 #include <omp.h>
 #endif /* _OPENMP */
@@ -450,7 +450,7 @@ static const char *__pyx_filename;
 
 
 static const char *__pyx_f[] = {
-  "python\\pyxpoly2tri\\utils.py",
+  "python\\pypoly2tri\\utils.py",
 };
 
 /*--- Type declarations ---*/
@@ -639,11 +639,11 @@ static int __Pyx_check_binary_version(void);
 static int __Pyx_InitStrings(__Pyx_StringTabEntry *t);
 
 
-/* Module declarations from 'pyxpoly2tri.utils' */
-#define __Pyx_MODULE_NAME "pyxpoly2tri.utils"
-int __pyx_module_is_main_pyxpoly2tri__utils = 0;
+/* Module declarations from 'pypoly2tri.utils' */
+#define __Pyx_MODULE_NAME "pypoly2tri.utils"
+int __pyx_module_is_main_pypoly2tri__utils = 0;
 
-/* Implementation of 'pyxpoly2tri.utils' */
+/* Implementation of 'pypoly2tri.utils' */
 static char __pyx_k_x[] = "x";
 static char __pyx_k_y[] = "y";
 static char __pyx_k_CW[] = "CW";
@@ -683,13 +683,13 @@ static char __pyx_k_detright[] = "detright";
 static char __pyx_k_COLLINEAR[] = "COLLINEAR";
 static char __pyx_k_InScanArea[] = "InScanArea";
 static char __pyx_k_Orientation[] = "Orientation";
-static char __pyx_k_pyxpoly2tri_utils[] = "pyxpoly2tri.utils";
-static char __pyx_k_C_Users_danaukes_Documents_code[] = "C:\\Users\\danaukes\\Documents\\code\\pyxpoly2tri\\python\\pyxpoly2tri\\utils.py";
+static char __pyx_k_pypoly2tri_utils[] = "pypoly2tri.utils";
 static char __pyx_k_Written_by_Daniel_M_Aukes_and_C[] = "\nWritten by Daniel M. Aukes and CONTRIBUTORS\nEmail: danaukes<at>seas.harvard.edu.\nPlease see LICENSE for full license.\n";
+static char __pyx_k_C_Users_danaukes_code_pypoly2tri[] = "C:\\Users\\danaukes\\code\\pypoly2tri\\python\\pypoly2tri\\utils.py";
 static PyObject *__pyx_n_s_CCW;
 static PyObject *__pyx_n_s_COLLINEAR;
 static PyObject *__pyx_n_s_CW;
-static PyObject *__pyx_kp_s_C_Users_danaukes_Documents_code;
+static PyObject *__pyx_kp_s_C_Users_danaukes_code_pypoly2tri;
 static PyObject *__pyx_n_s_EPSILON;
 static PyObject *__pyx_n_s_Enum;
 static PyObject *__pyx_n_s_InScanArea;
@@ -722,14 +722,14 @@ static PyObject *__pyx_n_s_pd;
 static PyObject *__pyx_n_s_pdx;
 static PyObject *__pyx_n_s_pdy;
 static PyObject *__pyx_n_s_pi;
-static PyObject *__pyx_n_s_pyxpoly2tri_utils;
+static PyObject *__pyx_n_s_pypoly2tri_utils;
 static PyObject *__pyx_n_s_test;
 static PyObject *__pyx_n_s_val;
 static PyObject *__pyx_n_s_x;
 static PyObject *__pyx_n_s_y;
-static PyObject *__pyx_pf_11pyxpoly2tri_5utils_enum(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_enums); /* proto */
-static PyObject *__pyx_pf_11pyxpoly2tri_5utils_2Orient2d(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_pa, PyObject *__pyx_v_pb, PyObject *__pyx_v_pc); /* proto */
-static PyObject *__pyx_pf_11pyxpoly2tri_5utils_4InScanArea(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_pa, PyObject *__pyx_v_pb, PyObject *__pyx_v_pc, PyObject *__pyx_v_pd); /* proto */
+static PyObject *__pyx_pf_10pypoly2tri_5utils_enum(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_enums); /* proto */
+static PyObject *__pyx_pf_10pypoly2tri_5utils_2Orient2d(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_pa, PyObject *__pyx_v_pb, PyObject *__pyx_v_pc); /* proto */
+static PyObject *__pyx_pf_10pypoly2tri_5utils_4InScanArea(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_pa, PyObject *__pyx_v_pb, PyObject *__pyx_v_pc, PyObject *__pyx_v_pd); /* proto */
 static PyObject *__pyx_float_1eneg_12;
 static PyObject *__pyx_int_0;
 static PyObject *__pyx_int_3;
@@ -744,7 +744,7 @@ static PyObject *__pyx_codeobj__2;
 static PyObject *__pyx_codeobj__4;
 static PyObject *__pyx_codeobj__6;
 
-/* "pyxpoly2tri\utils.py":12
+/* "pypoly2tri\utils.py":12
  * 
  * 
  * def enum(**enums):             # <<<<<<<<<<<<<<
@@ -753,9 +753,9 @@ static PyObject *__pyx_codeobj__6;
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11pyxpoly2tri_5utils_1enum(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_11pyxpoly2tri_5utils_1enum = {"enum", (PyCFunction)__pyx_pw_11pyxpoly2tri_5utils_1enum, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_11pyxpoly2tri_5utils_1enum(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_10pypoly2tri_5utils_1enum(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_10pypoly2tri_5utils_1enum = {"enum", (PyCFunction)__pyx_pw_10pypoly2tri_5utils_1enum, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_10pypoly2tri_5utils_1enum(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_enums = 0;
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
@@ -765,7 +765,7 @@ static PyObject *__pyx_pw_11pyxpoly2tri_5utils_1enum(PyObject *__pyx_self, PyObj
   if (__pyx_kwds && unlikely(!__Pyx_CheckKeywordStrings(__pyx_kwds, "enum", 1))) return NULL;
   __pyx_v_enums = (__pyx_kwds) ? PyDict_Copy(__pyx_kwds) : PyDict_New(); if (unlikely(!__pyx_v_enums)) return NULL;
   __Pyx_GOTREF(__pyx_v_enums);
-  __pyx_r = __pyx_pf_11pyxpoly2tri_5utils_enum(__pyx_self, __pyx_v_enums);
+  __pyx_r = __pyx_pf_10pypoly2tri_5utils_enum(__pyx_self, __pyx_v_enums);
 
   /* function exit code */
   __Pyx_XDECREF(__pyx_v_enums);
@@ -773,7 +773,7 @@ static PyObject *__pyx_pw_11pyxpoly2tri_5utils_1enum(PyObject *__pyx_self, PyObj
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11pyxpoly2tri_5utils_enum(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_enums) {
+static PyObject *__pyx_pf_10pypoly2tri_5utils_enum(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_enums) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -783,7 +783,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_5utils_enum(CYTHON_UNUSED PyObject *__py
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("enum", 0);
 
-  /* "pyxpoly2tri\utils.py":13
+  /* "pypoly2tri\utils.py":13
  * 
  * def enum(**enums):
  *     return type('Enum', (), enums)             # <<<<<<<<<<<<<<
@@ -809,7 +809,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_5utils_enum(CYTHON_UNUSED PyObject *__py
   __pyx_t_2 = 0;
   goto __pyx_L0;
 
-  /* "pyxpoly2tri\utils.py":12
+  /* "pypoly2tri\utils.py":12
  * 
  * 
  * def enum(**enums):             # <<<<<<<<<<<<<<
@@ -821,7 +821,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_5utils_enum(CYTHON_UNUSED PyObject *__py
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_2);
-  __Pyx_AddTraceback("pyxpoly2tri.utils.enum", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.utils.enum", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -829,7 +829,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_5utils_enum(CYTHON_UNUSED PyObject *__py
   return __pyx_r;
 }
 
-/* "pyxpoly2tri\utils.py":20
+/* "pypoly2tri\utils.py":20
  * 
  * 
  * def Orient2d(pa, pb, pc):             # <<<<<<<<<<<<<<
@@ -838,9 +838,9 @@ static PyObject *__pyx_pf_11pyxpoly2tri_5utils_enum(CYTHON_UNUSED PyObject *__py
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11pyxpoly2tri_5utils_3Orient2d(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_11pyxpoly2tri_5utils_3Orient2d = {"Orient2d", (PyCFunction)__pyx_pw_11pyxpoly2tri_5utils_3Orient2d, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_11pyxpoly2tri_5utils_3Orient2d(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_10pypoly2tri_5utils_3Orient2d(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_10pypoly2tri_5utils_3Orient2d = {"Orient2d", (PyCFunction)__pyx_pw_10pypoly2tri_5utils_3Orient2d, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_10pypoly2tri_5utils_3Orient2d(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_pa = 0;
   PyObject *__pyx_v_pb = 0;
   PyObject *__pyx_v_pc = 0;
@@ -897,18 +897,18 @@ static PyObject *__pyx_pw_11pyxpoly2tri_5utils_3Orient2d(PyObject *__pyx_self, P
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("Orient2d", 1, 3, 3, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 20; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   __pyx_L3_error:;
-  __Pyx_AddTraceback("pyxpoly2tri.utils.Orient2d", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.utils.Orient2d", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_11pyxpoly2tri_5utils_2Orient2d(__pyx_self, __pyx_v_pa, __pyx_v_pb, __pyx_v_pc);
+  __pyx_r = __pyx_pf_10pypoly2tri_5utils_2Orient2d(__pyx_self, __pyx_v_pa, __pyx_v_pb, __pyx_v_pc);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11pyxpoly2tri_5utils_2Orient2d(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_pa, PyObject *__pyx_v_pb, PyObject *__pyx_v_pc) {
+static PyObject *__pyx_pf_10pypoly2tri_5utils_2Orient2d(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_pa, PyObject *__pyx_v_pb, PyObject *__pyx_v_pc) {
   PyObject *__pyx_v_detleft = NULL;
   PyObject *__pyx_v_detright = NULL;
   PyObject *__pyx_v_val = NULL;
@@ -925,7 +925,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_5utils_2Orient2d(CYTHON_UNUSED PyObject 
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("Orient2d", 0);
 
-  /* "pyxpoly2tri\utils.py":21
+  /* "pypoly2tri\utils.py":21
  * 
  * def Orient2d(pa, pb, pc):
  *     detleft = (pa.x - pc.x) * (pb.y - pc.y)             # <<<<<<<<<<<<<<
@@ -955,7 +955,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_5utils_2Orient2d(CYTHON_UNUSED PyObject 
   __pyx_v_detleft = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "pyxpoly2tri\utils.py":22
+  /* "pypoly2tri\utils.py":22
  * def Orient2d(pa, pb, pc):
  *     detleft = (pa.x - pc.x) * (pb.y - pc.y)
  *     detright = (pa.y - pc.y) * (pb.x - pc.x)             # <<<<<<<<<<<<<<
@@ -985,7 +985,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_5utils_2Orient2d(CYTHON_UNUSED PyObject 
   __pyx_v_detright = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "pyxpoly2tri\utils.py":23
+  /* "pypoly2tri\utils.py":23
  *     detleft = (pa.x - pc.x) * (pb.y - pc.y)
  *     detright = (pa.y - pc.y) * (pb.x - pc.x)
  *     val = detleft - detright             # <<<<<<<<<<<<<<
@@ -997,7 +997,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_5utils_2Orient2d(CYTHON_UNUSED PyObject 
   __pyx_v_val = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "pyxpoly2tri\utils.py":25
+  /* "pypoly2tri\utils.py":25
  *     val = detleft - detright
  * 
  *     if val > -EPSILON and val < EPSILON:             # <<<<<<<<<<<<<<
@@ -1028,7 +1028,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_5utils_2Orient2d(CYTHON_UNUSED PyObject 
   __pyx_L4_bool_binop_done:;
   if (__pyx_t_5) {
 
-    /* "pyxpoly2tri\utils.py":26
+    /* "pypoly2tri\utils.py":26
  * 
  *     if val > -EPSILON and val < EPSILON:
  *         return Orientation.COLLINEAR             # <<<<<<<<<<<<<<
@@ -1045,7 +1045,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_5utils_2Orient2d(CYTHON_UNUSED PyObject 
     __pyx_t_1 = 0;
     goto __pyx_L0;
 
-    /* "pyxpoly2tri\utils.py":25
+    /* "pypoly2tri\utils.py":25
  *     val = detleft - detright
  * 
  *     if val > -EPSILON and val < EPSILON:             # <<<<<<<<<<<<<<
@@ -1054,7 +1054,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_5utils_2Orient2d(CYTHON_UNUSED PyObject 
  */
   }
 
-  /* "pyxpoly2tri\utils.py":27
+  /* "pypoly2tri\utils.py":27
  *     if val > -EPSILON and val < EPSILON:
  *         return Orientation.COLLINEAR
  *     elif val > 0:             # <<<<<<<<<<<<<<
@@ -1066,7 +1066,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_5utils_2Orient2d(CYTHON_UNUSED PyObject 
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   if (__pyx_t_5) {
 
-    /* "pyxpoly2tri\utils.py":28
+    /* "pypoly2tri\utils.py":28
  *         return Orientation.COLLINEAR
  *     elif val > 0:
  *         return Orientation.CCW             # <<<<<<<<<<<<<<
@@ -1083,7 +1083,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_5utils_2Orient2d(CYTHON_UNUSED PyObject 
     __pyx_t_2 = 0;
     goto __pyx_L0;
 
-    /* "pyxpoly2tri\utils.py":27
+    /* "pypoly2tri\utils.py":27
  *     if val > -EPSILON and val < EPSILON:
  *         return Orientation.COLLINEAR
  *     elif val > 0:             # <<<<<<<<<<<<<<
@@ -1092,7 +1092,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_5utils_2Orient2d(CYTHON_UNUSED PyObject 
  */
   }
 
-  /* "pyxpoly2tri\utils.py":30
+  /* "pypoly2tri\utils.py":30
  *         return Orientation.CCW
  * 
  *     return Orientation.CW             # <<<<<<<<<<<<<<
@@ -1109,7 +1109,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_5utils_2Orient2d(CYTHON_UNUSED PyObject 
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "pyxpoly2tri\utils.py":20
+  /* "pypoly2tri\utils.py":20
  * 
  * 
  * def Orient2d(pa, pb, pc):             # <<<<<<<<<<<<<<
@@ -1123,7 +1123,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_5utils_2Orient2d(CYTHON_UNUSED PyObject 
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
-  __Pyx_AddTraceback("pyxpoly2tri.utils.Orient2d", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.utils.Orient2d", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_detleft);
@@ -1134,7 +1134,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_5utils_2Orient2d(CYTHON_UNUSED PyObject 
   return __pyx_r;
 }
 
-/* "pyxpoly2tri\utils.py":33
+/* "pypoly2tri\utils.py":33
  * 
  * 
  * def InScanArea(pa, pb, pc, pd):             # <<<<<<<<<<<<<<
@@ -1143,9 +1143,9 @@ static PyObject *__pyx_pf_11pyxpoly2tri_5utils_2Orient2d(CYTHON_UNUSED PyObject 
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11pyxpoly2tri_5utils_5InScanArea(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_11pyxpoly2tri_5utils_5InScanArea = {"InScanArea", (PyCFunction)__pyx_pw_11pyxpoly2tri_5utils_5InScanArea, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_11pyxpoly2tri_5utils_5InScanArea(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_10pypoly2tri_5utils_5InScanArea(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_10pypoly2tri_5utils_5InScanArea = {"InScanArea", (PyCFunction)__pyx_pw_10pypoly2tri_5utils_5InScanArea, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_10pypoly2tri_5utils_5InScanArea(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_pa = 0;
   PyObject *__pyx_v_pb = 0;
   PyObject *__pyx_v_pc = 0;
@@ -1211,18 +1211,18 @@ static PyObject *__pyx_pw_11pyxpoly2tri_5utils_5InScanArea(PyObject *__pyx_self,
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("InScanArea", 1, 4, 4, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 33; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   __pyx_L3_error:;
-  __Pyx_AddTraceback("pyxpoly2tri.utils.InScanArea", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.utils.InScanArea", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_11pyxpoly2tri_5utils_4InScanArea(__pyx_self, __pyx_v_pa, __pyx_v_pb, __pyx_v_pc, __pyx_v_pd);
+  __pyx_r = __pyx_pf_10pypoly2tri_5utils_4InScanArea(__pyx_self, __pyx_v_pa, __pyx_v_pb, __pyx_v_pc, __pyx_v_pd);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11pyxpoly2tri_5utils_4InScanArea(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_pa, PyObject *__pyx_v_pb, PyObject *__pyx_v_pc, PyObject *__pyx_v_pd) {
+static PyObject *__pyx_pf_10pypoly2tri_5utils_4InScanArea(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_pa, PyObject *__pyx_v_pb, PyObject *__pyx_v_pc, PyObject *__pyx_v_pd) {
   PyObject *__pyx_v_pdx = NULL;
   PyObject *__pyx_v_pdy = NULL;
   PyObject *__pyx_v_adx = NULL;
@@ -1247,7 +1247,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_5utils_4InScanArea(CYTHON_UNUSED PyObjec
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("InScanArea", 0);
 
-  /* "pyxpoly2tri\utils.py":34
+  /* "pypoly2tri\utils.py":34
  * 
  * def InScanArea(pa, pb, pc, pd):
  *     pdx = pd.x             # <<<<<<<<<<<<<<
@@ -1259,7 +1259,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_5utils_4InScanArea(CYTHON_UNUSED PyObjec
   __pyx_v_pdx = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "pyxpoly2tri\utils.py":35
+  /* "pypoly2tri\utils.py":35
  * def InScanArea(pa, pb, pc, pd):
  *     pdx = pd.x
  *     pdy = pd.y             # <<<<<<<<<<<<<<
@@ -1271,7 +1271,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_5utils_4InScanArea(CYTHON_UNUSED PyObjec
   __pyx_v_pdy = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "pyxpoly2tri\utils.py":36
+  /* "pypoly2tri\utils.py":36
  *     pdx = pd.x
  *     pdy = pd.y
  *     adx = pa.x - pdx             # <<<<<<<<<<<<<<
@@ -1286,7 +1286,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_5utils_4InScanArea(CYTHON_UNUSED PyObjec
   __pyx_v_adx = __pyx_t_2;
   __pyx_t_2 = 0;
 
-  /* "pyxpoly2tri\utils.py":37
+  /* "pypoly2tri\utils.py":37
  *     pdy = pd.y
  *     adx = pa.x - pdx
  *     ady = pa.y - pdy             # <<<<<<<<<<<<<<
@@ -1301,7 +1301,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_5utils_4InScanArea(CYTHON_UNUSED PyObjec
   __pyx_v_ady = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "pyxpoly2tri\utils.py":38
+  /* "pypoly2tri\utils.py":38
  *     adx = pa.x - pdx
  *     ady = pa.y - pdy
  *     bdx = pb.x - pdx             # <<<<<<<<<<<<<<
@@ -1316,7 +1316,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_5utils_4InScanArea(CYTHON_UNUSED PyObjec
   __pyx_v_bdx = __pyx_t_2;
   __pyx_t_2 = 0;
 
-  /* "pyxpoly2tri\utils.py":39
+  /* "pypoly2tri\utils.py":39
  *     ady = pa.y - pdy
  *     bdx = pb.x - pdx
  *     bdy = pb.y - pdy             # <<<<<<<<<<<<<<
@@ -1331,7 +1331,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_5utils_4InScanArea(CYTHON_UNUSED PyObjec
   __pyx_v_bdy = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "pyxpoly2tri\utils.py":41
+  /* "pypoly2tri\utils.py":41
  *     bdy = pb.y - pdy
  * 
  *     adxbdy = adx * bdy             # <<<<<<<<<<<<<<
@@ -1343,7 +1343,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_5utils_4InScanArea(CYTHON_UNUSED PyObjec
   __pyx_v_adxbdy = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "pyxpoly2tri\utils.py":42
+  /* "pypoly2tri\utils.py":42
  * 
  *     adxbdy = adx * bdy
  *     bdxady = bdx * ady             # <<<<<<<<<<<<<<
@@ -1355,7 +1355,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_5utils_4InScanArea(CYTHON_UNUSED PyObjec
   __pyx_v_bdxady = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "pyxpoly2tri\utils.py":43
+  /* "pypoly2tri\utils.py":43
  *     adxbdy = adx * bdy
  *     bdxady = bdx * ady
  *     oabd = adxbdy - bdxady             # <<<<<<<<<<<<<<
@@ -1367,7 +1367,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_5utils_4InScanArea(CYTHON_UNUSED PyObjec
   __pyx_v_oabd = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "pyxpoly2tri\utils.py":44
+  /* "pypoly2tri\utils.py":44
  *     bdxady = bdx * ady
  *     oabd = adxbdy - bdxady
  *     if oabd <= EPSILON:             # <<<<<<<<<<<<<<
@@ -1382,7 +1382,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_5utils_4InScanArea(CYTHON_UNUSED PyObjec
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   if (__pyx_t_3) {
 
-    /* "pyxpoly2tri\utils.py":45
+    /* "pypoly2tri\utils.py":45
  *     oabd = adxbdy - bdxady
  *     if oabd <= EPSILON:
  *         return False             # <<<<<<<<<<<<<<
@@ -1394,7 +1394,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_5utils_4InScanArea(CYTHON_UNUSED PyObjec
     __pyx_r = Py_False;
     goto __pyx_L0;
 
-    /* "pyxpoly2tri\utils.py":44
+    /* "pypoly2tri\utils.py":44
  *     bdxady = bdx * ady
  *     oabd = adxbdy - bdxady
  *     if oabd <= EPSILON:             # <<<<<<<<<<<<<<
@@ -1403,7 +1403,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_5utils_4InScanArea(CYTHON_UNUSED PyObjec
  */
   }
 
-  /* "pyxpoly2tri\utils.py":47
+  /* "pypoly2tri\utils.py":47
  *         return False
  * 
  *     cdx = pc.x - pdx             # <<<<<<<<<<<<<<
@@ -1418,7 +1418,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_5utils_4InScanArea(CYTHON_UNUSED PyObjec
   __pyx_v_cdx = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "pyxpoly2tri\utils.py":48
+  /* "pypoly2tri\utils.py":48
  * 
  *     cdx = pc.x - pdx
  *     cdy = pc.y - pdy             # <<<<<<<<<<<<<<
@@ -1433,7 +1433,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_5utils_4InScanArea(CYTHON_UNUSED PyObjec
   __pyx_v_cdy = __pyx_t_2;
   __pyx_t_2 = 0;
 
-  /* "pyxpoly2tri\utils.py":49
+  /* "pypoly2tri\utils.py":49
  *     cdx = pc.x - pdx
  *     cdy = pc.y - pdy
  *     cdxady = cdx * ady             # <<<<<<<<<<<<<<
@@ -1445,7 +1445,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_5utils_4InScanArea(CYTHON_UNUSED PyObjec
   __pyx_v_cdxady = __pyx_t_2;
   __pyx_t_2 = 0;
 
-  /* "pyxpoly2tri\utils.py":50
+  /* "pypoly2tri\utils.py":50
  *     cdy = pc.y - pdy
  *     cdxady = cdx * ady
  *     adxcdy = adx * cdy             # <<<<<<<<<<<<<<
@@ -1457,7 +1457,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_5utils_4InScanArea(CYTHON_UNUSED PyObjec
   __pyx_v_adxcdy = __pyx_t_2;
   __pyx_t_2 = 0;
 
-  /* "pyxpoly2tri\utils.py":51
+  /* "pypoly2tri\utils.py":51
  *     cdxady = cdx * ady
  *     adxcdy = adx * cdy
  *     ocad = cdxady - adxcdy             # <<<<<<<<<<<<<<
@@ -1469,7 +1469,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_5utils_4InScanArea(CYTHON_UNUSED PyObjec
   __pyx_v_ocad = __pyx_t_2;
   __pyx_t_2 = 0;
 
-  /* "pyxpoly2tri\utils.py":53
+  /* "pypoly2tri\utils.py":53
  *     ocad = cdxady - adxcdy
  * 
  *     if ocad <= EPSILON:             # <<<<<<<<<<<<<<
@@ -1484,7 +1484,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_5utils_4InScanArea(CYTHON_UNUSED PyObjec
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   if (__pyx_t_3) {
 
-    /* "pyxpoly2tri\utils.py":54
+    /* "pypoly2tri\utils.py":54
  * 
  *     if ocad <= EPSILON:
  *         return False             # <<<<<<<<<<<<<<
@@ -1496,7 +1496,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_5utils_4InScanArea(CYTHON_UNUSED PyObjec
     __pyx_r = Py_False;
     goto __pyx_L0;
 
-    /* "pyxpoly2tri\utils.py":53
+    /* "pypoly2tri\utils.py":53
  *     ocad = cdxady - adxcdy
  * 
  *     if ocad <= EPSILON:             # <<<<<<<<<<<<<<
@@ -1505,7 +1505,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_5utils_4InScanArea(CYTHON_UNUSED PyObjec
  */
   }
 
-  /* "pyxpoly2tri\utils.py":56
+  /* "pypoly2tri\utils.py":56
  *         return False
  * 
  *     return True             # <<<<<<<<<<<<<<
@@ -1515,7 +1515,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_5utils_4InScanArea(CYTHON_UNUSED PyObjec
   __pyx_r = Py_True;
   goto __pyx_L0;
 
-  /* "pyxpoly2tri\utils.py":33
+  /* "pypoly2tri\utils.py":33
  * 
  * 
  * def InScanArea(pa, pb, pc, pd):             # <<<<<<<<<<<<<<
@@ -1527,7 +1527,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_5utils_4InScanArea(CYTHON_UNUSED PyObjec
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_2);
-  __Pyx_AddTraceback("pyxpoly2tri.utils.InScanArea", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.utils.InScanArea", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_pdx);
@@ -1575,7 +1575,7 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_CCW, __pyx_k_CCW, sizeof(__pyx_k_CCW), 0, 0, 1, 1},
   {&__pyx_n_s_COLLINEAR, __pyx_k_COLLINEAR, sizeof(__pyx_k_COLLINEAR), 0, 0, 1, 1},
   {&__pyx_n_s_CW, __pyx_k_CW, sizeof(__pyx_k_CW), 0, 0, 1, 1},
-  {&__pyx_kp_s_C_Users_danaukes_Documents_code, __pyx_k_C_Users_danaukes_Documents_code, sizeof(__pyx_k_C_Users_danaukes_Documents_code), 0, 0, 1, 0},
+  {&__pyx_kp_s_C_Users_danaukes_code_pypoly2tri, __pyx_k_C_Users_danaukes_code_pypoly2tri, sizeof(__pyx_k_C_Users_danaukes_code_pypoly2tri), 0, 0, 1, 0},
   {&__pyx_n_s_EPSILON, __pyx_k_EPSILON, sizeof(__pyx_k_EPSILON), 0, 0, 1, 1},
   {&__pyx_n_s_Enum, __pyx_k_Enum, sizeof(__pyx_k_Enum), 0, 0, 1, 1},
   {&__pyx_n_s_InScanArea, __pyx_k_InScanArea, sizeof(__pyx_k_InScanArea), 0, 0, 1, 1},
@@ -1608,7 +1608,7 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_pdx, __pyx_k_pdx, sizeof(__pyx_k_pdx), 0, 0, 1, 1},
   {&__pyx_n_s_pdy, __pyx_k_pdy, sizeof(__pyx_k_pdy), 0, 0, 1, 1},
   {&__pyx_n_s_pi, __pyx_k_pi, sizeof(__pyx_k_pi), 0, 0, 1, 1},
-  {&__pyx_n_s_pyxpoly2tri_utils, __pyx_k_pyxpoly2tri_utils, sizeof(__pyx_k_pyxpoly2tri_utils), 0, 0, 1, 1},
+  {&__pyx_n_s_pypoly2tri_utils, __pyx_k_pypoly2tri_utils, sizeof(__pyx_k_pypoly2tri_utils), 0, 0, 1, 1},
   {&__pyx_n_s_test, __pyx_k_test, sizeof(__pyx_k_test), 0, 0, 1, 1},
   {&__pyx_n_s_val, __pyx_k_val, sizeof(__pyx_k_val), 0, 0, 1, 1},
   {&__pyx_n_s_x, __pyx_k_x, sizeof(__pyx_k_x), 0, 0, 1, 1},
@@ -1623,7 +1623,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__Pyx_InitCachedConstants", 0);
 
-  /* "pyxpoly2tri\utils.py":12
+  /* "pypoly2tri\utils.py":12
  * 
  * 
  * def enum(**enums):             # <<<<<<<<<<<<<<
@@ -1633,9 +1633,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple_ = PyTuple_Pack(1, __pyx_n_s_enums); if (unlikely(!__pyx_tuple_)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 12; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple_);
   __Pyx_GIVEREF(__pyx_tuple_);
-  __pyx_codeobj__2 = (PyObject*)__Pyx_PyCode_New(0, 0, 1, 0, CO_VARKEYWORDS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple_, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_Documents_code, __pyx_n_s_enum, 12, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 12; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__2 = (PyObject*)__Pyx_PyCode_New(0, 0, 1, 0, CO_VARKEYWORDS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple_, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_code_pypoly2tri, __pyx_n_s_enum, 12, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 12; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "pyxpoly2tri\utils.py":20
+  /* "pypoly2tri\utils.py":20
  * 
  * 
  * def Orient2d(pa, pb, pc):             # <<<<<<<<<<<<<<
@@ -1645,9 +1645,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__3 = PyTuple_Pack(6, __pyx_n_s_pa, __pyx_n_s_pb, __pyx_n_s_pc, __pyx_n_s_detleft, __pyx_n_s_detright, __pyx_n_s_val); if (unlikely(!__pyx_tuple__3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 20; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__3);
   __Pyx_GIVEREF(__pyx_tuple__3);
-  __pyx_codeobj__4 = (PyObject*)__Pyx_PyCode_New(3, 0, 6, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__3, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_Documents_code, __pyx_n_s_Orient2d, 20, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 20; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__4 = (PyObject*)__Pyx_PyCode_New(3, 0, 6, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__3, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_code_pypoly2tri, __pyx_n_s_Orient2d, 20, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 20; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "pyxpoly2tri\utils.py":33
+  /* "pypoly2tri\utils.py":33
  * 
  * 
  * def InScanArea(pa, pb, pc, pd):             # <<<<<<<<<<<<<<
@@ -1657,7 +1657,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__5 = PyTuple_Pack(18, __pyx_n_s_pa, __pyx_n_s_pb, __pyx_n_s_pc, __pyx_n_s_pd, __pyx_n_s_pdx, __pyx_n_s_pdy, __pyx_n_s_adx, __pyx_n_s_ady, __pyx_n_s_bdx, __pyx_n_s_bdy, __pyx_n_s_adxbdy, __pyx_n_s_bdxady, __pyx_n_s_oabd, __pyx_n_s_cdx, __pyx_n_s_cdy, __pyx_n_s_cdxady, __pyx_n_s_adxcdy, __pyx_n_s_ocad); if (unlikely(!__pyx_tuple__5)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 33; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__5);
   __Pyx_GIVEREF(__pyx_tuple__5);
-  __pyx_codeobj__6 = (PyObject*)__Pyx_PyCode_New(4, 0, 18, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__5, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_Documents_code, __pyx_n_s_InScanArea, 33, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__6)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 33; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__6 = (PyObject*)__Pyx_PyCode_New(4, 0, 18, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__5, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_code_pypoly2tri, __pyx_n_s_InScanArea, 33, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__6)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 33; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_RefNannyFinishContext();
   return 0;
   __pyx_L1_error:;
@@ -1748,14 +1748,14 @@ PyMODINIT_FUNC PyInit_utils(void)
   #if PY_MAJOR_VERSION < 3 && (__PYX_DEFAULT_STRING_ENCODING_IS_ASCII || __PYX_DEFAULT_STRING_ENCODING_IS_DEFAULT)
   if (__Pyx_init_sys_getdefaultencoding_params() < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 1; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   #endif
-  if (__pyx_module_is_main_pyxpoly2tri__utils) {
+  if (__pyx_module_is_main_pypoly2tri__utils) {
     if (PyObject_SetAttrString(__pyx_m, "__name__", __pyx_n_s_main) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 1; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
   #if PY_MAJOR_VERSION >= 3
   {
     PyObject *modules = PyImport_GetModuleDict(); if (unlikely(!modules)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 1; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    if (!PyDict_GetItemString(modules, "pyxpoly2tri.utils")) {
-      if (unlikely(PyDict_SetItemString(modules, "pyxpoly2tri.utils", __pyx_m) < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 1; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    if (!PyDict_GetItemString(modules, "pypoly2tri.utils")) {
+      if (unlikely(PyDict_SetItemString(modules, "pypoly2tri.utils", __pyx_m) < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 1; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     }
   }
   #endif
@@ -1775,7 +1775,7 @@ PyMODINIT_FUNC PyInit_utils(void)
   if (__Pyx_patch_abc() < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 1; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   #endif
 
-  /* "pyxpoly2tri\utils.py":9
+  /* "pypoly2tri\utils.py":9
  * 
  * #from enum import Enum
  * import math             # <<<<<<<<<<<<<<
@@ -1787,19 +1787,19 @@ PyMODINIT_FUNC PyInit_utils(void)
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_math, __pyx_t_1) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 9; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "pyxpoly2tri\utils.py":12
+  /* "pypoly2tri\utils.py":12
  * 
  * 
  * def enum(**enums):             # <<<<<<<<<<<<<<
  *     return type('Enum', (), enums)
  * 
  */
-  __pyx_t_1 = __Pyx_CyFunction_NewEx(&__pyx_mdef_11pyxpoly2tri_5utils_1enum, 0, __pyx_n_s_enum, NULL, __pyx_n_s_pyxpoly2tri_utils, __pyx_d, ((PyObject *)__pyx_codeobj__2)); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 12; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_1 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10pypoly2tri_5utils_1enum, 0, __pyx_n_s_enum, NULL, __pyx_n_s_pypoly2tri_utils, __pyx_d, ((PyObject *)__pyx_codeobj__2)); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 12; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_enum, __pyx_t_1) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 12; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "pyxpoly2tri\utils.py":15
+  /* "pypoly2tri\utils.py":15
  *     return type('Enum', (), enums)
  * 
  * PI_3div4 = 3 * math.pi / 4             # <<<<<<<<<<<<<<
@@ -1820,7 +1820,7 @@ PyMODINIT_FUNC PyInit_utils(void)
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_PI_3div4, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 15; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "pyxpoly2tri\utils.py":16
+  /* "pypoly2tri\utils.py":16
  * 
  * PI_3div4 = 3 * math.pi / 4
  * EPSILON = 1e-12             # <<<<<<<<<<<<<<
@@ -1829,7 +1829,7 @@ PyMODINIT_FUNC PyInit_utils(void)
  */
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_EPSILON, __pyx_float_1eneg_12) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 16; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "pyxpoly2tri\utils.py":17
+  /* "pypoly2tri\utils.py":17
  * PI_3div4 = 3 * math.pi / 4
  * EPSILON = 1e-12
  * Orientation = enum(CW=101, CCW=102, COLLINEAR=103)             # <<<<<<<<<<<<<<
@@ -1850,31 +1850,31 @@ PyMODINIT_FUNC PyInit_utils(void)
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_Orientation, __pyx_t_3) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 17; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "pyxpoly2tri\utils.py":20
+  /* "pypoly2tri\utils.py":20
  * 
  * 
  * def Orient2d(pa, pb, pc):             # <<<<<<<<<<<<<<
  *     detleft = (pa.x - pc.x) * (pb.y - pc.y)
  *     detright = (pa.y - pc.y) * (pb.x - pc.x)
  */
-  __pyx_t_3 = __Pyx_CyFunction_NewEx(&__pyx_mdef_11pyxpoly2tri_5utils_3Orient2d, 0, __pyx_n_s_Orient2d, NULL, __pyx_n_s_pyxpoly2tri_utils, __pyx_d, ((PyObject *)__pyx_codeobj__4)); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 20; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_3 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10pypoly2tri_5utils_3Orient2d, 0, __pyx_n_s_Orient2d, NULL, __pyx_n_s_pypoly2tri_utils, __pyx_d, ((PyObject *)__pyx_codeobj__4)); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 20; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_3);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_Orient2d, __pyx_t_3) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 20; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "pyxpoly2tri\utils.py":33
+  /* "pypoly2tri\utils.py":33
  * 
  * 
  * def InScanArea(pa, pb, pc, pd):             # <<<<<<<<<<<<<<
  *     pdx = pd.x
  *     pdy = pd.y
  */
-  __pyx_t_3 = __Pyx_CyFunction_NewEx(&__pyx_mdef_11pyxpoly2tri_5utils_5InScanArea, 0, __pyx_n_s_InScanArea, NULL, __pyx_n_s_pyxpoly2tri_utils, __pyx_d, ((PyObject *)__pyx_codeobj__6)); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 33; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_3 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10pypoly2tri_5utils_5InScanArea, 0, __pyx_n_s_InScanArea, NULL, __pyx_n_s_pypoly2tri_utils, __pyx_d, ((PyObject *)__pyx_codeobj__6)); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 33; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_3);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_InScanArea, __pyx_t_3) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 33; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "pyxpoly2tri\utils.py":1
+  /* "pypoly2tri\utils.py":1
  * # -*- coding: utf-8 -*-             # <<<<<<<<<<<<<<
  * '''
  * Written by Daniel M. Aukes and CONTRIBUTORS
@@ -1893,11 +1893,11 @@ PyMODINIT_FUNC PyInit_utils(void)
   __Pyx_XDECREF(__pyx_t_3);
   if (__pyx_m) {
     if (__pyx_d) {
-      __Pyx_AddTraceback("init pyxpoly2tri.utils", __pyx_clineno, __pyx_lineno, __pyx_filename);
+      __Pyx_AddTraceback("init pypoly2tri.utils", __pyx_clineno, __pyx_lineno, __pyx_filename);
     }
     Py_DECREF(__pyx_m); __pyx_m = 0;
   } else if (!PyErr_Occurred()) {
-    PyErr_SetString(PyExc_ImportError, "init pyxpoly2tri.utils");
+    PyErr_SetString(PyExc_ImportError, "init pypoly2tri.utils");
   }
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();

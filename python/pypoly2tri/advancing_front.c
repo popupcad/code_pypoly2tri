@@ -240,8 +240,8 @@ static CYTHON_INLINE float __PYX_NAN() {
   #endif
 #endif
 
-#define __PYX_HAVE__pyxpoly2tri__advancing_front
-#define __PYX_HAVE_API__pyxpoly2tri__advancing_front
+#define __PYX_HAVE__pypoly2tri__advancing_front
+#define __PYX_HAVE_API__pypoly2tri__advancing_front
 #ifdef _OPENMP
 #include <omp.h>
 #endif /* _OPENMP */
@@ -450,7 +450,7 @@ static const char *__pyx_filename;
 
 
 static const char *__pyx_f[] = {
-  "python\\pyxpoly2tri\\advancing_front.py",
+  "python\\pypoly2tri\\advancing_front.py",
 };
 
 /*--- Type declarations ---*/
@@ -663,11 +663,11 @@ static int __Pyx_check_binary_version(void);
 static int __Pyx_InitStrings(__Pyx_StringTabEntry *t);
 
 
-/* Module declarations from 'pyxpoly2tri.advancing_front' */
-#define __Pyx_MODULE_NAME "pyxpoly2tri.advancing_front"
-int __pyx_module_is_main_pyxpoly2tri__advancing_front = 0;
+/* Module declarations from 'pypoly2tri.advancing_front' */
+#define __Pyx_MODULE_NAME "pypoly2tri.advancing_front"
+int __pyx_module_is_main_pypoly2tri__advancing_front = 0;
 
-/* Implementation of 'pyxpoly2tri.advancing_front' */
+/* Implementation of 'pypoly2tri.advancing_front' */
 static PyObject *__pyx_builtin_object;
 static char __pyx_k_p[] = "p";
 static char __pyx_k_t[] = "t";
@@ -715,10 +715,10 @@ static char __pyx_k_AdvancingFront_set_tail[] = "AdvancingFront.set_tail";
 static char __pyx_k_AdvancingFront_LocateNode[] = "AdvancingFront.LocateNode";
 static char __pyx_k_AdvancingFront_set_search[] = "AdvancingFront.set_search";
 static char __pyx_k_AdvancingFront_LocatePoint[] = "AdvancingFront.LocatePoint";
-static char __pyx_k_pyxpoly2tri_advancing_front[] = "pyxpoly2tri.advancing_front";
+static char __pyx_k_pypoly2tri_advancing_front[] = "pypoly2tri.advancing_front";
 static char __pyx_k_AdvancingFront_FindSearchNode[] = "AdvancingFront.FindSearchNode";
-static char __pyx_k_C_Users_danaukes_Documents_code[] = "C:\\Users\\danaukes\\Documents\\code\\pyxpoly2tri\\python\\pyxpoly2tri\\advancing_front.py";
 static char __pyx_k_Written_by_Daniel_M_Aukes_and_C[] = "\nWritten by Daniel M. Aukes and CONTRIBUTORS\nEmail: danaukes<at>seas.harvard.edu.\nPlease see LICENSE for full license.\n";
+static char __pyx_k_C_Users_danaukes_code_pypoly2tri[] = "C:\\Users\\danaukes\\code\\pypoly2tri\\python\\pypoly2tri\\advancing_front.py";
 static PyObject *__pyx_n_s_AdvancingFront;
 static PyObject *__pyx_n_s_AdvancingFront_FindSearchNode;
 static PyObject *__pyx_n_s_AdvancingFront_LocateNode;
@@ -730,7 +730,7 @@ static PyObject *__pyx_n_s_AdvancingFront_set_head;
 static PyObject *__pyx_n_s_AdvancingFront_set_search;
 static PyObject *__pyx_n_s_AdvancingFront_set_tail;
 static PyObject *__pyx_n_s_AdvancingFront_tail;
-static PyObject *__pyx_kp_s_C_Users_danaukes_Documents_code;
+static PyObject *__pyx_kp_s_C_Users_danaukes_code_pypoly2tri;
 static PyObject *__pyx_n_s_FindSearchNode;
 static PyObject *__pyx_n_s_LocateNode;
 static PyObject *__pyx_n_s_LocatePoint;
@@ -753,7 +753,7 @@ static PyObject *__pyx_n_s_point;
 static PyObject *__pyx_n_s_prepare;
 static PyObject *__pyx_n_s_prev;
 static PyObject *__pyx_n_s_px;
-static PyObject *__pyx_n_s_pyxpoly2tri_advancing_front;
+static PyObject *__pyx_n_s_pypoly2tri_advancing_front;
 static PyObject *__pyx_n_s_qualname;
 static PyObject *__pyx_n_s_search;
 static PyObject *__pyx_n_s_search_node;
@@ -768,17 +768,17 @@ static PyObject *__pyx_n_s_test;
 static PyObject *__pyx_n_s_triangle;
 static PyObject *__pyx_n_s_value;
 static PyObject *__pyx_n_s_x;
-static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_4Node___init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_p, PyObject *__pyx_v_t); /* proto */
-static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront___init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_head, PyObject *__pyx_v_tail); /* proto */
-static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_2LocateNode(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_x); /* proto */
-static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_4FindSearchNode(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *__pyx_v_x); /* proto */
-static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_6LocatePoint(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_point); /* proto */
-static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_8head(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_10set_head(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_node); /* proto */
-static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_12tail(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_14set_tail(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_node); /* proto */
-static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_16search(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_18set_search(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_node); /* proto */
+static PyObject *__pyx_pf_10pypoly2tri_15advancing_front_4Node___init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_p, PyObject *__pyx_v_t); /* proto */
+static PyObject *__pyx_pf_10pypoly2tri_15advancing_front_14AdvancingFront___init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_head, PyObject *__pyx_v_tail); /* proto */
+static PyObject *__pyx_pf_10pypoly2tri_15advancing_front_14AdvancingFront_2LocateNode(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_x); /* proto */
+static PyObject *__pyx_pf_10pypoly2tri_15advancing_front_14AdvancingFront_4FindSearchNode(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *__pyx_v_x); /* proto */
+static PyObject *__pyx_pf_10pypoly2tri_15advancing_front_14AdvancingFront_6LocatePoint(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_point); /* proto */
+static PyObject *__pyx_pf_10pypoly2tri_15advancing_front_14AdvancingFront_8head(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_10pypoly2tri_15advancing_front_14AdvancingFront_10set_head(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_node); /* proto */
+static PyObject *__pyx_pf_10pypoly2tri_15advancing_front_14AdvancingFront_12tail(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_10pypoly2tri_15advancing_front_14AdvancingFront_14set_tail(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_node); /* proto */
+static PyObject *__pyx_pf_10pypoly2tri_15advancing_front_14AdvancingFront_16search(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_10pypoly2tri_15advancing_front_14AdvancingFront_18set_search(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_node); /* proto */
 static PyObject *__pyx_tuple_;
 static PyObject *__pyx_tuple__3;
 static PyObject *__pyx_tuple__4;
@@ -803,7 +803,7 @@ static PyObject *__pyx_codeobj__19;
 static PyObject *__pyx_codeobj__21;
 static PyObject *__pyx_codeobj__23;
 
-/* "pyxpoly2tri\advancing_front.py":11
+/* "pypoly2tri\advancing_front.py":11
  * class Node(object):
  * 
  *     def __init__(self, p, t=None):             # <<<<<<<<<<<<<<
@@ -812,9 +812,9 @@ static PyObject *__pyx_codeobj__23;
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11pyxpoly2tri_15advancing_front_4Node_1__init__(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_11pyxpoly2tri_15advancing_front_4Node_1__init__ = {"__init__", (PyCFunction)__pyx_pw_11pyxpoly2tri_15advancing_front_4Node_1__init__, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_11pyxpoly2tri_15advancing_front_4Node_1__init__(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_10pypoly2tri_15advancing_front_4Node_1__init__(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_10pypoly2tri_15advancing_front_4Node_1__init__ = {"__init__", (PyCFunction)__pyx_pw_10pypoly2tri_15advancing_front_4Node_1__init__, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_10pypoly2tri_15advancing_front_4Node_1__init__(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_self = 0;
   PyObject *__pyx_v_p = 0;
   PyObject *__pyx_v_t = 0;
@@ -874,18 +874,18 @@ static PyObject *__pyx_pw_11pyxpoly2tri_15advancing_front_4Node_1__init__(PyObje
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("__init__", 0, 2, 3, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 11; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   __pyx_L3_error:;
-  __Pyx_AddTraceback("pyxpoly2tri.advancing_front.Node.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.advancing_front.Node.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_11pyxpoly2tri_15advancing_front_4Node___init__(__pyx_self, __pyx_v_self, __pyx_v_p, __pyx_v_t);
+  __pyx_r = __pyx_pf_10pypoly2tri_15advancing_front_4Node___init__(__pyx_self, __pyx_v_self, __pyx_v_p, __pyx_v_t);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_4Node___init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_p, PyObject *__pyx_v_t) {
+static PyObject *__pyx_pf_10pypoly2tri_15advancing_front_4Node___init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_p, PyObject *__pyx_v_t) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -894,7 +894,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_4Node___init__(CYTHON_
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__init__", 0);
 
-  /* "pyxpoly2tri\advancing_front.py":12
+  /* "pypoly2tri\advancing_front.py":12
  * 
  *     def __init__(self, p, t=None):
  *         self.point = p             # <<<<<<<<<<<<<<
@@ -903,7 +903,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_4Node___init__(CYTHON_
  */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_point, __pyx_v_p) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 12; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "pyxpoly2tri\advancing_front.py":13
+  /* "pypoly2tri\advancing_front.py":13
  *     def __init__(self, p, t=None):
  *         self.point = p
  *         self.triangle = t             # <<<<<<<<<<<<<<
@@ -912,7 +912,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_4Node___init__(CYTHON_
  */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_triangle, __pyx_v_t) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 13; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "pyxpoly2tri\advancing_front.py":14
+  /* "pypoly2tri\advancing_front.py":14
  *         self.point = p
  *         self.triangle = t
  *         self.value = p.x             # <<<<<<<<<<<<<<
@@ -924,7 +924,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_4Node___init__(CYTHON_
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_value, __pyx_t_1) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 14; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "pyxpoly2tri\advancing_front.py":15
+  /* "pypoly2tri\advancing_front.py":15
  *         self.triangle = t
  *         self.value = p.x
  *         self.next = None             # <<<<<<<<<<<<<<
@@ -933,7 +933,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_4Node___init__(CYTHON_
  */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_next, Py_None) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 15; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "pyxpoly2tri\advancing_front.py":16
+  /* "pypoly2tri\advancing_front.py":16
  *         self.value = p.x
  *         self.next = None
  *         self.prev = None             # <<<<<<<<<<<<<<
@@ -942,7 +942,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_4Node___init__(CYTHON_
  */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_prev, Py_None) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 16; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "pyxpoly2tri\advancing_front.py":11
+  /* "pypoly2tri\advancing_front.py":11
  * class Node(object):
  * 
  *     def __init__(self, p, t=None):             # <<<<<<<<<<<<<<
@@ -955,7 +955,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_4Node___init__(CYTHON_
   goto __pyx_L0;
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_AddTraceback("pyxpoly2tri.advancing_front.Node.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.advancing_front.Node.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -963,7 +963,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_4Node___init__(CYTHON_
   return __pyx_r;
 }
 
-/* "pyxpoly2tri\advancing_front.py":21
+/* "pypoly2tri\advancing_front.py":21
  * class AdvancingFront(object):
  * 
  *     def __init__(self, head, tail):             # <<<<<<<<<<<<<<
@@ -972,9 +972,9 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_4Node___init__(CYTHON_
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11pyxpoly2tri_15advancing_front_14AdvancingFront_1__init__(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_11pyxpoly2tri_15advancing_front_14AdvancingFront_1__init__ = {"__init__", (PyCFunction)__pyx_pw_11pyxpoly2tri_15advancing_front_14AdvancingFront_1__init__, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_11pyxpoly2tri_15advancing_front_14AdvancingFront_1__init__(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_10pypoly2tri_15advancing_front_14AdvancingFront_1__init__(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_10pypoly2tri_15advancing_front_14AdvancingFront_1__init__ = {"__init__", (PyCFunction)__pyx_pw_10pypoly2tri_15advancing_front_14AdvancingFront_1__init__, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_10pypoly2tri_15advancing_front_14AdvancingFront_1__init__(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_self = 0;
   PyObject *__pyx_v_head = 0;
   PyObject *__pyx_v_tail = 0;
@@ -1031,18 +1031,18 @@ static PyObject *__pyx_pw_11pyxpoly2tri_15advancing_front_14AdvancingFront_1__in
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("__init__", 1, 3, 3, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 21; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   __pyx_L3_error:;
-  __Pyx_AddTraceback("pyxpoly2tri.advancing_front.AdvancingFront.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.advancing_front.AdvancingFront.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront___init__(__pyx_self, __pyx_v_self, __pyx_v_head, __pyx_v_tail);
+  __pyx_r = __pyx_pf_10pypoly2tri_15advancing_front_14AdvancingFront___init__(__pyx_self, __pyx_v_self, __pyx_v_head, __pyx_v_tail);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront___init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_head, PyObject *__pyx_v_tail) {
+static PyObject *__pyx_pf_10pypoly2tri_15advancing_front_14AdvancingFront___init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_head, PyObject *__pyx_v_tail) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   int __pyx_lineno = 0;
@@ -1050,7 +1050,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront___ini
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__init__", 0);
 
-  /* "pyxpoly2tri\advancing_front.py":22
+  /* "pypoly2tri\advancing_front.py":22
  * 
  *     def __init__(self, head, tail):
  *         self.head_ = head             # <<<<<<<<<<<<<<
@@ -1059,7 +1059,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront___ini
  */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_head_2, __pyx_v_head) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 22; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "pyxpoly2tri\advancing_front.py":23
+  /* "pypoly2tri\advancing_front.py":23
  *     def __init__(self, head, tail):
  *         self.head_ = head
  *         self.tail_ = tail             # <<<<<<<<<<<<<<
@@ -1068,7 +1068,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront___ini
  */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_tail_2, __pyx_v_tail) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 23; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "pyxpoly2tri\advancing_front.py":24
+  /* "pypoly2tri\advancing_front.py":24
  *         self.head_ = head
  *         self.tail_ = tail
  *         self.search_node_ = head             # <<<<<<<<<<<<<<
@@ -1077,7 +1077,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront___ini
  */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_search_node, __pyx_v_head) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 24; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "pyxpoly2tri\advancing_front.py":21
+  /* "pypoly2tri\advancing_front.py":21
  * class AdvancingFront(object):
  * 
  *     def __init__(self, head, tail):             # <<<<<<<<<<<<<<
@@ -1089,7 +1089,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront___ini
   __pyx_r = Py_None; __Pyx_INCREF(Py_None);
   goto __pyx_L0;
   __pyx_L1_error:;
-  __Pyx_AddTraceback("pyxpoly2tri.advancing_front.AdvancingFront.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.advancing_front.AdvancingFront.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -1097,7 +1097,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront___ini
   return __pyx_r;
 }
 
-/* "pyxpoly2tri\advancing_front.py":26
+/* "pypoly2tri\advancing_front.py":26
  *         self.search_node_ = head
  * 
  *     def LocateNode(self, x):             # <<<<<<<<<<<<<<
@@ -1106,9 +1106,9 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront___ini
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11pyxpoly2tri_15advancing_front_14AdvancingFront_3LocateNode(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_11pyxpoly2tri_15advancing_front_14AdvancingFront_3LocateNode = {"LocateNode", (PyCFunction)__pyx_pw_11pyxpoly2tri_15advancing_front_14AdvancingFront_3LocateNode, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_11pyxpoly2tri_15advancing_front_14AdvancingFront_3LocateNode(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_10pypoly2tri_15advancing_front_14AdvancingFront_3LocateNode(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_10pypoly2tri_15advancing_front_14AdvancingFront_3LocateNode = {"LocateNode", (PyCFunction)__pyx_pw_10pypoly2tri_15advancing_front_14AdvancingFront_3LocateNode, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_10pypoly2tri_15advancing_front_14AdvancingFront_3LocateNode(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_self = 0;
   PyObject *__pyx_v_x = 0;
   int __pyx_lineno = 0;
@@ -1156,18 +1156,18 @@ static PyObject *__pyx_pw_11pyxpoly2tri_15advancing_front_14AdvancingFront_3Loca
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("LocateNode", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 26; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   __pyx_L3_error:;
-  __Pyx_AddTraceback("pyxpoly2tri.advancing_front.AdvancingFront.LocateNode", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.advancing_front.AdvancingFront.LocateNode", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_2LocateNode(__pyx_self, __pyx_v_self, __pyx_v_x);
+  __pyx_r = __pyx_pf_10pypoly2tri_15advancing_front_14AdvancingFront_2LocateNode(__pyx_self, __pyx_v_self, __pyx_v_x);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_2LocateNode(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_x) {
+static PyObject *__pyx_pf_10pypoly2tri_15advancing_front_14AdvancingFront_2LocateNode(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_x) {
   PyObject *__pyx_v_node = NULL;
   PyObject *__pyx_v_dummy = NULL;
   PyObject *__pyx_r = NULL;
@@ -1181,7 +1181,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_2Loca
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("LocateNode", 0);
 
-  /* "pyxpoly2tri\advancing_front.py":27
+  /* "pypoly2tri\advancing_front.py":27
  * 
  *     def LocateNode(self, x):
  *         node = self.search_node_             # <<<<<<<<<<<<<<
@@ -1193,7 +1193,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_2Loca
   __pyx_v_node = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "pyxpoly2tri\advancing_front.py":29
+  /* "pypoly2tri\advancing_front.py":29
  *         node = self.search_node_
  * 
  *         if x < node.value:             # <<<<<<<<<<<<<<
@@ -1208,7 +1208,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_2Loca
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   if (__pyx_t_3) {
 
-    /* "pyxpoly2tri\advancing_front.py":30
+    /* "pypoly2tri\advancing_front.py":30
  * 
  *         if x < node.value:
  *             dummy = node.prev             # <<<<<<<<<<<<<<
@@ -1220,7 +1220,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_2Loca
     __pyx_v_dummy = __pyx_t_2;
     __pyx_t_2 = 0;
 
-    /* "pyxpoly2tri\advancing_front.py":31
+    /* "pypoly2tri\advancing_front.py":31
  *         if x < node.value:
  *             dummy = node.prev
  *             while (dummy is not None):             # <<<<<<<<<<<<<<
@@ -1232,7 +1232,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_2Loca
       __pyx_t_4 = (__pyx_t_3 != 0);
       if (!__pyx_t_4) break;
 
-      /* "pyxpoly2tri\advancing_front.py":32
+      /* "pypoly2tri\advancing_front.py":32
  *             dummy = node.prev
  *             while (dummy is not None):
  *                 node = dummy             # <<<<<<<<<<<<<<
@@ -1242,7 +1242,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_2Loca
       __Pyx_INCREF(__pyx_v_dummy);
       __Pyx_DECREF_SET(__pyx_v_node, __pyx_v_dummy);
 
-      /* "pyxpoly2tri\advancing_front.py":33
+      /* "pypoly2tri\advancing_front.py":33
  *             while (dummy is not None):
  *                 node = dummy
  *                 if x >= node.value:             # <<<<<<<<<<<<<<
@@ -1257,7 +1257,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_2Loca
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
       if (__pyx_t_4) {
 
-        /* "pyxpoly2tri\advancing_front.py":34
+        /* "pypoly2tri\advancing_front.py":34
  *                 node = dummy
  *                 if x >= node.value:
  *                     self.search_node_ = node             # <<<<<<<<<<<<<<
@@ -1266,7 +1266,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_2Loca
  */
         if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_search_node, __pyx_v_node) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 34; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-        /* "pyxpoly2tri\advancing_front.py":35
+        /* "pypoly2tri\advancing_front.py":35
  *                 if x >= node.value:
  *                     self.search_node_ = node
  *                     return node             # <<<<<<<<<<<<<<
@@ -1278,7 +1278,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_2Loca
         __pyx_r = __pyx_v_node;
         goto __pyx_L0;
 
-        /* "pyxpoly2tri\advancing_front.py":33
+        /* "pypoly2tri\advancing_front.py":33
  *             while (dummy is not None):
  *                 node = dummy
  *                 if x >= node.value:             # <<<<<<<<<<<<<<
@@ -1287,7 +1287,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_2Loca
  */
       }
 
-      /* "pyxpoly2tri\advancing_front.py":37
+      /* "pypoly2tri\advancing_front.py":37
  *                     return node
  * #                node = node.prev
  *                 dummy = node.prev             # <<<<<<<<<<<<<<
@@ -1300,7 +1300,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_2Loca
       __pyx_t_1 = 0;
     }
 
-    /* "pyxpoly2tri\advancing_front.py":29
+    /* "pypoly2tri\advancing_front.py":29
  *         node = self.search_node_
  * 
  *         if x < node.value:             # <<<<<<<<<<<<<<
@@ -1310,7 +1310,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_2Loca
     goto __pyx_L3;
   }
 
-  /* "pyxpoly2tri\advancing_front.py":40
+  /* "pypoly2tri\advancing_front.py":40
  * 
  *         else:
  *             dummy = node.next             # <<<<<<<<<<<<<<
@@ -1323,7 +1323,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_2Loca
     __pyx_v_dummy = __pyx_t_1;
     __pyx_t_1 = 0;
 
-    /* "pyxpoly2tri\advancing_front.py":41
+    /* "pypoly2tri\advancing_front.py":41
  *         else:
  *             dummy = node.next
  *             while (dummy is not None):             # <<<<<<<<<<<<<<
@@ -1335,7 +1335,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_2Loca
       __pyx_t_3 = (__pyx_t_4 != 0);
       if (!__pyx_t_3) break;
 
-      /* "pyxpoly2tri\advancing_front.py":42
+      /* "pypoly2tri\advancing_front.py":42
  *             dummy = node.next
  *             while (dummy is not None):
  *                 node = dummy             # <<<<<<<<<<<<<<
@@ -1345,7 +1345,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_2Loca
       __Pyx_INCREF(__pyx_v_dummy);
       __Pyx_DECREF_SET(__pyx_v_node, __pyx_v_dummy);
 
-      /* "pyxpoly2tri\advancing_front.py":43
+      /* "pypoly2tri\advancing_front.py":43
  *             while (dummy is not None):
  *                 node = dummy
  *                 if x < node.value:             # <<<<<<<<<<<<<<
@@ -1360,7 +1360,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_2Loca
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
       if (__pyx_t_3) {
 
-        /* "pyxpoly2tri\advancing_front.py":44
+        /* "pypoly2tri\advancing_front.py":44
  *                 node = dummy
  *                 if x < node.value:
  *                     self.search_node_ = node.prev             # <<<<<<<<<<<<<<
@@ -1372,7 +1372,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_2Loca
         if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_search_node, __pyx_t_2) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 44; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-        /* "pyxpoly2tri\advancing_front.py":45
+        /* "pypoly2tri\advancing_front.py":45
  *                 if x < node.value:
  *                     self.search_node_ = node.prev
  *                     return node.prev             # <<<<<<<<<<<<<<
@@ -1386,7 +1386,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_2Loca
         __pyx_t_2 = 0;
         goto __pyx_L0;
 
-        /* "pyxpoly2tri\advancing_front.py":43
+        /* "pypoly2tri\advancing_front.py":43
  *             while (dummy is not None):
  *                 node = dummy
  *                 if x < node.value:             # <<<<<<<<<<<<<<
@@ -1395,7 +1395,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_2Loca
  */
       }
 
-      /* "pyxpoly2tri\advancing_front.py":46
+      /* "pypoly2tri\advancing_front.py":46
  *                     self.search_node_ = node.prev
  *                     return node.prev
  *                 dummy = node.next             # <<<<<<<<<<<<<<
@@ -1410,7 +1410,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_2Loca
   }
   __pyx_L3:;
 
-  /* "pyxpoly2tri\advancing_front.py":48
+  /* "pypoly2tri\advancing_front.py":48
  *                 dummy = node.next
  * 
  *         return None             # <<<<<<<<<<<<<<
@@ -1422,7 +1422,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_2Loca
   __pyx_r = Py_None;
   goto __pyx_L0;
 
-  /* "pyxpoly2tri\advancing_front.py":26
+  /* "pypoly2tri\advancing_front.py":26
  *         self.search_node_ = head
  * 
  *     def LocateNode(self, x):             # <<<<<<<<<<<<<<
@@ -1434,7 +1434,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_2Loca
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_2);
-  __Pyx_AddTraceback("pyxpoly2tri.advancing_front.AdvancingFront.LocateNode", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.advancing_front.AdvancingFront.LocateNode", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_node);
@@ -1444,7 +1444,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_2Loca
   return __pyx_r;
 }
 
-/* "pyxpoly2tri\advancing_front.py":50
+/* "pypoly2tri\advancing_front.py":50
  *         return None
  * 
  *     def FindSearchNode(self, x):             # <<<<<<<<<<<<<<
@@ -1453,9 +1453,9 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_2Loca
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11pyxpoly2tri_15advancing_front_14AdvancingFront_5FindSearchNode(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_11pyxpoly2tri_15advancing_front_14AdvancingFront_5FindSearchNode = {"FindSearchNode", (PyCFunction)__pyx_pw_11pyxpoly2tri_15advancing_front_14AdvancingFront_5FindSearchNode, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_11pyxpoly2tri_15advancing_front_14AdvancingFront_5FindSearchNode(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_10pypoly2tri_15advancing_front_14AdvancingFront_5FindSearchNode(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_10pypoly2tri_15advancing_front_14AdvancingFront_5FindSearchNode = {"FindSearchNode", (PyCFunction)__pyx_pw_10pypoly2tri_15advancing_front_14AdvancingFront_5FindSearchNode, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_10pypoly2tri_15advancing_front_14AdvancingFront_5FindSearchNode(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_self = 0;
   CYTHON_UNUSED PyObject *__pyx_v_x = 0;
   int __pyx_lineno = 0;
@@ -1503,18 +1503,18 @@ static PyObject *__pyx_pw_11pyxpoly2tri_15advancing_front_14AdvancingFront_5Find
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("FindSearchNode", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 50; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   __pyx_L3_error:;
-  __Pyx_AddTraceback("pyxpoly2tri.advancing_front.AdvancingFront.FindSearchNode", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.advancing_front.AdvancingFront.FindSearchNode", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_4FindSearchNode(__pyx_self, __pyx_v_self, __pyx_v_x);
+  __pyx_r = __pyx_pf_10pypoly2tri_15advancing_front_14AdvancingFront_4FindSearchNode(__pyx_self, __pyx_v_self, __pyx_v_x);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_4FindSearchNode(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *__pyx_v_x) {
+static PyObject *__pyx_pf_10pypoly2tri_15advancing_front_14AdvancingFront_4FindSearchNode(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *__pyx_v_x) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -1523,7 +1523,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_4Find
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("FindSearchNode", 0);
 
-  /* "pyxpoly2tri\advancing_front.py":51
+  /* "pypoly2tri\advancing_front.py":51
  * 
  *     def FindSearchNode(self, x):
  *         return self.search_node_             # <<<<<<<<<<<<<<
@@ -1537,7 +1537,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_4Find
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "pyxpoly2tri\advancing_front.py":50
+  /* "pypoly2tri\advancing_front.py":50
  *         return None
  * 
  *     def FindSearchNode(self, x):             # <<<<<<<<<<<<<<
@@ -1548,7 +1548,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_4Find
   /* function exit code */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_AddTraceback("pyxpoly2tri.advancing_front.AdvancingFront.FindSearchNode", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.advancing_front.AdvancingFront.FindSearchNode", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -1556,7 +1556,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_4Find
   return __pyx_r;
 }
 
-/* "pyxpoly2tri\advancing_front.py":53
+/* "pypoly2tri\advancing_front.py":53
  *         return self.search_node_
  * 
  *     def LocatePoint(self, point):             # <<<<<<<<<<<<<<
@@ -1565,9 +1565,9 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_4Find
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11pyxpoly2tri_15advancing_front_14AdvancingFront_7LocatePoint(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_11pyxpoly2tri_15advancing_front_14AdvancingFront_7LocatePoint = {"LocatePoint", (PyCFunction)__pyx_pw_11pyxpoly2tri_15advancing_front_14AdvancingFront_7LocatePoint, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_11pyxpoly2tri_15advancing_front_14AdvancingFront_7LocatePoint(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_10pypoly2tri_15advancing_front_14AdvancingFront_7LocatePoint(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_10pypoly2tri_15advancing_front_14AdvancingFront_7LocatePoint = {"LocatePoint", (PyCFunction)__pyx_pw_10pypoly2tri_15advancing_front_14AdvancingFront_7LocatePoint, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_10pypoly2tri_15advancing_front_14AdvancingFront_7LocatePoint(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_self = 0;
   PyObject *__pyx_v_point = 0;
   int __pyx_lineno = 0;
@@ -1615,18 +1615,18 @@ static PyObject *__pyx_pw_11pyxpoly2tri_15advancing_front_14AdvancingFront_7Loca
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("LocatePoint", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 53; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   __pyx_L3_error:;
-  __Pyx_AddTraceback("pyxpoly2tri.advancing_front.AdvancingFront.LocatePoint", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.advancing_front.AdvancingFront.LocatePoint", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_6LocatePoint(__pyx_self, __pyx_v_self, __pyx_v_point);
+  __pyx_r = __pyx_pf_10pypoly2tri_15advancing_front_14AdvancingFront_6LocatePoint(__pyx_self, __pyx_v_self, __pyx_v_point);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_6LocatePoint(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_point) {
+static PyObject *__pyx_pf_10pypoly2tri_15advancing_front_14AdvancingFront_6LocatePoint(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_point) {
   PyObject *__pyx_v_px = NULL;
   PyObject *__pyx_v_node = NULL;
   PyObject *__pyx_v_nx = NULL;
@@ -1644,7 +1644,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_6Loca
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("LocatePoint", 0);
 
-  /* "pyxpoly2tri\advancing_front.py":54
+  /* "pypoly2tri\advancing_front.py":54
  * 
  *     def LocatePoint(self, point):
  *         px = point.x             # <<<<<<<<<<<<<<
@@ -1656,7 +1656,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_6Loca
   __pyx_v_px = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "pyxpoly2tri\advancing_front.py":55
+  /* "pypoly2tri\advancing_front.py":55
  *     def LocatePoint(self, point):
  *         px = point.x
  *         node = self.FindSearchNode(px)             # <<<<<<<<<<<<<<
@@ -1693,7 +1693,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_6Loca
   __pyx_v_node = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "pyxpoly2tri\advancing_front.py":56
+  /* "pypoly2tri\advancing_front.py":56
  *         px = point.x
  *         node = self.FindSearchNode(px)
  *         nx = node.point.x             # <<<<<<<<<<<<<<
@@ -1708,7 +1708,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_6Loca
   __pyx_v_nx = __pyx_t_2;
   __pyx_t_2 = 0;
 
-  /* "pyxpoly2tri\advancing_front.py":58
+  /* "pypoly2tri\advancing_front.py":58
  *         nx = node.point.x
  * 
  *         if px == nx:             # <<<<<<<<<<<<<<
@@ -1720,7 +1720,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_6Loca
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   if (__pyx_t_5) {
 
-    /* "pyxpoly2tri\advancing_front.py":59
+    /* "pypoly2tri\advancing_front.py":59
  * 
  *         if px == nx:
  *             if point != node.point:             # <<<<<<<<<<<<<<
@@ -1735,7 +1735,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_6Loca
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     if (__pyx_t_5) {
 
-      /* "pyxpoly2tri\advancing_front.py":60
+      /* "pypoly2tri\advancing_front.py":60
  *         if px == nx:
  *             if point != node.point:
  *                 if point == node.prev.point:             # <<<<<<<<<<<<<<
@@ -1753,7 +1753,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_6Loca
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
       if (__pyx_t_5) {
 
-        /* "pyxpoly2tri\advancing_front.py":61
+        /* "pypoly2tri\advancing_front.py":61
  *             if point != node.point:
  *                 if point == node.prev.point:
  *                     node = node.prev             # <<<<<<<<<<<<<<
@@ -1765,7 +1765,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_6Loca
         __Pyx_DECREF_SET(__pyx_v_node, __pyx_t_1);
         __pyx_t_1 = 0;
 
-        /* "pyxpoly2tri\advancing_front.py":60
+        /* "pypoly2tri\advancing_front.py":60
  *         if px == nx:
  *             if point != node.point:
  *                 if point == node.prev.point:             # <<<<<<<<<<<<<<
@@ -1775,7 +1775,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_6Loca
         goto __pyx_L5;
       }
 
-      /* "pyxpoly2tri\advancing_front.py":62
+      /* "pypoly2tri\advancing_front.py":62
  *                 if point == node.prev.point:
  *                     node = node.prev
  *                 elif point == node.next.point:             # <<<<<<<<<<<<<<
@@ -1793,7 +1793,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_6Loca
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
       if (__pyx_t_5) {
 
-        /* "pyxpoly2tri\advancing_front.py":63
+        /* "pypoly2tri\advancing_front.py":63
  *                     node = node.prev
  *                 elif point == node.next.point:
  *                     node = node.next             # <<<<<<<<<<<<<<
@@ -1805,7 +1805,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_6Loca
         __Pyx_DECREF_SET(__pyx_v_node, __pyx_t_1);
         __pyx_t_1 = 0;
 
-        /* "pyxpoly2tri\advancing_front.py":62
+        /* "pypoly2tri\advancing_front.py":62
  *                 if point == node.prev.point:
  *                     node = node.prev
  *                 elif point == node.next.point:             # <<<<<<<<<<<<<<
@@ -1815,7 +1815,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_6Loca
         goto __pyx_L5;
       }
 
-      /* "pyxpoly2tri\advancing_front.py":65
+      /* "pypoly2tri\advancing_front.py":65
  *                     node = node.next
  *                 else:
  *                     assert(0)             # <<<<<<<<<<<<<<
@@ -1834,7 +1834,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_6Loca
       }
       __pyx_L5:;
 
-      /* "pyxpoly2tri\advancing_front.py":59
+      /* "pypoly2tri\advancing_front.py":59
  * 
  *         if px == nx:
  *             if point != node.point:             # <<<<<<<<<<<<<<
@@ -1843,7 +1843,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_6Loca
  */
     }
 
-    /* "pyxpoly2tri\advancing_front.py":58
+    /* "pypoly2tri\advancing_front.py":58
  *         nx = node.point.x
  * 
  *         if px == nx:             # <<<<<<<<<<<<<<
@@ -1853,7 +1853,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_6Loca
     goto __pyx_L3;
   }
 
-  /* "pyxpoly2tri\advancing_front.py":66
+  /* "pypoly2tri\advancing_front.py":66
  *                 else:
  *                     assert(0)
  *         elif px < nx:             # <<<<<<<<<<<<<<
@@ -1865,7 +1865,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_6Loca
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   if (__pyx_t_5) {
 
-    /* "pyxpoly2tri\advancing_front.py":67
+    /* "pypoly2tri\advancing_front.py":67
  *                     assert(0)
  *         elif px < nx:
  *             dummy = node.prev             # <<<<<<<<<<<<<<
@@ -1877,7 +1877,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_6Loca
     __pyx_v_dummy = __pyx_t_1;
     __pyx_t_1 = 0;
 
-    /* "pyxpoly2tri\advancing_front.py":68
+    /* "pypoly2tri\advancing_front.py":68
  *         elif px < nx:
  *             dummy = node.prev
  *             while(dummy is not None):             # <<<<<<<<<<<<<<
@@ -1889,7 +1889,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_6Loca
       __pyx_t_6 = (__pyx_t_5 != 0);
       if (!__pyx_t_6) break;
 
-      /* "pyxpoly2tri\advancing_front.py":69
+      /* "pypoly2tri\advancing_front.py":69
  *             dummy = node.prev
  *             while(dummy is not None):
  *                 node = dummy             # <<<<<<<<<<<<<<
@@ -1899,7 +1899,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_6Loca
       __Pyx_INCREF(__pyx_v_dummy);
       __Pyx_DECREF_SET(__pyx_v_node, __pyx_v_dummy);
 
-      /* "pyxpoly2tri\advancing_front.py":70
+      /* "pypoly2tri\advancing_front.py":70
  *             while(dummy is not None):
  *                 node = dummy
  *                 if point == node.point:             # <<<<<<<<<<<<<<
@@ -1914,7 +1914,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_6Loca
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
       if (__pyx_t_6) {
 
-        /* "pyxpoly2tri\advancing_front.py":71
+        /* "pypoly2tri\advancing_front.py":71
  *                 node = dummy
  *                 if point == node.point:
  *                     break             # <<<<<<<<<<<<<<
@@ -1923,7 +1923,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_6Loca
  */
         goto __pyx_L7_break;
 
-        /* "pyxpoly2tri\advancing_front.py":70
+        /* "pypoly2tri\advancing_front.py":70
  *             while(dummy is not None):
  *                 node = dummy
  *                 if point == node.point:             # <<<<<<<<<<<<<<
@@ -1932,7 +1932,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_6Loca
  */
       }
 
-      /* "pyxpoly2tri\advancing_front.py":72
+      /* "pypoly2tri\advancing_front.py":72
  *                 if point == node.point:
  *                     break
  *                 dummy = node.prev             # <<<<<<<<<<<<<<
@@ -1946,7 +1946,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_6Loca
     }
     __pyx_L7_break:;
 
-    /* "pyxpoly2tri\advancing_front.py":66
+    /* "pypoly2tri\advancing_front.py":66
  *                 else:
  *                     assert(0)
  *         elif px < nx:             # <<<<<<<<<<<<<<
@@ -1956,7 +1956,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_6Loca
     goto __pyx_L3;
   }
 
-  /* "pyxpoly2tri\advancing_front.py":75
+  /* "pypoly2tri\advancing_front.py":75
  * 
  *         else:
  *             dummy = node.next             # <<<<<<<<<<<<<<
@@ -1969,7 +1969,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_6Loca
     __pyx_v_dummy = __pyx_t_2;
     __pyx_t_2 = 0;
 
-    /* "pyxpoly2tri\advancing_front.py":76
+    /* "pypoly2tri\advancing_front.py":76
  *         else:
  *             dummy = node.next
  *             while(dummy is not None):             # <<<<<<<<<<<<<<
@@ -1981,7 +1981,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_6Loca
       __pyx_t_5 = (__pyx_t_6 != 0);
       if (!__pyx_t_5) break;
 
-      /* "pyxpoly2tri\advancing_front.py":77
+      /* "pypoly2tri\advancing_front.py":77
  *             dummy = node.next
  *             while(dummy is not None):
  *                 node = dummy             # <<<<<<<<<<<<<<
@@ -1991,7 +1991,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_6Loca
       __Pyx_INCREF(__pyx_v_dummy);
       __Pyx_DECREF_SET(__pyx_v_node, __pyx_v_dummy);
 
-      /* "pyxpoly2tri\advancing_front.py":78
+      /* "pypoly2tri\advancing_front.py":78
  *             while(dummy is not None):
  *                 node = dummy
  *                 if point == node.point:             # <<<<<<<<<<<<<<
@@ -2006,7 +2006,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_6Loca
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
       if (__pyx_t_5) {
 
-        /* "pyxpoly2tri\advancing_front.py":79
+        /* "pypoly2tri\advancing_front.py":79
  *                 node = dummy
  *                 if point == node.point:
  *                     break             # <<<<<<<<<<<<<<
@@ -2015,7 +2015,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_6Loca
  */
         goto __pyx_L10_break;
 
-        /* "pyxpoly2tri\advancing_front.py":78
+        /* "pypoly2tri\advancing_front.py":78
  *             while(dummy is not None):
  *                 node = dummy
  *                 if point == node.point:             # <<<<<<<<<<<<<<
@@ -2024,7 +2024,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_6Loca
  */
       }
 
-      /* "pyxpoly2tri\advancing_front.py":80
+      /* "pypoly2tri\advancing_front.py":80
  *                 if point == node.point:
  *                     break
  *                 dummy = node.next             # <<<<<<<<<<<<<<
@@ -2040,7 +2040,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_6Loca
   }
   __pyx_L3:;
 
-  /* "pyxpoly2tri\advancing_front.py":82
+  /* "pypoly2tri\advancing_front.py":82
  *                 dummy = node.next
  * 
  *         if node is not None:             # <<<<<<<<<<<<<<
@@ -2051,7 +2051,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_6Loca
   __pyx_t_6 = (__pyx_t_5 != 0);
   if (__pyx_t_6) {
 
-    /* "pyxpoly2tri\advancing_front.py":83
+    /* "pypoly2tri\advancing_front.py":83
  * 
  *         if node is not None:
  *             self.search_node_ = node             # <<<<<<<<<<<<<<
@@ -2060,7 +2060,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_6Loca
  */
     if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_search_node, __pyx_v_node) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 83; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-    /* "pyxpoly2tri\advancing_front.py":82
+    /* "pypoly2tri\advancing_front.py":82
  *                 dummy = node.next
  * 
  *         if node is not None:             # <<<<<<<<<<<<<<
@@ -2069,7 +2069,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_6Loca
  */
   }
 
-  /* "pyxpoly2tri\advancing_front.py":84
+  /* "pypoly2tri\advancing_front.py":84
  *         if node is not None:
  *             self.search_node_ = node
  *         return node             # <<<<<<<<<<<<<<
@@ -2081,7 +2081,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_6Loca
   __pyx_r = __pyx_v_node;
   goto __pyx_L0;
 
-  /* "pyxpoly2tri\advancing_front.py":53
+  /* "pypoly2tri\advancing_front.py":53
  *         return self.search_node_
  * 
  *     def LocatePoint(self, point):             # <<<<<<<<<<<<<<
@@ -2095,7 +2095,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_6Loca
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
-  __Pyx_AddTraceback("pyxpoly2tri.advancing_front.AdvancingFront.LocatePoint", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.advancing_front.AdvancingFront.LocatePoint", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_px);
@@ -2107,7 +2107,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_6Loca
   return __pyx_r;
 }
 
-/* "pyxpoly2tri\advancing_front.py":86
+/* "pypoly2tri\advancing_front.py":86
  *         return node
  * 
  *     def head(self):             # <<<<<<<<<<<<<<
@@ -2116,20 +2116,20 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_6Loca
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11pyxpoly2tri_15advancing_front_14AdvancingFront_9head(PyObject *__pyx_self, PyObject *__pyx_v_self); /*proto*/
-static PyMethodDef __pyx_mdef_11pyxpoly2tri_15advancing_front_14AdvancingFront_9head = {"head", (PyCFunction)__pyx_pw_11pyxpoly2tri_15advancing_front_14AdvancingFront_9head, METH_O, 0};
-static PyObject *__pyx_pw_11pyxpoly2tri_15advancing_front_14AdvancingFront_9head(PyObject *__pyx_self, PyObject *__pyx_v_self) {
+static PyObject *__pyx_pw_10pypoly2tri_15advancing_front_14AdvancingFront_9head(PyObject *__pyx_self, PyObject *__pyx_v_self); /*proto*/
+static PyMethodDef __pyx_mdef_10pypoly2tri_15advancing_front_14AdvancingFront_9head = {"head", (PyCFunction)__pyx_pw_10pypoly2tri_15advancing_front_14AdvancingFront_9head, METH_O, 0};
+static PyObject *__pyx_pw_10pypoly2tri_15advancing_front_14AdvancingFront_9head(PyObject *__pyx_self, PyObject *__pyx_v_self) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("head (wrapper)", 0);
-  __pyx_r = __pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_8head(__pyx_self, ((PyObject *)__pyx_v_self));
+  __pyx_r = __pyx_pf_10pypoly2tri_15advancing_front_14AdvancingFront_8head(__pyx_self, ((PyObject *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_8head(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self) {
+static PyObject *__pyx_pf_10pypoly2tri_15advancing_front_14AdvancingFront_8head(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -2138,7 +2138,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_8head
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("head", 0);
 
-  /* "pyxpoly2tri\advancing_front.py":87
+  /* "pypoly2tri\advancing_front.py":87
  * 
  *     def head(self):
  *         return self.head_             # <<<<<<<<<<<<<<
@@ -2152,7 +2152,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_8head
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "pyxpoly2tri\advancing_front.py":86
+  /* "pypoly2tri\advancing_front.py":86
  *         return node
  * 
  *     def head(self):             # <<<<<<<<<<<<<<
@@ -2163,7 +2163,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_8head
   /* function exit code */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_AddTraceback("pyxpoly2tri.advancing_front.AdvancingFront.head", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.advancing_front.AdvancingFront.head", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -2171,7 +2171,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_8head
   return __pyx_r;
 }
 
-/* "pyxpoly2tri\advancing_front.py":89
+/* "pypoly2tri\advancing_front.py":89
  *         return self.head_
  * 
  *     def set_head(self, node):             # <<<<<<<<<<<<<<
@@ -2180,9 +2180,9 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_8head
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11pyxpoly2tri_15advancing_front_14AdvancingFront_11set_head(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_11pyxpoly2tri_15advancing_front_14AdvancingFront_11set_head = {"set_head", (PyCFunction)__pyx_pw_11pyxpoly2tri_15advancing_front_14AdvancingFront_11set_head, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_11pyxpoly2tri_15advancing_front_14AdvancingFront_11set_head(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_10pypoly2tri_15advancing_front_14AdvancingFront_11set_head(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_10pypoly2tri_15advancing_front_14AdvancingFront_11set_head = {"set_head", (PyCFunction)__pyx_pw_10pypoly2tri_15advancing_front_14AdvancingFront_11set_head, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_10pypoly2tri_15advancing_front_14AdvancingFront_11set_head(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_self = 0;
   PyObject *__pyx_v_node = 0;
   int __pyx_lineno = 0;
@@ -2230,18 +2230,18 @@ static PyObject *__pyx_pw_11pyxpoly2tri_15advancing_front_14AdvancingFront_11set
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("set_head", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 89; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   __pyx_L3_error:;
-  __Pyx_AddTraceback("pyxpoly2tri.advancing_front.AdvancingFront.set_head", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.advancing_front.AdvancingFront.set_head", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_10set_head(__pyx_self, __pyx_v_self, __pyx_v_node);
+  __pyx_r = __pyx_pf_10pypoly2tri_15advancing_front_14AdvancingFront_10set_head(__pyx_self, __pyx_v_self, __pyx_v_node);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_10set_head(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_node) {
+static PyObject *__pyx_pf_10pypoly2tri_15advancing_front_14AdvancingFront_10set_head(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_node) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   int __pyx_lineno = 0;
@@ -2249,7 +2249,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_10set
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("set_head", 0);
 
-  /* "pyxpoly2tri\advancing_front.py":90
+  /* "pypoly2tri\advancing_front.py":90
  * 
  *     def set_head(self, node):
  *         self.head_ = node             # <<<<<<<<<<<<<<
@@ -2258,7 +2258,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_10set
  */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_head_2, __pyx_v_node) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 90; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "pyxpoly2tri\advancing_front.py":89
+  /* "pypoly2tri\advancing_front.py":89
  *         return self.head_
  * 
  *     def set_head(self, node):             # <<<<<<<<<<<<<<
@@ -2270,7 +2270,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_10set
   __pyx_r = Py_None; __Pyx_INCREF(Py_None);
   goto __pyx_L0;
   __pyx_L1_error:;
-  __Pyx_AddTraceback("pyxpoly2tri.advancing_front.AdvancingFront.set_head", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.advancing_front.AdvancingFront.set_head", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -2278,7 +2278,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_10set
   return __pyx_r;
 }
 
-/* "pyxpoly2tri\advancing_front.py":92
+/* "pypoly2tri\advancing_front.py":92
  *         self.head_ = node
  * 
  *     def tail(self):             # <<<<<<<<<<<<<<
@@ -2287,20 +2287,20 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_10set
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11pyxpoly2tri_15advancing_front_14AdvancingFront_13tail(PyObject *__pyx_self, PyObject *__pyx_v_self); /*proto*/
-static PyMethodDef __pyx_mdef_11pyxpoly2tri_15advancing_front_14AdvancingFront_13tail = {"tail", (PyCFunction)__pyx_pw_11pyxpoly2tri_15advancing_front_14AdvancingFront_13tail, METH_O, 0};
-static PyObject *__pyx_pw_11pyxpoly2tri_15advancing_front_14AdvancingFront_13tail(PyObject *__pyx_self, PyObject *__pyx_v_self) {
+static PyObject *__pyx_pw_10pypoly2tri_15advancing_front_14AdvancingFront_13tail(PyObject *__pyx_self, PyObject *__pyx_v_self); /*proto*/
+static PyMethodDef __pyx_mdef_10pypoly2tri_15advancing_front_14AdvancingFront_13tail = {"tail", (PyCFunction)__pyx_pw_10pypoly2tri_15advancing_front_14AdvancingFront_13tail, METH_O, 0};
+static PyObject *__pyx_pw_10pypoly2tri_15advancing_front_14AdvancingFront_13tail(PyObject *__pyx_self, PyObject *__pyx_v_self) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("tail (wrapper)", 0);
-  __pyx_r = __pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_12tail(__pyx_self, ((PyObject *)__pyx_v_self));
+  __pyx_r = __pyx_pf_10pypoly2tri_15advancing_front_14AdvancingFront_12tail(__pyx_self, ((PyObject *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_12tail(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self) {
+static PyObject *__pyx_pf_10pypoly2tri_15advancing_front_14AdvancingFront_12tail(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -2309,7 +2309,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_12tai
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("tail", 0);
 
-  /* "pyxpoly2tri\advancing_front.py":93
+  /* "pypoly2tri\advancing_front.py":93
  * 
  *     def tail(self):
  *         return self.tail_             # <<<<<<<<<<<<<<
@@ -2323,7 +2323,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_12tai
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "pyxpoly2tri\advancing_front.py":92
+  /* "pypoly2tri\advancing_front.py":92
  *         self.head_ = node
  * 
  *     def tail(self):             # <<<<<<<<<<<<<<
@@ -2334,7 +2334,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_12tai
   /* function exit code */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_AddTraceback("pyxpoly2tri.advancing_front.AdvancingFront.tail", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.advancing_front.AdvancingFront.tail", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -2342,7 +2342,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_12tai
   return __pyx_r;
 }
 
-/* "pyxpoly2tri\advancing_front.py":95
+/* "pypoly2tri\advancing_front.py":95
  *         return self.tail_
  * 
  *     def set_tail(self, node):             # <<<<<<<<<<<<<<
@@ -2351,9 +2351,9 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_12tai
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11pyxpoly2tri_15advancing_front_14AdvancingFront_15set_tail(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_11pyxpoly2tri_15advancing_front_14AdvancingFront_15set_tail = {"set_tail", (PyCFunction)__pyx_pw_11pyxpoly2tri_15advancing_front_14AdvancingFront_15set_tail, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_11pyxpoly2tri_15advancing_front_14AdvancingFront_15set_tail(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_10pypoly2tri_15advancing_front_14AdvancingFront_15set_tail(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_10pypoly2tri_15advancing_front_14AdvancingFront_15set_tail = {"set_tail", (PyCFunction)__pyx_pw_10pypoly2tri_15advancing_front_14AdvancingFront_15set_tail, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_10pypoly2tri_15advancing_front_14AdvancingFront_15set_tail(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_self = 0;
   PyObject *__pyx_v_node = 0;
   int __pyx_lineno = 0;
@@ -2401,18 +2401,18 @@ static PyObject *__pyx_pw_11pyxpoly2tri_15advancing_front_14AdvancingFront_15set
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("set_tail", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 95; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   __pyx_L3_error:;
-  __Pyx_AddTraceback("pyxpoly2tri.advancing_front.AdvancingFront.set_tail", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.advancing_front.AdvancingFront.set_tail", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_14set_tail(__pyx_self, __pyx_v_self, __pyx_v_node);
+  __pyx_r = __pyx_pf_10pypoly2tri_15advancing_front_14AdvancingFront_14set_tail(__pyx_self, __pyx_v_self, __pyx_v_node);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_14set_tail(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_node) {
+static PyObject *__pyx_pf_10pypoly2tri_15advancing_front_14AdvancingFront_14set_tail(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_node) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   int __pyx_lineno = 0;
@@ -2420,7 +2420,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_14set
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("set_tail", 0);
 
-  /* "pyxpoly2tri\advancing_front.py":96
+  /* "pypoly2tri\advancing_front.py":96
  * 
  *     def set_tail(self, node):
  *         self.tail_ = node             # <<<<<<<<<<<<<<
@@ -2429,7 +2429,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_14set
  */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_tail_2, __pyx_v_node) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 96; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "pyxpoly2tri\advancing_front.py":95
+  /* "pypoly2tri\advancing_front.py":95
  *         return self.tail_
  * 
  *     def set_tail(self, node):             # <<<<<<<<<<<<<<
@@ -2441,7 +2441,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_14set
   __pyx_r = Py_None; __Pyx_INCREF(Py_None);
   goto __pyx_L0;
   __pyx_L1_error:;
-  __Pyx_AddTraceback("pyxpoly2tri.advancing_front.AdvancingFront.set_tail", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.advancing_front.AdvancingFront.set_tail", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -2449,7 +2449,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_14set
   return __pyx_r;
 }
 
-/* "pyxpoly2tri\advancing_front.py":98
+/* "pypoly2tri\advancing_front.py":98
  *         self.tail_ = node
  * 
  *     def search(self):             # <<<<<<<<<<<<<<
@@ -2458,20 +2458,20 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_14set
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11pyxpoly2tri_15advancing_front_14AdvancingFront_17search(PyObject *__pyx_self, PyObject *__pyx_v_self); /*proto*/
-static PyMethodDef __pyx_mdef_11pyxpoly2tri_15advancing_front_14AdvancingFront_17search = {"search", (PyCFunction)__pyx_pw_11pyxpoly2tri_15advancing_front_14AdvancingFront_17search, METH_O, 0};
-static PyObject *__pyx_pw_11pyxpoly2tri_15advancing_front_14AdvancingFront_17search(PyObject *__pyx_self, PyObject *__pyx_v_self) {
+static PyObject *__pyx_pw_10pypoly2tri_15advancing_front_14AdvancingFront_17search(PyObject *__pyx_self, PyObject *__pyx_v_self); /*proto*/
+static PyMethodDef __pyx_mdef_10pypoly2tri_15advancing_front_14AdvancingFront_17search = {"search", (PyCFunction)__pyx_pw_10pypoly2tri_15advancing_front_14AdvancingFront_17search, METH_O, 0};
+static PyObject *__pyx_pw_10pypoly2tri_15advancing_front_14AdvancingFront_17search(PyObject *__pyx_self, PyObject *__pyx_v_self) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("search (wrapper)", 0);
-  __pyx_r = __pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_16search(__pyx_self, ((PyObject *)__pyx_v_self));
+  __pyx_r = __pyx_pf_10pypoly2tri_15advancing_front_14AdvancingFront_16search(__pyx_self, ((PyObject *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_16search(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self) {
+static PyObject *__pyx_pf_10pypoly2tri_15advancing_front_14AdvancingFront_16search(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -2480,7 +2480,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_16sea
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("search", 0);
 
-  /* "pyxpoly2tri\advancing_front.py":99
+  /* "pypoly2tri\advancing_front.py":99
  * 
  *     def search(self):
  *         return self.search_node_             # <<<<<<<<<<<<<<
@@ -2494,7 +2494,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_16sea
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "pyxpoly2tri\advancing_front.py":98
+  /* "pypoly2tri\advancing_front.py":98
  *         self.tail_ = node
  * 
  *     def search(self):             # <<<<<<<<<<<<<<
@@ -2505,7 +2505,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_16sea
   /* function exit code */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_AddTraceback("pyxpoly2tri.advancing_front.AdvancingFront.search", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.advancing_front.AdvancingFront.search", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -2513,7 +2513,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_16sea
   return __pyx_r;
 }
 
-/* "pyxpoly2tri\advancing_front.py":101
+/* "pypoly2tri\advancing_front.py":101
  *         return self.search_node_
  * 
  *     def set_search(self, node):             # <<<<<<<<<<<<<<
@@ -2521,9 +2521,9 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_16sea
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11pyxpoly2tri_15advancing_front_14AdvancingFront_19set_search(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_11pyxpoly2tri_15advancing_front_14AdvancingFront_19set_search = {"set_search", (PyCFunction)__pyx_pw_11pyxpoly2tri_15advancing_front_14AdvancingFront_19set_search, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_11pyxpoly2tri_15advancing_front_14AdvancingFront_19set_search(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_10pypoly2tri_15advancing_front_14AdvancingFront_19set_search(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_10pypoly2tri_15advancing_front_14AdvancingFront_19set_search = {"set_search", (PyCFunction)__pyx_pw_10pypoly2tri_15advancing_front_14AdvancingFront_19set_search, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_10pypoly2tri_15advancing_front_14AdvancingFront_19set_search(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_self = 0;
   PyObject *__pyx_v_node = 0;
   int __pyx_lineno = 0;
@@ -2571,18 +2571,18 @@ static PyObject *__pyx_pw_11pyxpoly2tri_15advancing_front_14AdvancingFront_19set
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("set_search", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 101; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   __pyx_L3_error:;
-  __Pyx_AddTraceback("pyxpoly2tri.advancing_front.AdvancingFront.set_search", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.advancing_front.AdvancingFront.set_search", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_18set_search(__pyx_self, __pyx_v_self, __pyx_v_node);
+  __pyx_r = __pyx_pf_10pypoly2tri_15advancing_front_14AdvancingFront_18set_search(__pyx_self, __pyx_v_self, __pyx_v_node);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_18set_search(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_node) {
+static PyObject *__pyx_pf_10pypoly2tri_15advancing_front_14AdvancingFront_18set_search(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_node) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   int __pyx_lineno = 0;
@@ -2590,14 +2590,14 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_18set
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("set_search", 0);
 
-  /* "pyxpoly2tri\advancing_front.py":102
+  /* "pypoly2tri\advancing_front.py":102
  * 
  *     def set_search(self, node):
  *         self.search_node_ = node             # <<<<<<<<<<<<<<
  */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_search_node, __pyx_v_node) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 102; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "pyxpoly2tri\advancing_front.py":101
+  /* "pypoly2tri\advancing_front.py":101
  *         return self.search_node_
  * 
  *     def set_search(self, node):             # <<<<<<<<<<<<<<
@@ -2608,7 +2608,7 @@ static PyObject *__pyx_pf_11pyxpoly2tri_15advancing_front_14AdvancingFront_18set
   __pyx_r = Py_None; __Pyx_INCREF(Py_None);
   goto __pyx_L0;
   __pyx_L1_error:;
-  __Pyx_AddTraceback("pyxpoly2tri.advancing_front.AdvancingFront.set_search", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("pypoly2tri.advancing_front.AdvancingFront.set_search", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -2650,7 +2650,7 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_AdvancingFront_set_search, __pyx_k_AdvancingFront_set_search, sizeof(__pyx_k_AdvancingFront_set_search), 0, 0, 1, 1},
   {&__pyx_n_s_AdvancingFront_set_tail, __pyx_k_AdvancingFront_set_tail, sizeof(__pyx_k_AdvancingFront_set_tail), 0, 0, 1, 1},
   {&__pyx_n_s_AdvancingFront_tail, __pyx_k_AdvancingFront_tail, sizeof(__pyx_k_AdvancingFront_tail), 0, 0, 1, 1},
-  {&__pyx_kp_s_C_Users_danaukes_Documents_code, __pyx_k_C_Users_danaukes_Documents_code, sizeof(__pyx_k_C_Users_danaukes_Documents_code), 0, 0, 1, 0},
+  {&__pyx_kp_s_C_Users_danaukes_code_pypoly2tri, __pyx_k_C_Users_danaukes_code_pypoly2tri, sizeof(__pyx_k_C_Users_danaukes_code_pypoly2tri), 0, 0, 1, 0},
   {&__pyx_n_s_FindSearchNode, __pyx_k_FindSearchNode, sizeof(__pyx_k_FindSearchNode), 0, 0, 1, 1},
   {&__pyx_n_s_LocateNode, __pyx_k_LocateNode, sizeof(__pyx_k_LocateNode), 0, 0, 1, 1},
   {&__pyx_n_s_LocatePoint, __pyx_k_LocatePoint, sizeof(__pyx_k_LocatePoint), 0, 0, 1, 1},
@@ -2673,7 +2673,7 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_prepare, __pyx_k_prepare, sizeof(__pyx_k_prepare), 0, 0, 1, 1},
   {&__pyx_n_s_prev, __pyx_k_prev, sizeof(__pyx_k_prev), 0, 0, 1, 1},
   {&__pyx_n_s_px, __pyx_k_px, sizeof(__pyx_k_px), 0, 0, 1, 1},
-  {&__pyx_n_s_pyxpoly2tri_advancing_front, __pyx_k_pyxpoly2tri_advancing_front, sizeof(__pyx_k_pyxpoly2tri_advancing_front), 0, 0, 1, 1},
+  {&__pyx_n_s_pypoly2tri_advancing_front, __pyx_k_pypoly2tri_advancing_front, sizeof(__pyx_k_pypoly2tri_advancing_front), 0, 0, 1, 1},
   {&__pyx_n_s_qualname, __pyx_k_qualname, sizeof(__pyx_k_qualname), 0, 0, 1, 1},
   {&__pyx_n_s_search, __pyx_k_search, sizeof(__pyx_k_search), 0, 0, 1, 1},
   {&__pyx_n_s_search_node, __pyx_k_search_node, sizeof(__pyx_k_search_node), 0, 0, 1, 1},
@@ -2701,7 +2701,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__Pyx_InitCachedConstants", 0);
 
-  /* "pyxpoly2tri\advancing_front.py":11
+  /* "pypoly2tri\advancing_front.py":11
  * class Node(object):
  * 
  *     def __init__(self, p, t=None):             # <<<<<<<<<<<<<<
@@ -2711,12 +2711,12 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple_ = PyTuple_Pack(3, __pyx_n_s_self, __pyx_n_s_p, __pyx_n_s_t); if (unlikely(!__pyx_tuple_)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 11; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple_);
   __Pyx_GIVEREF(__pyx_tuple_);
-  __pyx_codeobj__2 = (PyObject*)__Pyx_PyCode_New(3, 0, 3, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple_, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_Documents_code, __pyx_n_s_init, 11, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 11; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__2 = (PyObject*)__Pyx_PyCode_New(3, 0, 3, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple_, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_code_pypoly2tri, __pyx_n_s_init, 11, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 11; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __pyx_tuple__3 = PyTuple_Pack(1, ((PyObject *)Py_None)); if (unlikely(!__pyx_tuple__3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 11; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__3);
   __Pyx_GIVEREF(__pyx_tuple__3);
 
-  /* "pyxpoly2tri\advancing_front.py":21
+  /* "pypoly2tri\advancing_front.py":21
  * class AdvancingFront(object):
  * 
  *     def __init__(self, head, tail):             # <<<<<<<<<<<<<<
@@ -2726,9 +2726,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__4 = PyTuple_Pack(3, __pyx_n_s_self, __pyx_n_s_head, __pyx_n_s_tail); if (unlikely(!__pyx_tuple__4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 21; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__4);
   __Pyx_GIVEREF(__pyx_tuple__4);
-  __pyx_codeobj__5 = (PyObject*)__Pyx_PyCode_New(3, 0, 3, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__4, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_Documents_code, __pyx_n_s_init, 21, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__5)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 21; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__5 = (PyObject*)__Pyx_PyCode_New(3, 0, 3, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__4, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_code_pypoly2tri, __pyx_n_s_init, 21, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__5)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 21; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "pyxpoly2tri\advancing_front.py":26
+  /* "pypoly2tri\advancing_front.py":26
  *         self.search_node_ = head
  * 
  *     def LocateNode(self, x):             # <<<<<<<<<<<<<<
@@ -2738,9 +2738,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__6 = PyTuple_Pack(4, __pyx_n_s_self, __pyx_n_s_x, __pyx_n_s_node, __pyx_n_s_dummy); if (unlikely(!__pyx_tuple__6)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 26; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__6);
   __Pyx_GIVEREF(__pyx_tuple__6);
-  __pyx_codeobj__7 = (PyObject*)__Pyx_PyCode_New(2, 0, 4, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__6, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_Documents_code, __pyx_n_s_LocateNode, 26, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__7)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 26; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__7 = (PyObject*)__Pyx_PyCode_New(2, 0, 4, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__6, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_code_pypoly2tri, __pyx_n_s_LocateNode, 26, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__7)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 26; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "pyxpoly2tri\advancing_front.py":50
+  /* "pypoly2tri\advancing_front.py":50
  *         return None
  * 
  *     def FindSearchNode(self, x):             # <<<<<<<<<<<<<<
@@ -2750,9 +2750,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__8 = PyTuple_Pack(2, __pyx_n_s_self, __pyx_n_s_x); if (unlikely(!__pyx_tuple__8)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 50; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__8);
   __Pyx_GIVEREF(__pyx_tuple__8);
-  __pyx_codeobj__9 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__8, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_Documents_code, __pyx_n_s_FindSearchNode, 50, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__9)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 50; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__9 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__8, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_code_pypoly2tri, __pyx_n_s_FindSearchNode, 50, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__9)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 50; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "pyxpoly2tri\advancing_front.py":53
+  /* "pypoly2tri\advancing_front.py":53
  *         return self.search_node_
  * 
  *     def LocatePoint(self, point):             # <<<<<<<<<<<<<<
@@ -2762,9 +2762,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__10 = PyTuple_Pack(6, __pyx_n_s_self, __pyx_n_s_point, __pyx_n_s_px, __pyx_n_s_node, __pyx_n_s_nx, __pyx_n_s_dummy); if (unlikely(!__pyx_tuple__10)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 53; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__10);
   __Pyx_GIVEREF(__pyx_tuple__10);
-  __pyx_codeobj__11 = (PyObject*)__Pyx_PyCode_New(2, 0, 6, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__10, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_Documents_code, __pyx_n_s_LocatePoint, 53, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__11)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 53; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__11 = (PyObject*)__Pyx_PyCode_New(2, 0, 6, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__10, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_code_pypoly2tri, __pyx_n_s_LocatePoint, 53, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__11)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 53; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "pyxpoly2tri\advancing_front.py":86
+  /* "pypoly2tri\advancing_front.py":86
  *         return node
  * 
  *     def head(self):             # <<<<<<<<<<<<<<
@@ -2774,9 +2774,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__12 = PyTuple_Pack(1, __pyx_n_s_self); if (unlikely(!__pyx_tuple__12)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 86; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__12);
   __Pyx_GIVEREF(__pyx_tuple__12);
-  __pyx_codeobj__13 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__12, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_Documents_code, __pyx_n_s_head, 86, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__13)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 86; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__13 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__12, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_code_pypoly2tri, __pyx_n_s_head, 86, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__13)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 86; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "pyxpoly2tri\advancing_front.py":89
+  /* "pypoly2tri\advancing_front.py":89
  *         return self.head_
  * 
  *     def set_head(self, node):             # <<<<<<<<<<<<<<
@@ -2786,9 +2786,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__14 = PyTuple_Pack(2, __pyx_n_s_self, __pyx_n_s_node); if (unlikely(!__pyx_tuple__14)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 89; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__14);
   __Pyx_GIVEREF(__pyx_tuple__14);
-  __pyx_codeobj__15 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__14, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_Documents_code, __pyx_n_s_set_head, 89, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__15)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 89; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__15 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__14, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_code_pypoly2tri, __pyx_n_s_set_head, 89, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__15)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 89; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "pyxpoly2tri\advancing_front.py":92
+  /* "pypoly2tri\advancing_front.py":92
  *         self.head_ = node
  * 
  *     def tail(self):             # <<<<<<<<<<<<<<
@@ -2798,9 +2798,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__16 = PyTuple_Pack(1, __pyx_n_s_self); if (unlikely(!__pyx_tuple__16)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 92; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__16);
   __Pyx_GIVEREF(__pyx_tuple__16);
-  __pyx_codeobj__17 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__16, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_Documents_code, __pyx_n_s_tail, 92, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__17)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 92; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__17 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__16, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_code_pypoly2tri, __pyx_n_s_tail, 92, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__17)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 92; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "pyxpoly2tri\advancing_front.py":95
+  /* "pypoly2tri\advancing_front.py":95
  *         return self.tail_
  * 
  *     def set_tail(self, node):             # <<<<<<<<<<<<<<
@@ -2810,9 +2810,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__18 = PyTuple_Pack(2, __pyx_n_s_self, __pyx_n_s_node); if (unlikely(!__pyx_tuple__18)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 95; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__18);
   __Pyx_GIVEREF(__pyx_tuple__18);
-  __pyx_codeobj__19 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__18, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_Documents_code, __pyx_n_s_set_tail, 95, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__19)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 95; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__19 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__18, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_code_pypoly2tri, __pyx_n_s_set_tail, 95, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__19)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 95; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "pyxpoly2tri\advancing_front.py":98
+  /* "pypoly2tri\advancing_front.py":98
  *         self.tail_ = node
  * 
  *     def search(self):             # <<<<<<<<<<<<<<
@@ -2822,9 +2822,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__20 = PyTuple_Pack(1, __pyx_n_s_self); if (unlikely(!__pyx_tuple__20)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 98; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__20);
   __Pyx_GIVEREF(__pyx_tuple__20);
-  __pyx_codeobj__21 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__20, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_Documents_code, __pyx_n_s_search, 98, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__21)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 98; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__21 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__20, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_code_pypoly2tri, __pyx_n_s_search, 98, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__21)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 98; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "pyxpoly2tri\advancing_front.py":101
+  /* "pypoly2tri\advancing_front.py":101
  *         return self.search_node_
  * 
  *     def set_search(self, node):             # <<<<<<<<<<<<<<
@@ -2833,7 +2833,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__22 = PyTuple_Pack(2, __pyx_n_s_self, __pyx_n_s_node); if (unlikely(!__pyx_tuple__22)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 101; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__22);
   __Pyx_GIVEREF(__pyx_tuple__22);
-  __pyx_codeobj__23 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__22, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_Documents_code, __pyx_n_s_set_search, 101, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__23)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 101; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__23 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__22, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_C_Users_danaukes_code_pypoly2tri, __pyx_n_s_set_search, 101, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__23)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 101; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_RefNannyFinishContext();
   return 0;
   __pyx_L1_error:;
@@ -2918,14 +2918,14 @@ PyMODINIT_FUNC PyInit_advancing_front(void)
   #if PY_MAJOR_VERSION < 3 && (__PYX_DEFAULT_STRING_ENCODING_IS_ASCII || __PYX_DEFAULT_STRING_ENCODING_IS_DEFAULT)
   if (__Pyx_init_sys_getdefaultencoding_params() < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 1; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   #endif
-  if (__pyx_module_is_main_pyxpoly2tri__advancing_front) {
+  if (__pyx_module_is_main_pypoly2tri__advancing_front) {
     if (PyObject_SetAttrString(__pyx_m, "__name__", __pyx_n_s_main) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 1; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
   #if PY_MAJOR_VERSION >= 3
   {
     PyObject *modules = PyImport_GetModuleDict(); if (unlikely(!modules)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 1; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    if (!PyDict_GetItemString(modules, "pyxpoly2tri.advancing_front")) {
-      if (unlikely(PyDict_SetItemString(modules, "pyxpoly2tri.advancing_front", __pyx_m) < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 1; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    if (!PyDict_GetItemString(modules, "pypoly2tri.advancing_front")) {
+      if (unlikely(PyDict_SetItemString(modules, "pypoly2tri.advancing_front", __pyx_m) < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 1; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     }
   }
   #endif
@@ -2945,7 +2945,7 @@ PyMODINIT_FUNC PyInit_advancing_front(void)
   if (__Pyx_patch_abc() < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 1; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   #endif
 
-  /* "pyxpoly2tri\advancing_front.py":9
+  /* "pypoly2tri\advancing_front.py":9
  * 
  * 
  * class Node(object):             # <<<<<<<<<<<<<<
@@ -2959,23 +2959,23 @@ PyMODINIT_FUNC PyInit_advancing_front(void)
   PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_builtin_object);
   __pyx_t_2 = __Pyx_CalculateMetaclass(NULL, __pyx_t_1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 9; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_Py3MetaclassPrepare(__pyx_t_2, __pyx_t_1, __pyx_n_s_Node, __pyx_n_s_Node, (PyObject *) NULL, __pyx_n_s_pyxpoly2tri_advancing_front, (PyObject *) NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 9; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_3 = __Pyx_Py3MetaclassPrepare(__pyx_t_2, __pyx_t_1, __pyx_n_s_Node, __pyx_n_s_Node, (PyObject *) NULL, __pyx_n_s_pypoly2tri_advancing_front, (PyObject *) NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 9; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_3);
 
-  /* "pyxpoly2tri\advancing_front.py":11
+  /* "pypoly2tri\advancing_front.py":11
  * class Node(object):
  * 
  *     def __init__(self, p, t=None):             # <<<<<<<<<<<<<<
  *         self.point = p
  *         self.triangle = t
  */
-  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_11pyxpoly2tri_15advancing_front_4Node_1__init__, 0, __pyx_n_s_Node___init, NULL, __pyx_n_s_pyxpoly2tri_advancing_front, __pyx_d, ((PyObject *)__pyx_codeobj__2)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 11; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10pypoly2tri_15advancing_front_4Node_1__init__, 0, __pyx_n_s_Node___init, NULL, __pyx_n_s_pypoly2tri_advancing_front, __pyx_d, ((PyObject *)__pyx_codeobj__2)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 11; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_4, __pyx_tuple__3);
   if (PyObject_SetItem(__pyx_t_3, __pyx_n_s_init, __pyx_t_4) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 11; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "pyxpoly2tri\advancing_front.py":9
+  /* "pypoly2tri\advancing_front.py":9
  * 
  * 
  * class Node(object):             # <<<<<<<<<<<<<<
@@ -2990,7 +2990,7 @@ PyMODINIT_FUNC PyInit_advancing_front(void)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "pyxpoly2tri\advancing_front.py":19
+  /* "pypoly2tri\advancing_front.py":19
  * 
  * 
  * class AdvancingFront(object):             # <<<<<<<<<<<<<<
@@ -3004,129 +3004,129 @@ PyMODINIT_FUNC PyInit_advancing_front(void)
   PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_builtin_object);
   __pyx_t_2 = __Pyx_CalculateMetaclass(NULL, __pyx_t_1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 19; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_Py3MetaclassPrepare(__pyx_t_2, __pyx_t_1, __pyx_n_s_AdvancingFront, __pyx_n_s_AdvancingFront, (PyObject *) NULL, __pyx_n_s_pyxpoly2tri_advancing_front, (PyObject *) NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 19; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_3 = __Pyx_Py3MetaclassPrepare(__pyx_t_2, __pyx_t_1, __pyx_n_s_AdvancingFront, __pyx_n_s_AdvancingFront, (PyObject *) NULL, __pyx_n_s_pypoly2tri_advancing_front, (PyObject *) NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 19; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_3);
 
-  /* "pyxpoly2tri\advancing_front.py":21
+  /* "pypoly2tri\advancing_front.py":21
  * class AdvancingFront(object):
  * 
  *     def __init__(self, head, tail):             # <<<<<<<<<<<<<<
  *         self.head_ = head
  *         self.tail_ = tail
  */
-  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_11pyxpoly2tri_15advancing_front_14AdvancingFront_1__init__, 0, __pyx_n_s_AdvancingFront___init, NULL, __pyx_n_s_pyxpoly2tri_advancing_front, __pyx_d, ((PyObject *)__pyx_codeobj__5)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 21; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10pypoly2tri_15advancing_front_14AdvancingFront_1__init__, 0, __pyx_n_s_AdvancingFront___init, NULL, __pyx_n_s_pypoly2tri_advancing_front, __pyx_d, ((PyObject *)__pyx_codeobj__5)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 21; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   if (PyObject_SetItem(__pyx_t_3, __pyx_n_s_init, __pyx_t_4) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 21; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "pyxpoly2tri\advancing_front.py":26
+  /* "pypoly2tri\advancing_front.py":26
  *         self.search_node_ = head
  * 
  *     def LocateNode(self, x):             # <<<<<<<<<<<<<<
  *         node = self.search_node_
  * 
  */
-  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_11pyxpoly2tri_15advancing_front_14AdvancingFront_3LocateNode, 0, __pyx_n_s_AdvancingFront_LocateNode, NULL, __pyx_n_s_pyxpoly2tri_advancing_front, __pyx_d, ((PyObject *)__pyx_codeobj__7)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 26; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10pypoly2tri_15advancing_front_14AdvancingFront_3LocateNode, 0, __pyx_n_s_AdvancingFront_LocateNode, NULL, __pyx_n_s_pypoly2tri_advancing_front, __pyx_d, ((PyObject *)__pyx_codeobj__7)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 26; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   if (PyObject_SetItem(__pyx_t_3, __pyx_n_s_LocateNode, __pyx_t_4) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 26; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "pyxpoly2tri\advancing_front.py":50
+  /* "pypoly2tri\advancing_front.py":50
  *         return None
  * 
  *     def FindSearchNode(self, x):             # <<<<<<<<<<<<<<
  *         return self.search_node_
  * 
  */
-  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_11pyxpoly2tri_15advancing_front_14AdvancingFront_5FindSearchNode, 0, __pyx_n_s_AdvancingFront_FindSearchNode, NULL, __pyx_n_s_pyxpoly2tri_advancing_front, __pyx_d, ((PyObject *)__pyx_codeobj__9)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 50; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10pypoly2tri_15advancing_front_14AdvancingFront_5FindSearchNode, 0, __pyx_n_s_AdvancingFront_FindSearchNode, NULL, __pyx_n_s_pypoly2tri_advancing_front, __pyx_d, ((PyObject *)__pyx_codeobj__9)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 50; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   if (PyObject_SetItem(__pyx_t_3, __pyx_n_s_FindSearchNode, __pyx_t_4) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 50; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "pyxpoly2tri\advancing_front.py":53
+  /* "pypoly2tri\advancing_front.py":53
  *         return self.search_node_
  * 
  *     def LocatePoint(self, point):             # <<<<<<<<<<<<<<
  *         px = point.x
  *         node = self.FindSearchNode(px)
  */
-  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_11pyxpoly2tri_15advancing_front_14AdvancingFront_7LocatePoint, 0, __pyx_n_s_AdvancingFront_LocatePoint, NULL, __pyx_n_s_pyxpoly2tri_advancing_front, __pyx_d, ((PyObject *)__pyx_codeobj__11)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 53; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10pypoly2tri_15advancing_front_14AdvancingFront_7LocatePoint, 0, __pyx_n_s_AdvancingFront_LocatePoint, NULL, __pyx_n_s_pypoly2tri_advancing_front, __pyx_d, ((PyObject *)__pyx_codeobj__11)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 53; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   if (PyObject_SetItem(__pyx_t_3, __pyx_n_s_LocatePoint, __pyx_t_4) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 53; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "pyxpoly2tri\advancing_front.py":86
+  /* "pypoly2tri\advancing_front.py":86
  *         return node
  * 
  *     def head(self):             # <<<<<<<<<<<<<<
  *         return self.head_
  * 
  */
-  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_11pyxpoly2tri_15advancing_front_14AdvancingFront_9head, 0, __pyx_n_s_AdvancingFront_head, NULL, __pyx_n_s_pyxpoly2tri_advancing_front, __pyx_d, ((PyObject *)__pyx_codeobj__13)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 86; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10pypoly2tri_15advancing_front_14AdvancingFront_9head, 0, __pyx_n_s_AdvancingFront_head, NULL, __pyx_n_s_pypoly2tri_advancing_front, __pyx_d, ((PyObject *)__pyx_codeobj__13)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 86; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   if (PyObject_SetItem(__pyx_t_3, __pyx_n_s_head, __pyx_t_4) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 86; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "pyxpoly2tri\advancing_front.py":89
+  /* "pypoly2tri\advancing_front.py":89
  *         return self.head_
  * 
  *     def set_head(self, node):             # <<<<<<<<<<<<<<
  *         self.head_ = node
  * 
  */
-  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_11pyxpoly2tri_15advancing_front_14AdvancingFront_11set_head, 0, __pyx_n_s_AdvancingFront_set_head, NULL, __pyx_n_s_pyxpoly2tri_advancing_front, __pyx_d, ((PyObject *)__pyx_codeobj__15)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 89; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10pypoly2tri_15advancing_front_14AdvancingFront_11set_head, 0, __pyx_n_s_AdvancingFront_set_head, NULL, __pyx_n_s_pypoly2tri_advancing_front, __pyx_d, ((PyObject *)__pyx_codeobj__15)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 89; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   if (PyObject_SetItem(__pyx_t_3, __pyx_n_s_set_head, __pyx_t_4) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 89; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "pyxpoly2tri\advancing_front.py":92
+  /* "pypoly2tri\advancing_front.py":92
  *         self.head_ = node
  * 
  *     def tail(self):             # <<<<<<<<<<<<<<
  *         return self.tail_
  * 
  */
-  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_11pyxpoly2tri_15advancing_front_14AdvancingFront_13tail, 0, __pyx_n_s_AdvancingFront_tail, NULL, __pyx_n_s_pyxpoly2tri_advancing_front, __pyx_d, ((PyObject *)__pyx_codeobj__17)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 92; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10pypoly2tri_15advancing_front_14AdvancingFront_13tail, 0, __pyx_n_s_AdvancingFront_tail, NULL, __pyx_n_s_pypoly2tri_advancing_front, __pyx_d, ((PyObject *)__pyx_codeobj__17)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 92; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   if (PyObject_SetItem(__pyx_t_3, __pyx_n_s_tail, __pyx_t_4) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 92; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "pyxpoly2tri\advancing_front.py":95
+  /* "pypoly2tri\advancing_front.py":95
  *         return self.tail_
  * 
  *     def set_tail(self, node):             # <<<<<<<<<<<<<<
  *         self.tail_ = node
  * 
  */
-  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_11pyxpoly2tri_15advancing_front_14AdvancingFront_15set_tail, 0, __pyx_n_s_AdvancingFront_set_tail, NULL, __pyx_n_s_pyxpoly2tri_advancing_front, __pyx_d, ((PyObject *)__pyx_codeobj__19)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 95; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10pypoly2tri_15advancing_front_14AdvancingFront_15set_tail, 0, __pyx_n_s_AdvancingFront_set_tail, NULL, __pyx_n_s_pypoly2tri_advancing_front, __pyx_d, ((PyObject *)__pyx_codeobj__19)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 95; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   if (PyObject_SetItem(__pyx_t_3, __pyx_n_s_set_tail, __pyx_t_4) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 95; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "pyxpoly2tri\advancing_front.py":98
+  /* "pypoly2tri\advancing_front.py":98
  *         self.tail_ = node
  * 
  *     def search(self):             # <<<<<<<<<<<<<<
  *         return self.search_node_
  * 
  */
-  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_11pyxpoly2tri_15advancing_front_14AdvancingFront_17search, 0, __pyx_n_s_AdvancingFront_search, NULL, __pyx_n_s_pyxpoly2tri_advancing_front, __pyx_d, ((PyObject *)__pyx_codeobj__21)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 98; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10pypoly2tri_15advancing_front_14AdvancingFront_17search, 0, __pyx_n_s_AdvancingFront_search, NULL, __pyx_n_s_pypoly2tri_advancing_front, __pyx_d, ((PyObject *)__pyx_codeobj__21)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 98; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   if (PyObject_SetItem(__pyx_t_3, __pyx_n_s_search, __pyx_t_4) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 98; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "pyxpoly2tri\advancing_front.py":101
+  /* "pypoly2tri\advancing_front.py":101
  *         return self.search_node_
  * 
  *     def set_search(self, node):             # <<<<<<<<<<<<<<
  *         self.search_node_ = node
  */
-  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_11pyxpoly2tri_15advancing_front_14AdvancingFront_19set_search, 0, __pyx_n_s_AdvancingFront_set_search, NULL, __pyx_n_s_pyxpoly2tri_advancing_front, __pyx_d, ((PyObject *)__pyx_codeobj__23)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 101; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10pypoly2tri_15advancing_front_14AdvancingFront_19set_search, 0, __pyx_n_s_AdvancingFront_set_search, NULL, __pyx_n_s_pypoly2tri_advancing_front, __pyx_d, ((PyObject *)__pyx_codeobj__23)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 101; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   if (PyObject_SetItem(__pyx_t_3, __pyx_n_s_set_search, __pyx_t_4) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 101; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "pyxpoly2tri\advancing_front.py":19
+  /* "pypoly2tri\advancing_front.py":19
  * 
  * 
  * class AdvancingFront(object):             # <<<<<<<<<<<<<<
@@ -3141,7 +3141,7 @@ PyMODINIT_FUNC PyInit_advancing_front(void)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "pyxpoly2tri\advancing_front.py":1
+  /* "pypoly2tri\advancing_front.py":1
  * # -*- coding: utf-8 -*-             # <<<<<<<<<<<<<<
  * '''
  * Written by Daniel M. Aukes and CONTRIBUTORS
@@ -3161,11 +3161,11 @@ PyMODINIT_FUNC PyInit_advancing_front(void)
   __Pyx_XDECREF(__pyx_t_4);
   if (__pyx_m) {
     if (__pyx_d) {
-      __Pyx_AddTraceback("init pyxpoly2tri.advancing_front", __pyx_clineno, __pyx_lineno, __pyx_filename);
+      __Pyx_AddTraceback("init pypoly2tri.advancing_front", __pyx_clineno, __pyx_lineno, __pyx_filename);
     }
     Py_DECREF(__pyx_m); __pyx_m = 0;
   } else if (!PyErr_Occurred()) {
-    PyErr_SetString(PyExc_ImportError, "init pyxpoly2tri.advancing_front");
+    PyErr_SetString(PyExc_ImportError, "init pypoly2tri.advancing_front");
   }
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();
