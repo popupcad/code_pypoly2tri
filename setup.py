@@ -15,6 +15,9 @@ packages = [ 'pypoly2tri']
 basedir='python/pypoly2tri'
 #ext_modules = cythonize('pypoly2tri/*.pyx'),  # accepts a glob pattern
 
+package_data = {}
+package_data['pypoly2tri'] = ['licenses/*','licenses/poly2tri/*']
+
 if compile_c:
     try:
         from Cython.Build import cythonize
@@ -42,4 +45,6 @@ setup(
     url='http://github.com/popupcad/pypoly2tri',
     ext_modules = ext_modules,
     packages = packages,
-    package_dir={'pypoly2tri' : 'python/pypoly2tri'})
+    license = 'MIT',
+    package_dir={'pypoly2tri' : 'python/pypoly2tri'},
+    package_data = package_data)
