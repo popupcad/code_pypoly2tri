@@ -1,4 +1,10 @@
 # -*- coding: utf-8 -*-
+'''
+Written by Daniel M. Aukes and CONTRIBUTORS
+Email: danaukes<at>asu.edu.
+Please see LICENSE for full license.
+'''
+
 from setuptools import setup
 from setuptools.extension import Extension
 import sys
@@ -27,8 +33,6 @@ setup_kwargs['license']='MIT'
 setup_kwargs['packages']=packages
 setup_kwargs['package_dir']={'pypoly2tri' : 'python/pypoly2tri'}
 setup_kwargs['package_data'] = package_data
-
-
 
 if compile_c:
 

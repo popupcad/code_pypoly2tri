@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 '''
 Written by Daniel M. Aukes and CONTRIBUTORS
-Email: danaukes<at>seas.harvard.edu.
+Email: danaukes<at>asu.edu.
 Please see LICENSE for full license.
 '''
 
@@ -91,6 +91,9 @@ class SweepContext(object):
 
     def GetPoint(self, index):
         return self.points_[index]
+
+    def GetPoints(self):
+        return self.points_
 
     def AddToMap(self, triangle):
         self.map_.append(triangle)

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 '''
 Written by Daniel M. Aukes and CONTRIBUTORS
-Email: danaukes<at>seas.harvard.edu.
+Email: danaukes<at>asu.edu.
 Please see LICENSE for full license.
 '''
 
@@ -26,6 +26,9 @@ class CDT(object):
 
     def GetTriangles(self):
         return self.sweep_context_.GetTriangles()
+
+    def GetPoints(self):
+        return self.sweep_context_.GetPoints()
 
     def GetMap(self):
         return self.sweep_context_.GetMap()
