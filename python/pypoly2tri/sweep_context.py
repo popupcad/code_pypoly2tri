@@ -92,6 +92,9 @@ class SweepContext(object):
     def GetPoint(self, index):
         return self.points_[index]
 
+    def GetPoints(self):
+        return self.points_
+
     def AddToMap(self, triangle):
         self.map_.append(triangle)
 

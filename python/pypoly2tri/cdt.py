@@ -27,5 +27,8 @@ class CDT(object):
     def GetTriangles(self):
         return self.sweep_context_.GetTriangles()
 
+    def GetPoints(self):
+        return self.sweep_context_.GetPoints()
+
     def GetMap(self):
         return self.sweep_context_.GetMap()
