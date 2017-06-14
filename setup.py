@@ -23,7 +23,7 @@ package_data['pypoly2tri'] = ['licenses/poly2tri/LICENSE']
 
 setup_kwargs = {}
 setup_kwargs['name']='pypoly2tri'
-setup_kwargs['version']='0.0.2'
+setup_kwargs['version']='0.0.3'
 setup_kwargs['classifiers']=['Programming Language :: Python','Programming Language :: Python :: 3']   
 setup_kwargs['description']='pyPoly2Tri: a pure python implementation of poly2tri'
 setup_kwargs['author']='Dan Aukes'
